@@ -1,0 +1,10 @@
+{
+  "sage_REDDIT-M5K_1shot_run10": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 10,
+    "final_acc": 0.2826666591068109,
+    "best_acc": 0.2826666591068109,
+    "elapsed_sec": 36.0
+  }
+}

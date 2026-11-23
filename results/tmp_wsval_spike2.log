@@ -1,0 +1,16 @@
+
+=== spike_MUTAG_1shot_run0 ===
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=78.5% test=70.5% skip=0/20 sr_train=0.336
+  E  2: train=73.5% test=63.5% skip=0/20 sr_train=0.316
+  E  3: train=82.0% test=71.0% skip=0/20 sr_train=0.347
+  E 10: train=77.5% test=64.0% skip=0/20 sr_train=0.432
+  E 20: train=82.5% test=73.5% skip=0/20 sr_train=0.425
+  E 30: train=83.0% test=72.5% skip=0/20 sr_train=0.385
+  E 40: train=77.0% test=74.5% skip=0/20 sr_train=0.413
+  E 50: train=84.5% test=69.0% skip=0/20 sr_train=0.411
+worker spike_MUTAG_1shot_run0: ok
+>>> spike_MUTAG_1shot_run0: done in 4547s
+merged 337 runs -> D:\2026\paper\PBB\post\results\v24_extra_n20_merged.json

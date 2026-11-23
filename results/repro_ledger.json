@@ -1,0 +1,153 @@
+{
+  "_meta": {
+    "purpose": "Re-derive three-pillar headline claims from committed data.",
+    "repo_root": "D:\\2026\\paper\\PBB\\post"
+  },
+  "Pillar_A_capacity_matched_separability": {
+    "spikeRPGNN_fewshot_acc": {
+      "MUTAG_1": {
+        "mean": 78.07,
+        "std": 4.45,
+        "n": 5
+      },
+      "PROTEINS_1": {
+        "mean": 52.87,
+        "std": 2.19,
+        "n": 5
+      },
+      "ENZYMES_1": {
+        "mean": 24.59,
+        "std": 2.5,
+        "n": 5
+      },
+      "MUTAG_5": {
+        "mean": 88.47,
+        "std": 2.09,
+        "n": 5
+      },
+      "PROTEINS_5": {
+        "mean": 58.0,
+        "std": 2.8,
+        "n": 5
+      },
+      "ENZYMES_5": {
+        "mean": 26.64,
+        "std": 3.55,
+        "n": 5
+      },
+      "DD_1": {
+        "mean": 53.83,
+        "std": 3.17,
+        "n": 10
+      },
+      "DD_5": {
+        "mean": 61.2,
+        "std": 2.54,
+        "n": 5
+      },
+      "REDDIT-M5K_1": {
+        "mean": 32.45,
+        "std": 2.27,
+        "n": 10
+      },
+      "REDDIT-M5K_5": {
+        "mean": 43.55,
+        "std": 1.16,
+        "n": 5
+      }
+    },
+    "source_file": "results/analysis_v30.json -> ['spikergnn']",
+    "git_tracked": true,
+    "mutag1_vs_euclidean_nonspiking": {
+      "mean_diff_pct": 28.07,
+      "ci95_pct": [
+        21.89,
+        34.24
+      ],
+      "t": 12.62,
+      "p": 0.00022721093936254875,
+      "cohens_dz": 5.64,
+      "n": 5,
+      "source_file": "results/score_roadmap_numbers.json -> ['effect_size_cis_vs_msgstar']['MUTAG_1']",
+      "git_tracked": true
+    }
+  },
+  "Pillar_B_rate_controllability": {
+    "graph_level_rate_band": {
+      "target_r_star": 0.4,
+      "total_spikeRPGNN_runs_in_data": 60,
+      "in_band_tol0.10": "56/60",
+      "in_band_tol0.05": "36/60",
+      "claimed_in_manuscript": "33 of 35",
+      "source_file": "results/analysis_v30.json -> ['spikergnn'][*]['spike_rates']",
+      "git_tracked": true,
+      "note": "Manuscript claims '33 of 35 main-protocol runs inside target band'. Recompute above from committed data; tol selection matters."
+    },
+    "node_level_cross_scale_transfer": {
+      "claimed_manuscript_r_bar": 0.3425,
+      "claimed_manuscript_acc": 53.5,
+      "claimed_n": 3,
+      "claimed_source_file": "code/results/nodelevel_calib_spikergnn_3x15.json",
+      "claimed_git_tracked": true,
+      "honest_rerun_5run_r_bar": 0.2071,
+      "honest_rerun_5run_acc": 46.31,
+      "honest_rerun_n": 5,
+      "honest_rerun_source_file": "results/nodelevel_calib_spikergnn_3x15_extra5.json",
+      "honest_rerun_git_tracked": true,
+      "current_code_sweep_max_r_bar": {
+        "u045": {
+          "r_bar": 0.3023,
+          "acc": 49.22
+        },
+        "u045_l2": {
+          "r_bar": 0.3142,
+          "acc": 47.63
+        },
+        "u045_l4": {
+          "r_bar": 0.3193,
+          "acc": 48.45
+        },
+        "u06": {
+          "r_bar": 0.2695,
+          "acc": 47.31
+        },
+        "u06_l2": {
+          "r_bar": 0.2841,
+          "acc": 47.42
+        },
+        "u075": {
+          "r_bar": 0.246,
+          "acc": 47.07
+        },
+        "u09": {
+          "r_bar": 0.2226,
+          "acc": 46.44
+        }
+      },
+      "verdict": "INTEGRITY GAP: claimed r_bar=0.342 comes from an UNRECOVERABLE Oct-24 calibration code state; the current committed code reaches at most ~0.30 node-level r_bar (sweep above) and the identical-protocol 5-run rerun gives r_bar~0.21. The cross-scale r_bar=0.342 claim is NOT reproducible from committed code."
+    }
+  },
+  "Pillar_C_honest_energy_accounting": {
+    "spikeRPGNN_T1_energy_uj_mean": 8.881,
+    "spikeRPGNN_r_bar_mean": 0.4056,
+    "spikeRPGNN_reduction_vs_GIN_pct": 34.77,
+    "ProtoGIN_T1_energy_uj_mean": 13.614,
+    "T1_source_file": "results/analysis_v30.json -> ['energy']",
+    "T1_git_tracked": true,
+    "silicon_projection": {
+      "reference_dense_E_loihi_mean_uj": 69.84744106666666,
+      "reference_dense_E_truenorth_mean_uj": 76.95057066666666,
+      "projection_keys": [
+        "Proto-GCN",
+        "Proto-GIN",
+        "Proto-SAGE",
+        "MSG*",
+        "Spike-GNN (Euc.)",
+        "SpikeRPGNN"
+      ],
+      "source_file": "results/energy_silicon_projection.json",
+      "git_tracked": true,
+      "note": "Manuscript: Tier-1 straddles zero under +/-50% constant perturbation and reverses into an overrun on real neuromorphic silicon (T2). Verify projection file."
+    }
+  }
+}

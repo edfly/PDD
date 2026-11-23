@@ -1,0 +1,10 @@
+{
+  "sage_MUTAG_5shot_run13": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 13,
+    "final_acc": 0.7400000095367432,
+    "best_acc": 0.7400000095367432,
+    "elapsed_sec": 29.4
+  }
+}

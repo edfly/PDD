@@ -1,0 +1,10 @@
+{
+  "gin_REDDIT-M5K_1shot_run13": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 13,
+    "final_acc": 0.3759999891122182,
+    "best_acc": 0.3759999891122182,
+    "elapsed_sec": 45.9
+  }
+}

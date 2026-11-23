@@ -1,0 +1,96 @@
+{
+  "_protocol": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "n_way": 2,
+    "epochs": 4,
+    "episodes_per_epoch": 5,
+    "test_episodes": 5,
+    "runs": 3,
+    "device": "cuda",
+    "note": "Rate-control mechanism diagnostic (reduced protocol for cost): empirical vs surrogate rate gap and static (per-neuron) heterogeneous-threshold desync at sigma=0. Directional mechanism evidence, NOT a reproduction of the reported 50-epoch headline numbers."
+  },
+  "arms": {
+    "A_noisy": {
+      "arm": "A_noisy",
+      "noise_std": 0.05,
+      "lambda_sr": 0.5,
+      "het_spread": 0.0,
+      "runs": 3,
+      "rows": [
+        {
+          "r_empirical": 0.3391860378413199,
+          "r_surrogate": 0.33918604254722595,
+          "r_gap": 4.7059060537257835e-09
+        },
+        {
+          "r_empirical": 0.3656804917643332,
+          "r_surrogate": 0.36568048000335696,
+          "r_gap": 1.1760976248442745e-08
+        },
+        {
+          "r_empirical": 0.34873464119635184,
+          "r_surrogate": 0.3487346410751343,
+          "r_gap": 1.212175360087997e-10
+        }
+      ],
+      "r_empirical_mean": 0.351200390267335,
+      "r_surrogate_mean": 0.35120038787523905,
+      "r_gap_mean": 5.529366612725776e-09
+    },
+    "B_sigma0": {
+      "arm": "B_sigma0",
+      "noise_std": 0.0,
+      "lambda_sr": 0.5,
+      "het_spread": 0.0,
+      "runs": 3,
+      "rows": [
+        {
+          "r_empirical": 0.2790283490807225,
+          "r_surrogate": 0.27902835607528687,
+          "r_gap": 6.99456437214252e-09
+        },
+        {
+          "r_empirical": 0.375,
+          "r_surrogate": 0.375,
+          "r_gap": 0.0
+        },
+        {
+          "r_empirical": 0.375,
+          "r_surrogate": 0.375,
+          "r_gap": 0.0
+        }
+      ],
+      "r_empirical_mean": 0.3430094496935741,
+      "r_surrogate_mean": 0.34300945202509564,
+      "r_gap_mean": 2.33152145738084e-09
+    },
+    "C_sigma0_het": {
+      "arm": "C_sigma0_het",
+      "noise_std": 0.0,
+      "lambda_sr": 0.5,
+      "het_spread": 0.3,
+      "runs": 3,
+      "rows": [
+        {
+          "r_empirical": 0.42065049371744784,
+          "r_surrogate": 0.42065049409866334,
+          "r_gap": 3.812155036087006e-10
+        },
+        {
+          "r_empirical": 0.38780610877943195,
+          "r_surrogate": 0.38780609965324403,
+          "r_gap": 9.126187916486117e-09
+        },
+        {
+          "r_empirical": 0.4229315689771238,
+          "r_surrogate": 0.42293156385421754,
+          "r_gap": 5.122906265864202e-09
+        }
+      ],
+      "r_empirical_mean": 0.41046272382466786,
+      "r_surrogate_mean": 0.41046271920204164,
+      "r_gap_mean": 4.876769895319673e-09
+    }
+  }
+}

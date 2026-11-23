@@ -1,0 +1,10 @@
+{
+  "gin_MUTAG_5shot_run13": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 13,
+    "final_acc": 0.7733333428700765,
+    "best_acc": 0.7733333428700765,
+    "elapsed_sec": 40.4
+  }
+}

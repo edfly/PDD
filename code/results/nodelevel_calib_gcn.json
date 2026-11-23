@@ -1,0 +1,29 @@
+{
+  "model": "gcn",
+  "runs": [
+    {
+      "model": "gcn",
+      "run_id": 0,
+      "best_val": 0.5969663262367249,
+      "best_test": 0.5425385236740112,
+      "rate_mean": 0.0,
+      "seconds": 366.6
+    },
+    {
+      "model": "gcn",
+      "run_id": 1,
+      "best_val": 0.5949528217315674,
+      "best_test": 0.5355430841445923,
+      "rate_mean": 0.0,
+      "seconds": 344.1
+    },
+    {
+      "model": "gcn",
+      "run_id": 2,
+      "best_val": 0.5951877236366272,
+      "best_test": 0.5413657426834106,
+      "rate_mean": 0.0,
+      "seconds": 335.5
+    }
+  ]
+}

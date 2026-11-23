@@ -1,0 +1,147 @@
+{
+  "REDDIT-M5K_1shot_run5": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 5,
+    "final_acc": 0.318666668732961,
+    "best_acc": 0.388000001013279,
+    "total_spikes": 1458937,
+    "spike_history_last5": [
+      915724,
+      962390,
+      968800,
+      987039,
+      944688
+    ],
+    "spike_rate_history_last5": [
+      0.4720908862382022,
+      0.47288459366132213,
+      0.4722712974097364,
+      0.4719941099912181,
+      0.47211153413485174
+    ],
+    "final_spike_rate": 0.47184362117997686,
+    "u_th_learnable": 0.9576948285102844,
+    "lambda_gate": 0.5466539859771729,
+    "spike_alpha": 0.6087915897369385,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 13171.0
+  },
+  "REDDIT-M5K_1shot_run6": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 6,
+    "final_acc": 0.3346666698654493,
+    "best_acc": 0.39400000423192977,
+    "total_spikes": 1472074,
+    "spike_history_last5": [
+      999155,
+      1024509,
+      937334,
+      975222,
+      991796
+    ],
+    "spike_rate_history_last5": [
+      0.4785449124541013,
+      0.48219006448223556,
+      0.4827941234683964,
+      0.4836513276556902,
+      0.4832842814704363
+    ],
+    "final_spike_rate": 0.4837077428720051,
+    "u_th_learnable": 0.966975212097168,
+    "lambda_gate": 0.5337014198303223,
+    "spike_alpha": 0.6096513867378235,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 13445.8
+  },
+  "REDDIT-M5K_1shot_run7": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 7,
+    "final_acc": 0.3239999999602636,
+    "best_acc": 0.3399999998509884,
+    "total_spikes": 1407567,
+    "spike_history_last5": [
+      892514,
+      947760,
+      937052,
+      907622,
+      853870
+    ],
+    "spike_rate_history_last5": [
+      0.4453582588324984,
+      0.44900322075009547,
+      0.4509155773800552,
+      0.45032588267831875,
+      0.4467847005977254
+    ],
+    "final_spike_rate": 0.44534563700475494,
+    "u_th_learnable": 0.8948484659194946,
+    "lambda_gate": 0.5307426452636719,
+    "spike_alpha": 0.6065455079078674,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 10783.5
+  },
+  "REDDIT-M5K_1shot_run8": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 8,
+    "final_acc": 0.3199999985595544,
+    "best_acc": 0.3640000022947788,
+    "total_spikes": 1391222,
+    "spike_history_last5": [
+      1013799,
+      960574,
+      988813,
+      1032470,
+      1028117
+    ],
+    "spike_rate_history_last5": [
+      0.48603489389046367,
+      0.48609193697439973,
+      0.4854376015489089,
+      0.48546295263309974,
+      0.4852179448709548
+    ],
+    "final_spike_rate": 0.4851363441785709,
+    "u_th_learnable": 0.9629154205322266,
+    "lambda_gate": 0.5346635580062866,
+    "spike_alpha": 0.6084245443344116,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 12922.0
+  },
+  "REDDIT-M5K_1shot_run9": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 9,
+    "final_acc": 0.3026666651169459,
+    "best_acc": 0.34399999752640725,
+    "total_spikes": 820756,
+    "spike_history_last5": [
+      539417,
+      564446,
+      510395,
+      515695,
+      587277
+    ],
+    "spike_rate_history_last5": [
+      0.25931431810213407,
+      0.258364621195306,
+      0.2594606821337623,
+      0.25779281238434226,
+      0.2578628058194283
+    ],
+    "final_spike_rate": 0.25852534597728216,
+    "u_th_learnable": 0.9993776679039001,
+    "lambda_gate": 0.5272044539451599,
+    "spike_alpha": 0.6163352131843567,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 11754.3
+  }
+}

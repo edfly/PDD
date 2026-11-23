@@ -1,0 +1,218 @@
+
+=== dense_gin_PROTEINS_5shot_run5 ===
+GIN dense baseline | d=128 | device=cuda | datasets=['PROTEINS'] | shots=[5] | runs=[5] | epochs=50 | ep/epoch=20 | test_eps=30
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 48.0% | Test: 52.7% | Best: 52.7% | 2s
+  Epoch  10/50 | Train: 57.5% | Test: 52.3% | Best: 52.7% | 10s
+  Epoch  20/50 | Train: 56.5% | Test: 52.0% | Best: 52.7% | 19s
+  Epoch  30/50 | Train: 57.5% | Test: 52.3% | Best: 52.7% | 31s
+  Epoch  40/50 | Train: 46.5% | Test: 52.7% | Best: 52.7% | 40s
+  Epoch  50/50 | Train: 53.5% | Test: 52.7% | Best: 52.7% | 48s
+  >>> Final Accuracy: 52.7% (49.3s)
+>>> gin_PROTEINS_5shot_run5: acc=52.67% (49.9s)
+DONE
+>>> dense_gin_PROTEINS_5shot_run5: done in 63s
+
+=== dense_gin_PROTEINS_5shot_run6 ===
+GIN dense baseline | d=128 | device=cuda | datasets=['PROTEINS'] | shots=[5] | runs=[6] | epochs=50 | ep/epoch=20 | test_eps=30
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 56.5% | Test: 51.0% | Best: 51.0% | 7s
+  Epoch  10/50 | Train: 50.0% | Test: 52.0% | Best: 52.0% | 15s
+  Epoch  20/50 | Train: 48.0% | Test: 52.3% | Best: 52.3% | 26s
+  Epoch  30/50 | Train: 51.0% | Test: 53.0% | Best: 53.0% | 39s
+  Epoch  40/50 | Train: 57.5% | Test: 52.7% | Best: 53.0% | 48s
+  Epoch  50/50 | Train: 49.5% | Test: 52.3% | Best: 53.0% | 57s
+  >>> Final Accuracy: 52.3% (58.1s)
+>>> gin_PROTEINS_5shot_run6: acc=52.33% (59.7s)
+DONE
+>>> dense_gin_PROTEINS_5shot_run6: done in 77s
+
+=== dense_gin_PROTEINS_5shot_run7 ===
+GIN dense baseline | d=128 | device=cuda | datasets=['PROTEINS'] | shots=[5] | runs=[7] | epochs=50 | ep/epoch=20 | test_eps=30
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 46.0% | Test: 51.3% | Best: 51.3% | 3s
+  Epoch  10/50 | Train: 53.0% | Test: 52.0% | Best: 52.0% | 13s
+  Epoch  20/50 | Train: 48.5% | Test: 51.3% | Best: 52.0% | 25s
+  Epoch  30/50 | Train: 52.5% | Test: 54.0% | Best: 54.0% | 34s
+  Epoch  40/50 | Train: 54.5% | Test: 52.3% | Best: 54.0% | 44s
+  Epoch  50/50 | Train: 54.0% | Test: 54.7% | Best: 54.7% | 52s
+  >>> Final Accuracy: 54.7% (52.7s)
+>>> gin_PROTEINS_5shot_run7: acc=54.67% (53.5s)
+DONE
+>>> dense_gin_PROTEINS_5shot_run7: done in 68s
+
+=== dense_gin_PROTEINS_5shot_run8 ===
+GIN dense baseline | d=128 | device=cuda | datasets=['PROTEINS'] | shots=[5] | runs=[8] | epochs=50 | ep/epoch=20 | test_eps=30
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 50.0% | Test: 52.0% | Best: 52.0% | 2s
+  Epoch  10/50 | Train: 55.0% | Test: 51.3% | Best: 52.0% | 11s
+  Epoch  20/50 | Train: 51.0% | Test: 52.3% | Best: 52.3% | 20s
+  Epoch  30/50 | Train: 53.0% | Test: 54.7% | Best: 54.7% | 32s
+  Epoch  40/50 | Train: 54.0% | Test: 54.7% | Best: 54.7% | 43s
+  Epoch  50/50 | Train: 57.0% | Test: 56.7% | Best: 56.7% | 51s
+  >>> Final Accuracy: 56.7% (52.6s)
+>>> gin_PROTEINS_5shot_run8: acc=56.67% (53.3s)
+DONE
+>>> dense_gin_PROTEINS_5shot_run8: done in 70s
+
+=== dense_gin_PROTEINS_5shot_run9 ===
+GIN dense baseline | d=128 | device=cuda | datasets=['PROTEINS'] | shots=[5] | runs=[9] | epochs=50 | ep/epoch=20 | test_eps=30
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 55.0% | Test: 51.0% | Best: 51.0% | 2s
+  Epoch  10/50 | Train: 50.5% | Test: 50.3% | Best: 51.0% | 10s
+  Epoch  20/50 | Train: 51.5% | Test: 52.3% | Best: 52.3% | 18s
+  Epoch  30/50 | Train: 59.0% | Test: 52.7% | Best: 52.7% | 26s
+  Epoch  40/50 | Train: 54.0% | Test: 53.0% | Best: 53.0% | 34s
+  Epoch  50/50 | Train: 50.5% | Test: 53.0% | Best: 53.0% | 46s
+  >>> Final Accuracy: 53.0% (48.0s)
+>>> gin_PROTEINS_5shot_run9: acc=53.00% (48.7s)
+DONE
+>>> dense_gin_PROTEINS_5shot_run9: done in 64s
+
+=== dense_gin_PROTEINS_5shot_run10 ===
+GIN dense baseline | d=128 | device=cuda | datasets=['PROTEINS'] | shots=[5] | runs=[10] | epochs=50 | ep/epoch=20 | test_eps=30
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 55.0% | Test: 51.7% | Best: 51.7% | 2s
+  Epoch  10/50 | Train: 55.5% | Test: 53.3% | Best: 53.3% | 12s
+  Epoch  20/50 | Train: 55.5% | Test: 54.3% | Best: 54.3% | 20s
+  Epoch  30/50 | Train: 50.5% | Test: 59.0% | Best: 59.0% | 29s
+  Epoch  40/50 | Train: 53.0% | Test: 56.3% | Best: 59.0% | 37s
+  Epoch  50/50 | Train: 56.0% | Test: 60.3% | Best: 60.3% | 46s
+  >>> Final Accuracy: 60.3% (46.3s)
+>>> gin_PROTEINS_5shot_run10: acc=60.33% (46.9s)
+DONE
+>>> dense_gin_PROTEINS_5shot_run10: done in 61s
+
+=== dense_gin_PROTEINS_5shot_run11 ===
+GIN dense baseline | d=128 | device=cuda | datasets=['PROTEINS'] | shots=[5] | runs=[11] | epochs=50 | ep/epoch=20 | test_eps=30
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 50.0% | Test: 52.0% | Best: 52.0% | 2s
+  Epoch  10/50 | Train: 48.5% | Test: 53.7% | Best: 53.7% | 10s
+  Epoch  20/50 | Train: 54.5% | Test: 50.0% | Best: 53.7% | 18s
+  Epoch  30/50 | Train: 44.0% | Test: 51.0% | Best: 53.7% | 26s
+  Epoch  40/50 | Train: 56.0% | Test: 54.3% | Best: 54.3% | 35s
+  Epoch  50/50 | Train: 52.5% | Test: 56.3% | Best: 56.3% | 43s
+  >>> Final Accuracy: 56.3% (43.9s)
+>>> gin_PROTEINS_5shot_run11: acc=56.33% (44.6s)
+DONE
+>>> dense_gin_PROTEINS_5shot_run11: done in 59s
+
+=== dense_gin_PROTEINS_5shot_run12 ===
+GIN dense baseline | d=128 | device=cuda | datasets=['PROTEINS'] | shots=[5] | runs=[12] | epochs=50 | ep/epoch=20 | test_eps=30
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 45.0% | Test: 51.3% | Best: 51.3% | 2s
+  Epoch  10/50 | Train: 50.0% | Test: 52.7% | Best: 52.7% | 10s
+  Epoch  20/50 | Train: 46.5% | Test: 52.0% | Best: 52.7% | 19s
+  Epoch  30/50 | Train: 56.5% | Test: 52.7% | Best: 52.7% | 27s
+  Epoch  40/50 | Train: 55.5% | Test: 52.0% | Best: 52.7% | 35s
+  Epoch  50/50 | Train: 54.0% | Test: 53.0% | Best: 53.0% | 44s
+  >>> Final Accuracy: 53.0% (44.1s)
+>>> gin_PROTEINS_5shot_run12: acc=53.00% (44.9s)
+DONE
+>>> dense_gin_PROTEINS_5shot_run12: done in 59s
+
+=== dense_gin_PROTEINS_5shot_run13 ===
+GIN dense baseline | d=128 | device=cuda | datasets=['PROTEINS'] | shots=[5] | runs=[13] | epochs=50 | ep/epoch=20 | test_eps=30
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 53.0% | Test: 52.3% | Best: 52.3% | 2s
+  Epoch  10/50 | Train: 52.5% | Test: 53.3% | Best: 53.3% | 10s
+  Epoch  20/50 | Train: 57.5% | Test: 53.0% | Best: 53.3% | 18s
+  Epoch  30/50 | Train: 53.0% | Test: 54.0% | Best: 54.0% | 26s
+  Epoch  40/50 | Train: 64.0% | Test: 57.7% | Best: 57.7% | 34s
+  Epoch  50/50 | Train: 60.5% | Test: 58.3% | Best: 58.3% | 42s
+  >>> Final Accuracy: 58.3% (42.9s)
+>>> gin_PROTEINS_5shot_run13: acc=58.33% (43.6s)
+DONE
+>>> dense_gin_PROTEINS_5shot_run13: done in 56s
+
+=== dense_gin_PROTEINS_5shot_run14 ===
+GIN dense baseline | d=128 | device=cuda | datasets=['PROTEINS'] | shots=[5] | runs=[14] | epochs=50 | ep/epoch=20 | test_eps=30
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 55.0% | Test: 52.3% | Best: 52.3% | 2s
+  Epoch  10/50 | Train: 52.0% | Test: 52.3% | Best: 52.3% | 15s
+  Epoch  20/50 | Train: 56.0% | Test: 52.7% | Best: 52.7% | 26s
+  Epoch  30/50 | Train: 55.5% | Test: 56.7% | Best: 56.7% | 35s
+  Epoch  40/50 | Train: 57.0% | Test: 62.3% | Best: 62.3% | 47s
+  Epoch  50/50 | Train: 53.5% | Test: 61.3% | Best: 62.3% | 57s
+  >>> Final Accuracy: 61.3% (57.7s)
+>>> gin_PROTEINS_5shot_run14: acc=61.33% (58.4s)
+DONE
+>>> dense_gin_PROTEINS_5shot_run14: done in 72s
+
+=== dense_gin_PROTEINS_5shot_run15 ===
+GIN dense baseline | d=128 | device=cuda | datasets=['PROTEINS'] | shots=[5] | runs=[15] | epochs=50 | ep/epoch=20 | test_eps=30
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 53.0% | Test: 50.7% | Best: 50.7% | 2s
+  Epoch  10/50 | Train: 52.0% | Test: 50.7% | Best: 50.7% | 21s
+  Epoch  20/50 | Train: 56.5% | Test: 53.7% | Best: 53.7% | 36s
+  Epoch  30/50 | Train: 51.0% | Test: 55.0% | Best: 55.0% | 44s
+  Epoch  40/50 | Train: 53.5% | Test: 56.0% | Best: 56.0% | 57s
+  Epoch  50/50 | Train: 56.0% | Test: 59.3% | Best: 59.3% | 64s
+  >>> Final Accuracy: 59.3% (64.5s)
+>>> gin_PROTEINS_5shot_run15: acc=59.33% (65.4s)
+DONE
+>>> dense_gin_PROTEINS_5shot_run15: done in 83s
+
+=== dense_gin_PROTEINS_5shot_run16 ===
+GIN dense baseline | d=128 | device=cuda | datasets=['PROTEINS'] | shots=[5] | runs=[16] | epochs=50 | ep/epoch=20 | test_eps=30
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 46.0% | Test: 53.0% | Best: 53.0% | 3s
+  Epoch  10/50 | Train: 49.5% | Test: 53.3% | Best: 53.3% | 11s
+  Epoch  20/50 | Train: 50.0% | Test: 53.7% | Best: 53.7% | 18s
+  Epoch  30/50 | Train: 53.0% | Test: 52.0% | Best: 53.7% | 26s
+  Epoch  40/50 | Train: 61.5% | Test: 56.7% | Best: 56.7% | 33s
+  Epoch  50/50 | Train: 51.0% | Test: 58.0% | Best: 58.0% | 41s
+  >>> Final Accuracy: 58.0% (41.3s)
+>>> gin_PROTEINS_5shot_run16: acc=58.00% (42.0s)
+DONE
+>>> dense_gin_PROTEINS_5shot_run16: done in 57s
+
+=== dense_gin_PROTEINS_5shot_run17 ===
+GIN dense baseline | d=128 | device=cuda | datasets=['PROTEINS'] | shots=[5] | runs=[17] | epochs=50 | ep/epoch=20 | test_eps=30
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 51.0% | Test: 53.0% | Best: 53.0% | 2s
+  Epoch  10/50 | Train: 52.0% | Test: 52.7% | Best: 53.0% | 9s
+  Epoch  20/50 | Train: 48.0% | Test: 52.0% | Best: 53.0% | 16s
+  Epoch  30/50 | Train: 53.5% | Test: 55.0% | Best: 55.0% | 23s
+  Epoch  40/50 | Train: 53.5% | Test: 57.3% | Best: 57.3% | 31s
+  Epoch  50/50 | Train: 58.0% | Test: 59.7% | Best: 59.7% | 38s
+  >>> Final Accuracy: 59.7% (38.9s)
+>>> gin_PROTEINS_5shot_run17: acc=59.67% (39.6s)
+DONE
+>>> dense_gin_PROTEINS_5shot_run17: done in 55s
+
+=== dense_gin_PROTEINS_5shot_run18 ===
+GIN dense baseline | d=128 | device=cuda | datasets=['PROTEINS'] | shots=[5] | runs=[18] | epochs=50 | ep/epoch=20 | test_eps=30
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 54.5% | Test: 52.3% | Best: 52.3% | 2s
+  Epoch  10/50 | Train: 50.0% | Test: 52.7% | Best: 52.7% | 10s
+  Epoch  20/50 | Train: 50.5% | Test: 52.7% | Best: 52.7% | 17s
+  Epoch  30/50 | Train: 50.5% | Test: 51.7% | Best: 52.7% | 25s
+  Epoch  40/50 | Train: 57.0% | Test: 56.7% | Best: 56.7% | 33s
+  Epoch  50/50 | Train: 51.5% | Test: 57.7% | Best: 57.7% | 41s
+  >>> Final Accuracy: 57.7% (41.4s)
+>>> gin_PROTEINS_5shot_run18: acc=57.67% (42.4s)
+DONE
+>>> dense_gin_PROTEINS_5shot_run18: done in 56s
+
+=== dense_gin_PROTEINS_5shot_run19 ===
+GIN dense baseline | d=128 | device=cuda | datasets=['PROTEINS'] | shots=[5] | runs=[19] | epochs=50 | ep/epoch=20 | test_eps=30
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 53.5% | Test: 52.0% | Best: 52.0% | 2s
+  Epoch  10/50 | Train: 60.0% | Test: 52.3% | Best: 52.3% | 9s
+  Epoch  20/50 | Train: 50.0% | Test: 51.0% | Best: 52.3% | 16s
+  Epoch  30/50 | Train: 56.5% | Test: 55.0% | Best: 55.0% | 24s
+  Epoch  40/50 | Train: 54.5% | Test: 54.7% | Best: 55.0% | 32s
+  Epoch  50/50 | Train: 57.0% | Test: 57.7% | Best: 57.7% | 39s
+  >>> Final Accuracy: 57.7% (39.2s)
+>>> gin_PROTEINS_5shot_run19: acc=57.67% (39.8s)
+DONE
+>>> dense_gin_PROTEINS_5shot_run19: done in 57s
+
+=== dense_gin_ENZYMES_5shot_run5 ===
+GIN dense baseline | d=128 | device=cuda | datasets=['ENZYMES'] | shots=[5] | runs=[5] | epochs=50 | ep/epoch=20 | test_eps=30
+[ENZYMES] Loaded 480 train / 120 test graphs | 6 classes | 3 features
+  Epoch   1/50 | Train: 25.6% | Test: 21.3% | Best: 21.3% | 2s
+  Epoch  10/50 | Train: 23.2% | Test: 22.1% | Best: 22.1% | 10s
+  Epoch  20/50 | Train: 23.6% | Test: 22.7% | Best: 22.7% | 18s
+  Epoch  30/50 | Train: 21.2% | Test: 22.4% | Best: 22.7% | 27s

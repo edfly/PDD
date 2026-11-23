@@ -1,0 +1,15 @@
+MSG* capacity runner | d=128 | datasets=['REDDIT-M5K'] | shots=[1] | runs=[2] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  REDDIT-M5K | 1-shot | Run 3/5
+============================================================
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  Epoch   1/50 | Train: 24.6% | Test: 30.5% | Best: 30.5% | 362s
+  Epoch  10/50 | Train: 25.2% | Test: 30.7% | Best: 30.7% | 2852s
+  Epoch  20/50 | Train: 26.0% | Test: 32.1% | Best: 32.1% | 5649s
+  Epoch  30/50 | Train: 21.8% | Test: 31.5% | Best: 32.1% | 8529s
+  Epoch  40/50 | Train: 26.0% | Test: 32.5% | Best: 32.5% | 11344s
+  Epoch  50/50 | Train: 22.4% | Test: 31.2% | Best: 32.5% | 14196s
+  >>> Final Accuracy: 31.2% (14289.5s)
+>>> d128_REDDIT-M5K_1shot_run2: acc=31.20% (14291.1s)
+DONE

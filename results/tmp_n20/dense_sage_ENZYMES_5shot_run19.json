@@ -1,0 +1,10 @@
+{
+  "sage_ENZYMES_5shot_run19": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 19,
+    "final_acc": 0.21999999408920606,
+    "best_acc": 0.22133332913120587,
+    "elapsed_sec": 34.1
+  }
+}

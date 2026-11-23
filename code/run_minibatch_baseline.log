@@ -1,0 +1,13 @@
+model=spikergnn device=cuda u_th=1.0 | ogbn-arxiv node-level | checkpoint_rgc=True lr=0.001 grad_clip=0.0
+D:\2026\paper\PBB\post\code\run_nodelevel_v40.py:207: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:219.)
+  train_idx = torch.as_tensor(split["train"]).to(device)
+  [spikergnn r0] ep005 val=0.3771 test=0.3481
+  [spikergnn r0] ep010 val=0.4669 test=0.4429
+  [spikergnn r0] ep015 val=0.5021 test=0.4708
+  [spikergnn r0] ep020 val=0.5129 test=0.4844
+  [spikergnn r0] ep025 val=0.5208 test=0.4962
+  [spikergnn r0] ep030 val=0.5185 test=0.4945
+  [spikergnn r0] ep035 val=0.5255 test=0.4942
+  [spikergnn r0] ep040 val=0.5185 test=0.4939
+  run0 done: {'model': 'spikergnn', 'run_id': 0, 'best_val': 0.5298499464988708, 'best_test': 0.5008744597434998, 'rate_mean': 0.3123912724688861, 'seconds': 1619.1}
+=== spikergnn node-level: test acc mean=0.5009 min=0.5009 max=0.5009 ===

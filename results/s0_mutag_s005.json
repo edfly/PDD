@@ -1,0 +1,87 @@
+{
+  "_protocol": {
+    "purpose": "sigma=0 control: isolate the contribution of membrane noise to the control authority of L_sr",
+    "arms": {
+      "sigma005": 0.05,
+      "sigma000": 0.0
+    },
+    "lambdas": [
+      0.0,
+      0.5
+    ],
+    "r_target": 0.4,
+    "datasets": [
+      "MUTAG"
+    ],
+    "shot": 1,
+    "epochs": 20,
+    "episodes_per_epoch": 10,
+    "test_episodes": 10,
+    "runs": 5,
+    "seed": "42 + run_id*100 + shot*10",
+    "reported_metrics": "final_acc = accuracy at the final epoch; r_bar = empirical mean firing rate over the final evaluation episodes",
+    "date": "2026-10-15"
+  },
+  "MUTAG|sigma005|lam0.000": {
+    "dataset": "MUTAG",
+    "arm": "sigma005",
+    "noise_std": 0.05,
+    "lambda_sr": 0.0,
+    "accs": [
+      69.00000169873238,
+      78.00000131130219,
+      86.00000262260437,
+      75.0,
+      74.00000132620335
+    ],
+    "rates": [
+      0.2696298778158093,
+      0.2539884931339297,
+      0.3522232353383678,
+      0.3740610760832356,
+      0.2519889235793034
+    ],
+    "best_accs": [
+      74.00000154972076,
+      78.00000131130219,
+      86.00000262260437,
+      77.00000196695328,
+      83.00000131130219
+    ],
+    "acc_mean": 76.40000139176846,
+    "acc_std": 5.607138718511594,
+    "rate_mean": 0.3003783211901292,
+    "rate_std": 0.05206930037909464
+  },
+  "MUTAG|sigma005|lam0.500": {
+    "dataset": "MUTAG",
+    "arm": "sigma005",
+    "noise_std": 0.05,
+    "lambda_sr": 0.5,
+    "accs": [
+      74.00000125169754,
+      78.00000205636024,
+      87.00000286102295,
+      75.0,
+      74.00000110268593
+    ],
+    "rates": [
+      0.3512921997563828,
+      0.3705577781501255,
+      0.4131821523691356,
+      0.3962142223024967,
+      0.37283797855377093
+    ],
+    "best_accs": [
+      74.00000125169754,
+      78.00000205636024,
+      87.00000286102295,
+      75.0,
+      78.00000190734863
+    ],
+    "acc_mean": 77.60000145435333,
+    "acc_std": 4.923414231623483,
+    "rate_mean": 0.38081686622638233,
+    "rate_std": 0.02156482222532896
+  }
+}

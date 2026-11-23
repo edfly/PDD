@@ -1,0 +1,633 @@
+
+=== msg_PROTEINS_5shot_run6 ===
+MSG* capacity runner | d=128 | datasets=['PROTEINS'] | shots=[5] | runs=[6] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  PROTEINS | 5-shot | Run 7/5
+============================================================
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 62.5% | Test: 58.0% | Best: 58.0% | 17s
+  Epoch  10/50 | Train: 50.0% | Test: 50.0% | Best: 58.0% | 128s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 58.0% | 319s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 58.0% | 472s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 58.0% | 583s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 58.0% | 685s
+  >>> Final Accuracy: 50.0% (689.9s)
+>>> d128_PROTEINS_5shot_run6: acc=50.00% (690.4s)
+DONE
+>>> msg_PROTEINS_5shot_run6: done in 703s
+
+=== msg_PROTEINS_5shot_run8 ===
+MSG* capacity runner | d=128 | datasets=['PROTEINS'] | shots=[5] | runs=[8] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  PROTEINS | 5-shot | Run 9/5
+============================================================
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 55.0% | Test: 56.0% | Best: 56.0% | 17s
+  Epoch  10/50 | Train: 50.0% | Test: 50.0% | Best: 56.0% | 113s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 56.0% | 218s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 56.0% | 320s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 56.0% | 421s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 56.0% | 522s
+  >>> Final Accuracy: 50.0% (527.5s)
+>>> d128_PROTEINS_5shot_run8: acc=50.00% (527.9s)
+DONE
+>>> msg_PROTEINS_5shot_run8: done in 540s
+
+=== msg_PROTEINS_5shot_run10 ===
+MSG* capacity runner | d=128 | datasets=['PROTEINS'] | shots=[5] | runs=[10] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  PROTEINS | 5-shot | Run 11/5
+============================================================
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 54.5% | Test: 50.0% | Best: 50.0% | 15s
+  Epoch  10/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 110s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 222s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 325s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 427s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 528s
+  >>> Final Accuracy: 50.0% (533.4s)
+>>> d128_PROTEINS_5shot_run10: acc=50.00% (533.8s)
+DONE
+>>> msg_PROTEINS_5shot_run10: done in 545s
+
+=== msg_PROTEINS_5shot_run12 ===
+MSG* capacity runner | d=128 | datasets=['PROTEINS'] | shots=[5] | runs=[12] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  PROTEINS | 5-shot | Run 13/5
+============================================================
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 56.0% | Test: 60.7% | Best: 60.7% | 15s
+  Epoch  10/50 | Train: 50.0% | Test: 50.0% | Best: 60.7% | 113s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 60.7% | 219s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 60.7% | 321s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 60.7% | 424s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 60.7% | 528s
+  >>> Final Accuracy: 50.0% (533.5s)
+>>> d128_PROTEINS_5shot_run12: acc=50.00% (533.9s)
+DONE
+>>> msg_PROTEINS_5shot_run12: done in 546s
+
+=== msg_PROTEINS_5shot_run14 ===
+MSG* capacity runner | d=128 | datasets=['PROTEINS'] | shots=[5] | runs=[14] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  PROTEINS | 5-shot | Run 15/5
+============================================================
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 56.5% | Test: 58.0% | Best: 58.0% | 15s
+  Epoch  10/50 | Train: 50.0% | Test: 50.0% | Best: 58.0% | 108s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 58.0% | 212s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 58.0% | 313s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 58.0% | 426s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 58.0% | 529s
+  >>> Final Accuracy: 50.0% (534.2s)
+>>> d128_PROTEINS_5shot_run14: acc=50.00% (534.6s)
+DONE
+>>> msg_PROTEINS_5shot_run14: done in 547s
+
+=== msg_PROTEINS_5shot_run16 ===
+MSG* capacity runner | d=128 | datasets=['PROTEINS'] | shots=[5] | runs=[16] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  PROTEINS | 5-shot | Run 17/5
+============================================================
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 53.5% | Test: 50.0% | Best: 50.0% | 15s
+  Epoch  10/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 110s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 214s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 320s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 424s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 526s
+  >>> Final Accuracy: 50.0% (531.6s)
+>>> d128_PROTEINS_5shot_run16: acc=50.00% (532.0s)
+DONE
+>>> msg_PROTEINS_5shot_run16: done in 543s
+
+=== msg_PROTEINS_5shot_run18 ===
+MSG* capacity runner | d=128 | datasets=['PROTEINS'] | shots=[5] | runs=[18] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  PROTEINS | 5-shot | Run 19/5
+============================================================
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 56.5% | Test: 62.7% | Best: 62.7% | 15s
+  Epoch  10/50 | Train: 50.0% | Test: 50.0% | Best: 62.7% | 109s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 62.7% | 213s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 62.7% | 319s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 62.7% | 425s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 62.7% | 527s
+  >>> Final Accuracy: 50.0% (532.6s)
+>>> d128_PROTEINS_5shot_run18: acc=50.00% (533.1s)
+DONE
+>>> msg_PROTEINS_5shot_run18: done in 544s
+
+=== msg_ENZYMES_5shot_run6 ===
+MSG* capacity runner | d=128 | datasets=['ENZYMES'] | shots=[5] | runs=[6] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  ENZYMES | 5-shot | Run 7/5
+============================================================
+[ENZYMES] Loaded 480 train / 120 test graphs | 6 classes | 3 features
+  Epoch   1/50 | Train: 22.6% | Test: 21.7% | Best: 21.7% | 31s
+  Epoch  10/50 | Train: 20.0% | Test: 20.0% | Best: 21.7% | 222s
+  Epoch  20/50 | Train: 20.0% | Test: 20.0% | Best: 21.7% | 433s
+  Epoch  30/50 | Train: 20.0% | Test: 20.0% | Best: 21.7% | 667s
+  Epoch  40/50 | Train: 20.0% | Test: 20.0% | Best: 21.7% | 927s
+  Epoch  50/50 | Train: 20.0% | Test: 20.0% | Best: 21.7% | 1180s
+  >>> Final Accuracy: 20.0% (1192.2s)
+>>> d128_ENZYMES_5shot_run6: acc=20.00% (1192.5s)
+DONE
+>>> msg_ENZYMES_5shot_run6: done in 1204s
+
+=== msg_ENZYMES_5shot_run8 ===
+MSG* capacity runner | d=128 | datasets=['ENZYMES'] | shots=[5] | runs=[8] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  ENZYMES | 5-shot | Run 9/5
+============================================================
+[ENZYMES] Loaded 480 train / 120 test graphs | 6 classes | 3 features
+  Epoch   1/50 | Train: 22.2% | Test: 20.0% | Best: 20.0% | 37s
+  Epoch  10/50 | Train: 20.0% | Test: 20.0% | Best: 20.0% | 278s
+  Epoch  20/50 | Train: 20.0% | Test: 20.0% | Best: 20.0% | 546s
+  Epoch  30/50 | Train: 20.0% | Test: 20.0% | Best: 20.0% | 798s
+  Epoch  40/50 | Train: 20.0% | Test: 20.0% | Best: 20.0% | 1048s
+  Epoch  50/50 | Train: 20.0% | Test: 20.0% | Best: 20.0% | 1297s
+  >>> Final Accuracy: 20.0% (1308.5s)
+>>> d128_ENZYMES_5shot_run8: acc=20.00% (1308.8s)
+DONE
+>>> msg_ENZYMES_5shot_run8: done in 1322s
+
+=== msg_ENZYMES_5shot_run10 ===
+MSG* capacity runner | d=128 | datasets=['ENZYMES'] | shots=[5] | runs=[10] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  ENZYMES | 5-shot | Run 11/5
+============================================================
+[ENZYMES] Loaded 480 train / 120 test graphs | 6 classes | 3 features
+  Epoch   1/50 | Train: 25.2% | Test: 24.5% | Best: 24.5% | 39s
+  Epoch  10/50 | Train: 20.0% | Test: 20.0% | Best: 24.5% | 264s
+  Epoch  20/50 | Train: 20.0% | Test: 20.0% | Best: 24.5% | 513s
+  Epoch  30/50 | Train: 20.0% | Test: 20.0% | Best: 24.5% | 760s
+  Epoch  40/50 | Train: 20.0% | Test: 20.0% | Best: 24.5% | 1025s
+  Epoch  50/50 | Train: 20.0% | Test: 20.0% | Best: 24.5% | 1277s
+  >>> Final Accuracy: 20.0% (1288.9s)
+>>> d128_ENZYMES_5shot_run10: acc=20.00% (1289.2s)
+DONE
+>>> msg_ENZYMES_5shot_run10: done in 1302s
+
+=== msg_ENZYMES_5shot_run12 ===
+MSG* capacity runner | d=128 | datasets=['ENZYMES'] | shots=[5] | runs=[12] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  ENZYMES | 5-shot | Run 13/5
+============================================================
+[ENZYMES] Loaded 480 train / 120 test graphs | 6 classes | 3 features
+  Epoch   1/50 | Train: 25.6% | Test: 22.7% | Best: 22.7% | 39s
+  Epoch  10/50 | Train: 20.0% | Test: 20.0% | Best: 22.7% | 291s
+  Epoch  20/50 | Train: 20.0% | Test: 20.0% | Best: 22.7% | 565s
+  Epoch  30/50 | Train: 20.0% | Test: 20.0% | Best: 22.7% | 835s
+  Epoch  40/50 | Train: 20.0% | Test: 20.0% | Best: 22.7% | 1095s
+  Epoch  50/50 | Train: 20.0% | Test: 20.0% | Best: 22.7% | 1347s
+  >>> Final Accuracy: 20.0% (1358.7s)
+>>> d128_ENZYMES_5shot_run12: acc=20.00% (1359.0s)
+DONE
+>>> msg_ENZYMES_5shot_run12: done in 1372s
+
+=== msg_ENZYMES_5shot_run14 ===
+MSG* capacity runner | d=128 | datasets=['ENZYMES'] | shots=[5] | runs=[14] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  ENZYMES | 5-shot | Run 15/5
+============================================================
+[ENZYMES] Loaded 480 train / 120 test graphs | 6 classes | 3 features
+  Epoch   1/50 | Train: 23.6% | Test: 23.3% | Best: 23.3% | 40s
+  Epoch  10/50 | Train: 20.0% | Test: 20.0% | Best: 23.3% | 279s
+  Epoch  20/50 | Train: 20.0% | Test: 20.0% | Best: 23.3% | 544s
+  Epoch  30/50 | Train: 20.0% | Test: 20.0% | Best: 23.3% | 812s
+  Epoch  40/50 | Train: 20.0% | Test: 20.0% | Best: 23.3% | 1074s
+  Epoch  50/50 | Train: 20.0% | Test: 20.0% | Best: 23.3% | 1338s
+  >>> Final Accuracy: 20.0% (1352.3s)
+>>> d128_ENZYMES_5shot_run14: acc=20.00% (1352.7s)
+DONE
+>>> msg_ENZYMES_5shot_run14: done in 1366s
+
+=== msg_ENZYMES_5shot_run16 ===
+MSG* capacity runner | d=128 | datasets=['ENZYMES'] | shots=[5] | runs=[16] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  ENZYMES | 5-shot | Run 17/5
+============================================================
+[ENZYMES] Loaded 480 train / 120 test graphs | 6 classes | 3 features
+  Epoch   1/50 | Train: 20.4% | Test: 20.0% | Best: 20.0% | 40s
+  Epoch  10/50 | Train: 20.0% | Test: 20.0% | Best: 20.0% | 287s
+  Epoch  20/50 | Train: 20.0% | Test: 20.0% | Best: 20.0% | 562s
+  Epoch  30/50 | Train: 20.0% | Test: 20.0% | Best: 20.0% | 828s
+  Epoch  40/50 | Train: 20.0% | Test: 20.0% | Best: 20.0% | 1088s
+  Epoch  50/50 | Train: 20.0% | Test: 20.0% | Best: 20.0% | 1355s
+  >>> Final Accuracy: 20.0% (1367.0s)
+>>> d128_ENZYMES_5shot_run16: acc=20.00% (1367.3s)
+DONE
+>>> msg_ENZYMES_5shot_run16: done in 1380s
+
+=== msg_ENZYMES_5shot_run18 ===
+MSG* capacity runner | d=128 | datasets=['ENZYMES'] | shots=[5] | runs=[18] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  ENZYMES | 5-shot | Run 19/5
+============================================================
+[ENZYMES] Loaded 480 train / 120 test graphs | 6 classes | 3 features
+  Epoch   1/50 | Train: 20.0% | Test: 27.2% | Best: 27.2% | 39s
+  Epoch  10/50 | Train: 20.0% | Test: 20.0% | Best: 27.2% | 282s
+  Epoch  20/50 | Train: 20.0% | Test: 20.0% | Best: 27.2% | 551s
+  Epoch  30/50 | Train: 22.4% | Test: 23.9% | Best: 27.2% | 807s
+  Epoch  40/50 | Train: 27.0% | Test: 24.3% | Best: 27.2% | 1076s
+  Epoch  50/50 | Train: 26.6% | Test: 22.7% | Best: 27.2% | 1353s
+  >>> Final Accuracy: 22.7% (1365.7s)
+>>> d128_ENZYMES_5shot_run18: acc=22.67% (1366.1s)
+DONE
+>>> msg_ENZYMES_5shot_run18: done in 1379s
+
+=== msg_MUTAG_5shot_run6 ===
+MSG* capacity runner | d=128 | datasets=['MUTAG'] | shots=[5] | runs=[6] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  MUTAG | 5-shot | Run 7/5
+============================================================
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  Epoch   1/50 | Train: 68.5% | Test: 68.7% | Best: 68.7% | 10s
+  Epoch  10/50 | Train: 68.5% | Test: 62.7% | Best: 68.7% | 70s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 68.7% | 136s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 68.7% | 201s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 68.7% | 265s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 68.7% | 330s
+  >>> Final Accuracy: 50.0% (334.4s)
+>>> d128_MUTAG_5shot_run6: acc=50.00% (334.5s)
+DONE
+>>> msg_MUTAG_5shot_run6: done in 348s
+
+=== msg_MUTAG_5shot_run8 ===
+MSG* capacity runner | d=128 | datasets=['MUTAG'] | shots=[5] | runs=[8] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  MUTAG | 5-shot | Run 9/5
+============================================================
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  Epoch   1/50 | Train: 70.5% | Test: 65.7% | Best: 65.7% | 10s
+  Epoch  10/50 | Train: 74.0% | Test: 58.3% | Best: 65.7% | 67s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 65.7% | 132s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 65.7% | 196s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 65.7% | 260s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 65.7% | 319s
+  >>> Final Accuracy: 50.0% (322.3s)
+>>> d128_MUTAG_5shot_run8: acc=50.00% (322.4s)
+DONE
+>>> msg_MUTAG_5shot_run8: done in 335s
+
+=== msg_MUTAG_5shot_run10 ===
+MSG* capacity runner | d=128 | datasets=['MUTAG'] | shots=[5] | runs=[10] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  MUTAG | 5-shot | Run 11/5
+============================================================
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  Epoch   1/50 | Train: 65.5% | Test: 68.7% | Best: 68.7% | 10s
+  Epoch  10/50 | Train: 64.0% | Test: 65.3% | Best: 68.7% | 71s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 68.7% | 135s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 68.7% | 198s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 68.7% | 264s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 68.7% | 328s
+  >>> Final Accuracy: 50.0% (332.3s)
+>>> d128_MUTAG_5shot_run10: acc=50.00% (332.5s)
+DONE
+>>> msg_MUTAG_5shot_run10: done in 345s
+
+=== msg_MUTAG_5shot_run12 ===
+MSG* capacity runner | d=128 | datasets=['MUTAG'] | shots=[5] | runs=[12] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  MUTAG | 5-shot | Run 13/5
+============================================================
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  Epoch   1/50 | Train: 69.5% | Test: 64.0% | Best: 64.0% | 10s
+  Epoch  10/50 | Train: 49.5% | Test: 50.0% | Best: 64.0% | 68s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 64.0% | 132s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 64.0% | 196s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 64.0% | 262s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 64.0% | 327s
+  >>> Final Accuracy: 50.0% (331.3s)
+>>> d128_MUTAG_5shot_run12: acc=50.00% (331.4s)
+DONE
+>>> msg_MUTAG_5shot_run12: done in 345s
+
+=== msg_MUTAG_5shot_run14 ===
+MSG* capacity runner | d=128 | datasets=['MUTAG'] | shots=[5] | runs=[14] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  MUTAG | 5-shot | Run 15/5
+============================================================
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  Epoch   1/50 | Train: 67.0% | Test: 58.3% | Best: 58.3% | 10s
+  Epoch  10/50 | Train: 50.0% | Test: 50.0% | Best: 58.3% | 70s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 58.3% | 136s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 58.3% | 201s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 58.3% | 269s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 58.3% | 336s
+  >>> Final Accuracy: 50.0% (340.0s)
+>>> d128_MUTAG_5shot_run14: acc=50.00% (340.2s)
+DONE
+>>> msg_MUTAG_5shot_run14: done in 354s
+
+=== msg_MUTAG_5shot_run16 ===
+MSG* capacity runner | d=128 | datasets=['MUTAG'] | shots=[5] | runs=[16] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  MUTAG | 5-shot | Run 17/5
+============================================================
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  Epoch   1/50 | Train: 69.5% | Test: 65.7% | Best: 65.7% | 12s
+  Epoch  10/50 | Train: 50.0% | Test: 50.0% | Best: 65.7% | 86s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 65.7% | 171s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 65.7% | 232s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 65.7% | 322s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 65.7% | 444s
+  >>> Final Accuracy: 50.0% (447.1s)
+>>> d128_MUTAG_5shot_run16: acc=50.00% (447.3s)
+DONE
+>>> msg_MUTAG_5shot_run16: done in 461s
+
+=== msg_MUTAG_5shot_run18 ===
+MSG* capacity runner | d=128 | datasets=['MUTAG'] | shots=[5] | runs=[18] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  MUTAG | 5-shot | Run 19/5
+============================================================
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  Epoch   1/50 | Train: 69.5% | Test: 64.0% | Best: 64.0% | 9s
+  Epoch  10/50 | Train: 50.0% | Test: 50.0% | Best: 64.0% | 60s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 64.0% | 116s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 64.0% | 190s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 64.0% | 261s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 64.0% | 332s
+  >>> Final Accuracy: 50.0% (335.5s)
+>>> d128_MUTAG_5shot_run18: acc=50.00% (335.7s)
+DONE
+>>> msg_MUTAG_5shot_run18: done in 348s
+merged 43 runs -> D:\2026\paper\PBB\post\results\v24_extra_n20_merged.json
+
+=== msg_REDDIT-M5K_1shot_run6 ===
+MSG* capacity runner | d=128 | datasets=['REDDIT-M5K'] | shots=[1] | runs=[6] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  REDDIT-M5K | 1-shot | Run 7/5
+============================================================
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  Epoch   1/50 | Train: 27.4% | Test: 30.1% | Best: 30.1% | 196s
+  Epoch  10/50 | Train: 28.0% | Test: 30.9% | Best: 30.9% | 1601s
+  Epoch  20/50 | Train: 25.0% | Test: 29.5% | Best: 30.9% | 2915s
+  Epoch  30/50 | Train: 27.2% | Test: 31.5% | Best: 31.5% | 4076s
+  Epoch  40/50 | Train: 26.0% | Test: 32.3% | Best: 32.3% | 5668s
+  Epoch  50/50 | Train: 30.6% | Test: 31.9% | Best: 32.3% | 7701s
+  >>> Final Accuracy: 31.9% (7789.7s)
+>>> d128_REDDIT-M5K_1shot_run6: acc=31.87% (7790.7s)
+DONE
+>>> msg_REDDIT-M5K_1shot_run6: done in 7803s
+
+=== msg_REDDIT-M5K_1shot_run8 ===
+MSG* capacity runner | d=128 | datasets=['REDDIT-M5K'] | shots=[1] | runs=[8] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  REDDIT-M5K | 1-shot | Run 9/5
+============================================================
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  Epoch   1/50 | Train: 25.4% | Test: 31.5% | Best: 31.5% | 281s
+  Epoch  10/50 | Train: 28.0% | Test: 32.3% | Best: 32.3% | 2104s
+  Epoch  20/50 | Train: 25.4% | Test: 31.6% | Best: 32.3% | 4160s
+  Epoch  30/50 | Train: 27.2% | Test: 31.9% | Best: 32.3% | 6204s
+  Epoch  40/50 | Train: 24.6% | Test: 31.2% | Best: 32.3% | 8224s
+  Epoch  50/50 | Train: 28.0% | Test: 34.1% | Best: 34.1% | 10237s
+  >>> Final Accuracy: 34.1% (10325.2s)
+>>> d128_REDDIT-M5K_1shot_run8: acc=34.13% (10326.2s)
+DONE
+>>> msg_REDDIT-M5K_1shot_run8: done in 10341s
+
+=== msg_REDDIT-M5K_1shot_run10 ===
+MSG* capacity runner | d=128 | datasets=['REDDIT-M5K'] | shots=[1] | runs=[10] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  REDDIT-M5K | 1-shot | Run 11/5
+============================================================
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  Epoch   1/50 | Train: 29.6% | Test: 32.8% | Best: 32.8% | 280s
+  Epoch  10/50 | Train: 26.0% | Test: 29.9% | Best: 32.8% | 2080s
+  Epoch  20/50 | Train: 28.4% | Test: 29.3% | Best: 32.8% | 4105s
+  Epoch  30/50 | Train: 26.6% | Test: 28.9% | Best: 32.8% | 6145s
+  Epoch  40/50 | Train: 27.0% | Test: 29.9% | Best: 32.8% | 8067s
+  Epoch  50/50 | Train: 26.2% | Test: 29.3% | Best: 32.8% | 10016s
+  >>> Final Accuracy: 29.3% (10113.4s)
+>>> d128_REDDIT-M5K_1shot_run10: acc=29.33% (10114.7s)
+DONE
+>>> msg_REDDIT-M5K_1shot_run10: done in 10129s
+
+=== msg_REDDIT-M5K_1shot_run12 ===
+MSG* capacity runner | d=128 | datasets=['REDDIT-M5K'] | shots=[1] | runs=[12] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  REDDIT-M5K | 1-shot | Run 13/5
+============================================================
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  Epoch   1/50 | Train: 27.2% | Test: 32.5% | Best: 32.5% | 261s
+  Epoch  10/50 | Train: 28.6% | Test: 30.0% | Best: 32.5% | 2018s
+  Epoch  20/50 | Train: 28.8% | Test: 32.5% | Best: 32.5% | 4006s
+  Epoch  30/50 | Train: 29.4% | Test: 33.6% | Best: 33.6% | 6043s
+  Epoch  40/50 | Train: 27.4% | Test: 31.5% | Best: 33.6% | 7995s
+  Epoch  50/50 | Train: 27.0% | Test: 30.4% | Best: 33.6% | 9943s
+  >>> Final Accuracy: 30.4% (10030.9s)
+>>> d128_REDDIT-M5K_1shot_run12: acc=30.40% (10031.9s)
+DONE
+>>> msg_REDDIT-M5K_1shot_run12: done in 10046s
+
+=== msg_REDDIT-M5K_1shot_run14 ===
+MSG* capacity runner | d=128 | datasets=['REDDIT-M5K'] | shots=[1] | runs=[14] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  REDDIT-M5K | 1-shot | Run 15/5
+============================================================
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  Epoch   1/50 | Train: 22.8% | Test: 30.3% | Best: 30.3% | 282s
+  Epoch  10/50 | Train: 25.6% | Test: 30.4% | Best: 30.4% | 2202s
+  Epoch  20/50 | Train: 28.2% | Test: 30.5% | Best: 30.5% | 4304s
+  Epoch  30/50 | Train: 26.8% | Test: 30.1% | Best: 30.5% | 6441s
+  Epoch  40/50 | Train: 33.6% | Test: 29.3% | Best: 30.5% | 8473s
+  Epoch  50/50 | Train: 30.4% | Test: 30.9% | Best: 30.9% | 10574s
+  >>> Final Accuracy: 30.9% (10665.4s)
+>>> d128_REDDIT-M5K_1shot_run14: acc=30.93% (10666.4s)
+DONE
+>>> msg_REDDIT-M5K_1shot_run14: done in 10680s
+
+=== msg_REDDIT-M5K_1shot_run16 ===
+MSG* capacity runner | d=128 | datasets=['REDDIT-M5K'] | shots=[1] | runs=[16] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  REDDIT-M5K | 1-shot | Run 17/5
+============================================================
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  Epoch   1/50 | Train: 23.6% | Test: 30.9% | Best: 30.9% | 292s
+  Epoch  10/50 | Train: 28.4% | Test: 31.2% | Best: 31.2% | 2298s
+  Epoch  20/50 | Train: 26.6% | Test: 30.4% | Best: 31.2% | 4387s
+  Epoch  30/50 | Train: 25.6% | Test: 31.3% | Best: 31.3% | 6496s
+  Epoch  40/50 | Train: 24.0% | Test: 30.8% | Best: 31.3% | 8511s
+  Epoch  50/50 | Train: 29.2% | Test: 29.5% | Best: 31.3% | 10607s
+  >>> Final Accuracy: 29.5% (10698.7s)
+>>> d128_REDDIT-M5K_1shot_run16: acc=29.47% (10699.8s)
+DONE
+>>> msg_REDDIT-M5K_1shot_run16: done in 10714s
+
+=== msg_REDDIT-M5K_1shot_run18 ===
+MSG* capacity runner | d=128 | datasets=['REDDIT-M5K'] | shots=[1] | runs=[18] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  REDDIT-M5K | 1-shot | Run 19/5
+============================================================
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  Epoch   1/50 | Train: 26.2% | Test: 31.1% | Best: 31.1% | 280s
+  Epoch  10/50 | Train: 24.6% | Test: 32.8% | Best: 32.8% | 2176s
+  Epoch  20/50 | Train: 29.0% | Test: 28.7% | Best: 32.8% | 4314s
+  Epoch  30/50 | Train: 28.4% | Test: 31.2% | Best: 32.8% | 6432s
+  Epoch  40/50 | Train: 27.2% | Test: 30.7% | Best: 32.8% | 8364s
+  Epoch  50/50 | Train: 28.6% | Test: 32.7% | Best: 32.8% | 10357s
+  >>> Final Accuracy: 32.7% (10446.4s)
+>>> d128_REDDIT-M5K_1shot_run18: acc=32.67% (10447.5s)
+DONE
+>>> msg_REDDIT-M5K_1shot_run18: done in 10462s
+
+=== msg_DD_1shot_run6 ===
+MSG* capacity runner | d=128 | datasets=['DD'] | shots=[1] | runs=[6] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  DD | 1-shot | Run 7/5
+============================================================
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+  Epoch   1/50 | Train: 49.0% | Test: 52.3% | Best: 52.3% | 105s
+  Epoch  10/50 | Train: 50.0% | Test: 50.0% | Best: 52.3% | 826s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 52.3% | 1658s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 52.3% | 2495s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 52.3% | 3202s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 52.3% | 3908s
+  >>> Final Accuracy: 50.0% (3947.3s)
+>>> d128_DD_1shot_run6: acc=50.00% (3948.1s)
+DONE
+>>> msg_DD_1shot_run6: done in 3963s
+
+=== msg_DD_1shot_run8 ===
+MSG* capacity runner | d=128 | datasets=['DD'] | shots=[1] | runs=[8] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  DD | 1-shot | Run 9/5
+============================================================
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+  Epoch   1/50 | Train: 46.0% | Test: 50.0% | Best: 50.0% | 93s
+  Epoch  10/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 732s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 1445s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 2251s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 4510s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 6278s
+  >>> Final Accuracy: 50.0% (6350.9s)
+>>> d128_DD_1shot_run8: acc=50.00% (6351.6s)
+DONE
+>>> msg_DD_1shot_run8: done in 6368s
+
+=== msg_DD_1shot_run10 ===
+MSG* capacity runner | d=128 | datasets=['DD'] | shots=[1] | runs=[10] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  DD | 1-shot | Run 11/5
+============================================================
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+  Epoch   1/50 | Train: 52.5% | Test: 50.0% | Best: 50.0% | 224s
+  Epoch  10/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 1436s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 2636s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 3826s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 4741s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 5497s
+  >>> Final Accuracy: 50.0% (5536.7s)
+>>> d128_DD_1shot_run10: acc=50.00% (5537.5s)
+DONE
+>>> msg_DD_1shot_run10: done in 5555s
+
+=== msg_DD_1shot_run12 ===
+MSG* capacity runner | d=128 | datasets=['DD'] | shots=[1] | runs=[12] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  DD | 1-shot | Run 13/5
+============================================================
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+  Epoch   1/50 | Train: 53.0% | Test: 53.0% | Best: 53.0% | 117s
+  Epoch  10/50 | Train: 50.0% | Test: 50.0% | Best: 53.0% | 824s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 53.0% | 1451s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 53.0% | 1925s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 53.0% | 2388s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 53.0% | 2851s
+  >>> Final Accuracy: 50.0% (2874.1s)
+>>> d128_DD_1shot_run12: acc=50.00% (2874.8s)
+DONE
+>>> msg_DD_1shot_run12: done in 2889s
+
+=== msg_DD_1shot_run14 ===
+MSG* capacity runner | d=128 | datasets=['DD'] | shots=[1] | runs=[14] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  DD | 1-shot | Run 15/5
+============================================================
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+  Epoch   1/50 | Train: 50.0% | Test: 48.0% | Best: 48.0% | 71s
+  Epoch  10/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 482s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 931s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 1386s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 1855s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 2324s
+  >>> Final Accuracy: 50.0% (2347.9s)
+>>> d128_DD_1shot_run14: acc=50.00% (2348.4s)
+DONE
+>>> msg_DD_1shot_run14: done in 2362s
+
+=== msg_DD_1shot_run16 ===
+MSG* capacity runner | d=128 | datasets=['DD'] | shots=[1] | runs=[16] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  DD | 1-shot | Run 17/5
+============================================================
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+  Epoch   1/50 | Train: 50.5% | Test: 50.0% | Best: 50.0% | 68s
+  Epoch  10/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 489s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 942s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 1398s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 1864s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 2354s
+  >>> Final Accuracy: 50.0% (2380.4s)
+>>> d128_DD_1shot_run16: acc=50.00% (2380.9s)
+DONE
+>>> msg_DD_1shot_run16: done in 2394s
+
+=== msg_DD_1shot_run18 ===
+MSG* capacity runner | d=128 | datasets=['DD'] | shots=[1] | runs=[18] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  DD | 1-shot | Run 19/5
+============================================================
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+  Epoch   1/50 | Train: 49.5% | Test: 50.0% | Best: 50.0% | 77s
+  Epoch  10/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 506s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 964s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 1444s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 1921s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 2399s
+  >>> Final Accuracy: 50.0% (2423.9s)
+>>> d128_DD_1shot_run18: acc=50.00% (2424.7s)
+DONE
+>>> msg_DD_1shot_run18: done in 2438s
+merged 103 runs -> D:\2026\paper\PBB\post\results\v24_extra_n20_merged.json
+MSG-QUEUE-B-DONE

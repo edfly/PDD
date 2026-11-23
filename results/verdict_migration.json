@@ -1,0 +1,40 @@
+{
+ "family": "60 paired tests (6 baselines x 5 datasets x 2 shots), BH within family",
+ "n5_counts": {
+  "LEAD": 21,
+  "ns": 39,
+  "DEFICIT": 0
+ },
+ "n20_counts": {
+  "LEAD": 23,
+  "ns": 33,
+  "DEFICIT": 4
+ },
+ "flows": {
+  "LEAD->LEAD": 17,
+  "LEAD->ns": 4,
+  "ns->DEFICIT": 4,
+  "ns->LEAD": 6,
+  "ns->ns": 29
+ },
+ "dissolved_leads": [
+  "Proto-GCN PROTEINS-5",
+  "Proto-GIN PROTEINS-5",
+  "Proto-SAGE PROTEINS-5",
+  "Spike-GNN (Euc.) MUTAG-5"
+ ],
+ "confirmed_leads": [
+  "MSG* REDDIT-M5K-1",
+  "MSG* DD-1",
+  "MSG* ENZYMES-1",
+  "MSG* ENZYMES-5",
+  "Proto-GAT ENZYMES-5",
+  "Proto-GAT REDDIT-M5K-1"
+ ],
+ "revealed_deficits": [
+  "Proto-GAT PROTEINS-5",
+  "Proto-GAT DD-1",
+  "Proto-GIN REDDIT-M5K-1",
+  "Spike-GNN (Euc.) PROTEINS-5"
+ ]
+}

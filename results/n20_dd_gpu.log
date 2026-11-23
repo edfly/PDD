@@ -1,0 +1,408 @@
+
+=== spike_DD_1shot_run10 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=54.0% test=51.5% skip=0/20 sr_train=0.308
+  E  2: train=51.5% test=49.0% skip=0/20 sr_train=0.383
+  E  3: train=46.0% test=54.5% skip=0/20 sr_train=0.353
+  E 10: train=51.0% test=52.5% skip=0/20 sr_train=0.391
+  E 20: train=53.5% test=57.0% skip=0/20 sr_train=0.431
+  E 30: train=50.0% test=54.0% skip=0/20 sr_train=0.389
+  E 40: train=50.0% test=56.0% skip=0/20 sr_train=0.392
+  E 50: train=59.5% test=58.0% skip=0/20 sr_train=0.392
+worker spike_DD_1shot_run10: ok
+>>> spike_DD_1shot_run10: done in 4563s
+
+=== spike_DD_1shot_run11 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=55.5% test=61.0% skip=0/20 sr_train=0.292
+  E  2: train=47.0% test=48.0% skip=0/20 sr_train=0.368
+  E  3: train=50.5% test=56.5% skip=0/20 sr_train=0.360
+  E 10: train=56.0% test=53.0% skip=0/20 sr_train=0.385
+  E 20: train=52.0% test=52.0% skip=0/20 sr_train=0.398
+  E 30: train=47.0% test=46.0% skip=0/20 sr_train=0.417
+  E 40: train=48.0% test=53.0% skip=0/20 sr_train=0.393
+  E 50: train=52.0% test=43.0% skip=0/20 sr_train=0.393
+worker spike_DD_1shot_run11: ok
+>>> spike_DD_1shot_run11: done in 4253s
+
+=== spike_DD_1shot_run12 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=54.5% test=50.0% skip=0/20 sr_train=0.316
+  E  2: train=56.5% test=47.5% skip=0/20 sr_train=0.348
+  E  3: train=51.5% test=56.0% skip=0/20 sr_train=0.372
+  E 10: train=56.0% test=50.5% skip=0/20 sr_train=0.367
+  E 20: train=44.5% test=54.0% skip=0/20 sr_train=0.385
+  E 30: train=48.5% test=47.0% skip=0/20 sr_train=0.393
+  E 40: train=53.0% test=51.5% skip=0/20 sr_train=0.390
+  E 50: train=44.0% test=50.5% skip=0/20 sr_train=0.391
+worker spike_DD_1shot_run12: ok
+>>> spike_DD_1shot_run12: done in 4308s
+
+=== spike_DD_1shot_run13 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=57.0% test=55.0% skip=0/20 sr_train=0.321
+  E  2: train=43.5% test=55.5% skip=0/20 sr_train=0.366
+  E  3: train=43.5% test=53.0% skip=0/20 sr_train=0.378
+  E 10: train=52.5% test=48.0% skip=0/20 sr_train=0.388
+  E 20: train=51.5% test=55.0% skip=0/20 sr_train=0.393
+  E 30: train=49.0% test=48.5% skip=0/20 sr_train=0.387
+  E 40: train=49.5% test=53.5% skip=0/20 sr_train=0.394
+  E 50: train=56.5% test=50.5% skip=0/20 sr_train=0.394
+worker spike_DD_1shot_run13: ok
+>>> spike_DD_1shot_run13: done in 4296s
+
+=== spike_DD_1shot_run14 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=47.5% test=54.0% skip=0/20 sr_train=0.299
+  E  2: train=52.0% test=56.5% skip=0/20 sr_train=0.375
+  E  3: train=52.5% test=52.0% skip=0/20 sr_train=0.378
+  E 10: train=51.0% test=48.5% skip=0/20 sr_train=0.393
+  E 20: train=56.5% test=56.0% skip=0/20 sr_train=0.388
+  E 30: train=55.5% test=60.0% skip=0/20 sr_train=0.392
+  E 40: train=50.0% test=62.5% skip=0/20 sr_train=0.395
+  E 50: train=49.0% test=54.5% skip=0/20 sr_train=0.394
+worker spike_DD_1shot_run14: ok
+>>> spike_DD_1shot_run14: done in 4260s
+
+=== spike_DD_1shot_run15 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=51.5% test=55.0% skip=0/20 sr_train=0.315
+  E  2: train=51.0% test=55.0% skip=0/20 sr_train=0.354
+  E  3: train=56.5% test=45.0% skip=0/20 sr_train=0.351
+  E 10: train=52.5% test=50.0% skip=0/20 sr_train=0.384
+  E 20: train=52.0% test=52.5% skip=0/20 sr_train=0.391
+  E 30: train=50.0% test=50.0% skip=0/20 sr_train=0.388
+  E 40: train=64.0% test=48.0% skip=0/20 sr_train=0.393
+  E 50: train=51.0% test=61.0% skip=0/20 sr_train=0.388
+worker spike_DD_1shot_run15: ok
+>>> spike_DD_1shot_run15: done in 4285s
+
+=== spike_DD_1shot_run16 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=48.0% test=52.5% skip=0/20 sr_train=0.306
+  E  2: train=43.5% test=55.0% skip=0/20 sr_train=0.355
+  E  3: train=51.5% test=51.5% skip=0/20 sr_train=0.378
+  E 10: train=56.0% test=54.5% skip=0/20 sr_train=0.391
+  E 20: train=53.0% test=51.5% skip=0/20 sr_train=0.392
+  E 30: train=53.5% test=52.0% skip=0/20 sr_train=0.390
+  E 40: train=56.5% test=47.0% skip=0/20 sr_train=0.391
+  E 50: train=50.5% test=48.5% skip=0/20 sr_train=0.391
+worker spike_DD_1shot_run16: ok
+>>> spike_DD_1shot_run16: done in 4328s
+
+=== spike_DD_1shot_run17 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=53.5% test=48.0% skip=0/20 sr_train=0.313
+  E  2: train=46.5% test=51.5% skip=0/20 sr_train=0.379
+  E  3: train=50.5% test=53.0% skip=0/20 sr_train=0.378
+  E 10: train=47.5% test=53.5% skip=0/20 sr_train=0.393
+  E 20: train=54.5% test=53.5% skip=0/20 sr_train=0.394
+  E 30: train=53.5% test=54.5% skip=0/20 sr_train=0.397
+  E 40: train=53.0% test=55.0% skip=0/20 sr_train=0.393
+  E 50: train=45.5% test=51.5% skip=0/20 sr_train=0.393
+worker spike_DD_1shot_run17: ok
+>>> spike_DD_1shot_run17: done in 4292s
+
+=== spike_DD_1shot_run18 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=46.0% test=46.0% skip=0/20 sr_train=0.315
+  E  2: train=53.0% test=52.0% skip=0/20 sr_train=0.354
+  E  3: train=47.0% test=49.0% skip=0/20 sr_train=0.368
+  E 10: train=51.0% test=49.0% skip=0/20 sr_train=0.395
+  E 20: train=52.5% test=50.5% skip=0/20 sr_train=0.392
+  E 30: train=49.5% test=55.5% skip=0/20 sr_train=0.384
+  E 40: train=49.0% test=49.0% skip=0/20 sr_train=0.386
+  E 50: train=50.5% test=59.0% skip=0/20 sr_train=0.370
+worker spike_DD_1shot_run18: ok
+>>> spike_DD_1shot_run18: done in 4483s
+
+=== spike_DD_1shot_run19 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=48.0% test=51.0% skip=0/20 sr_train=0.306
+  E  2: train=49.0% test=55.0% skip=0/20 sr_train=0.364
+  E  3: train=48.0% test=56.5% skip=0/20 sr_train=0.396
+  E 10: train=54.0% test=54.5% skip=0/20 sr_train=0.387
+  E 20: train=50.5% test=56.5% skip=0/20 sr_train=0.396
+  E 30: train=52.0% test=50.0% skip=0/20 sr_train=0.397
+  E 40: train=55.0% test=63.5% skip=0/20 sr_train=0.389
+  E 50: train=56.0% test=50.0% skip=0/20 sr_train=0.392
+worker spike_DD_1shot_run19: ok
+>>> spike_DD_1shot_run19: done in 4391s
+merged 400 runs -> D:\2026\paper\PBB\post\results\v24_extra_n20_merged.json
+
+=== euc_DD_1shot_run5 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=50.0% test=50.5% skip=0/20 sr_train=0.308
+  E  2: train=53.5% test=55.0% skip=0/20 sr_train=0.372
+  E  3: train=51.5% test=58.0% skip=0/20 sr_train=0.382
+  E 10: train=48.5% test=51.5% skip=0/20 sr_train=0.391
+  E 20: train=54.0% test=51.5% skip=0/20 sr_train=0.381
+  E 30: train=55.0% test=54.0% skip=0/20 sr_train=0.408
+  E 40: train=52.5% test=52.5% skip=0/20 sr_train=0.394
+  E 50: train=62.5% test=56.5% skip=0/20 sr_train=0.393
+worker euc_DD_1shot_run5: ok
+>>> euc_DD_1shot_run5: done in 1687s
+
+=== euc_DD_1shot_run6 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=50.5% test=52.0% skip=0/20 sr_train=0.303
+  E  2: train=56.5% test=47.5% skip=0/20 sr_train=0.348
+  E  3: train=50.0% test=50.5% skip=0/20 sr_train=0.387
+  E 10: train=52.0% test=49.5% skip=0/20 sr_train=0.387
+  E 20: train=53.5% test=51.0% skip=0/20 sr_train=0.392
+  E 30: train=53.0% test=53.5% skip=0/20 sr_train=0.373
+  E 40: train=53.5% test=55.0% skip=0/20 sr_train=0.390
+  E 50: train=56.0% test=58.5% skip=0/20 sr_train=0.375
+worker euc_DD_1shot_run6: ok
+>>> euc_DD_1shot_run6: done in 1685s
+
+=== euc_DD_1shot_run7 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=54.5% test=50.5% skip=0/20 sr_train=0.318
+  E  2: train=49.0% test=47.5% skip=0/20 sr_train=0.371
+  E  3: train=53.0% test=46.5% skip=0/20 sr_train=0.352
+  E 10: train=49.0% test=49.0% skip=0/20 sr_train=0.391
+  E 20: train=53.0% test=53.5% skip=0/20 sr_train=0.391
+  E 30: train=51.0% test=49.0% skip=0/20 sr_train=0.390
+  E 40: train=51.5% test=54.5% skip=0/20 sr_train=0.396
+  E 50: train=52.0% test=49.5% skip=0/20 sr_train=0.391
+worker euc_DD_1shot_run7: ok
+>>> euc_DD_1shot_run7: done in 1680s
+
+=== euc_DD_1shot_run8 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=49.5% test=57.0% skip=0/20 sr_train=0.336
+  E  2: train=50.0% test=52.5% skip=0/20 sr_train=0.370
+  E  3: train=49.0% test=51.0% skip=0/20 sr_train=0.383
+  E 10: train=52.0% test=53.5% skip=0/20 sr_train=0.383
+  E 20: train=49.0% test=50.5% skip=0/20 sr_train=0.393
+  E 30: train=60.0% test=52.0% skip=0/20 sr_train=0.401
+  E 40: train=48.0% test=54.0% skip=0/20 sr_train=0.392
+  E 50: train=56.0% test=53.5% skip=0/20 sr_train=0.391
+worker euc_DD_1shot_run8: ok
+>>> euc_DD_1shot_run8: done in 1660s
+
+=== euc_DD_1shot_run9 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=57.0% test=54.0% skip=0/20 sr_train=0.309
+  E  2: train=52.5% test=49.5% skip=0/20 sr_train=0.363
+  E  3: train=49.0% test=46.5% skip=0/20 sr_train=0.370
+  E 10: train=51.5% test=54.0% skip=0/20 sr_train=0.390
+  E 20: train=52.5% test=53.5% skip=0/20 sr_train=0.391
+  E 30: train=59.0% test=50.5% skip=0/20 sr_train=0.389
+  E 40: train=55.0% test=49.0% skip=0/20 sr_train=0.398
+  E 50: train=57.0% test=55.5% skip=0/20 sr_train=0.393
+worker euc_DD_1shot_run9: ok
+>>> euc_DD_1shot_run9: done in 1684s
+
+=== euc_DD_1shot_run10 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=54.5% test=50.5% skip=0/20 sr_train=0.309
+  E  2: train=51.0% test=50.5% skip=0/20 sr_train=0.364
+  E  3: train=46.0% test=52.0% skip=0/20 sr_train=0.374
+  E 10: train=51.5% test=55.0% skip=0/20 sr_train=0.390
+  E 20: train=56.0% test=55.5% skip=0/20 sr_train=0.416
+  E 30: train=48.5% test=46.0% skip=0/20 sr_train=0.388
+  E 40: train=46.5% test=52.5% skip=0/20 sr_train=0.390
+  E 50: train=51.0% test=55.0% skip=0/20 sr_train=0.390
+worker euc_DD_1shot_run10: ok
+>>> euc_DD_1shot_run10: done in 1708s
+
+=== euc_DD_1shot_run11 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=54.0% test=61.5% skip=0/20 sr_train=0.290
+  E  2: train=44.5% test=50.0% skip=0/20 sr_train=0.392
+  E  3: train=49.0% test=57.5% skip=0/20 sr_train=0.376
+  E 10: train=55.5% test=50.5% skip=0/20 sr_train=0.379
+  E 20: train=51.5% test=54.0% skip=0/20 sr_train=0.368
+  E 30: train=56.0% test=51.5% skip=0/20 sr_train=0.388
+  E 40: train=52.0% test=58.0% skip=0/20 sr_train=0.396
+  E 50: train=58.5% test=62.5% skip=0/20 sr_train=0.364
+worker euc_DD_1shot_run11: ok
+>>> euc_DD_1shot_run11: done in 1668s
+
+=== euc_DD_1shot_run12 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=54.5% test=52.5% skip=0/20 sr_train=0.292
+  E  2: train=54.0% test=47.0% skip=0/20 sr_train=0.344
+  E  3: train=50.5% test=55.5% skip=0/20 sr_train=0.400
+  E 10: train=54.0% test=52.0% skip=0/20 sr_train=0.375
+  E 20: train=46.0% test=52.0% skip=0/20 sr_train=0.391
+  E 30: train=48.5% test=50.5% skip=0/20 sr_train=0.388
+  E 40: train=50.0% test=51.0% skip=0/20 sr_train=0.392
+  E 50: train=48.0% test=52.0% skip=0/20 sr_train=0.389
+worker euc_DD_1shot_run12: ok
+>>> euc_DD_1shot_run12: done in 1675s
+
+=== euc_DD_1shot_run13 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=58.0% test=53.5% skip=0/20 sr_train=0.320
+  E  2: train=44.5% test=56.5% skip=0/20 sr_train=0.361
+  E  3: train=45.5% test=52.0% skip=0/20 sr_train=0.378
+  E 10: train=52.0% test=49.0% skip=0/20 sr_train=0.379
+  E 20: train=53.5% test=56.5% skip=0/20 sr_train=0.392
+  E 30: train=50.5% test=52.5% skip=0/20 sr_train=0.384
+  E 40: train=49.5% test=53.5% skip=0/20 sr_train=0.395
+  E 50: train=50.0% test=52.5% skip=0/20 sr_train=0.393
+worker euc_DD_1shot_run13: ok
+>>> euc_DD_1shot_run13: done in 1670s
+
+=== euc_DD_1shot_run14 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=48.5% test=53.0% skip=0/20 sr_train=0.302
+  E  2: train=52.5% test=53.5% skip=0/20 sr_train=0.371
+  E  3: train=51.5% test=50.5% skip=0/20 sr_train=0.367
+  E 10: train=49.5% test=51.5% skip=0/20 sr_train=0.372
+  E 20: train=55.5% test=58.0% skip=0/20 sr_train=0.412
+  E 30: train=55.5% test=59.0% skip=0/20 sr_train=0.385
+  E 40: train=47.0% test=61.0% skip=0/20 sr_train=0.389
+  E 50: train=57.5% test=55.5% skip=0/20 sr_train=0.373
+worker euc_DD_1shot_run14: ok
+>>> euc_DD_1shot_run14: done in 1679s
+
+=== euc_DD_1shot_run15 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=49.5% test=54.5% skip=0/20 sr_train=0.310
+  E  2: train=49.0% test=53.0% skip=0/20 sr_train=0.391
+  E  3: train=54.0% test=46.5% skip=0/20 sr_train=0.366
+  E 10: train=53.0% test=50.0% skip=0/20 sr_train=0.385
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 181, in run_spike_like
+    loss.backward()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\_tensor.py", line 631, in backward
+    torch.autograd.backward(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        self, gradient, retain_graph, create_graph, inputs=inputs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\autograd\__init__.py", line 381, in backward
+    _engine_run_backward(
+    ~~~~~~~~~~~~~~~~~~~~^
+        tensors,
+        ^^^^^^^^
+    ...<5 lines>...
+        accumulate_grad=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\autograd\graph.py", line 869, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        t_outputs, *args, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )  # Calls into the C++ engine to run the backward pass
+    ^
+RuntimeError: bad allocation
+  [warn] first skipped episode in DD_1shot_run15; further skips silent
+  E 20: train=50.5% test=55.5% skip=0/20 sr_train=0.384
+  E 30: train=55.0% test=47.0% skip=0/20 sr_train=0.413
+  E 40: train=62.5% test=48.5% skip=0/20 sr_train=0.361
+  E 50: train=49.5% test=55.0% skip=0/20 sr_train=0.374
+worker euc_DD_1shot_run15: ok
+>>> euc_DD_1shot_run15: done in 1672s
+
+=== euc_DD_1shot_run16 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=50.0% test=52.5% skip=0/20 sr_train=0.310
+  E  2: train=48.5% test=49.0% skip=0/20 sr_train=0.385
+  E  3: train=54.0% test=53.5% skip=0/20 sr_train=0.384
+  E 10: train=51.5% test=53.0% skip=0/20 sr_train=0.400
+  E 20: train=50.0% test=56.0% skip=0/20 sr_train=0.383
+  E 30: train=53.0% test=55.0% skip=0/20 sr_train=0.393
+  E 40: train=55.0% test=49.0% skip=0/20 sr_train=0.392
+  E 50: train=48.0% test=53.5% skip=0/20 sr_train=0.391
+worker euc_DD_1shot_run16: ok
+>>> euc_DD_1shot_run16: done in 1683s
+
+=== euc_DD_1shot_run17 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=56.0% test=45.0% skip=0/20 sr_train=0.291
+  E  2: train=47.5% test=52.5% skip=0/20 sr_train=0.392
+  E  3: train=49.5% test=52.5% skip=0/20 sr_train=0.372
+  E 10: train=51.0% test=52.0% skip=0/20 sr_train=0.387
+  E 20: train=53.0% test=54.5% skip=0/20 sr_train=0.394
+  E 30: train=55.5% test=59.0% skip=0/20 sr_train=0.475
+  E 40: train=51.0% test=51.0% skip=0/20 sr_train=0.405
+  E 50: train=52.5% test=51.5% skip=0/20 sr_train=0.366
+worker euc_DD_1shot_run17: ok
+>>> euc_DD_1shot_run17: done in 1680s
+
+=== euc_DD_1shot_run18 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=46.5% test=45.5% skip=0/20 sr_train=0.284
+  E  2: train=53.0% test=53.5% skip=0/20 sr_train=0.382
+  E  3: train=50.0% test=50.0% skip=0/20 sr_train=0.385
+  E 10: train=51.5% test=51.0% skip=0/20 sr_train=0.383
+  E 20: train=51.5% test=53.5% skip=0/20 sr_train=0.390
+  E 30: train=48.0% test=48.5% skip=0/20 sr_train=0.358
+  E 40: train=48.5% test=51.0% skip=0/20 sr_train=0.393
+  E 50: train=56.5% test=48.0% skip=0/20 sr_train=0.389
+worker euc_DD_1shot_run18: ok
+>>> euc_DD_1shot_run18: done in 1660s
+
+=== euc_DD_1shot_run19 ===
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+  E  1: train=50.0% test=49.5% skip=0/20 sr_train=0.301
+  E  2: train=49.0% test=54.5% skip=0/20 sr_train=0.373
+  E  3: train=48.5% test=54.5% skip=0/20 sr_train=0.380
+  E 10: train=53.0% test=57.0% skip=0/20 sr_train=0.383
+  E 20: train=51.5% test=53.5% skip=0/20 sr_train=0.404
+  E 30: train=46.0% test=50.0% skip=0/20 sr_train=0.386
+  E 40: train=52.0% test=57.0% skip=0/20 sr_train=0.390
+  E 50: train=55.5% test=54.0% skip=0/20 sr_train=0.395
+worker euc_DD_1shot_run19: ok
+>>> euc_DD_1shot_run19: done in 1696s
+merged 416 runs -> D:\2026\paper\PBB\post\results\v24_extra_n20_merged.json
+DD-GPU-DONE

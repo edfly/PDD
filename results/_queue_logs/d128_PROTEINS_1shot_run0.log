@@ -1,0 +1,15 @@
+MSG* capacity runner | d=128 | datasets=['PROTEINS'] | shots=[1] | runs=[0] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  PROTEINS | 1-shot | Run 1/5
+============================================================
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 54.5% | Test: 50.0% | Best: 50.0% | 6s
+  Epoch  10/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 40s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 82s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 124s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 164s
+  Epoch  50/50 | Train: 50.0% | Test: 50.3% | Best: 50.3% | 206s
+  >>> Final Accuracy: 50.3% (208.1s)
+>>> d128_PROTEINS_1shot_run0: acc=50.33% (208.4s)
+DONE

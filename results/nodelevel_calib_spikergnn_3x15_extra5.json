@@ -1,0 +1,50 @@
+{
+  "model": "spikergnn",
+  "runs": [
+    {
+      "model": "spikergnn",
+      "run_id": 0,
+      "best_val": 0.5004865527153015,
+      "best_test": 0.4713701009750366,
+      "rate_mean": 0.20735499068471921,
+      "peak_mem_gib": 0.547141632,
+      "seconds": 726.3
+    },
+    {
+      "model": "spikergnn",
+      "run_id": 1,
+      "best_val": 0.4959562122821808,
+      "best_test": 0.4696418046951294,
+      "rate_mean": 0.20574605641301244,
+      "peak_mem_gib": 0.544219648,
+      "seconds": 594.7
+    },
+    {
+      "model": "spikergnn",
+      "run_id": 2,
+      "best_val": 0.48622435331344604,
+      "best_test": 0.4551982581615448,
+      "rate_mean": 0.21052733150511163,
+      "peak_mem_gib": 0.536920064,
+      "seconds": 534.2
+    },
+    {
+      "model": "spikergnn",
+      "run_id": 3,
+      "best_val": 0.4898150861263275,
+      "best_test": 0.4584902226924896,
+      "rate_mean": 0.20462858507140236,
+      "peak_mem_gib": 0.538861056,
+      "seconds": 535.1
+    },
+    {
+      "model": "spikergnn",
+      "run_id": 4,
+      "best_val": 0.48350614309310913,
+      "best_test": 0.46104151010513306,
+      "rate_mean": 0.20709776181774192,
+      "peak_mem_gib": 0.536283136,
+      "seconds": 535.8
+    }
+  ]
+}

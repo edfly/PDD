@@ -1,0 +1,10 @@
+model params=182,159
+EAGER step = 1.332s  (loss=0.0027)
+DIAG RGC0: cached=False true=False deg_cap=32 max_deg=16
+DIAG RGC1: cached=False true=False deg_cap=32 max_deg=16
+CAPTURE ok
+DEBUG warmup_loss=0.002943 replay_loss=0.002943 m3_eager_loss=0.002943 fwd_maxdiff_replay_vs_m3=1.974e-07
+CORRECTNESS: replay_loss=0.002943 eager_loss=0.002943 loss_ok=True max_grad_rel=5.98e-06 max_grad_abs=1.22e-09 grad_none_mismatch=0
+REPLAY step = 0.358s  (mean of 5)
+SPEEDUP factor = 3.72x
+DONE

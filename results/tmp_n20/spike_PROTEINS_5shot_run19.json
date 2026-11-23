@@ -1,0 +1,32 @@
+{
+  "PROTEINS_5shot_run19": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 19,
+    "final_acc": 0.5800000091393789,
+    "best_acc": 0.6450000062584877,
+    "total_spikes": 39487,
+    "spike_history_last5": [
+      27817,
+      28734,
+      30279,
+      34279,
+      27894
+    ],
+    "spike_rate_history_last5": [
+      0.49534082114696504,
+      0.49425692558288575,
+      0.492804454267025,
+      0.4928573578596115,
+      0.4938453808426857
+    ],
+    "final_spike_rate": 0.49370690683523816,
+    "u_th_learnable": 0.9519428014755249,
+    "lambda_gate": 0.5120269656181335,
+    "spike_alpha": 0.6076945066452026,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 3286.8,
+    "device": "cuda"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "constants_pJ": {
+    "analytic": 0.9,
+    "dense_gpu": 4.6,
+    "loihi": 23.6,
+    "truenorth": 26.0
+  },
+  "reference_dense": "Proto-GIN",
+  "reference_dense_E_loihi_mean_uj": 69.84744106666666,
+  "reference_dense_E_truenorth_mean_uj": 76.95057066666666,
+  "projection": {
+    "Proto-GCN": {
+      "type": "dense",
+      "r_bar": null,
+      "E_analytic": {
+        "MUTAG": 0.80074368,
+        "PROTEINS": 1.7593228800000003,
+        "ENZYMES": 1.4673369600000001
+      },
+      "E_analytic_mean": 1.34246784,
+      "E_loihi": {
+        "MUTAG": 20.99727872,
+        "PROTEINS": 46.13335552000001,
+        "ENZYMES": 38.47683584000001
+      },
+      "E_loihi_mean": 35.20249002666667,
+      "E_truenorth": {
+        "MUTAG": 23.1325952,
+        "PROTEINS": 50.82488320000001,
+        "ENZYMES": 42.3897344
+      },
+      "E_truenorth_mean": 38.78240426666667,
+      "E_dense_gpu": {
+        "MUTAG": 4.09268992,
+        "PROTEINS": 8.99209472,
+        "ENZYMES": 7.4997222400000005
+      },
+      "E_dense_gpu_mean": 6.861502293333333
+    },
+    "Proto-GIN": {
+      "type": "dense",
+      "r_bar": null,
+      "E_analytic": {
+        "MUTAG": 1.5925823999999997,
+        "PROTEINS": 3.4889817599999997,
+        "ENZYMES": 2.90945664
+      },
+      "E_analytic_mean": 2.6636735999999996,
+      "E_loihi": {
+        "MUTAG": 41.7610496,
+        "PROTEINS": 91.48885503999999,
+        "ENZYMES": 76.29241856
+      },
+      "E_loihi_mean": 69.84744106666666,
+      "E_truenorth": {
+        "MUTAG": 46.007935999999994,
+        "PROTEINS": 100.79280639999999,
+        "ENZYMES": 84.0509696
+      },
+      "E_truenorth_mean": 76.95057066666666,
+      "E_dense_gpu": {
+        "MUTAG": 8.139865599999998,
+        "PROTEINS": 17.832573439999997,
+        "ENZYMES": 14.87055616
+      },
+      "E_dense_gpu_mean": 13.614331733333332
+    },
+    "Proto-SAGE": {
+      "type": "dense",
+      "r_bar": null,
+      "E_analytic": {
+        "MUTAG": 1.5925823999999997,
+        "PROTEINS": 3.4889817599999997,
+        "ENZYMES": 2.90945664
+      },
+      "E_analytic_mean": 2.6636735999999996,
+      "E_loihi": {
+        "MUTAG": 41.7610496,
+        "PROTEINS": 91.48885503999999,
+        "ENZYMES": 76.29241856
+      },
+      "E_loihi_mean": 69.84744106666666,
+      "E_truenorth": {
+        "MUTAG": 46.007935999999994,
+        "PROTEINS": 100.79280639999999,
+        "ENZYMES": 84.0509696
+      },
+      "E_truenorth_mean": 76.95057066666666,
+      "E_dense_gpu": {
+        "MUTAG": 8.139865599999998,
+        "PROTEINS": 17.832573439999997,
+        "ENZYMES": 14.87055616
+      },
+      "E_dense_gpu_mean": 13.614331733333332
+    },
+    "MSG*": {
+      "type": "dense",
+      "r_bar": null,
+      "E_analytic": {
+        "MUTAG": 0.8806118400000001,
+        "PROTEINS": 1.934804736,
+        "ENZYMES": 1.6136951040000005
+      },
+      "E_analytic_mean": 1.4763705600000003,
+      "E_loihi": {
+        "MUTAG": 23.091599360000007,
+        "PROTEINS": 50.734879744000004,
+        "ENZYMES": 42.31467161600002
+      },
+      "E_loihi_mean": 38.713716906666676,
+      "E_truenorth": {
+        "MUTAG": 25.439897600000005,
+        "PROTEINS": 55.894359040000005,
+        "ENZYMES": 46.617858560000016
+      },
+      "E_truenorth_mean": 42.650705066666674,
+      "E_dense_gpu": {
+        "MUTAG": 4.500904960000001,
+        "PROTEINS": 9.889001984,
+        "ENZYMES": 8.247774976000002
+      },
+      "E_dense_gpu_mean": 7.545893973333334
+    },
+    "Spike-GNN (Euc.)": {
+      "type": "spiking",
+      "r_bar": 0.4000339764933369,
+      "E_analytic": {
+        "MUTAG": 5.273306256151237,
+        "PROTEINS": 10.952789926074473,
+        "ENZYMES": 9.165944423144861
+      },
+      "E_analytic_mean": 8.464013535123524,
+      "E_loihi": {
+        "MUTAG": 138.27780849463244,
+        "PROTEINS": 287.20649139484175,
+        "ENZYMES": 240.35143154024306
+      },
+      "E_loihi_mean": 221.94524380990575,
+      "E_truenorth": {
+        "MUTAG": 152.33995851103575,
+        "PROTEINS": 316.41393119770703,
+        "ENZYMES": 264.7939500019626
+      },
+      "E_truenorth_mean": 244.51594657023512,
+      "E_dense_gpu": {
+        "MUTAG": 26.95245419810632,
+        "PROTEINS": 55.98092628882508,
+        "ENZYMES": 46.84816038496262
+      },
+      "E_dense_gpu_mean": 43.26051362396467,
+      "red_vs_dense_loihi": -217.75715820149753,
+      "red_vs_dense_tn": -217.75715820149748
+    },
+    "SpikeRPGNN": {
+      "type": "spiking",
+      "r_bar": 0.40563073549457845,
+      "E_analytic": {
+        "MUTAG": 5.691746351676634,
+        "PROTEINS": 11.397384350468794,
+        "ENZYMES": 9.553057035432486
+      },
+      "E_analytic_mean": 8.880729245859305,
+      "E_loihi": {
+        "MUTAG": 149.2502376661873,
+        "PROTEINS": 298.8647451900706,
+        "ENZYMES": 250.5023844846741
+      },
+      "E_loihi_mean": 232.87245578031067,
+      "E_truenorth": {
+        "MUTAG": 164.42822793732498,
+        "PROTEINS": 329.25777012465403,
+        "ENZYMES": 275.97720324582735
+      },
+      "E_truenorth_mean": 256.55440043593546,
+      "E_dense_gpu": {
+        "MUTAG": 29.09114801968057,
+        "PROTEINS": 58.25329779128494,
+        "ENZYMES": 48.82673595887715
+      },
+      "E_dense_gpu_mean": 45.39039392328089,
+      "red_vs_dense_loihi": -233.40155662688198,
+      "red_vs_dense_tn": -233.40155662688193
+    }
+  }
+}

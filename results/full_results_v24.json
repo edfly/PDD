@@ -1,0 +1,1443 @@
+{
+  "MUTAG_1shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.7766666690508525,
+    "best_acc": 0.7400000005960464,
+    "total_spikes": 20492,
+    "spike_history_last5": [
+      13655,
+      13481,
+      13435,
+      13633,
+      13777
+    ],
+    "spike_rate_history_last5": [
+      0.49776853184870157,
+      0.4982666807549214,
+      0.4983502454079135,
+      0.4977083152728731,
+      0.4974138962700074
+    ],
+    "final_spike_rate": 0.4978779517133616,
+    "u_th_learnable": 0.9640146493911743,
+    "lambda_gate": 0.5110281705856323,
+    "spike_alpha": 0.6206526160240173,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 1799.1
+  },
+  "MUTAG_1shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.7599999984105428,
+    "best_acc": 0.7699999965727329,
+    "total_spikes": 16767,
+    "spike_history_last5": [
+      10717,
+      11060,
+      11052,
+      11101,
+      10925
+    ],
+    "spike_rate_history_last5": [
+      0.40159290394876856,
+      0.4044359714022442,
+      0.40358840494388887,
+      0.4047209770656501,
+      0.402997726636916
+    ],
+    "final_spike_rate": 0.40385063517239167,
+    "u_th_learnable": 0.9918820261955261,
+    "lambda_gate": 0.5015437602996826,
+    "spike_alpha": 0.6120259165763855,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 1789.6
+  },
+  "MUTAG_1shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.8633333226044972,
+    "best_acc": 0.924999988079071,
+    "total_spikes": 10707,
+    "spike_history_last5": [
+      6801,
+      7005,
+      6749,
+      7168,
+      6756
+    ],
+    "spike_rate_history_last5": [
+      0.2575120373585089,
+      0.25592324513959824,
+      0.2550675321666505,
+      0.2539628688722295,
+      0.253907673622779
+    ],
+    "final_spike_rate": 0.25461156388448847,
+    "u_th_learnable": 1.0474354028701782,
+    "lambda_gate": 0.5028008222579956,
+    "spike_alpha": 0.6242218613624573,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 1610.2
+  },
+  "MUTAG_1shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.7300000009437402,
+    "best_acc": 0.8,
+    "total_spikes": 19523,
+    "spike_history_last5": [
+      13281,
+      13275,
+      13708,
+      13473,
+      13564
+    ],
+    "spike_rate_history_last5": [
+      0.4919011814518727,
+      0.4919446961834807,
+      0.4919605056777058,
+      0.4928301321031884,
+      0.49228559625140467
+    ],
+    "final_spike_rate": 0.4928063387883297,
+    "u_th_learnable": 0.9817298054695129,
+    "lambda_gate": 0.5065203309059143,
+    "spike_alpha": 0.6170716881752014,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 1782.3
+  },
+  "MUTAG_1shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.7733333279689153,
+    "best_acc": 0.8099999893456697,
+    "total_spikes": 20883,
+    "spike_history_last5": [
+      13481,
+      13605,
+      13646,
+      13680,
+      13535
+    ],
+    "spike_rate_history_last5": [
+      0.49843621486522977,
+      0.4988478914030045,
+      0.49876333519256955,
+      0.4988396873464082,
+      0.49878952839039414
+    ],
+    "final_spike_rate": 0.49874299785753246,
+    "u_th_learnable": 0.9454872608184814,
+    "lambda_gate": 0.5039074420928955,
+    "spike_alpha": 0.614910900592804,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 2006.5
+  },
+  "PROTEINS_1shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.51333333949248,
+    "best_acc": 0.5650000102818012,
+    "total_spikes": 34764,
+    "spike_history_last5": [
+      19827,
+      21527,
+      23525,
+      24637,
+      28000
+    ],
+    "spike_rate_history_last5": [
+      0.39249421761195025,
+      0.3916204644195489,
+      0.39383380023710884,
+      0.3912142544946534,
+      0.3938758711713968
+    ],
+    "final_spike_rate": 0.392248937197886,
+    "u_th_learnable": 0.9383794665336609,
+    "lambda_gate": 0.504443347454071,
+    "spike_alpha": 0.6128768920898438,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 2211.9
+  },
+  "PROTEINS_1shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.5333333387970924,
+    "best_acc": 0.6000000074505806,
+    "total_spikes": 32544,
+    "spike_history_last5": [
+      20616,
+      25373,
+      25157,
+      19697,
+      21739
+    ],
+    "spike_rate_history_last5": [
+      0.39090874408610965,
+      0.39037604617493205,
+      0.3900680474138231,
+      0.3902415010566234,
+      0.39019775809369034
+    ],
+    "final_spike_rate": 0.39092326137100575,
+    "u_th_learnable": 0.9339206218719482,
+    "lambda_gate": 0.5068351030349731,
+    "spike_alpha": 0.6045240163803101,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 1913.2
+  },
+  "PROTEINS_1shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.5400000030795733,
+    "best_acc": 0.5900000095367431,
+    "total_spikes": 36433,
+    "spike_history_last5": [
+      24886,
+      21235,
+      21276,
+      21219,
+      23151
+    ],
+    "spike_rate_history_last5": [
+      0.40013653282200623,
+      0.4014814949514663,
+      0.3962359366165172,
+      0.39913746181228893,
+      0.3963934554296899
+    ],
+    "final_spike_rate": 0.3965051753039115,
+    "u_th_learnable": 0.9573577642440796,
+    "lambda_gate": 0.5053465962409973,
+    "spike_alpha": 0.6111742854118347,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 1863.0
+  },
+  "PROTEINS_1shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.49666667034228645,
+    "best_acc": 0.5550000086426735,
+    "total_spikes": 30603,
+    "spike_history_last5": [
+      22562,
+      23732,
+      25519,
+      21224,
+      23373
+    ],
+    "spike_rate_history_last5": [
+      0.3936667145447937,
+      0.3925382069848891,
+      0.39271198992284717,
+      0.39260956554765997,
+      0.39156376799501796
+    ],
+    "final_spike_rate": 0.39339777609935717,
+    "u_th_learnable": 0.964830219745636,
+    "lambda_gate": 0.5059317946434021,
+    "spike_alpha": 0.6102845668792725,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 1853.7
+  },
+  "PROTEINS_1shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.560000009338061,
+    "best_acc": 0.5550000086426735,
+    "total_spikes": 32431,
+    "spike_history_last5": [
+      25478,
+      21425,
+      23122,
+      25027,
+      22555
+    ],
+    "spike_rate_history_last5": [
+      0.3885277175500002,
+      0.38888077131649557,
+      0.3912593643372681,
+      0.38935970308900425,
+      0.3883408388812929
+    ],
+    "final_spike_rate": 0.39017092686783383,
+    "u_th_learnable": 0.9535524249076843,
+    "lambda_gate": 0.5094349384307861,
+    "spike_alpha": 0.6078342795372009,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 1644.1
+  },
+  "ENZYMES_1shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.267999999721845,
+    "best_acc": 0.30600000023841856,
+    "total_spikes": 78677,
+    "spike_history_last5": [
+      50564,
+      50063,
+      49540,
+      52845,
+      50576
+    ],
+    "spike_rate_history_last5": [
+      0.3899913489795924,
+      0.39152459105538184,
+      0.39318611383258706,
+      0.3900353403603657,
+      0.3921143647072372
+    ],
+    "final_spike_rate": 0.39422276391127054,
+    "u_th_learnable": 0.8980926871299744,
+    "lambda_gate": 0.5014994740486145,
+    "spike_alpha": 0.6052572727203369,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 2549.6
+  },
+  "ENZYMES_1shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.2679999994734923,
+    "best_acc": 0.2800000015646219,
+    "total_spikes": 79197,
+    "spike_history_last5": [
+      52297,
+      50658,
+      48708,
+      50444,
+      49104
+    ],
+    "spike_rate_history_last5": [
+      0.3945640474216908,
+      0.39448833874083905,
+      0.3931749453680057,
+      0.3932656784675214,
+      0.3930698392603186
+    ],
+    "final_spike_rate": 0.393949428564423,
+    "u_th_learnable": 0.9088321924209595,
+    "lambda_gate": 0.5048007369041443,
+    "spike_alpha": 0.5997698903083801,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 2138.5
+  },
+  "ENZYMES_1shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.2613333322107792,
+    "best_acc": 0.2559999994933605,
+    "total_spikes": 73256,
+    "spike_history_last5": [
+      51853,
+      51078,
+      51549,
+      51626,
+      52677
+    ],
+    "spike_rate_history_last5": [
+      0.3937717563952262,
+      0.39500111010063577,
+      0.3964221842206129,
+      0.39691653185888326,
+      0.39521186118329316
+    ],
+    "final_spike_rate": 0.39628160518403255,
+    "u_th_learnable": 0.8677013516426086,
+    "lambda_gate": 0.5060588717460632,
+    "spike_alpha": 0.5895040035247803,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 2099.2
+  },
+  "ENZYMES_1shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.22399999896685283,
+    "best_acc": 0.2639999970793724,
+    "total_spikes": 74559,
+    "spike_history_last5": [
+      52813,
+      50987,
+      52229,
+      50480,
+      52240
+    ],
+    "spike_rate_history_last5": [
+      0.3952836500246547,
+      0.3926843589686803,
+      0.39300930742789025,
+      0.3932496438783083,
+      0.39402848182720446
+    ],
+    "final_spike_rate": 0.3942303672134825,
+    "u_th_learnable": 0.8897918462753296,
+    "lambda_gate": 0.5051617622375488,
+    "spike_alpha": 0.5807550549507141,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 2046.0
+  },
+  "ENZYMES_1shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.20799999982118605,
+    "best_acc": 0.2580000009387732,
+    "total_spikes": 79252,
+    "spike_history_last5": [
+      50750,
+      50034,
+      51240,
+      51167,
+      50589
+    ],
+    "spike_rate_history_last5": [
+      0.39538306987396765,
+      0.39496533873588835,
+      0.3937158977705974,
+      0.3944303869054576,
+      0.3946294385208608
+    ],
+    "final_spike_rate": 0.3946413032893695,
+    "u_th_learnable": 0.8833684325218201,
+    "lambda_gate": 0.5034512281417847,
+    "spike_alpha": 0.6008630990982056,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 2066.2
+  },
+  "MUTAG_5shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.8633333245913187,
+    "best_acc": 0.8799999952316284,
+    "total_spikes": 16177,
+    "spike_history_last5": [
+      11262,
+      11122,
+      10601,
+      11024,
+      10940
+    ],
+    "spike_rate_history_last5": [
+      0.4071363073955897,
+      0.3993812478371398,
+      0.39630542657205636,
+      0.4006999991343769,
+      0.40383035350178603
+    ],
+    "final_spike_rate": 0.40113199515889214,
+    "u_th_learnable": 0.98541259765625,
+    "lambda_gate": 0.5065075755119324,
+    "spike_alpha": 0.6198243498802185,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 3430.3
+  },
+  "MUTAG_5shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.8699999948342642,
+    "best_acc": 0.8799999862909317,
+    "total_spikes": 16618,
+    "spike_history_last5": [
+      10946,
+      10750,
+      10898,
+      10561,
+      10661
+    ],
+    "spike_rate_history_last5": [
+      0.402842675245964,
+      0.4027043805498094,
+      0.39979286861709673,
+      0.40011662849317753,
+      0.40136782115365366
+    ],
+    "final_spike_rate": 0.40373369253413144,
+    "u_th_learnable": 0.9940163493156433,
+    "lambda_gate": 0.5017246007919312,
+    "spike_alpha": 0.6200895309448242,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 2526.0
+  },
+  "MUTAG_5shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.8866666595141093,
+    "best_acc": 0.9199999868869781,
+    "total_spikes": 19645,
+    "spike_history_last5": [
+      13106,
+      13112,
+      13314,
+      13195,
+      12694
+    ],
+    "spike_rate_history_last5": [
+      0.4847011775933378,
+      0.4851414805619532,
+      0.4844131130938168,
+      0.4829748518503568,
+      0.48528713960332687
+    ],
+    "final_spike_rate": 0.4836643550813088,
+    "u_th_learnable": 0.996246874332428,
+    "lambda_gate": 0.5038586258888245,
+    "spike_alpha": 0.6188370585441589,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 1920.6
+  },
+  "MUTAG_5shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.9233333230018616,
+    "best_acc": 0.9299999922513962,
+    "total_spikes": 18526,
+    "spike_history_last5": [
+      12730,
+      12569,
+      12539,
+      12997,
+      12366
+    ],
+    "spike_rate_history_last5": [
+      0.47029396399859,
+      0.46817554286714397,
+      0.46798637176633723,
+      0.46983841048157726,
+      0.4680202785376985
+    ],
+    "final_spike_rate": 0.4676575242613576,
+    "u_th_learnable": 0.9959890246391296,
+    "lambda_gate": 0.5034208297729492,
+    "spike_alpha": 0.6172969937324524,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 1932.6
+  },
+  "MUTAG_5shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.8799999952316284,
+    "best_acc": 0.8899999886751175,
+    "total_spikes": 19280,
+    "spike_history_last5": [
+      13724,
+      13705,
+      13601,
+      13409,
+      13743
+    ],
+    "spike_rate_history_last5": [
+      0.499277126937983,
+      0.4990244088357869,
+      0.4988632798923175,
+      0.4991576715237964,
+      0.4990818245882573
+    ],
+    "final_spike_rate": 0.49896972224072045,
+    "u_th_learnable": 0.9425473809242249,
+    "lambda_gate": 0.5305395722389221,
+    "spike_alpha": 0.6158527731895447,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 1925.8
+  },
+  "PROTEINS_5shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.5500000029802322,
+    "best_acc": 0.650000000745058,
+    "total_spikes": 26687,
+    "spike_history_last5": [
+      18392,
+      15671,
+      16580,
+      20644,
+      17383
+    ],
+    "spike_rate_history_last5": [
+      0.30064302806580057,
+      0.29558446078679834,
+      0.2946822050450605,
+      0.299934870706708,
+      0.30489113923472905
+    ],
+    "final_spike_rate": 0.30595135884325786,
+    "u_th_learnable": 0.9893689155578613,
+    "lambda_gate": 0.5097519755363464,
+    "spike_alpha": 0.6123338937759399,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 2390.1
+  },
+  "PROTEINS_5shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.5966666688521703,
+    "best_acc": 0.6399999998509884,
+    "total_spikes": 31393,
+    "spike_history_last5": [
+      21684,
+      26312,
+      25992,
+      30007,
+      22625
+    ],
+    "spike_rate_history_last5": [
+      0.39219206707895177,
+      0.3928184768316626,
+      0.39262979758786637,
+      0.39122001412612073,
+      0.3949811434727982
+    ],
+    "final_spike_rate": 0.3944515495767027,
+    "u_th_learnable": 0.9272730946540833,
+    "lambda_gate": 0.5101222395896912,
+    "spike_alpha": 0.6028012037277222,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 2413.8
+  },
+  "PROTEINS_5shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.5466666748126348,
+    "best_acc": 0.6000000104308129,
+    "total_spikes": 36157,
+    "spike_history_last5": [
+      23172,
+      25795,
+      25140,
+      26110,
+      24962
+    ],
+    "spike_rate_history_last5": [
+      0.4135342036864219,
+      0.41554223102859256,
+      0.41387758528444374,
+      0.41509742512768444,
+      0.4163449225398935
+    ],
+    "final_spike_rate": 0.41356358756275463,
+    "u_th_learnable": 0.9766330718994141,
+    "lambda_gate": 0.512049674987793,
+    "spike_alpha": 0.6084508895874023,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 2390.7
+  },
+  "PROTEINS_5shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.5866666729251544,
+    "best_acc": 0.6050000041723251,
+    "total_spikes": 32787,
+    "spike_history_last5": [
+      24939,
+      24317,
+      29976,
+      24653,
+      26233
+    ],
+    "spike_rate_history_last5": [
+      0.43560038661820855,
+      0.4271201449335223,
+      0.4131822301004139,
+      0.4091526857324256,
+      0.409050830232519
+    ],
+    "final_spike_rate": 0.40744022856462714,
+    "u_th_learnable": 0.9595404267311096,
+    "lambda_gate": 0.5139309763908386,
+    "spike_alpha": 0.6083495020866394,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 2396.8
+  },
+  "PROTEINS_5shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.6200000082453092,
+    "best_acc": 0.6700000032782555,
+    "total_spikes": 35408,
+    "spike_history_last5": [
+      22076,
+      25085,
+      25145,
+      24465,
+      27290
+    ],
+    "spike_rate_history_last5": [
+      0.4266742407277584,
+      0.42824142448785274,
+      0.43077286072617815,
+      0.4293046461196301,
+      0.4264963611256075
+    ],
+    "final_spike_rate": 0.43018728518860916,
+    "u_th_learnable": 1.0175774097442627,
+    "lambda_gate": 0.5152773857116699,
+    "spike_alpha": 0.6196295022964478,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 2385.9
+  },
+  "ENZYMES_5shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.2599999999006589,
+    "best_acc": 0.30600000023841856,
+    "total_spikes": 78186,
+    "spike_history_last5": [
+      51217,
+      52136,
+      52814,
+      53106,
+      50792
+    ],
+    "spike_rate_history_last5": [
+      0.39458096421200595,
+      0.3998270225312276,
+      0.4033070327754757,
+      0.4020233508893135,
+      0.40160056626863555
+    ],
+    "final_spike_rate": 0.3996255992110152,
+    "u_th_learnable": 0.9442617297172546,
+    "lambda_gate": 0.5047821402549744,
+    "spike_alpha": 0.608134388923645,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 3568.9
+  },
+  "ENZYMES_5shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.24533333281675976,
+    "best_acc": 0.25,
+    "total_spikes": 78689,
+    "spike_history_last5": [
+      51714,
+      54140,
+      52354,
+      52432,
+      52575
+    ],
+    "spike_rate_history_last5": [
+      0.4013942334773121,
+      0.4044737735930893,
+      0.40244802629855025,
+      0.40251258351994296,
+      0.40167894076151417
+    ],
+    "final_spike_rate": 0.4007317595272297,
+    "u_th_learnable": 0.9429308772087097,
+    "lambda_gate": 0.49830061197280884,
+    "spike_alpha": 0.6032227277755737,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 3645.0
+  },
+  "ENZYMES_5shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.21466666534543039,
+    "best_acc": 0.21999999843537807,
+    "total_spikes": 92086,
+    "spike_history_last5": [
+      59776,
+      58996,
+      58192,
+      55945,
+      58483
+    ],
+    "spike_rate_history_last5": [
+      0.45212280679308137,
+      0.45008100434693904,
+      0.45222076699632485,
+      0.45073867478670737,
+      0.45219591603116377
+    ],
+    "final_spike_rate": 0.44937015845754374,
+    "u_th_learnable": 0.9591207504272461,
+    "lambda_gate": 0.5157002806663513,
+    "spike_alpha": 0.6033286452293396,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 3518.6
+  },
+  "ENZYMES_5shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.30666666676600773,
+    "best_acc": 0.303999999538064,
+    "total_spikes": 79616,
+    "spike_history_last5": [
+      54304,
+      53550,
+      54710,
+      54783,
+      53335
+    ],
+    "spike_rate_history_last5": [
+      0.4189574728971307,
+      0.42100615091280946,
+      0.42456159392811144,
+      0.41081902367942413,
+      0.40050234629334647
+    ],
+    "final_spike_rate": 0.39829790959465217,
+    "u_th_learnable": 0.9627736806869507,
+    "lambda_gate": 0.5179227590560913,
+    "spike_alpha": 0.6129708886146545,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 3392.3
+  },
+  "ENZYMES_5shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.30533333246906597,
+    "best_acc": 0.3039999969303608,
+    "total_spikes": 67544,
+    "spike_history_last5": [
+      52024,
+      50709,
+      52073,
+      48338,
+      50683
+    ],
+    "spike_rate_history_last5": [
+      0.3860606631059278,
+      0.382678783210345,
+      0.379915135861956,
+      0.3791711744277639,
+      0.37835495523437696
+    ],
+    "final_spike_rate": 0.3767225084156725,
+    "u_th_learnable": 0.9535744190216064,
+    "lambda_gate": 0.5020147562026978,
+    "spike_alpha": 0.610538125038147,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 3340.5
+  },
+  "DD_1shot_run0": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.5400000068048636,
+    "best_acc": 0.5850000075995923,
+    "total_spikes": 251324,
+    "spike_history_last5": [
+      173937,
+      150037,
+      173499,
+      173757,
+      185252
+    ],
+    "spike_rate_history_last5": [
+      0.39907511188469913,
+      0.3906527332669807,
+      0.39056593082780877,
+      0.3888686932156542,
+      0.39034214155147373
+    ],
+    "final_spike_rate": 0.394659981024926,
+    "u_th_learnable": 0.9344590306282043,
+    "lambda_gate": 0.5034394860267639,
+    "spike_alpha": 0.6145084500312805,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 7370.0
+  },
+  "DD_1shot_run1": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.5500000104308128,
+    "best_acc": 0.5650000080466271,
+    "total_spikes": 197044,
+    "spike_history_last5": [
+      149868,
+      151682,
+      157441,
+      163962,
+      146866
+    ],
+    "spike_rate_history_last5": [
+      0.3322285545558369,
+      0.3511982824706165,
+      0.35659220816563536,
+      0.3524234677621871,
+      0.3477321597891491
+    ],
+    "final_spike_rate": 0.34130060156487424,
+    "u_th_learnable": 0.9236022233963013,
+    "lambda_gate": 0.5072810649871826,
+    "spike_alpha": 0.6094561219215393,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 4055.0
+  },
+  "DD_1shot_run2": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.5900000025828679,
+    "best_acc": 0.5600000072270632,
+    "total_spikes": 252910,
+    "spike_history_last5": [
+      185138,
+      156278,
+      169931,
+      156106,
+      162920
+    ],
+    "spike_rate_history_last5": [
+      0.3916680215448188,
+      0.3936379611014807,
+      0.39406088467539074,
+      0.3933814219602821,
+      0.39249054817696954
+    ],
+    "final_spike_rate": 0.3926762014830402,
+    "u_th_learnable": 0.9154193997383118,
+    "lambda_gate": 0.5040034651756287,
+    "spike_alpha": 0.6056239604949951,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 4064.8
+  },
+  "DD_1shot_run3": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.576666675011317,
+    "best_acc": 0.5700000084936618,
+    "total_spikes": 232710,
+    "spike_history_last5": [
+      150590,
+      189100,
+      161370,
+      176542,
+      156960
+    ],
+    "spike_rate_history_last5": [
+      0.38323592235577186,
+      0.37979228432695133,
+      0.3720928288349961,
+      0.3759208787891199,
+      0.37903309201691954
+    ],
+    "final_spike_rate": 0.38203519660593505,
+    "u_th_learnable": 0.9458838105201721,
+    "lambda_gate": 0.5018962621688843,
+    "spike_alpha": 0.6157249212265015,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 4117.5
+  },
+  "DD_1shot_run4": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.5000000059604645,
+    "best_acc": 0.5750000059604645,
+    "total_spikes": 234037,
+    "spike_history_last5": [
+      166022,
+      169273,
+      162359,
+      189602,
+      157302
+    ],
+    "spike_rate_history_last5": [
+      0.3904081304494842,
+      0.3872056580310956,
+      0.39081370252283004,
+      0.3903607370022767,
+      0.3907891092274916
+    ],
+    "final_spike_rate": 0.3912994273422646,
+    "u_th_learnable": 0.9901600480079651,
+    "lambda_gate": 0.5094987750053406,
+    "spike_alpha": 0.6135308146476746,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 4085.4
+  },
+  "DD_5shot_run0": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.6333333373069763,
+    "best_acc": 0.690000006556511,
+    "total_spikes": 191879,
+    "spike_history_last5": [
+      119691,
+      124351,
+      117190,
+      126008,
+      139361
+    ],
+    "spike_rate_history_last5": [
+      0.2920025476853937,
+      0.28672745250756676,
+      0.28535866608195887,
+      0.2858814643590165,
+      0.28753118541938144
+    ],
+    "final_spike_rate": 0.28793903249047836,
+    "u_th_learnable": 1.0017950534820557,
+    "lambda_gate": 0.5311650037765503,
+    "spike_alpha": 0.6213074326515198,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 6042.6
+  },
+  "DD_5shot_run1": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.6400000048180421,
+    "best_acc": 0.6450000062584877,
+    "total_spikes": 301809,
+    "spike_history_last5": [
+      228013,
+      195392,
+      215490,
+      215828,
+      212905
+    ],
+    "spike_rate_history_last5": [
+      0.49874277004625717,
+      0.498722979702534,
+      0.49866439119584766,
+      0.4987163298388423,
+      0.49869154754424316
+    ],
+    "final_spike_rate": 0.49872628802959035,
+    "u_th_learnable": 0.9485342502593994,
+    "lambda_gate": 0.5151897072792053,
+    "spike_alpha": 0.6114075779914856,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 5814.4
+  },
+  "DD_5shot_run2": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.623333340883255,
+    "best_acc": 0.6550000056624412,
+    "total_spikes": 300856,
+    "spike_history_last5": [
+      187944,
+      176517,
+      182875,
+      191156,
+      190646
+    ],
+    "spike_rate_history_last5": [
+      0.45254118088672224,
+      0.4518792060950279,
+      0.45342614355090777,
+      0.45131933933506396,
+      0.4519970246222546
+    ],
+    "final_spike_rate": 0.4518433214268344,
+    "u_th_learnable": 0.9866411685943604,
+    "lambda_gate": 0.5336607694625854,
+    "spike_alpha": 0.6080772280693054,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 5280.2
+  },
+  "DD_5shot_run3": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.5800000041723251,
+    "best_acc": 0.6150000050663949,
+    "total_spikes": 167592,
+    "spike_history_last5": [
+      115986,
+      93602,
+      97952,
+      99328,
+      99522
+    ],
+    "spike_rate_history_last5": [
+      0.24350675659014911,
+      0.24563892229989803,
+      0.23249153354158603,
+      0.2363291280905364,
+      0.24772410094087743
+    ],
+    "final_spike_rate": 0.2551972622377695,
+    "u_th_learnable": 1.0451509952545166,
+    "lambda_gate": 0.5273109674453735,
+    "spike_alpha": 0.6105406880378723,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 3475.8
+  },
+  "DD_5shot_run4": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.5833333392937978,
+    "best_acc": 0.6650000020861626,
+    "total_spikes": 312613,
+    "spike_history_last5": [
+      187278,
+      228858,
+      260365,
+      202964,
+      215922
+    ],
+    "spike_rate_history_last5": [
+      0.4960083512899701,
+      0.4959982763937803,
+      0.49594074836263413,
+      0.4960435166586731,
+      0.4960967323604321
+    ],
+    "final_spike_rate": 0.496120997505116,
+    "u_th_learnable": 0.967739462852478,
+    "lambda_gate": 0.5084937214851379,
+    "spike_alpha": 0.6095523834228516,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 3273.6
+  },
+  "REDDIT-M5K_1shot_run0": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.3693333365023136,
+    "best_acc": 0.3739999979734421,
+    "total_spikes": 1409511,
+    "spike_history_last5": [
+      872043,
+      933396,
+      940721,
+      897362,
+      911090
+    ],
+    "spike_rate_history_last5": [
+      0.43022978313531474,
+      0.45345638080331546,
+      0.4554741563842561,
+      0.4492084428048696,
+      0.4443167325011636
+    ],
+    "final_spike_rate": 0.4433732005270084,
+    "u_th_learnable": 0.9946486949920654,
+    "lambda_gate": 0.5341103076934814,
+    "spike_alpha": 0.6109562516212463,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 9499.2
+  },
+  "REDDIT-M5K_1shot_run1": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.35866666585206985,
+    "best_acc": 0.3739999979734421,
+    "total_spikes": 1464381,
+    "spike_history_last5": [
+      979446,
+      999928,
+      1007304,
+      977351,
+      956887
+    ],
+    "spike_rate_history_last5": [
+      0.4890143783000752,
+      0.4889104670670328,
+      0.48886989081552407,
+      0.4885728415840296,
+      0.4885347122116891
+    ],
+    "final_spike_rate": 0.48831980714595224,
+    "u_th_learnable": 0.9809889197349548,
+    "lambda_gate": 0.5313495397567749,
+    "spike_alpha": 0.6029074192047119,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 7794.9
+  },
+  "REDDIT-M5K_1shot_run2": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.3160000003874302,
+    "best_acc": 0.3879999972879887,
+    "total_spikes": 1529932,
+    "spike_history_last5": [
+      1042797,
+      982906,
+      1060321,
+      1026417,
+      964563
+    ],
+    "spike_rate_history_last5": [
+      0.499956233919268,
+      0.499962599078337,
+      0.49995673990054135,
+      0.49995769966010595,
+      0.4999737637635861
+    ],
+    "final_spike_rate": 0.4999629551674957,
+    "u_th_learnable": 0.8730127811431885,
+    "lambda_gate": 0.5343303084373474,
+    "spike_alpha": 0.6017423868179321,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 7853.7
+  },
+  "REDDIT-M5K_1shot_run3": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.29200000216563543,
+    "best_acc": 0.35799999758601186,
+    "total_spikes": 1332326,
+    "spike_history_last5": [
+      743240,
+      646136,
+      823509,
+      922903,
+      876061
+    ],
+    "spike_rate_history_last5": [
+      0.3712083339578014,
+      0.3274853897449254,
+      0.40249540566481706,
+      0.43881608102801223,
+      0.4388111365146055
+    ],
+    "final_spike_rate": 0.4351944389770146,
+    "u_th_learnable": 0.9278051853179932,
+    "lambda_gate": 0.531306266784668,
+    "spike_alpha": 0.6110725402832031,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 7824.1
+  },
+  "REDDIT-M5K_1shot_run4": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.30933333486318587,
+    "best_acc": 0.38000000044703486,
+    "total_spikes": 1484484,
+    "spike_history_last5": [
+      1022293,
+      1025190,
+      1085839,
+      1024707,
+      1085420
+    ],
+    "spike_rate_history_last5": [
+      0.4991544995527081,
+      0.4994737864338587,
+      0.4992346124926538,
+      0.499201391777924,
+      0.49893268308766103
+    ],
+    "final_spike_rate": 0.49910175193014533,
+    "u_th_learnable": 0.8695858716964722,
+    "lambda_gate": 0.5289186239242554,
+    "spike_alpha": 0.6089708805084229,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 8582.1
+  },
+  "REDDIT-M5K_5shot_run0": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.4359999969601631,
+    "best_acc": 0.43999999612569807,
+    "total_spikes": 1075822,
+    "spike_history_last5": [
+      736441,
+      742885,
+      725977,
+      738906,
+      691210
+    ],
+    "spike_rate_history_last5": [
+      0.38310697526706006,
+      0.37304640175626325,
+      0.36635776315107943,
+      0.36873767747233877,
+      0.36385747891795006
+    ],
+    "final_spike_rate": 0.3649393404974327,
+    "u_th_learnable": 0.9981821179389954,
+    "lambda_gate": 0.547989010810852,
+    "spike_alpha": 0.613423764705658,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 12436.2
+  },
+  "REDDIT-M5K_5shot_run1": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.4266666645805041,
+    "best_acc": 0.41399999856948855,
+    "total_spikes": 1500404,
+    "spike_history_last5": [
+      1013141,
+      1021825,
+      991596,
+      1050327,
+      1022377
+    ],
+    "spike_rate_history_last5": [
+      0.49520204321958816,
+      0.4949935835479854,
+      0.49421046799296464,
+      0.49432908785365104,
+      0.4943435963804311
+    ],
+    "final_spike_rate": 0.4942464101446244,
+    "u_th_learnable": 0.9122055768966675,
+    "lambda_gate": 0.5525857210159302,
+    "spike_alpha": 0.6047825813293457,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 13881.7
+  },
+  "REDDIT-M5K_5shot_run2": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.4493,
+    "best_acc": 0.448,
+    "total_spikes": 1024073,
+    "spike_history_last5": [],
+    "spike_rate_history_last5": [],
+    "final_spike_rate": 0.347,
+    "u_th_learnable": 0.9477,
+    "lambda_gate": null,
+    "spike_alpha": null,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 14377.0,
+    "note": "recovered from log line (attempt2, 2026-08-27 05:19); JSON save hit PermissionError"
+  },
+  "REDDIT-M5K_5shot_run3": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.4466666648785273,
+    "best_acc": 0.4539999969303608,
+    "total_spikes": 1156612,
+    "spike_history_last5": [
+      751388,
+      795764,
+      771177,
+      751557,
+      771968
+    ],
+    "spike_rate_history_last5": [
+      0.37577555507794524,
+      0.37711453438043996,
+      0.3778195936324894,
+      0.3773977509997917,
+      0.37790329851312154
+    ],
+    "final_spike_rate": 0.3784463182549002,
+    "u_th_learnable": 1.0144416093826294,
+    "lambda_gate": 0.554572343826294,
+    "spike_alpha": 0.6117859482765198,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 15030.9,
+    "note": "recovered from sidecar .bak (attempt4, 2026-08-27 16:24); primary save hit PermissionError"
+  },
+  "REDDIT-M5K_5shot_run4": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.41866666575272876,
+    "best_acc": 0.419999997317791,
+    "total_spikes": 1435994,
+    "spike_history_last5": [
+      990606,
+      914696,
+      944234,
+      942368,
+      975472
+    ],
+    "spike_rate_history_last5": [
+      0.4682119203445483,
+      0.46035013636371136,
+      0.4592452576598056,
+      0.46084638566892827,
+      0.4608415870743848
+    ],
+    "final_spike_rate": 0.4602158334429151,
+    "u_th_learnable": 0.9556755423545837,
+    "lambda_gate": 0.5476223826408386,
+    "spike_alpha": 0.6098261475563049,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 16925.9,
+    "note": "recovered from sidecar .bak (attempt4, 2026-08-27 16:24); primary save hit PermissionError"
+  }
+}

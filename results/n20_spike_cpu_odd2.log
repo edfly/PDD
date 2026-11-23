@@ -1,0 +1,76 @@
+
+=== spike_REDDIT-M5K_1shot_run11 ===
+  [device] spike_REDDIT-M5K_1shot_run11: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=29.2% test=31.8% skip=0/20 sr_train=0.269
+  E  2: train=29.4% test=33.6% skip=0/20 sr_train=0.299
+  E  3: train=33.0% test=31.8% skip=0/20 sr_train=0.341
+  E 10: train=34.6% test=33.4% skip=0/20 sr_train=0.399
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 163, in run_spike_like
+    q_z = model.encode(q_b.x, q_b.edge_index, q_b.batch)
+  File "D:\2026\paper\PBB\post\code\spikergnn\model.py", line 151, in encode
+    z_graph, spike_count = self.stmp(
+                           ~~~~~~~~~^
+        p_init, spike_seq, edge_index, batch
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\2026\paper\PBB\post\code\spikergnn\stmp.py", line 319, in forward
+    spikes, (p_hyp, p_euc) = self.lif(x_step, (p_hyp, p_euc))
+                             ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\2026\paper\PBB\post\code\spikergnn\neurons.py", line 488, in forward
+    p_hyp_spike = self.manifold.hyp.expmap(
+        spike_alpha * v_geo, self.manifold.hyp_projx(p_hyp)
+    )
+  File "D:\2026\paper\PBB\post\code\msg_baseline\manifolds.py", line 159, in expmap
+    result = self.mobius_add(x, second_term)
+  File "D:\2026\paper\PBB\post\code\msg_baseline\manifolds.py", line 123, in mobius_add
+    x = self.projx(x)
+  File "D:\2026\paper\PBB\post\code\msg_baseline\manifolds.py", line 84, in projx
+    return x * scale
+           ~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:117] data. DefaultCPUAllocator: not enough memory: you tried to allocate 2029056 bytes.
+  [warn] first skipped episode in REDDIT-M5K_1shot_run11; further skips silent
+  E 20: train=33.4% test=36.6% skip=0/20 sr_train=0.415
+  E 30: train=35.4% test=30.8% skip=0/20 sr_train=0.381
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 418, in main
+    run_one(args, arm, ds, shot, r, env)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 332, in run_one
+    raise RuntimeError(f"{arm} task {key} rc={rc}")
+RuntimeError: spike task spike_REDDIT-M5K_1shot_run11 rc=3221225477
+
+=== spike_REDDIT-M5K_1shot_run13 ===
+  [device] spike_REDDIT-M5K_1shot_run13: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=29.1% test=29.2% skip=1/20 sr_train=0.275
+  E  2: train=28.0% test=29.0% skip=0/20 sr_train=0.290
+  E  3: train=32.2% test=28.2% skip=0/20 sr_train=0.386
+  E 10: train=33.8% test=31.2% skip=0/20 sr_train=0.393
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 418, in main
+    run_one(args, arm, ds, shot, r, env)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 332, in run_one
+    raise RuntimeError(f"{arm} task {key} rc={rc}")
+RuntimeError: spike task spike_REDDIT-M5K_1shot_run13 rc=3221225477
+
+=== spike_REDDIT-M5K_1shot_run15 ===
+  [device] spike_REDDIT-M5K_1shot_run15: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=30.0% test=38.0% skip=0/20 sr_train=0.282
+  E  2: train=31.4% test=29.4% skip=0/20 sr_train=0.302
+  E  3: train=29.6% test=26.0% skip=0/20 sr_train=0.369
+  E 10: train=32.6% test=34.8% skip=0/20 sr_train=0.392

@@ -1,0 +1,402 @@
+{
+  "gat_MUTAG_1shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.6133333392441273,
+    "best_acc": 0.6133333392441273,
+    "elapsed_sec": 109.9
+  },
+  "gat_MUTAG_1shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.5933333394428094,
+    "best_acc": 0.6033333418269952,
+    "elapsed_sec": 113.0
+  },
+  "gat_MUTAG_1shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.6400000063081582,
+    "best_acc": 0.6466666735708714,
+    "elapsed_sec": 109.4
+  },
+  "gat_MUTAG_1shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.6500000076989333,
+    "best_acc": 0.6500000076989333,
+    "elapsed_sec": 102.6
+  },
+  "gat_MUTAG_1shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.6433333424230416,
+    "best_acc": 0.6433333424230416,
+    "elapsed_sec": 70.0
+  },
+  "gat_MUTAG_5shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.7600000123182933,
+    "best_acc": 0.7600000123182933,
+    "elapsed_sec": 76.4
+  },
+  "gat_MUTAG_5shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.7433333416779836,
+    "best_acc": 0.7433333416779836,
+    "elapsed_sec": 75.7
+  },
+  "gat_MUTAG_5shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.7400000075499217,
+    "best_acc": 0.7433333396911621,
+    "elapsed_sec": 74.7
+  },
+  "gat_MUTAG_5shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.7700000107288361,
+    "best_acc": 0.7700000107288361,
+    "elapsed_sec": 75.1
+  },
+  "gat_MUTAG_5shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.74666668176651,
+    "best_acc": 0.7633333404858907,
+    "elapsed_sec": 80.6
+  },
+  "gat_PROTEINS_1shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.5733333418766657,
+    "best_acc": 0.5900000075499217,
+    "elapsed_sec": 76.1
+  },
+  "gat_PROTEINS_1shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.5533333415786426,
+    "best_acc": 0.5966666748126348,
+    "elapsed_sec": 72.2
+  },
+  "gat_PROTEINS_1shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.6166666746139526,
+    "best_acc": 0.6400000075499217,
+    "elapsed_sec": 66.8
+  },
+  "gat_PROTEINS_1shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.560000009338061,
+    "best_acc": 0.6166666736205418,
+    "elapsed_sec": 75.0
+  },
+  "gat_PROTEINS_1shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.6133333414793014,
+    "best_acc": 0.6133333414793014,
+    "elapsed_sec": 67.6
+  },
+  "gat_PROTEINS_5shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.606666677693526,
+    "best_acc": 0.606666677693526,
+    "elapsed_sec": 67.8
+  },
+  "gat_PROTEINS_5shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.603333339591821,
+    "best_acc": 0.6333333427707354,
+    "elapsed_sec": 68.7
+  },
+  "gat_PROTEINS_5shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.6066666752099991,
+    "best_acc": 0.6066666752099991,
+    "elapsed_sec": 67.1
+  },
+  "gat_PROTEINS_5shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.6166666756073634,
+    "best_acc": 0.6266666750113169,
+    "elapsed_sec": 66.5
+  },
+  "gat_PROTEINS_5shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.5800000069042047,
+    "best_acc": 0.58333334227403,
+    "elapsed_sec": 65.3
+  },
+  "gat_ENZYMES_1shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.22933332845568657,
+    "best_acc": 0.2333333286146323,
+    "elapsed_sec": 72.7
+  },
+  "gat_ENZYMES_1shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.21466666261355083,
+    "best_acc": 0.23866666083534557,
+    "elapsed_sec": 75.2
+  },
+  "gat_ENZYMES_1shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.22133332788944243,
+    "best_acc": 0.2359999934832255,
+    "elapsed_sec": 78.7
+  },
+  "gat_ENZYMES_1shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.20666666130224864,
+    "best_acc": 0.23999999438722927,
+    "elapsed_sec": 70.2
+  },
+  "gat_ENZYMES_1shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.22399999449650446,
+    "best_acc": 0.23866666083534557,
+    "elapsed_sec": 77.3
+  },
+  "gat_ENZYMES_5shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.2226666604479154,
+    "best_acc": 0.2359999934832255,
+    "elapsed_sec": 72.7
+  },
+  "gat_ENZYMES_5shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.22399999424815178,
+    "best_acc": 0.24133332868417104,
+    "elapsed_sec": 71.5
+  },
+  "gat_ENZYMES_5shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.2146666616201401,
+    "best_acc": 0.21733332723379134,
+    "elapsed_sec": 70.0
+  },
+  "gat_ENZYMES_5shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.21333332707484562,
+    "best_acc": 0.2239999937514464,
+    "elapsed_sec": 70.7
+  },
+  "gat_ENZYMES_5shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.22799999391039213,
+    "best_acc": 0.2346666584412257,
+    "elapsed_sec": 76.1
+  },
+  "gat_DD_1shot_run0": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.5500000084439913,
+    "best_acc": 0.6466666750609875,
+    "elapsed_sec": 99.6
+  },
+  "gat_DD_1shot_run1": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.5666666758557161,
+    "best_acc": 0.6433333458999793,
+    "elapsed_sec": 66.0
+  },
+  "gat_DD_1shot_run2": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.620000014702479,
+    "best_acc": 0.620000014702479,
+    "elapsed_sec": 68.5
+  },
+  "gat_DD_1shot_run3": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.6233333436151346,
+    "best_acc": 0.6233333436151346,
+    "elapsed_sec": 75.7
+  },
+  "gat_DD_1shot_run4": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.6400000082949797,
+    "best_acc": 0.6400000082949797,
+    "elapsed_sec": 67.0
+  },
+  "gat_DD_5shot_run0": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.7166666756073634,
+    "best_acc": 0.8033333460489909,
+    "elapsed_sec": 69.3
+  },
+  "gat_DD_5shot_run1": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.7333333472410838,
+    "best_acc": 0.7333333472410838,
+    "elapsed_sec": 78.1
+  },
+  "gat_DD_5shot_run2": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.5400000085433324,
+    "best_acc": 0.7866666813691457,
+    "elapsed_sec": 89.3
+  },
+  "gat_DD_5shot_run3": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.593333342174689,
+    "best_acc": 0.7633333464463552,
+    "elapsed_sec": 109.8
+  },
+  "gat_DD_5shot_run4": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.6100000073512395,
+    "best_acc": 0.7766666789849599,
+    "elapsed_sec": 101.8
+  },
+  "gat_REDDIT-M5K_1shot_run0": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.26266665930549304,
+    "best_acc": 0.27466666052738825,
+    "elapsed_sec": 71.5
+  },
+  "gat_REDDIT-M5K_1shot_run1": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.27866665944457053,
+    "best_acc": 0.2799999942382177,
+    "elapsed_sec": 74.5
+  },
+  "gat_REDDIT-M5K_1shot_run2": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.28666665678222975,
+    "best_acc": 0.2879999913275242,
+    "elapsed_sec": 88.2
+  },
+  "gat_REDDIT-M5K_1shot_run3": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.26933332507809005,
+    "best_acc": 0.2919999932249387,
+    "elapsed_sec": 92.0
+  },
+  "gat_REDDIT-M5K_1shot_run4": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.24133332669734955,
+    "best_acc": 0.28399999290704725,
+    "elapsed_sec": 70.8
+  },
+  "gat_REDDIT-M5K_5shot_run0": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.31333332508802414,
+    "best_acc": 0.3266666601101557,
+    "elapsed_sec": 73.3
+  },
+  "gat_REDDIT-M5K_5shot_run1": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.32533332630991935,
+    "best_acc": 0.3306666592756907,
+    "elapsed_sec": 73.4
+  },
+  "gat_REDDIT-M5K_5shot_run2": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.31999999235073723,
+    "best_acc": 0.32933332175016405,
+    "elapsed_sec": 76.2
+  },
+  "gat_REDDIT-M5K_5shot_run3": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.30266665865977604,
+    "best_acc": 0.3266666601101557,
+    "elapsed_sec": 75.5
+  },
+  "gat_REDDIT-M5K_5shot_run4": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.29866665924588837,
+    "best_acc": 0.3306666587789853,
+    "elapsed_sec": 91.5
+  }
+}

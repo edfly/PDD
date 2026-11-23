@@ -1,0 +1,3402 @@
+{
+  "gcn_MUTAG_1shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.5766666730244955,
+    "best_acc": 0.6350000068545342,
+    "elapsed_sec": 27.9
+  },
+  "gcn_MUTAG_1shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.6500000029802322,
+    "best_acc": 0.605000001937151,
+    "elapsed_sec": 26.3
+  },
+  "gcn_MUTAG_1shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.5900000070532163,
+    "best_acc": 0.6250000074505806,
+    "elapsed_sec": 26.7
+  },
+  "gcn_MUTAG_1shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.5866666649778683,
+    "best_acc": 0.6400000050663948,
+    "elapsed_sec": 24.8
+  },
+  "gcn_MUTAG_1shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.48666667292515436,
+    "best_acc": 0.6150000035762787,
+    "elapsed_sec": 24.8
+  },
+  "gcn_MUTAG_5shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.6966666621466477,
+    "best_acc": 0.7849999964237213,
+    "elapsed_sec": 28.5
+  },
+  "gcn_MUTAG_5shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.6333333373069763,
+    "best_acc": 0.6250000059604645,
+    "elapsed_sec": 34.5
+  },
+  "gcn_MUTAG_5shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.7233333388964335,
+    "best_acc": 0.7799999952316284,
+    "elapsed_sec": 29.6
+  },
+  "gcn_MUTAG_5shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.7866666654745738,
+    "best_acc": 0.7850000023841858,
+    "elapsed_sec": 29.5
+  },
+  "gcn_MUTAG_5shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.763333327571551,
+    "best_acc": 0.7799999952316284,
+    "elapsed_sec": 28.8
+  },
+  "gcn_PROTEINS_1shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.5100000063578288,
+    "best_acc": 0.5550000056624412,
+    "elapsed_sec": 32.0
+  },
+  "gcn_PROTEINS_1shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.5433333396911622,
+    "best_acc": 0.535000005364418,
+    "elapsed_sec": 31.1
+  },
+  "gcn_PROTEINS_1shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.5166666756073633,
+    "best_acc": 0.5550000034272671,
+    "elapsed_sec": 30.8
+  },
+  "gcn_PROTEINS_1shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.5300000096360843,
+    "best_acc": 0.5950000017881394,
+    "elapsed_sec": 33.1
+  },
+  "gcn_PROTEINS_1shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.5366666704416275,
+    "best_acc": 0.5650000058114528,
+    "elapsed_sec": 37.8
+  },
+  "gcn_PROTEINS_5shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.5866666724284489,
+    "best_acc": 0.5900000050663948,
+    "elapsed_sec": 38.7
+  },
+  "gcn_PROTEINS_5shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.5900000075499217,
+    "best_acc": 0.5950000077486038,
+    "elapsed_sec": 36.0
+  },
+  "gcn_PROTEINS_5shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.5333333378036816,
+    "best_acc": 0.5700000151991844,
+    "elapsed_sec": 41.0
+  },
+  "gcn_PROTEINS_5shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.5866666701932748,
+    "best_acc": 0.5800000041723251,
+    "elapsed_sec": 41.9
+  },
+  "gcn_PROTEINS_5shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.5533333378533523,
+    "best_acc": 0.5650000013411045,
+    "elapsed_sec": 40.6
+  },
+  "gcn_ENZYMES_1shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.25599999899665515,
+    "best_acc": 0.27799999974668027,
+    "elapsed_sec": 50.5
+  },
+  "gcn_ENZYMES_1shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.2720000011225541,
+    "best_acc": 0.2860000006854534,
+    "elapsed_sec": 50.8
+  },
+  "gcn_ENZYMES_1shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.23466666787862778,
+    "best_acc": 0.25799999907612803,
+    "elapsed_sec": 47.5
+  },
+  "gcn_ENZYMES_1shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.267999999721845,
+    "best_acc": 0.25600000135600565,
+    "elapsed_sec": 49.2
+  },
+  "gcn_ENZYMES_1shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.20399999817212422,
+    "best_acc": 0.22799999974668025,
+    "elapsed_sec": 48.0
+  },
+  "gcn_ENZYMES_5shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.25066666553417843,
+    "best_acc": 0.27599999904632566,
+    "elapsed_sec": 59.8
+  },
+  "gcn_ENZYMES_5shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.2653333346048991,
+    "best_acc": 0.2720000002533197,
+    "elapsed_sec": 62.9
+  },
+  "gcn_ENZYMES_5shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.23333333109815915,
+    "best_acc": 0.2679999999701977,
+    "elapsed_sec": 60.8
+  },
+  "gcn_ENZYMES_5shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.23599999869863192,
+    "best_acc": 0.27399999611079695,
+    "elapsed_sec": 65.2
+  },
+  "gcn_ENZYMES_5shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.24800000116229057,
+    "best_acc": 0.2700000014156103,
+    "elapsed_sec": 64.0
+  },
+  "gin_MUTAG_1shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.6499999987582366,
+    "best_acc": 0.7250000029802323,
+    "elapsed_sec": 32.3
+  },
+  "gin_MUTAG_1shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.7733333294590314,
+    "best_acc": 0.7849999994039536,
+    "elapsed_sec": 31.0
+  },
+  "gin_MUTAG_1shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.8100000003973643,
+    "best_acc": 0.8849999934434891,
+    "elapsed_sec": 30.4
+  },
+  "gin_MUTAG_1shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.7766666628420353,
+    "best_acc": 0.7449999958276748,
+    "elapsed_sec": 28.0
+  },
+  "gin_MUTAG_1shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.759999992698431,
+    "best_acc": 0.7499999988824129,
+    "elapsed_sec": 31.0
+  },
+  "gin_MUTAG_5shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.8799999932448069,
+    "best_acc": 0.9149999916553497,
+    "elapsed_sec": 33.7
+  },
+  "gin_MUTAG_5shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.8899999936421712,
+    "best_acc": 0.8899999886751175,
+    "elapsed_sec": 30.8
+  },
+  "gin_MUTAG_5shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.896666657924652,
+    "best_acc": 0.9049999862909317,
+    "elapsed_sec": 30.8
+  },
+  "gin_MUTAG_5shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.9333333293596904,
+    "best_acc": 0.964999994635582,
+    "elapsed_sec": 29.0
+  },
+  "gin_MUTAG_5shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.8799999912579854,
+    "best_acc": 0.9099999964237213,
+    "elapsed_sec": 25.4
+  },
+  "gin_PROTEINS_1shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.516666675110658,
+    "best_acc": 0.5650000058114528,
+    "elapsed_sec": 28.2
+  },
+  "gin_PROTEINS_1shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.5400000075499217,
+    "best_acc": 0.5350000113248825,
+    "elapsed_sec": 30.4
+  },
+  "gin_PROTEINS_1shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.5133333444595337,
+    "best_acc": 0.5650000058114528,
+    "elapsed_sec": 29.8
+  },
+  "gin_PROTEINS_1shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.5466666767994562,
+    "best_acc": 0.5950000017881394,
+    "elapsed_sec": 27.0
+  },
+  "gin_PROTEINS_1shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.5100000048677127,
+    "best_acc": 0.5800000071525574,
+    "elapsed_sec": 27.0
+  },
+  "gin_PROTEINS_5shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.5766666700442632,
+    "best_acc": 0.6400000050663948,
+    "elapsed_sec": 31.3
+  },
+  "gin_PROTEINS_5shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.5800000081459681,
+    "best_acc": 0.6050000064074993,
+    "elapsed_sec": 34.0
+  },
+  "gin_PROTEINS_5shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.5000000072022279,
+    "best_acc": 0.5250000052154065,
+    "elapsed_sec": 32.6
+  },
+  "gin_PROTEINS_5shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.5766666683057944,
+    "best_acc": 0.605000002682209,
+    "elapsed_sec": 33.3
+  },
+  "gin_PROTEINS_5shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.5066666727264723,
+    "best_acc": 0.535000005364418,
+    "elapsed_sec": 32.6
+  },
+  "gin_ENZYMES_1shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.26399999981125194,
+    "best_acc": 0.27199999876320363,
+    "elapsed_sec": 35.4
+  },
+  "gin_ENZYMES_1shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.2866666647295157,
+    "best_acc": 0.27400000020861626,
+    "elapsed_sec": 36.4
+  },
+  "gin_ENZYMES_1shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.23733332976698876,
+    "best_acc": 0.24999999888241292,
+    "elapsed_sec": 35.1
+  },
+  "gin_ENZYMES_1shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.23466666315992674,
+    "best_acc": 0.26600000225007536,
+    "elapsed_sec": 34.1
+  },
+  "gin_ENZYMES_1shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.217333331455787,
+    "best_acc": 0.24199999868869781,
+    "elapsed_sec": 33.8
+  },
+  "gin_ENZYMES_5shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.30399999941388767,
+    "best_acc": 0.32200000062584877,
+    "elapsed_sec": 42.3
+  },
+  "gin_ENZYMES_5shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.2746666674812635,
+    "best_acc": 0.269999998062849,
+    "elapsed_sec": 42.1
+  },
+  "gin_ENZYMES_5shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.21866666649778685,
+    "best_acc": 0.2600000031292439,
+    "elapsed_sec": 41.9
+  },
+  "gin_ENZYMES_5shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.2599999994039536,
+    "best_acc": 0.3040000002831221,
+    "elapsed_sec": 42.1
+  },
+  "gin_ENZYMES_5shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.2973333358764648,
+    "best_acc": 0.2859999995678663,
+    "elapsed_sec": 44.4
+  },
+  "sage_MUTAG_1shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.5800000111262004,
+    "best_acc": 0.630000002682209,
+    "elapsed_sec": 20.5
+  },
+  "sage_MUTAG_1shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.6233333354194959,
+    "best_acc": 0.6499999992549419,
+    "elapsed_sec": 20.0
+  },
+  "sage_MUTAG_1shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.6033333381017049,
+    "best_acc": 0.6500000074505806,
+    "elapsed_sec": 19.7
+  },
+  "sage_MUTAG_1shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.623333340883255,
+    "best_acc": 0.6450000032782555,
+    "elapsed_sec": 19.5
+  },
+  "sage_MUTAG_1shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.6233333413799603,
+    "best_acc": 0.6050000097602606,
+    "elapsed_sec": 19.7
+  },
+  "sage_MUTAG_5shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.6633333380023638,
+    "best_acc": 0.7699999988079071,
+    "elapsed_sec": 22.4
+  },
+  "sage_MUTAG_5shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.663333335518837,
+    "best_acc": 0.6450000055134296,
+    "elapsed_sec": 22.3
+  },
+  "sage_MUTAG_5shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.7200000027815501,
+    "best_acc": 0.7900000035762786,
+    "elapsed_sec": 22.4
+  },
+  "sage_MUTAG_5shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.799999996026357,
+    "best_acc": 0.8149999976158142,
+    "elapsed_sec": 22.7
+  },
+  "sage_MUTAG_5shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.7666666646798451,
+    "best_acc": 0.775,
+    "elapsed_sec": 22.5
+  },
+  "sage_PROTEINS_1shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.5100000063578288,
+    "best_acc": 0.5500000104308128,
+    "elapsed_sec": 23.2
+  },
+  "sage_PROTEINS_1shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.536666672428449,
+    "best_acc": 0.5400000050663948,
+    "elapsed_sec": 23.2
+  },
+  "sage_PROTEINS_1shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.5133333414793014,
+    "best_acc": 0.5600000016391278,
+    "elapsed_sec": 23.4
+  },
+  "sage_PROTEINS_1shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.5400000100334486,
+    "best_acc": 0.6150000065565109,
+    "elapsed_sec": 23.2
+  },
+  "sage_PROTEINS_1shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.5300000036756197,
+    "best_acc": 0.5750000044703484,
+    "elapsed_sec": 23.0
+  },
+  "sage_PROTEINS_5shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.5833333392937978,
+    "best_acc": 0.5950000062584877,
+    "elapsed_sec": 27.2
+  },
+  "sage_PROTEINS_5shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.590000006556511,
+    "best_acc": 0.5900000024586916,
+    "elapsed_sec": 27.1
+  },
+  "sage_PROTEINS_5shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.5100000036259492,
+    "best_acc": 0.5700000062584877,
+    "elapsed_sec": 27.4
+  },
+  "sage_PROTEINS_5shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.5200000050167243,
+    "best_acc": 0.5800000049173832,
+    "elapsed_sec": 27.3
+  },
+  "sage_PROTEINS_5shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.526666667064031,
+    "best_acc": 0.5550000078976154,
+    "elapsed_sec": 27.1
+  },
+  "sage_ENZYMES_1shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.26133333320418994,
+    "best_acc": 0.2759999979287386,
+    "elapsed_sec": 31.0
+  },
+  "sage_ENZYMES_1shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.2893333338201046,
+    "best_acc": 0.27800000123679636,
+    "elapsed_sec": 30.8
+  },
+  "sage_ENZYMES_1shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.23866666505734127,
+    "best_acc": 0.23999999910593034,
+    "elapsed_sec": 31.0
+  },
+  "sage_ENZYMES_1shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.2533333323895931,
+    "best_acc": 0.2599999990314245,
+    "elapsed_sec": 31.2
+  },
+  "sage_ENZYMES_1shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.20533333097894987,
+    "best_acc": 0.2299999985843897,
+    "elapsed_sec": 30.8
+  },
+  "sage_ENZYMES_5shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.25333333363135657,
+    "best_acc": 0.28200000077486037,
+    "elapsed_sec": 38.8
+  },
+  "sage_ENZYMES_5shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.2693333327770233,
+    "best_acc": 0.2779999986290932,
+    "elapsed_sec": 39.2
+  },
+  "sage_ENZYMES_5shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.22133333335320154,
+    "best_acc": 0.24999999888241292,
+    "elapsed_sec": 38.3
+  },
+  "sage_ENZYMES_5shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.27066666384538013,
+    "best_acc": 0.27800000123679636,
+    "elapsed_sec": 38.9
+  },
+  "sage_ENZYMES_5shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.2733333336810271,
+    "best_acc": 0.2800000015646219,
+    "elapsed_sec": 39.5
+  },
+  "gcn_DD_1shot_run0": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.5566666707396507,
+    "best_acc": 0.7099999964237214,
+    "elapsed_sec": 92.6
+  },
+  "gcn_DD_1shot_run1": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.5766666740179062,
+    "best_acc": 0.5850000090897083,
+    "elapsed_sec": 99.5
+  },
+  "gcn_DD_1shot_run2": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.5233333396414915,
+    "best_acc": 0.580000002682209,
+    "elapsed_sec": 96.2
+  },
+  "gcn_DD_1shot_run3": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.5266666747629642,
+    "best_acc": 0.5800000064074993,
+    "elapsed_sec": 95.7
+  },
+  "gcn_DD_1shot_run4": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.596666669100523,
+    "best_acc": 0.6250000044703483,
+    "elapsed_sec": 93.3
+  },
+  "gcn_DD_5shot_run0": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.573333336909612,
+    "best_acc": 0.6400000050663948,
+    "elapsed_sec": 154.9
+  },
+  "gcn_DD_5shot_run1": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.7000000004967054,
+    "best_acc": 0.710000005364418,
+    "elapsed_sec": 154.7
+  },
+  "gcn_DD_5shot_run2": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.6233333386480808,
+    "best_acc": 0.71000000461936,
+    "elapsed_sec": 147.6
+  },
+  "gcn_DD_5shot_run3": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.6300000051657358,
+    "best_acc": 0.6500000089406968,
+    "elapsed_sec": 137.6
+  },
+  "gcn_DD_5shot_run4": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.6500000094374021,
+    "best_acc": 0.6700000017881393,
+    "elapsed_sec": 118.5
+  },
+  "gcn_REDDIT-M5K_1shot_run0": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.3613333314657211,
+    "best_acc": 0.37599999755620955,
+    "elapsed_sec": 244.9
+  },
+  "gcn_REDDIT-M5K_1shot_run1": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.30266666909058887,
+    "best_acc": 0.36200000420212747,
+    "elapsed_sec": 211.3
+  },
+  "gcn_REDDIT-M5K_1shot_run2": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.35066666503747307,
+    "best_acc": 0.3679999981075525,
+    "elapsed_sec": 232.6
+  },
+  "gcn_REDDIT-M5K_1shot_run3": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.34533333107829095,
+    "best_acc": 0.33800000250339507,
+    "elapsed_sec": 233.3
+  },
+  "gcn_REDDIT-M5K_1shot_run4": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.30799999957283336,
+    "best_acc": 0.3239999994635582,
+    "elapsed_sec": 234.8
+  },
+  "gcn_REDDIT-M5K_5shot_run0": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.42399999847014747,
+    "best_acc": 0.4339999981224537,
+    "elapsed_sec": 356.5
+  },
+  "gcn_REDDIT-M5K_5shot_run1": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.4573333298166593,
+    "best_acc": 0.4579999938607216,
+    "elapsed_sec": 391.5
+  },
+  "gcn_REDDIT-M5K_5shot_run2": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.4186666697263718,
+    "best_acc": 0.4259999953210354,
+    "elapsed_sec": 377.1
+  },
+  "gcn_REDDIT-M5K_5shot_run3": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.43466666440169016,
+    "best_acc": 0.4979999989271164,
+    "elapsed_sec": 383.2
+  },
+  "gcn_REDDIT-M5K_5shot_run4": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.3733333334326744,
+    "best_acc": 0.4159999988973141,
+    "elapsed_sec": 397.6
+  },
+  "gin_DD_1shot_run0": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.5566666675110657,
+    "best_acc": 0.6700000062584877,
+    "elapsed_sec": 60.8
+  },
+  "gin_DD_1shot_run1": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.6000000049670537,
+    "best_acc": 0.5700000040233135,
+    "elapsed_sec": 60.9
+  },
+  "gin_DD_1shot_run2": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.5933333377043406,
+    "best_acc": 0.5750000011175871,
+    "elapsed_sec": 60.7
+  },
+  "gin_DD_1shot_run3": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.6066666717330614,
+    "best_acc": 0.6300000071525573,
+    "elapsed_sec": 60.8
+  },
+  "gin_DD_1shot_run4": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.6400000030795733,
+    "best_acc": 0.5750000134110451,
+    "elapsed_sec": 61.7
+  },
+  "gin_DD_5shot_run0": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.6300000011920929,
+    "best_acc": 0.735000005364418,
+    "elapsed_sec": 93.8
+  },
+  "gin_DD_5shot_run1": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.6866666649778684,
+    "best_acc": 0.7000000059604645,
+    "elapsed_sec": 95.9
+  },
+  "gin_DD_5shot_run2": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.5700000035266082,
+    "best_acc": 0.6900000020861625,
+    "elapsed_sec": 92.2
+  },
+  "gin_DD_5shot_run3": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.6266666690508524,
+    "best_acc": 0.6200000077486039,
+    "elapsed_sec": 96.5
+  },
+  "gin_DD_5shot_run4": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.6533333371082942,
+    "best_acc": 0.6650000065565109,
+    "elapsed_sec": 93.7
+  },
+  "gin_REDDIT-M5K_1shot_run0": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.37733333334326746,
+    "best_acc": 0.39200000315904615,
+    "elapsed_sec": 216.7
+  },
+  "gin_REDDIT-M5K_1shot_run1": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.33733333423733713,
+    "best_acc": 0.4160000003874302,
+    "elapsed_sec": 221.9
+  },
+  "gin_REDDIT-M5K_1shot_run2": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.3653333358466625,
+    "best_acc": 0.3640000008046627,
+    "elapsed_sec": 223.1
+  },
+  "gin_REDDIT-M5K_1shot_run3": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.38400000060598055,
+    "best_acc": 0.3859999984502792,
+    "elapsed_sec": 218.6
+  },
+  "gin_REDDIT-M5K_1shot_run4": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.3719999986390273,
+    "best_acc": 0.36999999955296514,
+    "elapsed_sec": 222.3
+  },
+  "gin_REDDIT-M5K_5shot_run0": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.4626666640241941,
+    "best_acc": 0.4700000025331974,
+    "elapsed_sec": 380.0
+  },
+  "gin_REDDIT-M5K_5shot_run1": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.4719999983906746,
+    "best_acc": 0.47999999672174454,
+    "elapsed_sec": 394.8
+  },
+  "gin_REDDIT-M5K_5shot_run2": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.4639999975760778,
+    "best_acc": 0.47399999499320983,
+    "elapsed_sec": 391.3
+  },
+  "gin_REDDIT-M5K_5shot_run3": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.45999999741713204,
+    "best_acc": 0.48599999845027925,
+    "elapsed_sec": 383.0
+  },
+  "gin_REDDIT-M5K_5shot_run4": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.45066666702429453,
+    "best_acc": 0.4820000007748604,
+    "elapsed_sec": 381.5
+  },
+  "sage_DD_1shot_run0": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.5566666672627131,
+    "best_acc": 0.655000002682209,
+    "elapsed_sec": 60.8
+  },
+  "sage_DD_1shot_run1": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.5666666746139526,
+    "best_acc": 0.5800000034272671,
+    "elapsed_sec": 60.8
+  },
+  "sage_DD_1shot_run2": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.543333342919747,
+    "best_acc": 0.6000000096857547,
+    "elapsed_sec": 60.4
+  },
+  "sage_DD_1shot_run3": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.5633333409825961,
+    "best_acc": 0.5800000071525574,
+    "elapsed_sec": 60.7
+  },
+  "sage_DD_1shot_run4": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.6066666675110658,
+    "best_acc": 0.6150000035762787,
+    "elapsed_sec": 61.3
+  },
+  "sage_DD_5shot_run0": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.6066666722297669,
+    "best_acc": 0.675,
+    "elapsed_sec": 93.9
+  },
+  "sage_DD_5shot_run1": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.7133333325386048,
+    "best_acc": 0.705000002682209,
+    "elapsed_sec": 94.7
+  },
+  "sage_DD_5shot_run2": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.6200000045200189,
+    "best_acc": 0.6900000080466271,
+    "elapsed_sec": 90.2
+  },
+  "sage_DD_5shot_run3": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.6300000041723252,
+    "best_acc": 0.6550000071525574,
+    "elapsed_sec": 94.7
+  },
+  "sage_DD_5shot_run4": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.6466666693488757,
+    "best_acc": 0.6849999979138375,
+    "elapsed_sec": 92.8
+  },
+  "sage_REDDIT-M5K_1shot_run0": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.27600000028808913,
+    "best_acc": 0.31999999769032,
+    "elapsed_sec": 219.1
+  },
+  "sage_REDDIT-M5K_1shot_run1": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.2666666679084301,
+    "best_acc": 0.29400000013411043,
+    "elapsed_sec": 219.0
+  },
+  "sage_REDDIT-M5K_1shot_run2": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.28399999911586443,
+    "best_acc": 0.3340000011026859,
+    "elapsed_sec": 208.4
+  },
+  "sage_REDDIT-M5K_1shot_run3": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.26133333444595336,
+    "best_acc": 0.2700000017881393,
+    "elapsed_sec": 212.0
+  },
+  "sage_REDDIT-M5K_1shot_run4": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.2613333322107792,
+    "best_acc": 0.26399999894201753,
+    "elapsed_sec": 213.3
+  },
+  "sage_REDDIT-M5K_5shot_run0": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.3080000023047129,
+    "best_acc": 0.32799999937415125,
+    "elapsed_sec": 350.0
+  },
+  "sage_REDDIT-M5K_5shot_run1": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.29066666811704633,
+    "best_acc": 0.32800000309944155,
+    "elapsed_sec": 358.4
+  },
+  "sage_REDDIT-M5K_5shot_run2": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.3093333328763644,
+    "best_acc": 0.318000003695488,
+    "elapsed_sec": 350.1
+  },
+  "sage_REDDIT-M5K_5shot_run3": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.3013333365321159,
+    "best_acc": 0.32399999871850016,
+    "elapsed_sec": 355.2
+  },
+  "sage_REDDIT-M5K_5shot_run4": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.3013333335518837,
+    "best_acc": 0.346000000834465,
+    "elapsed_sec": 349.2
+  },
+  "gat_MUTAG_1shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.6133333392441273,
+    "best_acc": 0.6133333392441273,
+    "elapsed_sec": 109.9
+  },
+  "gat_MUTAG_1shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.5933333394428094,
+    "best_acc": 0.6033333418269952,
+    "elapsed_sec": 113.0
+  },
+  "gat_MUTAG_1shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.6400000063081582,
+    "best_acc": 0.6466666735708714,
+    "elapsed_sec": 109.4
+  },
+  "gat_MUTAG_1shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.6500000076989333,
+    "best_acc": 0.6500000076989333,
+    "elapsed_sec": 102.6
+  },
+  "gat_MUTAG_1shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.6433333424230416,
+    "best_acc": 0.6433333424230416,
+    "elapsed_sec": 70.0
+  },
+  "gat_MUTAG_5shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.7600000123182933,
+    "best_acc": 0.7600000123182933,
+    "elapsed_sec": 76.4
+  },
+  "gat_MUTAG_5shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.7433333416779836,
+    "best_acc": 0.7433333416779836,
+    "elapsed_sec": 75.7
+  },
+  "gat_MUTAG_5shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.7400000075499217,
+    "best_acc": 0.7433333396911621,
+    "elapsed_sec": 74.7
+  },
+  "gat_MUTAG_5shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.7700000107288361,
+    "best_acc": 0.7700000107288361,
+    "elapsed_sec": 75.1
+  },
+  "gat_MUTAG_5shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.74666668176651,
+    "best_acc": 0.7633333404858907,
+    "elapsed_sec": 80.6
+  },
+  "gat_PROTEINS_1shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.5733333418766657,
+    "best_acc": 0.5900000075499217,
+    "elapsed_sec": 76.1
+  },
+  "gat_PROTEINS_1shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.5533333415786426,
+    "best_acc": 0.5966666748126348,
+    "elapsed_sec": 72.2
+  },
+  "gat_PROTEINS_1shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.6166666746139526,
+    "best_acc": 0.6400000075499217,
+    "elapsed_sec": 66.8
+  },
+  "gat_PROTEINS_1shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.560000009338061,
+    "best_acc": 0.6166666736205418,
+    "elapsed_sec": 75.0
+  },
+  "gat_PROTEINS_1shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.6133333414793014,
+    "best_acc": 0.6133333414793014,
+    "elapsed_sec": 67.6
+  },
+  "gat_PROTEINS_5shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.606666677693526,
+    "best_acc": 0.606666677693526,
+    "elapsed_sec": 67.8
+  },
+  "gat_PROTEINS_5shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.603333339591821,
+    "best_acc": 0.6333333427707354,
+    "elapsed_sec": 68.7
+  },
+  "gat_PROTEINS_5shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.6066666752099991,
+    "best_acc": 0.6066666752099991,
+    "elapsed_sec": 67.1
+  },
+  "gat_PROTEINS_5shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.6166666756073634,
+    "best_acc": 0.6266666750113169,
+    "elapsed_sec": 66.5
+  },
+  "gat_PROTEINS_5shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.5800000069042047,
+    "best_acc": 0.58333334227403,
+    "elapsed_sec": 65.3
+  },
+  "gat_ENZYMES_1shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.22933332845568657,
+    "best_acc": 0.2333333286146323,
+    "elapsed_sec": 72.7
+  },
+  "gat_ENZYMES_1shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.21466666261355083,
+    "best_acc": 0.23866666083534557,
+    "elapsed_sec": 75.2
+  },
+  "gat_ENZYMES_1shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.22133332788944243,
+    "best_acc": 0.2359999934832255,
+    "elapsed_sec": 78.7
+  },
+  "gat_ENZYMES_1shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.20666666130224864,
+    "best_acc": 0.23999999438722927,
+    "elapsed_sec": 70.2
+  },
+  "gat_ENZYMES_1shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.22399999449650446,
+    "best_acc": 0.23866666083534557,
+    "elapsed_sec": 77.3
+  },
+  "gat_ENZYMES_5shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.2226666604479154,
+    "best_acc": 0.2359999934832255,
+    "elapsed_sec": 72.7
+  },
+  "gat_ENZYMES_5shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.22399999424815178,
+    "best_acc": 0.24133332868417104,
+    "elapsed_sec": 71.5
+  },
+  "gat_ENZYMES_5shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.2146666616201401,
+    "best_acc": 0.21733332723379134,
+    "elapsed_sec": 70.0
+  },
+  "gat_ENZYMES_5shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.21333332707484562,
+    "best_acc": 0.2239999937514464,
+    "elapsed_sec": 70.7
+  },
+  "gat_ENZYMES_5shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.22799999391039213,
+    "best_acc": 0.2346666584412257,
+    "elapsed_sec": 76.1
+  },
+  "gat_DD_1shot_run0": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.5500000084439913,
+    "best_acc": 0.6466666750609875,
+    "elapsed_sec": 99.6
+  },
+  "gat_DD_1shot_run1": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.5666666758557161,
+    "best_acc": 0.6433333458999793,
+    "elapsed_sec": 66.0
+  },
+  "gat_DD_1shot_run2": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.620000014702479,
+    "best_acc": 0.620000014702479,
+    "elapsed_sec": 68.5
+  },
+  "gat_DD_1shot_run3": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.6233333436151346,
+    "best_acc": 0.6233333436151346,
+    "elapsed_sec": 75.7
+  },
+  "gat_DD_1shot_run4": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.6400000082949797,
+    "best_acc": 0.6400000082949797,
+    "elapsed_sec": 67.0
+  },
+  "gat_DD_5shot_run0": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.7166666756073634,
+    "best_acc": 0.8033333460489909,
+    "elapsed_sec": 69.3
+  },
+  "gat_DD_5shot_run1": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.7333333472410838,
+    "best_acc": 0.7333333472410838,
+    "elapsed_sec": 78.1
+  },
+  "gat_DD_5shot_run2": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.5400000085433324,
+    "best_acc": 0.7866666813691457,
+    "elapsed_sec": 89.3
+  },
+  "gat_DD_5shot_run3": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.593333342174689,
+    "best_acc": 0.7633333464463552,
+    "elapsed_sec": 109.8
+  },
+  "gat_DD_5shot_run4": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.6100000073512395,
+    "best_acc": 0.7766666789849599,
+    "elapsed_sec": 101.8
+  },
+  "gat_REDDIT-M5K_1shot_run0": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 0,
+    "final_acc": 0.26266665930549304,
+    "best_acc": 0.27466666052738825,
+    "elapsed_sec": 71.5
+  },
+  "gat_REDDIT-M5K_1shot_run1": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 1,
+    "final_acc": 0.27866665944457053,
+    "best_acc": 0.2799999942382177,
+    "elapsed_sec": 74.5
+  },
+  "gat_REDDIT-M5K_1shot_run2": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 2,
+    "final_acc": 0.28666665678222975,
+    "best_acc": 0.2879999913275242,
+    "elapsed_sec": 88.2
+  },
+  "gat_REDDIT-M5K_1shot_run3": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 3,
+    "final_acc": 0.26933332507809005,
+    "best_acc": 0.2919999932249387,
+    "elapsed_sec": 92.0
+  },
+  "gat_REDDIT-M5K_1shot_run4": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 4,
+    "final_acc": 0.24133332669734955,
+    "best_acc": 0.28399999290704725,
+    "elapsed_sec": 70.8
+  },
+  "gat_REDDIT-M5K_5shot_run0": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.31333332508802414,
+    "best_acc": 0.3266666601101557,
+    "elapsed_sec": 73.3
+  },
+  "gat_REDDIT-M5K_5shot_run1": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.32533332630991935,
+    "best_acc": 0.3306666592756907,
+    "elapsed_sec": 73.4
+  },
+  "gat_REDDIT-M5K_5shot_run2": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.31999999235073723,
+    "best_acc": 0.32933332175016405,
+    "elapsed_sec": 76.2
+  },
+  "gat_REDDIT-M5K_5shot_run3": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.30266665865977604,
+    "best_acc": 0.3266666601101557,
+    "elapsed_sec": 75.5
+  },
+  "gat_REDDIT-M5K_5shot_run4": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.29866665924588837,
+    "best_acc": 0.3306666587789853,
+    "elapsed_sec": 91.5
+  },
+  "gcn_DD_1shot_run10": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 10,
+    "final_acc": 0.4933333396911621,
+    "best_acc": 0.5200000062584877,
+    "elapsed_sec": 33.4
+  },
+  "gcn_DD_1shot_run11": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 11,
+    "final_acc": 0.48333333830038705,
+    "best_acc": 0.5300000056624412,
+    "elapsed_sec": 36.2
+  },
+  "gcn_DD_1shot_run12": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 12,
+    "final_acc": 0.6066666801770528,
+    "best_acc": 0.6066666801770528,
+    "elapsed_sec": 37.0
+  },
+  "gcn_DD_1shot_run13": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 13,
+    "final_acc": 0.6466666755576929,
+    "best_acc": 0.6466666755576929,
+    "elapsed_sec": 33.7
+  },
+  "gcn_DD_1shot_run14": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 14,
+    "final_acc": 0.5133333409825961,
+    "best_acc": 0.6100000110765298,
+    "elapsed_sec": 33.8
+  },
+  "gcn_DD_1shot_run15": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 15,
+    "final_acc": 0.6000000094374021,
+    "best_acc": 0.6200000079969565,
+    "elapsed_sec": 34.1
+  },
+  "gcn_DD_1shot_run16": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 16,
+    "final_acc": 0.5500000091890495,
+    "best_acc": 0.5933333434164524,
+    "elapsed_sec": 36.7
+  },
+  "gcn_DD_1shot_run17": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 17,
+    "final_acc": 0.5000000074505806,
+    "best_acc": 0.5833333348234494,
+    "elapsed_sec": 36.1
+  },
+  "gcn_DD_1shot_run18": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 18,
+    "final_acc": 0.5300000054140885,
+    "best_acc": 0.6166666756073634,
+    "elapsed_sec": 36.8
+  },
+  "gcn_DD_1shot_run19": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 19,
+    "final_acc": 0.5933333436648051,
+    "best_acc": 0.5900000075499217,
+    "elapsed_sec": 36.2
+  },
+  "gcn_DD_1shot_run5": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 5,
+    "final_acc": 0.6000000052154064,
+    "best_acc": 0.6033333393434683,
+    "elapsed_sec": 32.7
+  },
+  "gcn_DD_1shot_run6": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 6,
+    "final_acc": 0.5933333391944567,
+    "best_acc": 0.5933333391944567,
+    "elapsed_sec": 33.2
+  },
+  "gcn_DD_1shot_run7": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 7,
+    "final_acc": 0.6166666766007741,
+    "best_acc": 0.6133333424727122,
+    "elapsed_sec": 32.8
+  },
+  "gcn_DD_1shot_run8": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 8,
+    "final_acc": 0.5700000055134297,
+    "best_acc": 0.5700000055134297,
+    "elapsed_sec": 33.4
+  },
+  "gcn_DD_1shot_run9": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 9,
+    "final_acc": 0.4966666733225187,
+    "best_acc": 0.5133333377540111,
+    "elapsed_sec": 33.4
+  },
+  "gcn_ENZYMES_5shot_run10": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 10,
+    "final_acc": 0.18933332910140355,
+    "best_acc": 0.2133333278199037,
+    "elapsed_sec": 40.8
+  },
+  "gcn_ENZYMES_5shot_run11": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 11,
+    "final_acc": 0.20266666238506634,
+    "best_acc": 0.2093333274126053,
+    "elapsed_sec": 40.7
+  },
+  "gcn_ENZYMES_5shot_run12": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 12,
+    "final_acc": 0.1919999952117602,
+    "best_acc": 0.21733332673708597,
+    "elapsed_sec": 40.7
+  },
+  "gcn_ENZYMES_5shot_run13": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 13,
+    "final_acc": 0.2106666607161363,
+    "best_acc": 0.21066666270295778,
+    "elapsed_sec": 41.0
+  },
+  "gcn_ENZYMES_5shot_run14": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 14,
+    "final_acc": 0.1919999954601129,
+    "best_acc": 0.21599999318520227,
+    "elapsed_sec": 40.9
+  },
+  "gcn_ENZYMES_5shot_run15": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 15,
+    "final_acc": 0.19466666181882222,
+    "best_acc": 0.20933332766095797,
+    "elapsed_sec": 41.7
+  },
+  "gcn_ENZYMES_5shot_run16": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 16,
+    "final_acc": 0.20533332750201225,
+    "best_acc": 0.23066665853063265,
+    "elapsed_sec": 43.1
+  },
+  "gcn_ENZYMES_5shot_run17": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 17,
+    "final_acc": 0.20666666179895402,
+    "best_acc": 0.21466666087508202,
+    "elapsed_sec": 44.9
+  },
+  "gcn_ENZYMES_5shot_run18": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 18,
+    "final_acc": 0.19999999577800434,
+    "best_acc": 0.21866666053732237,
+    "elapsed_sec": 44.4
+  },
+  "gcn_ENZYMES_5shot_run19": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 19,
+    "final_acc": 0.2146666613717874,
+    "best_acc": 0.2146666613717874,
+    "elapsed_sec": 43.1
+  },
+  "gcn_ENZYMES_5shot_run5": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 5,
+    "final_acc": 0.1946666623155276,
+    "best_acc": 0.2133333280682564,
+    "elapsed_sec": 40.9
+  },
+  "gcn_ENZYMES_5shot_run6": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 6,
+    "final_acc": 0.2159999946753184,
+    "best_acc": 0.22266665945450465,
+    "elapsed_sec": 40.9
+  },
+  "gcn_ENZYMES_5shot_run7": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 7,
+    "final_acc": 0.23066666101415953,
+    "best_acc": 0.23466666241486867,
+    "elapsed_sec": 40.6
+  },
+  "gcn_ENZYMES_5shot_run8": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 8,
+    "final_acc": 0.20666666130224864,
+    "best_acc": 0.21733332748214404,
+    "elapsed_sec": 40.7
+  },
+  "gcn_ENZYMES_5shot_run9": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 9,
+    "final_acc": 0.19733332917094232,
+    "best_acc": 0.21199999476472536,
+    "elapsed_sec": 40.5
+  },
+  "gcn_MUTAG_5shot_run10": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 10,
+    "final_acc": 0.7533333420753479,
+    "best_acc": 0.7766666789849599,
+    "elapsed_sec": 40.0
+  },
+  "gcn_MUTAG_5shot_run11": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 11,
+    "final_acc": 0.7500000099341074,
+    "best_acc": 0.7600000103314718,
+    "elapsed_sec": 41.1
+  },
+  "gcn_MUTAG_5shot_run12": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 12,
+    "final_acc": 0.7333333392937978,
+    "best_acc": 0.7633333424727122,
+    "elapsed_sec": 42.6
+  },
+  "gcn_MUTAG_5shot_run13": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 13,
+    "final_acc": 0.7600000103314718,
+    "best_acc": 0.7600000103314718,
+    "elapsed_sec": 45.1
+  },
+  "gcn_MUTAG_5shot_run14": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 14,
+    "final_acc": 0.7433333436648051,
+    "best_acc": 0.7700000087420146,
+    "elapsed_sec": 37.2
+  },
+  "gcn_MUTAG_5shot_run15": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 15,
+    "final_acc": 0.7400000115235646,
+    "best_acc": 0.7733333428700765,
+    "elapsed_sec": 37.7
+  },
+  "gcn_MUTAG_5shot_run16": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 16,
+    "final_acc": 0.7500000079472859,
+    "best_acc": 0.7666666746139527,
+    "elapsed_sec": 39.3
+  },
+  "gcn_MUTAG_5shot_run17": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 17,
+    "final_acc": 0.7500000079472859,
+    "best_acc": 0.7733333428700765,
+    "elapsed_sec": 39.9
+  },
+  "gcn_MUTAG_5shot_run18": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 18,
+    "final_acc": 0.7400000075499217,
+    "best_acc": 0.746666673819224,
+    "elapsed_sec": 39.6
+  },
+  "gcn_MUTAG_5shot_run19": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 19,
+    "final_acc": 0.7333333392937978,
+    "best_acc": 0.7333333392937978,
+    "elapsed_sec": 39.8
+  },
+  "gcn_MUTAG_5shot_run5": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 5,
+    "final_acc": 0.7600000103314718,
+    "best_acc": 0.7600000103314718,
+    "elapsed_sec": 39.3
+  },
+  "gcn_MUTAG_5shot_run6": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 6,
+    "final_acc": 0.773333344856898,
+    "best_acc": 0.7833333432674408,
+    "elapsed_sec": 38.5
+  },
+  "gcn_MUTAG_5shot_run7": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 7,
+    "final_acc": 0.7600000103314718,
+    "best_acc": 0.7600000103314718,
+    "elapsed_sec": 38.8
+  },
+  "gcn_MUTAG_5shot_run8": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 8,
+    "final_acc": 0.7300000071525574,
+    "best_acc": 0.7533333440621693,
+    "elapsed_sec": 38.4
+  },
+  "gcn_MUTAG_5shot_run9": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 9,
+    "final_acc": 0.7233333398898443,
+    "best_acc": 0.7333333373069764,
+    "elapsed_sec": 38.1
+  },
+  "gcn_PROTEINS_5shot_run10": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 10,
+    "final_acc": 0.556666673719883,
+    "best_acc": 0.556666674464941,
+    "elapsed_sec": 36.1
+  },
+  "gcn_PROTEINS_5shot_run11": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 11,
+    "final_acc": 0.5800000078976154,
+    "best_acc": 0.5800000081459681,
+    "elapsed_sec": 36.5
+  },
+  "gcn_PROTEINS_5shot_run12": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 12,
+    "final_acc": 0.5433333404362202,
+    "best_acc": 0.5666666763524214,
+    "elapsed_sec": 36.0
+  },
+  "gcn_PROTEINS_5shot_run13": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 13,
+    "final_acc": 0.5800000088910262,
+    "best_acc": 0.5866666749119759,
+    "elapsed_sec": 36.5
+  },
+  "gcn_PROTEINS_5shot_run14": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 14,
+    "final_acc": 0.5800000069042047,
+    "best_acc": 0.5800000069042047,
+    "elapsed_sec": 36.4
+  },
+  "gcn_PROTEINS_5shot_run15": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 15,
+    "final_acc": 0.563333340237538,
+    "best_acc": 0.5733333411316077,
+    "elapsed_sec": 36.3
+  },
+  "gcn_PROTEINS_5shot_run16": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 16,
+    "final_acc": 0.6100000068545341,
+    "best_acc": 0.6133333409825961,
+    "elapsed_sec": 36.5
+  },
+  "gcn_PROTEINS_5shot_run17": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 17,
+    "final_acc": 0.5333333397905032,
+    "best_acc": 0.5666666741172472,
+    "elapsed_sec": 36.3
+  },
+  "gcn_PROTEINS_5shot_run18": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 18,
+    "final_acc": 0.5533333413302899,
+    "best_acc": 0.5666666738688946,
+    "elapsed_sec": 36.2
+  },
+  "gcn_PROTEINS_5shot_run19": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 19,
+    "final_acc": 0.5833333420256773,
+    "best_acc": 0.5833333420256773,
+    "elapsed_sec": 36.7
+  },
+  "gcn_PROTEINS_5shot_run5": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 5,
+    "final_acc": 0.5633333407342433,
+    "best_acc": 0.5833333387970925,
+    "elapsed_sec": 38.2
+  },
+  "gcn_PROTEINS_5shot_run6": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 6,
+    "final_acc": 0.603333339591821,
+    "best_acc": 0.6133333380023639,
+    "elapsed_sec": 37.8
+  },
+  "gcn_PROTEINS_5shot_run7": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 7,
+    "final_acc": 0.5266666722794374,
+    "best_acc": 0.5700000079969565,
+    "elapsed_sec": 39.2
+  },
+  "gcn_PROTEINS_5shot_run8": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 8,
+    "final_acc": 0.5733333386480808,
+    "best_acc": 0.5766666720310847,
+    "elapsed_sec": 37.4
+  },
+  "gcn_PROTEINS_5shot_run9": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 9,
+    "final_acc": 0.5533333408335844,
+    "best_acc": 0.5800000071525574,
+    "elapsed_sec": 36.4
+  },
+  "gcn_REDDIT-M5K_1shot_run10": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 10,
+    "final_acc": 0.26266666054725646,
+    "best_acc": 0.26266666054725646,
+    "elapsed_sec": 42.1
+  },
+  "gcn_REDDIT-M5K_1shot_run11": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 11,
+    "final_acc": 0.26266666054725646,
+    "best_acc": 0.26266666054725646,
+    "elapsed_sec": 42.0
+  },
+  "gcn_REDDIT-M5K_1shot_run12": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 12,
+    "final_acc": 0.26266666054725646,
+    "best_acc": 0.26266666054725646,
+    "elapsed_sec": 43.2
+  },
+  "gcn_REDDIT-M5K_1shot_run13": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 13,
+    "final_acc": 0.26266666054725646,
+    "best_acc": 0.26266666054725646,
+    "elapsed_sec": 42.5
+  },
+  "gcn_REDDIT-M5K_1shot_run14": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 14,
+    "final_acc": 0.26266666054725646,
+    "best_acc": 0.26266666054725646,
+    "elapsed_sec": 44.0
+  },
+  "gcn_REDDIT-M5K_1shot_run15": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 15,
+    "final_acc": 0.26266666054725646,
+    "best_acc": 0.26266666054725646,
+    "elapsed_sec": 44.9
+  },
+  "gcn_REDDIT-M5K_1shot_run16": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 16,
+    "final_acc": 0.26266666054725646,
+    "best_acc": 0.26266666054725646,
+    "elapsed_sec": 44.0
+  },
+  "gcn_REDDIT-M5K_1shot_run17": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 17,
+    "final_acc": 0.26266666054725646,
+    "best_acc": 0.26266666054725646,
+    "elapsed_sec": 46.2
+  },
+  "gcn_REDDIT-M5K_1shot_run18": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 18,
+    "final_acc": 0.26266666054725646,
+    "best_acc": 0.26266666054725646,
+    "elapsed_sec": 43.2
+  },
+  "gcn_REDDIT-M5K_1shot_run19": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 19,
+    "final_acc": 0.26266666054725646,
+    "best_acc": 0.26266666054725646,
+    "elapsed_sec": 45.1
+  },
+  "gcn_REDDIT-M5K_1shot_run5": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 5,
+    "final_acc": 0.26266666054725646,
+    "best_acc": 0.26266666054725646,
+    "elapsed_sec": 42.7
+  },
+  "gcn_REDDIT-M5K_1shot_run6": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 6,
+    "final_acc": 0.26266666054725646,
+    "best_acc": 0.26266666054725646,
+    "elapsed_sec": 42.5
+  },
+  "gcn_REDDIT-M5K_1shot_run7": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 7,
+    "final_acc": 0.26266666054725646,
+    "best_acc": 0.26266666054725646,
+    "elapsed_sec": 42.2
+  },
+  "gcn_REDDIT-M5K_1shot_run8": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 8,
+    "final_acc": 0.26266666054725646,
+    "best_acc": 0.26266666054725646,
+    "elapsed_sec": 42.2
+  },
+  "gcn_REDDIT-M5K_1shot_run9": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 9,
+    "final_acc": 0.26266666054725646,
+    "best_acc": 0.26266666054725646,
+    "elapsed_sec": 42.8
+  },
+  "gin_DD_1shot_run10": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 10,
+    "final_acc": 0.5633333449562391,
+    "best_acc": 0.5733333443601926,
+    "elapsed_sec": 44.2
+  },
+  "gin_DD_1shot_run11": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 11,
+    "final_acc": 0.5200000070035458,
+    "best_acc": 0.5366666729251544,
+    "elapsed_sec": 44.2
+  },
+  "gin_DD_1shot_run12": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 12,
+    "final_acc": 0.5333333400388559,
+    "best_acc": 0.5600000063578288,
+    "elapsed_sec": 45.9
+  },
+  "gin_DD_1shot_run13": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 13,
+    "final_acc": 0.5066666734715303,
+    "best_acc": 0.5400000063081583,
+    "elapsed_sec": 44.2
+  },
+  "gin_DD_1shot_run14": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 14,
+    "final_acc": 0.5600000058611234,
+    "best_acc": 0.5733333413799604,
+    "elapsed_sec": 44.6
+  },
+  "gin_DD_1shot_run15": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 15,
+    "final_acc": 0.526666671037674,
+    "best_acc": 0.556666673719883,
+    "elapsed_sec": 49.9
+  },
+  "gin_DD_1shot_run16": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 16,
+    "final_acc": 0.5600000053644181,
+    "best_acc": 0.5666666761040687,
+    "elapsed_sec": 45.3
+  },
+  "gin_DD_1shot_run17": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 17,
+    "final_acc": 0.5566666747132937,
+    "best_acc": 0.5666666721304258,
+    "elapsed_sec": 44.6
+  },
+  "gin_DD_1shot_run18": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 18,
+    "final_acc": 0.5333333390454451,
+    "best_acc": 0.560000009338061,
+    "elapsed_sec": 45.7
+  },
+  "gin_DD_1shot_run19": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 19,
+    "final_acc": 0.5500000089406967,
+    "best_acc": 0.5533333403368791,
+    "elapsed_sec": 44.5
+  },
+  "gin_DD_1shot_run5": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 5,
+    "final_acc": 0.5366666768987973,
+    "best_acc": 0.5433333416779836,
+    "elapsed_sec": 43.5
+  },
+  "gin_DD_1shot_run6": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 6,
+    "final_acc": 0.560000009338061,
+    "best_acc": 0.560000009338061,
+    "elapsed_sec": 43.9
+  },
+  "gin_DD_1shot_run7": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 7,
+    "final_acc": 0.5333333427707354,
+    "best_acc": 0.5600000098347664,
+    "elapsed_sec": 44.0
+  },
+  "gin_DD_1shot_run8": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 8,
+    "final_acc": 0.5633333419760068,
+    "best_acc": 0.5633333419760068,
+    "elapsed_sec": 43.3
+  },
+  "gin_DD_1shot_run9": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 9,
+    "final_acc": 0.55666666974624,
+    "best_acc": 0.5600000048677126,
+    "elapsed_sec": 44.0
+  },
+  "gin_ENZYMES_5shot_run10": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 10,
+    "final_acc": 0.2279999941587448,
+    "best_acc": 0.23733332604169846,
+    "elapsed_sec": 48.1
+  },
+  "gin_ENZYMES_5shot_run11": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 11,
+    "final_acc": 0.2226666606962681,
+    "best_acc": 0.24933332527677218,
+    "elapsed_sec": 45.8
+  },
+  "gin_ENZYMES_5shot_run12": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 12,
+    "final_acc": 0.2159999944269657,
+    "best_acc": 0.23866666083534557,
+    "elapsed_sec": 48.0
+  },
+  "gin_ENZYMES_5shot_run13": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 13,
+    "final_acc": 0.22666666035850844,
+    "best_acc": 0.24933332726359367,
+    "elapsed_sec": 48.0
+  },
+  "gin_ENZYMES_5shot_run14": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 14,
+    "final_acc": 0.22533332879344622,
+    "best_acc": 0.23599999447663625,
+    "elapsed_sec": 48.4
+  },
+  "gin_ENZYMES_5shot_run15": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 15,
+    "final_acc": 0.23599999497334162,
+    "best_acc": 0.24799999296665193,
+    "elapsed_sec": 45.3
+  },
+  "gin_ENZYMES_5shot_run16": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 16,
+    "final_acc": 0.21333332682649295,
+    "best_acc": 0.23866666009028753,
+    "elapsed_sec": 46.2
+  },
+  "gin_ENZYMES_5shot_run17": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 17,
+    "final_acc": 0.22533332804838815,
+    "best_acc": 0.23866666133205097,
+    "elapsed_sec": 45.1
+  },
+  "gin_ENZYMES_5shot_run18": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 18,
+    "final_acc": 0.20266666114330292,
+    "best_acc": 0.2359999932348728,
+    "elapsed_sec": 44.2
+  },
+  "gin_ENZYMES_5shot_run19": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 19,
+    "final_acc": 0.21599999318520227,
+    "best_acc": 0.23733332753181458,
+    "elapsed_sec": 44.6
+  },
+  "gin_ENZYMES_5shot_run5": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 5,
+    "final_acc": 0.23733332653840383,
+    "best_acc": 0.23999999240040779,
+    "elapsed_sec": 44.1
+  },
+  "gin_ENZYMES_5shot_run6": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 6,
+    "final_acc": 0.2306666600207488,
+    "best_acc": 0.24933332627018293,
+    "elapsed_sec": 41.2
+  },
+  "gin_ENZYMES_5shot_run7": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 7,
+    "final_acc": 0.22133332739273706,
+    "best_acc": 0.23599999373157818,
+    "elapsed_sec": 48.2
+  },
+  "gin_ENZYMES_5shot_run8": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 8,
+    "final_acc": 0.24266665950417518,
+    "best_acc": 0.24266665950417518,
+    "elapsed_sec": 48.2
+  },
+  "gin_ENZYMES_5shot_run9": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 9,
+    "final_acc": 0.24399999404946962,
+    "best_acc": 0.24399999404946962,
+    "elapsed_sec": 54.3
+  },
+  "gin_MUTAG_5shot_run10": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 10,
+    "final_acc": 0.7666666736205419,
+    "best_acc": 0.7833333432674408,
+    "elapsed_sec": 40.5
+  },
+  "gin_MUTAG_5shot_run11": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 11,
+    "final_acc": 0.7800000083943208,
+    "best_acc": 0.8033333420753479,
+    "elapsed_sec": 40.2
+  },
+  "gin_MUTAG_5shot_run12": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 12,
+    "final_acc": 0.7666666766007741,
+    "best_acc": 0.7800000111262003,
+    "elapsed_sec": 40.2
+  },
+  "gin_MUTAG_5shot_run13": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 13,
+    "final_acc": 0.7733333428700765,
+    "best_acc": 0.7733333428700765,
+    "elapsed_sec": 40.4
+  },
+  "gin_MUTAG_5shot_run14": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 14,
+    "final_acc": 0.7633333417276541,
+    "best_acc": 0.7633333417276541,
+    "elapsed_sec": 40.2
+  },
+  "gin_MUTAG_5shot_run15": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 15,
+    "final_acc": 0.7466666743159294,
+    "best_acc": 0.7833333472410838,
+    "elapsed_sec": 40.1
+  },
+  "gin_MUTAG_5shot_run16": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 16,
+    "final_acc": 0.7666666770974795,
+    "best_acc": 0.7800000131130218,
+    "elapsed_sec": 40.1
+  },
+  "gin_MUTAG_5shot_run17": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 17,
+    "final_acc": 0.7600000056127707,
+    "best_acc": 0.7700000127156575,
+    "elapsed_sec": 40.5
+  },
+  "gin_MUTAG_5shot_run18": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 18,
+    "final_acc": 0.7433333429197471,
+    "best_acc": 0.7533333433171113,
+    "elapsed_sec": 42.5
+  },
+  "gin_MUTAG_5shot_run19": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 19,
+    "final_acc": 0.7533333440621693,
+    "best_acc": 0.7666666746139527,
+    "elapsed_sec": 41.4
+  },
+  "gin_MUTAG_5shot_run5": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 5,
+    "final_acc": 0.7400000048180421,
+    "best_acc": 0.7533333413302898,
+    "elapsed_sec": 40.7
+  },
+  "gin_MUTAG_5shot_run6": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 6,
+    "final_acc": 0.7700000087420146,
+    "best_acc": 0.7900000075499217,
+    "elapsed_sec": 40.8
+  },
+  "gin_MUTAG_5shot_run7": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 7,
+    "final_acc": 0.7533333413302898,
+    "best_acc": 0.7533333440621693,
+    "elapsed_sec": 40.8
+  },
+  "gin_MUTAG_5shot_run8": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 8,
+    "final_acc": 0.7533333400885264,
+    "best_acc": 0.7700000107288361,
+    "elapsed_sec": 40.6
+  },
+  "gin_MUTAG_5shot_run9": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 9,
+    "final_acc": 0.7866666754086812,
+    "best_acc": 0.7866666754086812,
+    "elapsed_sec": 40.2
+  },
+  "gin_PROTEINS_5shot_run10": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 10,
+    "final_acc": 0.6033333371082942,
+    "best_acc": 0.6033333371082942,
+    "elapsed_sec": 46.9
+  },
+  "gin_PROTEINS_5shot_run11": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 11,
+    "final_acc": 0.5633333399891853,
+    "best_acc": 0.5633333399891853,
+    "elapsed_sec": 44.6
+  },
+  "gin_PROTEINS_5shot_run12": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 12,
+    "final_acc": 0.5300000096360843,
+    "best_acc": 0.5300000096360843,
+    "elapsed_sec": 44.9
+  },
+  "gin_PROTEINS_5shot_run13": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 13,
+    "final_acc": 0.5833333385487397,
+    "best_acc": 0.5833333385487397,
+    "elapsed_sec": 43.6
+  },
+  "gin_PROTEINS_5shot_run14": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 14,
+    "final_acc": 0.6133333389957746,
+    "best_acc": 0.6233333371579647,
+    "elapsed_sec": 58.4
+  },
+  "gin_PROTEINS_5shot_run15": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 15,
+    "final_acc": 0.5933333401878674,
+    "best_acc": 0.5933333401878674,
+    "elapsed_sec": 65.4
+  },
+  "gin_PROTEINS_5shot_run16": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 16,
+    "final_acc": 0.580000006655852,
+    "best_acc": 0.580000006655852,
+    "elapsed_sec": 42.0
+  },
+  "gin_PROTEINS_5shot_run17": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 17,
+    "final_acc": 0.5966666708389918,
+    "best_acc": 0.5966666708389918,
+    "elapsed_sec": 39.6
+  },
+  "gin_PROTEINS_5shot_run18": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 18,
+    "final_acc": 0.5766666705409685,
+    "best_acc": 0.5766666705409685,
+    "elapsed_sec": 42.4
+  },
+  "gin_PROTEINS_5shot_run19": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 19,
+    "final_acc": 0.5766666765014331,
+    "best_acc": 0.5766666765014331,
+    "elapsed_sec": 39.8
+  },
+  "gin_PROTEINS_5shot_run5": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 5,
+    "final_acc": 0.5266666730244954,
+    "best_acc": 0.5266666765014331,
+    "elapsed_sec": 49.9
+  },
+  "gin_PROTEINS_5shot_run6": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 6,
+    "final_acc": 0.5233333398898442,
+    "best_acc": 0.5300000101327896,
+    "elapsed_sec": 59.7
+  },
+  "gin_PROTEINS_5shot_run7": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 7,
+    "final_acc": 0.5466666748126348,
+    "best_acc": 0.5466666748126348,
+    "elapsed_sec": 53.5
+  },
+  "gin_PROTEINS_5shot_run8": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 8,
+    "final_acc": 0.5666666738688946,
+    "best_acc": 0.5666666738688946,
+    "elapsed_sec": 53.3
+  },
+  "gin_PROTEINS_5shot_run9": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 9,
+    "final_acc": 0.5300000071525574,
+    "best_acc": 0.5300000086426735,
+    "elapsed_sec": 48.7
+  },
+  "gin_REDDIT-M5K_1shot_run10": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 10,
+    "final_acc": 0.37466665655374526,
+    "best_acc": 0.37466665655374526,
+    "elapsed_sec": 45.6
+  },
+  "gin_REDDIT-M5K_1shot_run11": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 11,
+    "final_acc": 0.3719999904433886,
+    "best_acc": 0.3719999904433886,
+    "elapsed_sec": 45.7
+  },
+  "gin_REDDIT-M5K_1shot_run12": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 12,
+    "final_acc": 0.37599999010562896,
+    "best_acc": 0.37599999010562896,
+    "elapsed_sec": 46.6
+  },
+  "gin_REDDIT-M5K_1shot_run13": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 13,
+    "final_acc": 0.3759999891122182,
+    "best_acc": 0.3759999891122182,
+    "elapsed_sec": 45.9
+  },
+  "gin_REDDIT-M5K_1shot_run14": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 14,
+    "final_acc": 0.38266665587822596,
+    "best_acc": 0.38266665587822596,
+    "elapsed_sec": 46.7
+  },
+  "gin_REDDIT-M5K_1shot_run15": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 15,
+    "final_acc": 0.38399999141693114,
+    "best_acc": 0.38399999141693114,
+    "elapsed_sec": 46.4
+  },
+  "gin_REDDIT-M5K_1shot_run16": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 16,
+    "final_acc": 0.37866665522257487,
+    "best_acc": 0.3866666550437609,
+    "elapsed_sec": 47.7
+  },
+  "gin_REDDIT-M5K_1shot_run17": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 17,
+    "final_acc": 0.3759999876221021,
+    "best_acc": 0.3826666538914045,
+    "elapsed_sec": 46.0
+  },
+  "gin_REDDIT-M5K_1shot_run18": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 18,
+    "final_acc": 0.37599998861551287,
+    "best_acc": 0.37599998861551287,
+    "elapsed_sec": 47.1
+  },
+  "gin_REDDIT-M5K_1shot_run19": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 19,
+    "final_acc": 0.3799999897678693,
+    "best_acc": 0.3799999897678693,
+    "elapsed_sec": 46.3
+  },
+  "gin_REDDIT-M5K_1shot_run5": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 5,
+    "final_acc": 0.3626666555802027,
+    "best_acc": 0.37866665547092754,
+    "elapsed_sec": 46.0
+  },
+  "gin_REDDIT-M5K_1shot_run6": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 6,
+    "final_acc": 0.3679999882976214,
+    "best_acc": 0.3679999882976214,
+    "elapsed_sec": 46.4
+  },
+  "gin_REDDIT-M5K_1shot_run7": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 7,
+    "final_acc": 0.37866665720939635,
+    "best_acc": 0.37866665720939635,
+    "elapsed_sec": 46.0
+  },
+  "gin_REDDIT-M5K_1shot_run8": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 8,
+    "final_acc": 0.3839999909202258,
+    "best_acc": 0.3839999909202258,
+    "elapsed_sec": 46.2
+  },
+  "gin_REDDIT-M5K_1shot_run9": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 9,
+    "final_acc": 0.35999999071160954,
+    "best_acc": 0.37066665962338446,
+    "elapsed_sec": 45.7
+  },
+  "sage_DD_1shot_run10": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 10,
+    "final_acc": 0.5100000095864137,
+    "best_acc": 0.6366666746636231,
+    "elapsed_sec": 32.2
+  },
+  "sage_DD_1shot_run11": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 11,
+    "final_acc": 0.48000000715255736,
+    "best_acc": 0.6300000064074993,
+    "elapsed_sec": 30.4
+  },
+  "sage_DD_1shot_run12": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 12,
+    "final_acc": 0.5366666746636232,
+    "best_acc": 0.6233333406349023,
+    "elapsed_sec": 31.2
+  },
+  "sage_DD_1shot_run13": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 13,
+    "final_acc": 0.5266666767497857,
+    "best_acc": 0.6400000087916851,
+    "elapsed_sec": 32.0
+  },
+  "sage_DD_1shot_run14": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 14,
+    "final_acc": 0.6366666776438554,
+    "best_acc": 0.6433333431680998,
+    "elapsed_sec": 31.9
+  },
+  "sage_DD_1shot_run15": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 15,
+    "final_acc": 0.5600000071028869,
+    "best_acc": 0.5800000108778477,
+    "elapsed_sec": 31.2
+  },
+  "sage_DD_1shot_run16": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 16,
+    "final_acc": 0.6000000059604644,
+    "best_acc": 0.6200000112255414,
+    "elapsed_sec": 31.3
+  },
+  "sage_DD_1shot_run17": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 17,
+    "final_acc": 0.5400000070532163,
+    "best_acc": 0.5533333445588747,
+    "elapsed_sec": 31.6
+  },
+  "sage_DD_1shot_run18": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 18,
+    "final_acc": 0.5700000127156576,
+    "best_acc": 0.6000000081956387,
+    "elapsed_sec": 31.5
+  },
+  "sage_DD_1shot_run19": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 19,
+    "final_acc": 0.5733333443601926,
+    "best_acc": 0.6166666756073634,
+    "elapsed_sec": 32.1
+  },
+  "sage_DD_1shot_run5": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 5,
+    "final_acc": 0.6233333480854829,
+    "best_acc": 0.6266666777431965,
+    "elapsed_sec": 33.2
+  },
+  "sage_DD_1shot_run6": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 6,
+    "final_acc": 0.5866666756570339,
+    "best_acc": 0.6500000089406968,
+    "elapsed_sec": 31.9
+  },
+  "sage_DD_1shot_run7": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 7,
+    "final_acc": 0.5366666714350382,
+    "best_acc": 0.6166666761040688,
+    "elapsed_sec": 31.8
+  },
+  "sage_DD_1shot_run8": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 8,
+    "final_acc": 0.5333333392937978,
+    "best_acc": 0.5866666724284489,
+    "elapsed_sec": 31.8
+  },
+  "sage_DD_1shot_run9": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 9,
+    "final_acc": 0.6233333428700765,
+    "best_acc": 0.6366666768987973,
+    "elapsed_sec": 32.7
+  },
+  "sage_ENZYMES_5shot_run10": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 10,
+    "final_acc": 0.23199999332427979,
+    "best_acc": 0.23333332762122155,
+    "elapsed_sec": 37.7
+  },
+  "sage_ENZYMES_5shot_run11": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 11,
+    "final_acc": 0.24533332884311676,
+    "best_acc": 0.24533332884311676,
+    "elapsed_sec": 37.0
+  },
+  "sage_ENZYMES_5shot_run12": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 12,
+    "final_acc": 0.20399999469518662,
+    "best_acc": 0.2413333274424076,
+    "elapsed_sec": 37.0
+  },
+  "sage_ENZYMES_5shot_run13": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 13,
+    "final_acc": 0.2533333279192448,
+    "best_acc": 0.2533333279192448,
+    "elapsed_sec": 33.8
+  },
+  "sage_ENZYMES_5shot_run14": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 14,
+    "final_acc": 0.2319999948143959,
+    "best_acc": 0.24133332793911297,
+    "elapsed_sec": 35.5
+  },
+  "sage_ENZYMES_5shot_run15": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 15,
+    "final_acc": 0.2186666597922643,
+    "best_acc": 0.2479999947051207,
+    "elapsed_sec": 33.9
+  },
+  "sage_ENZYMES_5shot_run16": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 16,
+    "final_acc": 0.24133332595229148,
+    "best_acc": 0.25333332816759746,
+    "elapsed_sec": 34.7
+  },
+  "sage_ENZYMES_5shot_run17": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 17,
+    "final_acc": 0.2226666606962681,
+    "best_acc": 0.24533332735300065,
+    "elapsed_sec": 34.0
+  },
+  "sage_ENZYMES_5shot_run18": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 18,
+    "final_acc": 0.2333333263794581,
+    "best_acc": 0.2413333274424076,
+    "elapsed_sec": 33.7
+  },
+  "sage_ENZYMES_5shot_run19": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 19,
+    "final_acc": 0.21999999408920606,
+    "best_acc": 0.22133332913120587,
+    "elapsed_sec": 34.1
+  },
+  "sage_ENZYMES_5shot_run5": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 5,
+    "final_acc": 0.24666666140158972,
+    "best_acc": 0.24666666140158972,
+    "elapsed_sec": 37.4
+  },
+  "sage_ENZYMES_5shot_run6": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 6,
+    "final_acc": 0.2186666617790858,
+    "best_acc": 0.23199999332427979,
+    "elapsed_sec": 37.9
+  },
+  "sage_ENZYMES_5shot_run7": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 7,
+    "final_acc": 0.21733332723379134,
+    "best_acc": 0.22666666160027185,
+    "elapsed_sec": 37.2
+  },
+  "sage_ENZYMES_5shot_run8": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 8,
+    "final_acc": 0.23733332778016727,
+    "best_acc": 0.23866666108369827,
+    "elapsed_sec": 38.3
+  },
+  "sage_ENZYMES_5shot_run9": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 9,
+    "final_acc": 0.2466666616499424,
+    "best_acc": 0.2546666614711285,
+    "elapsed_sec": 37.9
+  },
+  "sage_MUTAG_5shot_run10": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 10,
+    "final_acc": 0.7600000103314718,
+    "best_acc": 0.7600000103314718,
+    "elapsed_sec": 29.3
+  },
+  "sage_MUTAG_5shot_run11": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 11,
+    "final_acc": 0.7700000087420146,
+    "best_acc": 0.7766666789849599,
+    "elapsed_sec": 29.8
+  },
+  "sage_MUTAG_5shot_run12": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 12,
+    "final_acc": 0.7466666758060455,
+    "best_acc": 0.7700000127156575,
+    "elapsed_sec": 29.7
+  },
+  "sage_MUTAG_5shot_run13": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 13,
+    "final_acc": 0.7400000095367432,
+    "best_acc": 0.7400000095367432,
+    "elapsed_sec": 29.4
+  },
+  "sage_MUTAG_5shot_run14": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 14,
+    "final_acc": 0.7600000103314718,
+    "best_acc": 0.7600000103314718,
+    "elapsed_sec": 29.6
+  },
+  "sage_MUTAG_5shot_run15": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 15,
+    "final_acc": 0.7533333420753479,
+    "best_acc": 0.773333340883255,
+    "elapsed_sec": 29.5
+  },
+  "sage_MUTAG_5shot_run16": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 16,
+    "final_acc": 0.7466666728258133,
+    "best_acc": 0.7666666746139527,
+    "elapsed_sec": 29.2
+  },
+  "sage_MUTAG_5shot_run17": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 17,
+    "final_acc": 0.7633333444595337,
+    "best_acc": 0.7633333444595337,
+    "elapsed_sec": 29.3
+  },
+  "sage_MUTAG_5shot_run18": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 18,
+    "final_acc": 0.7466666748126348,
+    "best_acc": 0.7666666785875956,
+    "elapsed_sec": 29.1
+  },
+  "sage_MUTAG_5shot_run19": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 19,
+    "final_acc": 0.7666666766007741,
+    "best_acc": 0.7733333428700765,
+    "elapsed_sec": 29.7
+  },
+  "sage_MUTAG_5shot_run5": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 5,
+    "final_acc": 0.7633333424727122,
+    "best_acc": 0.7766666769981384,
+    "elapsed_sec": 29.8
+  },
+  "sage_MUTAG_5shot_run6": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 6,
+    "final_acc": 0.7566666762034099,
+    "best_acc": 0.7866666773955028,
+    "elapsed_sec": 29.9
+  },
+  "sage_MUTAG_5shot_run7": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 7,
+    "final_acc": 0.7700000107288361,
+    "best_acc": 0.7700000107288361,
+    "elapsed_sec": 29.8
+  },
+  "sage_MUTAG_5shot_run8": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 8,
+    "final_acc": 0.7433333416779836,
+    "best_acc": 0.7633333424727122,
+    "elapsed_sec": 29.8
+  },
+  "sage_MUTAG_5shot_run9": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 9,
+    "final_acc": 0.7400000075499217,
+    "best_acc": 0.7466666758060455,
+    "elapsed_sec": 29.8
+  },
+  "sage_PROTEINS_5shot_run10": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 10,
+    "final_acc": 0.563333335518837,
+    "best_acc": 0.5866666776438554,
+    "elapsed_sec": 33.6
+  },
+  "sage_PROTEINS_5shot_run11": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 11,
+    "final_acc": 0.5566666752099991,
+    "best_acc": 0.5633333409825961,
+    "elapsed_sec": 33.6
+  },
+  "sage_PROTEINS_5shot_run12": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 12,
+    "final_acc": 0.53000000740091,
+    "best_acc": 0.5566666747132937,
+    "elapsed_sec": 33.4
+  },
+  "sage_PROTEINS_5shot_run13": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 13,
+    "final_acc": 0.5666666753590107,
+    "best_acc": 0.583333337555329,
+    "elapsed_sec": 33.1
+  },
+  "sage_PROTEINS_5shot_run14": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 14,
+    "final_acc": 0.4866666701932748,
+    "best_acc": 0.5500000101824601,
+    "elapsed_sec": 33.7
+  },
+  "sage_PROTEINS_5shot_run15": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 15,
+    "final_acc": 0.5733333421250184,
+    "best_acc": 0.5733333421250184,
+    "elapsed_sec": 32.9
+  },
+  "sage_PROTEINS_5shot_run16": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 16,
+    "final_acc": 0.5300000081459681,
+    "best_acc": 0.5500000064571698,
+    "elapsed_sec": 34.9
+  },
+  "sage_PROTEINS_5shot_run17": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 17,
+    "final_acc": 0.5300000071525574,
+    "best_acc": 0.5500000059604645,
+    "elapsed_sec": 33.7
+  },
+  "sage_PROTEINS_5shot_run18": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 18,
+    "final_acc": 0.5866666751603286,
+    "best_acc": 0.5900000063081582,
+    "elapsed_sec": 33.7
+  },
+  "sage_PROTEINS_5shot_run19": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 19,
+    "final_acc": 0.550000007947286,
+    "best_acc": 0.5566666762034098,
+    "elapsed_sec": 34.0
+  },
+  "sage_PROTEINS_5shot_run5": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 5,
+    "final_acc": 0.5466666735708714,
+    "best_acc": 0.5466666735708714,
+    "elapsed_sec": 33.1
+  },
+  "sage_PROTEINS_5shot_run6": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 6,
+    "final_acc": 0.4966666725774606,
+    "best_acc": 0.5233333431184292,
+    "elapsed_sec": 33.3
+  },
+  "sage_PROTEINS_5shot_run7": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 7,
+    "final_acc": 0.5600000056127707,
+    "best_acc": 0.5800000061591466,
+    "elapsed_sec": 35.5
+  },
+  "sage_PROTEINS_5shot_run8": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 8,
+    "final_acc": 0.5866666746636232,
+    "best_acc": 0.5900000097850958,
+    "elapsed_sec": 30.8
+  },
+  "sage_PROTEINS_5shot_run9": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 9,
+    "final_acc": 0.5100000073512395,
+    "best_acc": 0.5500000069538752,
+    "elapsed_sec": 33.6
+  },
+  "sage_REDDIT-M5K_1shot_run10": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 10,
+    "final_acc": 0.2826666591068109,
+    "best_acc": 0.2826666591068109,
+    "elapsed_sec": 36.0
+  },
+  "sage_REDDIT-M5K_1shot_run11": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 11,
+    "final_acc": 0.2746666577955087,
+    "best_acc": 0.2746666577955087,
+    "elapsed_sec": 35.8
+  },
+  "sage_REDDIT-M5K_1shot_run12": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 12,
+    "final_acc": 0.2733333264787992,
+    "best_acc": 0.2933333247900009,
+    "elapsed_sec": 35.7
+  },
+  "sage_REDDIT-M5K_1shot_run13": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 13,
+    "final_acc": 0.2733333259820938,
+    "best_acc": 0.2933333260317644,
+    "elapsed_sec": 35.6
+  },
+  "sage_REDDIT-M5K_1shot_run14": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 14,
+    "final_acc": 0.2893333261211713,
+    "best_acc": 0.29599999263882637,
+    "elapsed_sec": 35.9
+  },
+  "sage_REDDIT-M5K_1shot_run15": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 15,
+    "final_acc": 0.24933332900206248,
+    "best_acc": 0.26399999285737674,
+    "elapsed_sec": 35.6
+  },
+  "sage_REDDIT-M5K_1shot_run16": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 16,
+    "final_acc": 0.2879999910791715,
+    "best_acc": 0.2959999906520049,
+    "elapsed_sec": 35.6
+  },
+  "sage_REDDIT-M5K_1shot_run17": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 17,
+    "final_acc": 0.2933333265284697,
+    "best_acc": 0.2933333265284697,
+    "elapsed_sec": 35.7
+  },
+  "sage_REDDIT-M5K_1shot_run18": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 18,
+    "final_acc": 0.2933333265284697,
+    "best_acc": 0.2933333265284697,
+    "elapsed_sec": 35.3
+  },
+  "sage_REDDIT-M5K_1shot_run19": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 19,
+    "final_acc": 0.23866665984193483,
+    "best_acc": 0.26933332656820613,
+    "elapsed_sec": 35.6
+  },
+  "sage_REDDIT-M5K_1shot_run5": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 5,
+    "final_acc": 0.2639999933540821,
+    "best_acc": 0.2719999929269155,
+    "elapsed_sec": 35.7
+  },
+  "sage_REDDIT-M5K_1shot_run6": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 6,
+    "final_acc": 0.2679999937613805,
+    "best_acc": 0.2959999904036522,
+    "elapsed_sec": 35.5
+  },
+  "sage_REDDIT-M5K_1shot_run7": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 7,
+    "final_acc": 0.24666666115323702,
+    "best_acc": 0.2959999943772952,
+    "elapsed_sec": 35.6
+  },
+  "sage_REDDIT-M5K_1shot_run8": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 8,
+    "final_acc": 0.23333332762122155,
+    "best_acc": 0.2893333266178767,
+    "elapsed_sec": 35.9
+  },
+  "sage_REDDIT-M5K_1shot_run9": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 9,
+    "final_acc": 0.261333326001962,
+    "best_acc": 0.2759999906023343,
+    "elapsed_sec": 35.7
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "gcn_DD_1shot_run15": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 15,
+    "final_acc": 0.6000000094374021,
+    "best_acc": 0.6200000079969565,
+    "elapsed_sec": 34.1
+  }
+}

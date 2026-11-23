@@ -1,0 +1,452 @@
+GAT dense baseline | d=128 | device=cuda | datasets=['MUTAG', 'PROTEINS', 'ENZYMES', 'DD', 'REDDIT-M5K'] | shots=[1, 5] | runs=[0, 1, 2, 3, 4] | epochs=50 | ep/epoch=20 | test_eps=30
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  Epoch   1/50 | Train: 64.0% | Test: 53.3% | Best: 53.3% | 7s
+  Epoch  10/50 | Train: 66.0% | Test: 55.7% | Best: 55.7% | 23s
+  Epoch  20/50 | Train: 62.0% | Test: 60.3% | Best: 60.3% | 43s
+  Epoch  30/50 | Train: 58.5% | Test: 61.0% | Best: 61.0% | 64s
+  Epoch  40/50 | Train: 62.5% | Test: 60.3% | Best: 61.0% | 85s
+  Epoch  50/50 | Train: 64.0% | Test: 61.3% | Best: 61.3% | 106s
+  >>> Final Accuracy: 61.3% (109.0s)
+>>> gat_MUTAG_1shot_run0: acc=61.33% (109.9s)
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  Epoch   1/50 | Train: 69.5% | Test: 54.0% | Best: 54.0% | 5s
+  Epoch  10/50 | Train: 63.0% | Test: 57.3% | Best: 57.3% | 26s
+  Epoch  20/50 | Train: 66.5% | Test: 60.3% | Best: 60.3% | 48s
+  Epoch  30/50 | Train: 61.0% | Test: 58.3% | Best: 60.3% | 68s
+  Epoch  40/50 | Train: 64.5% | Test: 59.0% | Best: 60.3% | 90s
+  Epoch  50/50 | Train: 66.5% | Test: 59.3% | Best: 60.3% | 110s
+  >>> Final Accuracy: 59.3% (113.0s)
+>>> gat_MUTAG_1shot_run1: acc=59.33% (113.0s)
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  Epoch   1/50 | Train: 53.0% | Test: 53.3% | Best: 53.3% | 4s
+  Epoch  10/50 | Train: 75.5% | Test: 57.7% | Best: 57.7% | 23s
+  Epoch  20/50 | Train: 66.5% | Test: 60.3% | Best: 60.3% | 44s
+  Epoch  30/50 | Train: 67.5% | Test: 64.0% | Best: 64.0% | 65s
+  Epoch  40/50 | Train: 65.5% | Test: 64.7% | Best: 64.7% | 86s
+  Epoch  50/50 | Train: 58.5% | Test: 64.0% | Best: 64.7% | 107s
+  >>> Final Accuracy: 64.0% (109.3s)
+>>> gat_MUTAG_1shot_run2: acc=64.00% (109.4s)
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  Epoch   1/50 | Train: 56.5% | Test: 54.3% | Best: 54.3% | 4s
+  Epoch  10/50 | Train: 66.0% | Test: 57.0% | Best: 57.0% | 23s
+  Epoch  20/50 | Train: 73.0% | Test: 60.0% | Best: 60.0% | 43s
+  Epoch  30/50 | Train: 73.0% | Test: 64.0% | Best: 64.0% | 65s
+  Epoch  40/50 | Train: 68.5% | Test: 64.0% | Best: 64.0% | 87s
+  Epoch  50/50 | Train: 68.0% | Test: 65.0% | Best: 65.0% | 102s
+  >>> Final Accuracy: 65.0% (102.5s)
+>>> gat_MUTAG_1shot_run3: acc=65.00% (102.6s)
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  Epoch   1/50 | Train: 58.5% | Test: 54.0% | Best: 54.0% | 2s
+  Epoch  10/50 | Train: 65.0% | Test: 57.7% | Best: 57.7% | 13s
+  Epoch  20/50 | Train: 64.0% | Test: 58.3% | Best: 58.3% | 27s
+  Epoch  30/50 | Train: 62.0% | Test: 61.7% | Best: 61.7% | 40s
+  Epoch  40/50 | Train: 69.0% | Test: 63.7% | Best: 63.7% | 55s
+  Epoch  50/50 | Train: 63.0% | Test: 64.3% | Best: 64.3% | 68s
+  >>> Final Accuracy: 64.3% (69.9s)
+>>> gat_MUTAG_1shot_run4: acc=64.33% (70.0s)
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  Epoch   1/50 | Train: 73.0% | Test: 63.3% | Best: 63.3% | 3s
+  Epoch  10/50 | Train: 68.5% | Test: 69.7% | Best: 69.7% | 16s
+  Epoch  20/50 | Train: 72.0% | Test: 72.3% | Best: 72.3% | 30s
+  Epoch  30/50 | Train: 79.5% | Test: 72.7% | Best: 72.7% | 45s
+  Epoch  40/50 | Train: 75.5% | Test: 75.3% | Best: 75.3% | 58s
+  Epoch  50/50 | Train: 74.0% | Test: 76.0% | Best: 76.0% | 75s
+  >>> Final Accuracy: 76.0% (76.3s)
+>>> gat_MUTAG_5shot_run0: acc=76.00% (76.4s)
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  Epoch   1/50 | Train: 68.0% | Test: 62.7% | Best: 62.7% | 3s
+  Epoch  10/50 | Train: 72.5% | Test: 65.0% | Best: 65.0% | 17s
+  Epoch  20/50 | Train: 72.0% | Test: 71.7% | Best: 71.7% | 31s
+  Epoch  30/50 | Train: 72.0% | Test: 73.3% | Best: 73.3% | 45s
+  Epoch  40/50 | Train: 78.0% | Test: 74.0% | Best: 74.0% | 60s
+  Epoch  50/50 | Train: 73.5% | Test: 74.3% | Best: 74.3% | 74s
+  >>> Final Accuracy: 74.3% (75.6s)
+>>> gat_MUTAG_5shot_run1: acc=74.33% (75.7s)
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  Epoch   1/50 | Train: 72.5% | Test: 65.3% | Best: 65.3% | 2s
+  Epoch  10/50 | Train: 73.5% | Test: 72.0% | Best: 72.0% | 16s
+  Epoch  20/50 | Train: 73.0% | Test: 73.7% | Best: 73.7% | 30s
+  Epoch  30/50 | Train: 69.5% | Test: 74.3% | Best: 74.3% | 44s
+  Epoch  40/50 | Train: 76.5% | Test: 73.7% | Best: 74.3% | 59s
+  Epoch  50/50 | Train: 76.0% | Test: 74.0% | Best: 74.3% | 73s
+  >>> Final Accuracy: 74.0% (74.6s)
+>>> gat_MUTAG_5shot_run2: acc=74.00% (74.7s)
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  Epoch   1/50 | Train: 65.5% | Test: 57.0% | Best: 57.0% | 3s
+  Epoch  10/50 | Train: 70.5% | Test: 73.7% | Best: 73.7% | 16s
+  Epoch  20/50 | Train: 74.0% | Test: 72.0% | Best: 73.7% | 30s
+  Epoch  30/50 | Train: 72.0% | Test: 74.7% | Best: 74.7% | 45s
+  Epoch  40/50 | Train: 80.0% | Test: 75.7% | Best: 75.7% | 59s
+  Epoch  50/50 | Train: 76.5% | Test: 77.0% | Best: 77.0% | 74s
+  >>> Final Accuracy: 77.0% (75.1s)
+>>> gat_MUTAG_5shot_run3: acc=77.00% (75.1s)
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  Epoch   1/50 | Train: 67.5% | Test: 58.0% | Best: 58.0% | 3s
+  Epoch  10/50 | Train: 75.0% | Test: 76.3% | Best: 76.3% | 16s
+  Epoch  20/50 | Train: 77.5% | Test: 74.7% | Best: 76.3% | 30s
+  Epoch  30/50 | Train: 75.5% | Test: 75.0% | Best: 76.3% | 44s
+  Epoch  40/50 | Train: 73.0% | Test: 73.3% | Best: 76.3% | 59s
+  Epoch  50/50 | Train: 75.0% | Test: 74.7% | Best: 76.3% | 78s
+  >>> Final Accuracy: 74.7% (80.5s)
+>>> gat_MUTAG_5shot_run4: acc=74.67% (80.6s)
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 52.0% | Test: 59.0% | Best: 59.0% | 3s
+  Epoch  10/50 | Train: 44.5% | Test: 56.0% | Best: 59.0% | 17s
+  Epoch  20/50 | Train: 62.0% | Test: 57.7% | Best: 59.0% | 31s
+  Epoch  30/50 | Train: 52.0% | Test: 56.3% | Best: 59.0% | 45s
+  Epoch  40/50 | Train: 52.5% | Test: 59.0% | Best: 59.0% | 60s
+  Epoch  50/50 | Train: 57.0% | Test: 57.3% | Best: 59.0% | 74s
+  >>> Final Accuracy: 57.3% (75.5s)
+>>> gat_PROTEINS_1shot_run0: acc=57.33% (76.1s)
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 51.5% | Test: 59.3% | Best: 59.3% | 3s
+  Epoch  10/50 | Train: 56.5% | Test: 59.7% | Best: 59.7% | 15s
+  Epoch  20/50 | Train: 49.5% | Test: 58.3% | Best: 59.7% | 29s
+  Epoch  30/50 | Train: 54.5% | Test: 58.0% | Best: 59.7% | 42s
+  Epoch  40/50 | Train: 50.5% | Test: 55.7% | Best: 59.7% | 55s
+  Epoch  50/50 | Train: 55.0% | Test: 55.3% | Best: 59.7% | 70s
+  >>> Final Accuracy: 55.3% (71.8s)
+>>> gat_PROTEINS_1shot_run1: acc=55.33% (72.2s)
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 52.5% | Test: 57.3% | Best: 57.3% | 2s
+  Epoch  10/50 | Train: 50.5% | Test: 56.7% | Best: 57.3% | 15s
+  Epoch  20/50 | Train: 57.5% | Test: 58.7% | Best: 58.7% | 27s
+  Epoch  30/50 | Train: 55.5% | Test: 63.7% | Best: 63.7% | 40s
+  Epoch  40/50 | Train: 53.5% | Test: 64.0% | Best: 64.0% | 53s
+  Epoch  50/50 | Train: 57.0% | Test: 61.7% | Best: 64.0% | 65s
+  >>> Final Accuracy: 61.7% (66.2s)
+>>> gat_PROTEINS_1shot_run2: acc=61.67% (66.8s)
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 55.0% | Test: 61.7% | Best: 61.7% | 2s
+  Epoch  10/50 | Train: 54.0% | Test: 57.7% | Best: 61.7% | 14s
+  Epoch  20/50 | Train: 54.5% | Test: 53.3% | Best: 61.7% | 31s
+  Epoch  30/50 | Train: 52.0% | Test: 52.3% | Best: 61.7% | 48s
+  Epoch  40/50 | Train: 50.5% | Test: 56.0% | Best: 61.7% | 61s
+  Epoch  50/50 | Train: 54.0% | Test: 56.0% | Best: 61.7% | 73s
+  >>> Final Accuracy: 56.0% (74.6s)
+>>> gat_PROTEINS_1shot_run3: acc=56.00% (75.0s)
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 49.5% | Test: 58.7% | Best: 58.7% | 2s
+  Epoch  10/50 | Train: 56.5% | Test: 56.0% | Best: 58.7% | 14s
+  Epoch  20/50 | Train: 50.0% | Test: 57.7% | Best: 58.7% | 27s
+  Epoch  30/50 | Train: 60.5% | Test: 59.7% | Best: 59.7% | 39s
+  Epoch  40/50 | Train: 61.0% | Test: 59.7% | Best: 59.7% | 52s
+  Epoch  50/50 | Train: 59.5% | Test: 61.3% | Best: 61.3% | 66s
+  >>> Final Accuracy: 61.3% (67.1s)
+>>> gat_PROTEINS_1shot_run4: acc=61.33% (67.6s)
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 56.0% | Test: 55.0% | Best: 55.0% | 3s
+  Epoch  10/50 | Train: 63.0% | Test: 56.3% | Best: 56.3% | 14s
+  Epoch  20/50 | Train: 56.0% | Test: 58.7% | Best: 58.7% | 28s
+  Epoch  30/50 | Train: 54.5% | Test: 56.7% | Best: 58.7% | 40s
+  Epoch  40/50 | Train: 58.5% | Test: 58.7% | Best: 58.7% | 53s
+  Epoch  50/50 | Train: 54.5% | Test: 60.7% | Best: 60.7% | 66s
+  >>> Final Accuracy: 60.7% (67.4s)
+>>> gat_PROTEINS_5shot_run0: acc=60.67% (67.8s)
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 58.0% | Test: 52.7% | Best: 52.7% | 2s
+  Epoch  10/50 | Train: 63.5% | Test: 58.3% | Best: 58.3% | 15s
+  Epoch  20/50 | Train: 65.5% | Test: 63.3% | Best: 63.3% | 27s
+  Epoch  30/50 | Train: 68.0% | Test: 59.3% | Best: 63.3% | 41s
+  Epoch  40/50 | Train: 65.5% | Test: 61.3% | Best: 63.3% | 54s
+  Epoch  50/50 | Train: 69.5% | Test: 60.3% | Best: 63.3% | 67s
+  >>> Final Accuracy: 60.3% (68.3s)
+>>> gat_PROTEINS_5shot_run1: acc=60.33% (68.7s)
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 55.5% | Test: 54.3% | Best: 54.3% | 3s
+  Epoch  10/50 | Train: 59.0% | Test: 59.3% | Best: 59.3% | 15s
+  Epoch  20/50 | Train: 62.5% | Test: 53.3% | Best: 59.3% | 28s
+  Epoch  30/50 | Train: 60.0% | Test: 59.3% | Best: 59.3% | 41s
+  Epoch  40/50 | Train: 64.0% | Test: 60.3% | Best: 60.3% | 53s
+  Epoch  50/50 | Train: 61.5% | Test: 60.7% | Best: 60.7% | 66s
+  >>> Final Accuracy: 60.7% (66.7s)
+>>> gat_PROTEINS_5shot_run2: acc=60.67% (67.1s)
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 58.0% | Test: 54.7% | Best: 54.7% | 2s
+  Epoch  10/50 | Train: 61.0% | Test: 58.7% | Best: 58.7% | 14s
+  Epoch  20/50 | Train: 59.0% | Test: 61.7% | Best: 61.7% | 27s
+  Epoch  30/50 | Train: 66.5% | Test: 59.0% | Best: 61.7% | 39s
+  Epoch  40/50 | Train: 63.5% | Test: 62.7% | Best: 62.7% | 52s
+  Epoch  50/50 | Train: 67.0% | Test: 61.7% | Best: 62.7% | 65s
+  >>> Final Accuracy: 61.7% (66.0s)
+>>> gat_PROTEINS_5shot_run3: acc=61.67% (66.5s)
+[PROTEINS] Loaded 890 train / 223 test graphs | 2 classes | 3 features
+  Epoch   1/50 | Train: 56.5% | Test: 58.3% | Best: 58.3% | 2s
+  Epoch  10/50 | Train: 53.5% | Test: 54.7% | Best: 58.3% | 14s
+  Epoch  20/50 | Train: 61.5% | Test: 48.0% | Best: 58.3% | 27s
+  Epoch  30/50 | Train: 60.5% | Test: 55.3% | Best: 58.3% | 39s
+  Epoch  40/50 | Train: 62.5% | Test: 58.3% | Best: 58.3% | 51s
+  Epoch  50/50 | Train: 65.5% | Test: 58.0% | Best: 58.3% | 64s
+  >>> Final Accuracy: 58.0% (64.9s)
+>>> gat_PROTEINS_5shot_run4: acc=58.00% (65.3s)
+[ENZYMES] Loaded 480 train / 120 test graphs | 6 classes | 3 features
+  Epoch   1/50 | Train: 25.6% | Test: 22.3% | Best: 22.3% | 2s
+  Epoch  10/50 | Train: 21.4% | Test: 21.6% | Best: 22.3% | 15s
+  Epoch  20/50 | Train: 22.6% | Test: 22.0% | Best: 22.3% | 28s
+  Epoch  30/50 | Train: 23.0% | Test: 22.5% | Best: 22.5% | 41s
+  Epoch  40/50 | Train: 23.0% | Test: 23.3% | Best: 23.3% | 55s
+  Epoch  50/50 | Train: 24.6% | Test: 22.9% | Best: 23.3% | 71s
+  >>> Final Accuracy: 22.9% (72.5s)
+>>> gat_ENZYMES_1shot_run0: acc=22.93% (72.7s)
+[ENZYMES] Loaded 480 train / 120 test graphs | 6 classes | 3 features
+  Epoch   1/50 | Train: 21.6% | Test: 22.8% | Best: 22.8% | 2s
+  Epoch  10/50 | Train: 24.0% | Test: 23.9% | Best: 23.9% | 16s
+  Epoch  20/50 | Train: 23.8% | Test: 23.9% | Best: 23.9% | 31s
+  Epoch  30/50 | Train: 24.0% | Test: 23.5% | Best: 23.9% | 45s
+  Epoch  40/50 | Train: 25.2% | Test: 23.1% | Best: 23.9% | 59s
+  Epoch  50/50 | Train: 24.2% | Test: 21.5% | Best: 23.9% | 73s
+  >>> Final Accuracy: 21.5% (75.0s)
+>>> gat_ENZYMES_1shot_run1: acc=21.47% (75.2s)
+[ENZYMES] Loaded 480 train / 120 test graphs | 6 classes | 3 features
+  Epoch   1/50 | Train: 25.2% | Test: 20.7% | Best: 20.7% | 3s
+  Epoch  10/50 | Train: 24.4% | Test: 22.5% | Best: 22.5% | 16s
+  Epoch  20/50 | Train: 24.8% | Test: 23.6% | Best: 23.6% | 34s
+  Epoch  30/50 | Train: 24.4% | Test: 21.6% | Best: 23.6% | 49s
+  Epoch  40/50 | Train: 23.4% | Test: 22.4% | Best: 23.6% | 63s
+  Epoch  50/50 | Train: 23.6% | Test: 22.1% | Best: 23.6% | 77s
+  >>> Final Accuracy: 22.1% (78.4s)
+>>> gat_ENZYMES_1shot_run2: acc=22.13% (78.7s)
+[ENZYMES] Loaded 480 train / 120 test graphs | 6 classes | 3 features
+  Epoch   1/50 | Train: 23.4% | Test: 23.3% | Best: 23.3% | 2s
+  Epoch  10/50 | Train: 22.4% | Test: 22.8% | Best: 23.3% | 15s
+  Epoch  20/50 | Train: 24.2% | Test: 23.7% | Best: 23.7% | 28s
+  Epoch  30/50 | Train: 25.4% | Test: 24.0% | Best: 24.0% | 43s
+  Epoch  40/50 | Train: 25.0% | Test: 21.7% | Best: 24.0% | 56s
+  Epoch  50/50 | Train: 27.2% | Test: 20.7% | Best: 24.0% | 69s
+  >>> Final Accuracy: 20.7% (70.1s)
+>>> gat_ENZYMES_1shot_run3: acc=20.67% (70.2s)
+[ENZYMES] Loaded 480 train / 120 test graphs | 6 classes | 3 features
+  Epoch   1/50 | Train: 26.8% | Test: 22.8% | Best: 22.8% | 3s
+  Epoch  10/50 | Train: 24.0% | Test: 22.4% | Best: 22.8% | 17s
+  Epoch  20/50 | Train: 22.4% | Test: 23.9% | Best: 23.9% | 33s
+  Epoch  30/50 | Train: 23.8% | Test: 20.7% | Best: 23.9% | 49s
+  Epoch  40/50 | Train: 24.4% | Test: 20.9% | Best: 23.9% | 62s
+  Epoch  50/50 | Train: 22.8% | Test: 22.4% | Best: 23.9% | 76s
+  >>> Final Accuracy: 22.4% (77.1s)
+>>> gat_ENZYMES_1shot_run4: acc=22.40% (77.3s)
+[ENZYMES] Loaded 480 train / 120 test graphs | 6 classes | 3 features
+  Epoch   1/50 | Train: 24.4% | Test: 21.5% | Best: 21.5% | 2s
+  Epoch  10/50 | Train: 27.2% | Test: 22.4% | Best: 22.4% | 14s
+  Epoch  20/50 | Train: 22.8% | Test: 22.7% | Best: 22.7% | 28s
+  Epoch  30/50 | Train: 27.4% | Test: 23.6% | Best: 23.6% | 42s
+  Epoch  40/50 | Train: 28.6% | Test: 22.4% | Best: 23.6% | 56s
+  Epoch  50/50 | Train: 28.4% | Test: 22.3% | Best: 23.6% | 71s
+  >>> Final Accuracy: 22.3% (72.5s)
+>>> gat_ENZYMES_5shot_run0: acc=22.27% (72.7s)
+[ENZYMES] Loaded 480 train / 120 test graphs | 6 classes | 3 features
+  Epoch   1/50 | Train: 26.0% | Test: 24.1% | Best: 24.1% | 3s
+  Epoch  10/50 | Train: 25.8% | Test: 21.5% | Best: 24.1% | 16s
+  Epoch  20/50 | Train: 24.4% | Test: 21.3% | Best: 24.1% | 30s
+  Epoch  30/50 | Train: 30.2% | Test: 21.3% | Best: 24.1% | 43s
+  Epoch  40/50 | Train: 26.4% | Test: 21.6% | Best: 24.1% | 57s
+  Epoch  50/50 | Train: 26.4% | Test: 22.4% | Best: 24.1% | 70s
+  >>> Final Accuracy: 22.4% (71.3s)
+>>> gat_ENZYMES_5shot_run1: acc=22.40% (71.5s)
+[ENZYMES] Loaded 480 train / 120 test graphs | 6 classes | 3 features
+  Epoch   1/50 | Train: 23.6% | Test: 20.7% | Best: 20.7% | 2s
+  Epoch  10/50 | Train: 26.0% | Test: 21.5% | Best: 21.5% | 14s
+  Epoch  20/50 | Train: 26.6% | Test: 20.9% | Best: 21.5% | 28s
+  Epoch  30/50 | Train: 24.2% | Test: 20.5% | Best: 21.5% | 42s
+  Epoch  40/50 | Train: 25.8% | Test: 21.7% | Best: 21.7% | 56s
+  Epoch  50/50 | Train: 25.0% | Test: 21.5% | Best: 21.7% | 69s
+  >>> Final Accuracy: 21.5% (69.8s)
+>>> gat_ENZYMES_5shot_run2: acc=21.47% (70.0s)
+[ENZYMES] Loaded 480 train / 120 test graphs | 6 classes | 3 features
+  Epoch   1/50 | Train: 23.2% | Test: 22.3% | Best: 22.3% | 2s
+  Epoch  10/50 | Train: 25.0% | Test: 22.4% | Best: 22.4% | 14s
+  Epoch  20/50 | Train: 30.8% | Test: 21.2% | Best: 22.4% | 27s
+  Epoch  30/50 | Train: 29.4% | Test: 21.9% | Best: 22.4% | 41s
+  Epoch  40/50 | Train: 27.4% | Test: 21.1% | Best: 22.4% | 55s
+  Epoch  50/50 | Train: 28.6% | Test: 21.3% | Best: 22.4% | 69s
+  >>> Final Accuracy: 21.3% (70.4s)
+>>> gat_ENZYMES_5shot_run3: acc=21.33% (70.7s)
+[ENZYMES] Loaded 480 train / 120 test graphs | 6 classes | 3 features
+  Epoch   1/50 | Train: 22.4% | Test: 22.8% | Best: 22.8% | 3s
+  Epoch  10/50 | Train: 25.4% | Test: 22.7% | Best: 22.8% | 15s
+  Epoch  20/50 | Train: 27.0% | Test: 23.5% | Best: 23.5% | 29s
+  Epoch  30/50 | Train: 24.2% | Test: 22.4% | Best: 23.5% | 44s
+  Epoch  40/50 | Train: 30.6% | Test: 21.5% | Best: 23.5% | 58s
+  Epoch  50/50 | Train: 27.8% | Test: 22.8% | Best: 23.5% | 75s
+  >>> Final Accuracy: 22.8% (75.9s)
+>>> gat_ENZYMES_5shot_run4: acc=22.80% (76.1s)
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+  Epoch   1/50 | Train: 58.0% | Test: 48.0% | Best: 48.0% | 3s
+  Epoch  10/50 | Train: 48.5% | Test: 49.3% | Best: 49.3% | 17s
+  Epoch  20/50 | Train: 57.5% | Test: 63.0% | Best: 63.0% | 37s
+  Epoch  30/50 | Train: 63.0% | Test: 60.3% | Best: 63.0% | 65s
+  Epoch  40/50 | Train: 56.0% | Test: 64.7% | Best: 64.7% | 85s
+  Epoch  50/50 | Train: 56.5% | Test: 55.0% | Best: 64.7% | 98s
+  >>> Final Accuracy: 55.0% (99.0s)
+>>> gat_DD_1shot_run0: acc=55.00% (99.6s)
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+  Epoch   1/50 | Train: 53.0% | Test: 47.0% | Best: 47.0% | 2s
+  Epoch  10/50 | Train: 59.0% | Test: 50.3% | Best: 50.3% | 14s
+  Epoch  20/50 | Train: 56.0% | Test: 52.0% | Best: 52.0% | 27s
+  Epoch  30/50 | Train: 57.0% | Test: 64.3% | Best: 64.3% | 40s
+  Epoch  40/50 | Train: 58.0% | Test: 60.0% | Best: 64.3% | 52s
+  Epoch  50/50 | Train: 60.0% | Test: 56.7% | Best: 64.3% | 65s
+  >>> Final Accuracy: 56.7% (65.6s)
+>>> gat_DD_1shot_run1: acc=56.67% (66.0s)
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+  Epoch   1/50 | Train: 50.0% | Test: 53.0% | Best: 53.0% | 2s
+  Epoch  10/50 | Train: 54.0% | Test: 49.7% | Best: 53.0% | 13s
+  Epoch  20/50 | Train: 49.5% | Test: 53.3% | Best: 53.3% | 25s
+  Epoch  30/50 | Train: 55.5% | Test: 62.0% | Best: 62.0% | 40s
+  Epoch  40/50 | Train: 58.5% | Test: 59.3% | Best: 62.0% | 53s
+  Epoch  50/50 | Train: 55.5% | Test: 62.0% | Best: 62.0% | 67s
+  >>> Final Accuracy: 62.0% (68.0s)
+>>> gat_DD_1shot_run2: acc=62.00% (68.5s)
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+  Epoch   1/50 | Train: 54.0% | Test: 50.3% | Best: 50.3% | 2s
+  Epoch  10/50 | Train: 52.0% | Test: 49.7% | Best: 50.3% | 14s
+  Epoch  20/50 | Train: 61.0% | Test: 59.3% | Best: 59.3% | 29s
+  Epoch  30/50 | Train: 51.0% | Test: 56.0% | Best: 59.3% | 44s
+  Epoch  40/50 | Train: 62.5% | Test: 58.3% | Best: 59.3% | 59s
+  Epoch  50/50 | Train: 60.5% | Test: 62.3% | Best: 62.3% | 74s
+  >>> Final Accuracy: 62.3% (75.3s)
+>>> gat_DD_1shot_run3: acc=62.33% (75.7s)
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+  Epoch   1/50 | Train: 57.0% | Test: 53.7% | Best: 53.7% | 2s
+  Epoch  10/50 | Train: 51.5% | Test: 50.7% | Best: 53.7% | 14s
+  Epoch  20/50 | Train: 58.5% | Test: 63.7% | Best: 63.7% | 28s
+  Epoch  30/50 | Train: 58.5% | Test: 53.3% | Best: 63.7% | 40s
+  Epoch  40/50 | Train: 48.5% | Test: 63.0% | Best: 63.7% | 53s
+  Epoch  50/50 | Train: 61.0% | Test: 64.0% | Best: 64.0% | 65s
+  >>> Final Accuracy: 64.0% (66.2s)
+>>> gat_DD_1shot_run4: acc=64.00% (67.0s)
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+  Epoch   1/50 | Train: 55.0% | Test: 51.7% | Best: 51.7% | 2s
+  Epoch  10/50 | Train: 58.5% | Test: 49.7% | Best: 51.7% | 15s
+  Epoch  20/50 | Train: 66.5% | Test: 59.0% | Best: 59.0% | 27s
+  Epoch  30/50 | Train: 63.5% | Test: 80.3% | Best: 80.3% | 40s
+  Epoch  40/50 | Train: 63.5% | Test: 77.7% | Best: 80.3% | 54s
+  Epoch  50/50 | Train: 66.0% | Test: 71.7% | Best: 80.3% | 68s
+  >>> Final Accuracy: 71.7% (68.6s)
+>>> gat_DD_5shot_run0: acc=71.67% (69.3s)
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+  Epoch   1/50 | Train: 53.0% | Test: 49.3% | Best: 49.3% | 3s
+  Epoch  10/50 | Train: 55.0% | Test: 52.0% | Best: 52.0% | 15s
+  Epoch  20/50 | Train: 63.0% | Test: 69.0% | Best: 69.0% | 31s
+  Epoch  30/50 | Train: 59.0% | Test: 67.7% | Best: 69.0% | 48s
+  Epoch  40/50 | Train: 62.5% | Test: 54.3% | Best: 69.0% | 63s
+  Epoch  50/50 | Train: 65.5% | Test: 73.3% | Best: 73.3% | 77s
+  >>> Final Accuracy: 73.3% (77.7s)
+>>> gat_DD_5shot_run1: acc=73.33% (78.1s)
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+  Epoch   1/50 | Train: 65.0% | Test: 55.7% | Best: 55.7% | 2s
+  Epoch  10/50 | Train: 63.5% | Test: 51.7% | Best: 55.7% | 16s
+  Epoch  20/50 | Train: 64.0% | Test: 78.7% | Best: 78.7% | 31s
+  Epoch  30/50 | Train: 64.0% | Test: 55.3% | Best: 78.7% | 48s
+  Epoch  40/50 | Train: 61.0% | Test: 74.3% | Best: 78.7% | 67s
+  Epoch  50/50 | Train: 69.0% | Test: 54.0% | Best: 78.7% | 87s
+  >>> Final Accuracy: 54.0% (88.8s)
+>>> gat_DD_5shot_run2: acc=54.00% (89.3s)
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+  Epoch   1/50 | Train: 48.5% | Test: 56.0% | Best: 56.0% | 3s
+  Epoch  10/50 | Train: 60.5% | Test: 52.7% | Best: 56.0% | 22s
+  Epoch  20/50 | Train: 68.5% | Test: 76.3% | Best: 76.3% | 41s
+  Epoch  30/50 | Train: 59.5% | Test: 68.0% | Best: 76.3% | 62s
+  Epoch  40/50 | Train: 63.5% | Test: 49.3% | Best: 76.3% | 84s
+  Epoch  50/50 | Train: 57.5% | Test: 59.3% | Best: 76.3% | 105s
+  >>> Final Accuracy: 59.3% (109.3s)
+>>> gat_DD_5shot_run3: acc=59.33% (109.8s)
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+  Epoch   1/50 | Train: 56.5% | Test: 52.7% | Best: 52.7% | 7s
+  Epoch  10/50 | Train: 55.5% | Test: 51.3% | Best: 52.7% | 34s
+  Epoch  20/50 | Train: 68.5% | Test: 51.0% | Best: 52.7% | 50s
+  Epoch  30/50 | Train: 59.5% | Test: 77.7% | Best: 77.7% | 67s
+  Epoch  40/50 | Train: 67.5% | Test: 76.7% | Best: 77.7% | 87s
+  Epoch  50/50 | Train: 64.0% | Test: 61.0% | Best: 77.7% | 100s
+  >>> Final Accuracy: 61.0% (101.1s)
+>>> gat_DD_5shot_run4: acc=61.00% (101.8s)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  Epoch   1/50 | Train: 30.6% | Test: 26.9% | Best: 26.9% | 3s
+  Epoch  10/50 | Train: 24.6% | Test: 26.0% | Best: 26.9% | 15s
+  Epoch  20/50 | Train: 30.2% | Test: 25.2% | Best: 26.9% | 28s
+  Epoch  30/50 | Train: 27.0% | Test: 27.5% | Best: 27.5% | 42s
+  Epoch  40/50 | Train: 26.8% | Test: 25.7% | Best: 27.5% | 56s
+  Epoch  50/50 | Train: 23.4% | Test: 26.4% | Best: 27.5% | 69s
+  >>> Final Accuracy: 26.3% (69.7s)
+>>> gat_REDDIT-M5K_1shot_run0: acc=26.27% (71.5s)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  Epoch   1/50 | Train: 26.4% | Test: 28.0% | Best: 28.0% | 2s
+  Epoch  10/50 | Train: 29.0% | Test: 26.8% | Best: 28.0% | 15s
+  Epoch  20/50 | Train: 23.8% | Test: 27.7% | Best: 28.0% | 28s
+  Epoch  30/50 | Train: 27.4% | Test: 24.9% | Best: 28.0% | 43s
+  Epoch  40/50 | Train: 30.4% | Test: 25.9% | Best: 28.0% | 56s
+  Epoch  50/50 | Train: 23.8% | Test: 27.5% | Best: 28.0% | 72s
+  >>> Final Accuracy: 27.9% (72.9s)
+>>> gat_REDDIT-M5K_1shot_run1: acc=27.87% (74.5s)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  Epoch   1/50 | Train: 28.4% | Test: 27.1% | Best: 27.1% | 3s
+  Epoch  10/50 | Train: 27.2% | Test: 26.5% | Best: 27.1% | 17s
+  Epoch  20/50 | Train: 28.0% | Test: 25.3% | Best: 27.1% | 38s
+  Epoch  30/50 | Train: 26.6% | Test: 27.7% | Best: 27.7% | 53s
+  Epoch  40/50 | Train: 26.4% | Test: 26.1% | Best: 27.7% | 69s
+  Epoch  50/50 | Train: 23.2% | Test: 28.8% | Best: 28.8% | 85s
+  >>> Final Accuracy: 28.7% (86.7s)
+>>> gat_REDDIT-M5K_1shot_run2: acc=28.67% (88.2s)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  Epoch   1/50 | Train: 28.0% | Test: 25.6% | Best: 25.6% | 4s
+  Epoch  10/50 | Train: 27.0% | Test: 27.6% | Best: 27.6% | 24s
+  Epoch  20/50 | Train: 28.8% | Test: 28.4% | Best: 28.4% | 43s
+  Epoch  30/50 | Train: 27.6% | Test: 28.3% | Best: 28.4% | 58s
+  Epoch  40/50 | Train: 27.6% | Test: 29.2% | Best: 29.2% | 74s
+  Epoch  50/50 | Train: 27.0% | Test: 26.8% | Best: 29.2% | 89s
+  >>> Final Accuracy: 26.9% (90.4s)
+>>> gat_REDDIT-M5K_1shot_run3: acc=26.93% (92.0s)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  Epoch   1/50 | Train: 28.6% | Test: 26.8% | Best: 26.8% | 2s
+  Epoch  10/50 | Train: 28.6% | Test: 28.4% | Best: 28.4% | 14s
+  Epoch  20/50 | Train: 30.8% | Test: 25.5% | Best: 28.4% | 28s
+  Epoch  30/50 | Train: 26.0% | Test: 27.2% | Best: 28.4% | 42s
+  Epoch  40/50 | Train: 25.4% | Test: 25.5% | Best: 28.4% | 55s
+  Epoch  50/50 | Train: 27.2% | Test: 23.7% | Best: 28.4% | 68s
+  >>> Final Accuracy: 24.1% (69.0s)
+>>> gat_REDDIT-M5K_1shot_run4: acc=24.13% (70.8s)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  Epoch   1/50 | Train: 28.2% | Test: 30.8% | Best: 30.8% | 2s
+  Epoch  10/50 | Train: 34.2% | Test: 30.8% | Best: 30.8% | 15s
+  Epoch  20/50 | Train: 30.8% | Test: 32.7% | Best: 32.7% | 29s
+  Epoch  30/50 | Train: 33.4% | Test: 32.0% | Best: 32.7% | 42s
+  Epoch  40/50 | Train: 31.0% | Test: 30.5% | Best: 32.7% | 57s
+  Epoch  50/50 | Train: 34.0% | Test: 31.2% | Best: 32.7% | 71s
+  >>> Final Accuracy: 31.3% (72.0s)
+>>> gat_REDDIT-M5K_5shot_run0: acc=31.33% (73.3s)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  Epoch   1/50 | Train: 29.6% | Test: 31.7% | Best: 31.7% | 2s
+  Epoch  10/50 | Train: 34.2% | Test: 31.7% | Best: 31.7% | 15s
+  Epoch  20/50 | Train: 33.6% | Test: 30.7% | Best: 31.7% | 29s
+  Epoch  30/50 | Train: 29.6% | Test: 32.0% | Best: 32.0% | 43s
+  Epoch  40/50 | Train: 31.6% | Test: 30.3% | Best: 32.0% | 57s
+  Epoch  50/50 | Train: 29.0% | Test: 33.1% | Best: 33.1% | 71s
+  >>> Final Accuracy: 32.5% (71.7s)
+>>> gat_REDDIT-M5K_5shot_run1: acc=32.53% (73.4s)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  Epoch   1/50 | Train: 31.2% | Test: 31.3% | Best: 31.3% | 2s
+  Epoch  10/50 | Train: 32.4% | Test: 32.9% | Best: 32.9% | 15s
+  Epoch  20/50 | Train: 29.6% | Test: 31.1% | Best: 32.9% | 29s
+  Epoch  30/50 | Train: 30.0% | Test: 31.2% | Best: 32.9% | 44s
+  Epoch  40/50 | Train: 33.0% | Test: 32.3% | Best: 32.9% | 59s
+  Epoch  50/50 | Train: 30.2% | Test: 31.9% | Best: 32.9% | 74s
+  >>> Final Accuracy: 32.0% (74.7s)
+>>> gat_REDDIT-M5K_5shot_run2: acc=32.00% (76.2s)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  Epoch   1/50 | Train: 29.6% | Test: 32.5% | Best: 32.5% | 3s
+  Epoch  10/50 | Train: 32.6% | Test: 31.5% | Best: 32.5% | 15s
+  Epoch  20/50 | Train: 28.8% | Test: 29.3% | Best: 32.5% | 29s
+  Epoch  30/50 | Train: 31.2% | Test: 32.7% | Best: 32.7% | 43s
+  Epoch  40/50 | Train: 31.8% | Test: 30.0% | Best: 32.7% | 59s
+  Epoch  50/50 | Train: 33.0% | Test: 30.4% | Best: 32.7% | 73s
+  >>> Final Accuracy: 30.3% (73.9s)
+>>> gat_REDDIT-M5K_5shot_run3: acc=30.27% (75.5s)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  Epoch   1/50 | Train: 31.8% | Test: 32.5% | Best: 32.5% | 2s
+  Epoch  10/50 | Train: 30.8% | Test: 33.1% | Best: 33.1% | 16s
+  Epoch  20/50 | Train: 32.8% | Test: 30.5% | Best: 33.1% | 37s
+  Epoch  30/50 | Train: 30.6% | Test: 31.3% | Best: 33.1% | 56s
+  Epoch  40/50 | Train: 30.2% | Test: 30.7% | Best: 33.1% | 72s
+  Epoch  50/50 | Train: 29.0% | Test: 30.0% | Best: 33.1% | 89s
+  >>> Final Accuracy: 29.9% (90.1s)
+>>> gat_REDDIT-M5K_5shot_run4: acc=29.87% (91.5s)
+DONE

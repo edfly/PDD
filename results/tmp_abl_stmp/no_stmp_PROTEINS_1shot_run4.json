@@ -1,0 +1,11 @@
+{
+  "no_stmp_PROTEINS_1shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "variant": "no_stmp",
+    "run_id": 4,
+    "final_acc": 0.5240000078082084,
+    "total_spikes": 0,
+    "elapsed_sec": 432.7
+  }
+}

@@ -1,0 +1,37 @@
+device=cuda torch=2.11.0+cu126 cuda=True
+
+=== ARM A_noisy noise=0.05 lam=0.5 het_spread=0.0 ===
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  [A_noisy] run0: r_bar=0.3392 tilde_r=0.3392 gap=0.0000
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  [A_noisy] run1: r_bar=0.3657 tilde_r=0.3657 gap=0.0000
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  [A_noisy] run2: r_bar=0.3487 tilde_r=0.3487 gap=0.0000
+
+=== ARM B_sigma0 noise=0.0 lam=0.5 het_spread=0.0 ===
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  [B_sigma0] run0: r_bar=0.2790 tilde_r=0.2790 gap=0.0000
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  [B_sigma0] run1: r_bar=0.3750 tilde_r=0.3750 gap=0.0000
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  [B_sigma0] run2: r_bar=0.3750 tilde_r=0.3750 gap=0.0000
+
+=== ARM C_sigma0_het noise=0.0 lam=0.5 het_spread=0.3 ===
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  [C_sigma0_het] injected static het_th_offset (256 positions, spread=0.3)
+  [C_sigma0_het] run0: r_bar=0.4207 tilde_r=0.4207 gap=0.0000
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  [C_sigma0_het] injected static het_th_offset (256 positions, spread=0.3)
+  [C_sigma0_het] run1: r_bar=0.3878 tilde_r=0.3878 gap=0.0000
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  [C_sigma0_het] injected static het_th_offset (256 positions, spread=0.3)
+  [C_sigma0_het] run2: r_bar=0.4229 tilde_r=0.4229 gap=0.0000
+
+=== SUMMARY (final epoch, 5 runs) ===
+arm                 r_bar  tilde_r      gap
+A_noisy            0.3512   0.3512   0.0000
+B_sigma0           0.3430   0.3430   0.0000
+C_sigma0_het       0.4105   0.4105   0.0000
+
+wrote D:\2026\paper\PBB\post\results\rate_control_mechanism.json  (844.0s)
+EXIT=0

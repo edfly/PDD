@@ -1,0 +1,11 @@
+{
+  "no_stmp_ENZYMES_1shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "variant": "no_stmp",
+    "run_id": 2,
+    "final_acc": 0.25759999856352805,
+    "total_spikes": 0,
+    "elapsed_sec": 884.7
+  }
+}

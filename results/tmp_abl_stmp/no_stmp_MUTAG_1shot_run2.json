@@ -1,0 +1,11 @@
+{
+  "no_stmp_MUTAG_1shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "variant": "no_stmp",
+    "run_id": 2,
+    "final_acc": 0.9199999904632569,
+    "total_spikes": 0,
+    "elapsed_sec": 378.8
+  }
+}

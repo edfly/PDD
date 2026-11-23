@@ -1,0 +1,10 @@
+{
+  "gin_DD_1shot_run17": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 17,
+    "final_acc": 0.5566666747132937,
+    "best_acc": 0.5666666721304258,
+    "elapsed_sec": 44.6
+  }
+}

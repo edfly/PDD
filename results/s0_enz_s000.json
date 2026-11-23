@@ -1,0 +1,87 @@
+{
+  "_protocol": {
+    "purpose": "sigma=0 control: isolate the contribution of membrane noise to the control authority of L_sr",
+    "arms": {
+      "sigma005": 0.05,
+      "sigma000": 0.0
+    },
+    "lambdas": [
+      0.0,
+      0.5
+    ],
+    "r_target": 0.4,
+    "datasets": [
+      "ENZYMES"
+    ],
+    "shot": 1,
+    "epochs": 20,
+    "episodes_per_epoch": 10,
+    "test_episodes": 10,
+    "runs": 5,
+    "seed": "42 + run_id*100 + shot*10",
+    "reported_metrics": "final_acc = accuracy at the final epoch; r_bar = empirical mean firing rate over the final evaluation episodes",
+    "date": "2026-10-15"
+  },
+  "ENZYMES|sigma000|lam0.000": {
+    "dataset": "ENZYMES",
+    "arm": "sigma000",
+    "noise_std": 0.0,
+    "lambda_sr": 0.0,
+    "accs": [
+      19.59999941289425,
+      23.999999091029167,
+      25.9999991953373,
+      24.399999380111694,
+      22.79999941587448
+    ],
+    "rates": [
+      0.17130458164180645,
+      0.18932016047755065,
+      0.12484666551746929,
+      0.19400105710531634,
+      0.23327827174181343
+    ],
+    "best_accs": [
+      26.39999955892563,
+      27.999999448657036,
+      26.399999484419823,
+      24.799999594688416,
+      24.79999929666519
+    ],
+    "acc_mean": 23.359999299049377,
+    "acc_std": 2.1406540293931906,
+    "rate_mean": 0.18255014729679125,
+    "rate_std": 0.03523195589227883
+  },
+  "ENZYMES|sigma000|lam0.500": {
+    "dataset": "ENZYMES",
+    "arm": "sigma000",
+    "noise_std": 0.0,
+    "lambda_sr": 0.5,
+    "accs": [
+      21.599999368190765,
+      24.799999222159386,
+      23.19999948143959,
+      21.999999433755875,
+      19.999999403953552
+    ],
+    "rates": [
+      0.4074590417285594,
+      0.39470063035418645,
+      0.3956832041118094,
+      0.38728068216583267,
+      0.4121538417610921
+    ],
+    "best_accs": [
+      26.399999111890793,
+      27.19999924302101,
+      26.799999177455902,
+      25.19999943673611,
+      21.999999210238457
+    ],
+    "acc_mean": 22.319999381899834,
+    "acc_std": 1.607980053800502,
+    "rate_mean": 0.39945548002429604,
+    "rate_std": 0.009059467474329709
+  }
+}

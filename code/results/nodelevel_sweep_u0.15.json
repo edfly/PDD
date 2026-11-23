@@ -1,0 +1,13 @@
+{
+  "model": "spikergnn",
+  "runs": [
+    {
+      "model": "spikergnn",
+      "run_id": 0,
+      "best_val": 0.562367856502533,
+      "best_test": 0.5050511360168457,
+      "rate_mean": 0.004195257554194741,
+      "seconds": 1565.0
+    }
+  ]
+}

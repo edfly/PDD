@@ -1,0 +1,2102 @@
+{
+  "lam0.0_MUTAG_1shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 0.0,
+    "r_target": 0.4,
+    "final_acc": 0.7949999958276749,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.49003604796428724,
+    "u_th_learnable": 0.9965680837631226,
+    "total_spikes": 12975,
+    "sr_history_last5": [
+      0.4896722040865621,
+      0.4885230517141915,
+      0.4887382583695647,
+      0.489134344890377,
+      0.48875615094753416
+    ],
+    "elapsed_sec": 305.3
+  },
+  "lam0.0_MUTAG_1shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 0.0,
+    "r_target": 0.4,
+    "final_acc": 0.8049999952316285,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.05921865326696847,
+    "u_th_learnable": 1.0253474712371826,
+    "total_spikes": 1614,
+    "sr_history_last5": [
+      0.03340640532124272,
+      0.03661071180371726,
+      0.0444372834438751,
+      0.062171845339190845,
+      0.06660331673954804
+    ],
+    "elapsed_sec": 332.5
+  },
+  "lam0.0_MUTAG_1shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 0.0,
+    "r_target": 0.4,
+    "final_acc": 0.764999994635582,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.4910485496187988,
+    "u_th_learnable": 0.9942355751991272,
+    "total_spikes": 13858,
+    "sr_history_last5": [
+      0.4918225427930369,
+      0.4922607588626384,
+      0.4900738507724265,
+      0.4909721563617925,
+      0.4918355588612099
+    ],
+    "elapsed_sec": 511.8
+  },
+  "lam0.0_PROTEINS_1shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 0.0,
+    "r_target": 0.4,
+    "final_acc": 0.47000000551342963,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.06062590599067027,
+    "u_th_learnable": 1.0266646146774292,
+    "total_spikes": 3180,
+    "sr_history_last5": [
+      0.08211281913450777,
+      0.06868670262200743,
+      0.0638142270515146,
+      0.060548782871237064,
+      0.06078377908616025
+    ],
+    "elapsed_sec": 587.4
+  },
+  "lam0.0_PROTEINS_1shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 0.0,
+    "r_target": 0.4,
+    "final_acc": 0.510000006109476,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.22742154637445405,
+    "u_th_learnable": 1.0286237001419067,
+    "total_spikes": 12713,
+    "sr_history_last5": [
+      0.2228669023292853,
+      0.2279883210968808,
+      0.23082040778316557,
+      0.22965686340917396,
+      0.22632848639938782
+    ],
+    "elapsed_sec": 581.2
+  },
+  "lam0.0_PROTEINS_1shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 0.0,
+    "r_target": 0.4,
+    "final_acc": 0.5050000049173832,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.12759996089070785,
+    "u_th_learnable": 1.026513695716858,
+    "total_spikes": 8387,
+    "sr_history_last5": [
+      0.12996372885687985,
+      0.1280141228475318,
+      0.1273377623643473,
+      0.12645197910550138,
+      0.1278139013565019
+    ],
+    "elapsed_sec": 576.4
+  },
+  "lam0.0_ENZYMES_1shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 0.0,
+    "r_target": 0.4,
+    "final_acc": 0.22999999821186065,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.06431789598993672,
+    "u_th_learnable": 1.0276341438293457,
+    "total_spikes": 8398,
+    "sr_history_last5": [
+      0.08040314560307901,
+      0.07311150500845853,
+      0.07121732007349206,
+      0.06837420485937665,
+      0.0645168477428031
+    ],
+    "elapsed_sec": 739.1
+  },
+  "lam0.0_ENZYMES_1shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 0.0,
+    "r_target": 0.4,
+    "final_acc": 0.25600000023841857,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.14845101686410897,
+    "u_th_learnable": 1.0214766263961792,
+    "total_spikes": 20208,
+    "sr_history_last5": [
+      0.14333386069330262,
+      0.14553403358601172,
+      0.14714009662092414,
+      0.14738866517236535,
+      0.1490327045261645
+    ],
+    "elapsed_sec": 718.6
+  },
+  "lam0.0_ENZYMES_1shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 0.0,
+    "r_target": 0.4,
+    "final_acc": 0.253999999910593,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.02211601528748471,
+    "u_th_learnable": 1.0292223691940308,
+    "total_spikes": 2866,
+    "sr_history_last5": [
+      0.02889311963948568,
+      0.027104573772239588,
+      0.02760012327659202,
+      0.023883425932905225,
+      0.024081237616851776
+    ],
+    "elapsed_sec": 653.4
+  },
+  "lam0.05_MUTAG_1shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 0.05,
+    "r_target": 0.4,
+    "final_acc": 0.7550000011920929,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.49220527290254745,
+    "u_th_learnable": 0.9826293587684631,
+    "total_spikes": 13032,
+    "sr_history_last5": [
+      0.49185439336435294,
+      0.49088697150386523,
+      0.4909422153175763,
+      0.49172834976305546,
+      0.49117258554152965
+    ],
+    "elapsed_sec": 459.0
+  },
+  "lam0.05_MUTAG_1shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 0.05,
+    "r_target": 0.4,
+    "final_acc": 0.744999996572733,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.4886919580247893,
+    "u_th_learnable": 0.9949074983596802,
+    "total_spikes": 13296,
+    "sr_history_last5": [
+      0.4870684183381647,
+      0.48951823265156114,
+      0.48970190240936234,
+      0.48902544614892013,
+      0.48893351952175673
+    ],
+    "elapsed_sec": 458.3
+  },
+  "lam0.05_MUTAG_1shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 0.05,
+    "r_target": 0.4,
+    "final_acc": 0.8049999929964542,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.1056860652038979,
+    "u_th_learnable": 1.0109281539916992,
+    "total_spikes": 2981,
+    "sr_history_last5": [
+      0.11436077094378069,
+      0.09586829028891011,
+      0.09537690434558525,
+      0.10067264372573377,
+      0.10593941261067104
+    ],
+    "elapsed_sec": 462.3
+  },
+  "lam0.05_PROTEINS_1shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 0.05,
+    "r_target": 0.4,
+    "final_acc": 0.490000007301569,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3520245697288991,
+    "u_th_learnable": 1.002881407737732,
+    "total_spikes": 17939,
+    "sr_history_last5": [
+      0.3455036916518242,
+      0.3495125412419976,
+      0.35217493987986476,
+      0.3486537701608758,
+      0.34978808814671913
+    ],
+    "elapsed_sec": 634.3
+  },
+  "lam0.05_PROTEINS_1shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 0.05,
+    "r_target": 0.4,
+    "final_acc": 0.515000007301569,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.30171807501699205,
+    "u_th_learnable": 0.9947599768638611,
+    "total_spikes": 16938,
+    "sr_history_last5": [
+      0.2926463666074023,
+      0.2973652299223972,
+      0.29610025302796034,
+      0.2930897220099518,
+      0.2845583229477203
+    ],
+    "elapsed_sec": 640.9
+  },
+  "lam0.05_PROTEINS_1shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 0.05,
+    "r_target": 0.4,
+    "final_acc": 0.4950000014156103,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3175053255811671,
+    "u_th_learnable": 1.0002821683883667,
+    "total_spikes": 20737,
+    "sr_history_last5": [
+      0.3160124732716294,
+      0.3154659591362087,
+      0.3163700579484981,
+      0.319525070787502,
+      0.32099501158778054
+    ],
+    "elapsed_sec": 648.7
+  },
+  "lam0.05_ENZYMES_1shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 0.05,
+    "r_target": 0.4,
+    "final_acc": 0.22599999867379666,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3373262387593731,
+    "u_th_learnable": 0.9872115850448608,
+    "total_spikes": 44076,
+    "sr_history_last5": [
+      0.3395267285495017,
+      0.33568916367051954,
+      0.338748423841342,
+      0.33967236222033736,
+      0.33904221675745616
+    ],
+    "elapsed_sec": 873.2
+  },
+  "lam0.05_ENZYMES_1shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 0.05,
+    "r_target": 0.4,
+    "final_acc": 0.23399999886751174,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.34462152831108994,
+    "u_th_learnable": 0.9949869513511658,
+    "total_spikes": 46920,
+    "sr_history_last5": [
+      0.33456690746031786,
+      0.3378719412093126,
+      0.34363888236131157,
+      0.3455761865440359,
+      0.346704302489384
+    ],
+    "elapsed_sec": 850.4
+  },
+  "lam0.05_ENZYMES_1shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 0.05,
+    "r_target": 0.4,
+    "final_acc": 0.284000001475215,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3458759545474003,
+    "u_th_learnable": 0.9861155152320862,
+    "total_spikes": 44682,
+    "sr_history_last5": [
+      0.344351031738081,
+      0.3452147134528815,
+      0.34644654959347954,
+      0.3452767095798793,
+      0.3463358387554948
+    ],
+    "elapsed_sec": 817.8
+  },
+  "lam0.1_MUTAG_1shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 0.1,
+    "r_target": 0.4,
+    "final_acc": 0.7699999988079071,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.12522341331854658,
+    "u_th_learnable": 1.0181009769439697,
+    "total_spikes": 3315,
+    "sr_history_last5": [
+      0.12703860249469784,
+      0.12559800949371325,
+      0.1250668449197861,
+      0.12514718614718615,
+      0.1250735294117647
+    ],
+    "elapsed_sec": 543.3
+  },
+  "lam0.1_MUTAG_1shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 0.1,
+    "r_target": 0.4,
+    "final_acc": 0.8399999916553498,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.48021284231638867,
+    "u_th_learnable": 0.985161304473877,
+    "total_spikes": 13066,
+    "sr_history_last5": [
+      0.47959128942238544,
+      0.48205547261452625,
+      0.4802047438374816,
+      0.48059110434153895,
+      0.4792936493302512
+    ],
+    "elapsed_sec": 510.7
+  },
+  "lam0.1_MUTAG_1shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 0.1,
+    "r_target": 0.4,
+    "final_acc": 0.8299999862909317,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.47107052406503547,
+    "u_th_learnable": 1.0043705701828003,
+    "total_spikes": 13291,
+    "sr_history_last5": [
+      0.47070412395113437,
+      0.47002140841084755,
+      0.46971623933146783,
+      0.4688735661023057,
+      0.4702613117604854
+    ],
+    "elapsed_sec": 476.9
+  },
+  "lam0.1_PROTEINS_1shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 0.1,
+    "r_target": 0.4,
+    "final_acc": 0.45500000566244125,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.37305844779379027,
+    "u_th_learnable": 0.9920203685760498,
+    "total_spikes": 19023,
+    "sr_history_last5": [
+      0.3630868720069975,
+      0.3658646287458103,
+      0.3709174287945455,
+      0.3709728628941663,
+      0.3716846540978208
+    ],
+    "elapsed_sec": 552.1
+  },
+  "lam0.1_PROTEINS_1shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 0.1,
+    "r_target": 0.4,
+    "final_acc": 0.5050000071525573,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3779774790195623,
+    "u_th_learnable": 0.9882258772850037,
+    "total_spikes": 21081,
+    "sr_history_last5": [
+      0.377286523680457,
+      0.3784434613490725,
+      0.37932788494298025,
+      0.3768158721683219,
+      0.37079749087709574
+    ],
+    "elapsed_sec": 552.4
+  },
+  "lam0.1_PROTEINS_1shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 0.1,
+    "r_target": 0.4,
+    "final_acc": 0.490000007301569,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.37063622105239286,
+    "u_th_learnable": 0.994868278503418,
+    "total_spikes": 24397,
+    "sr_history_last5": [
+      0.36770753563050074,
+      0.3677768802191293,
+      0.36963194377731345,
+      0.36910605310505357,
+      0.3702455647992292
+    ],
+    "elapsed_sec": 549.5
+  },
+  "lam0.1_ENZYMES_1shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 0.1,
+    "r_target": 0.4,
+    "final_acc": 0.25399999916553495,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.37316748884850354,
+    "u_th_learnable": 0.9758989810943604,
+    "total_spikes": 48763,
+    "sr_history_last5": [
+      0.37232823977649654,
+      0.37209582558240084,
+      0.3733782139823426,
+      0.37426672842694375,
+      0.37315120372195437
+    ],
+    "elapsed_sec": 636.0
+  },
+  "lam0.1_ENZYMES_1shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 0.1,
+    "r_target": 0.4,
+    "final_acc": 0.23599999882280825,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3804049723586554,
+    "u_th_learnable": 0.9836603999137878,
+    "total_spikes": 51775,
+    "sr_history_last5": [
+      0.37508428845622394,
+      0.3705069552504716,
+      0.3783300182940251,
+      0.3786978221334441,
+      0.37978457369820584
+    ],
+    "elapsed_sec": 721.1
+  },
+  "lam0.1_ENZYMES_1shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 0.1,
+    "r_target": 0.4,
+    "final_acc": 0.27200000137090685,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3752899416787933,
+    "u_th_learnable": 0.9682779312133789,
+    "total_spikes": 48481,
+    "sr_history_last5": [
+      0.37310300486896864,
+      0.37414369631704325,
+      0.3756139400520713,
+      0.3745575302316658,
+      0.3752233112388763
+    ],
+    "elapsed_sec": 701.2
+  },
+  "lam0.25_MUTAG_1shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 0.25,
+    "r_target": 0.4,
+    "final_acc": 0.7499999977648258,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.4189489373370711,
+    "u_th_learnable": 1.023016333580017,
+    "total_spikes": 11092,
+    "sr_history_last5": [
+      0.40423495504925044,
+      0.41154916520138374,
+      0.415168816755971,
+      0.41746166204549456,
+      0.4200528670508225
+    ],
+    "elapsed_sec": 467.7
+  },
+  "lam0.25_MUTAG_1shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 0.25,
+    "r_target": 0.4,
+    "final_acc": 0.7949999958276749,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.393474472862771,
+    "u_th_learnable": 1.0053818225860596,
+    "total_spikes": 10707,
+    "sr_history_last5": [
+      0.3950441564270224,
+      0.3956266448426919,
+      0.39600375578822694,
+      0.39764803564677564,
+      0.39558293659306165
+    ],
+    "elapsed_sec": 468.0
+  },
+  "lam0.25_MUTAG_1shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 0.25,
+    "r_target": 0.4,
+    "final_acc": 0.8299999892711639,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.49293307137890263,
+    "u_th_learnable": 0.9824608564376831,
+    "total_spikes": 13912,
+    "sr_history_last5": [
+      0.49312063707491954,
+      0.49414819677967703,
+      0.49189129396228093,
+      0.4930682078885715,
+      0.4932817309833988
+    ],
+    "elapsed_sec": 435.7
+  },
+  "lam0.25_PROTEINS_1shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 0.25,
+    "r_target": 0.4,
+    "final_acc": 0.43500000759959223,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.38239976113031104,
+    "u_th_learnable": 0.987285852432251,
+    "total_spikes": 19493,
+    "sr_history_last5": [
+      0.3787966427360408,
+      0.38176101728716894,
+      0.3826482913444238,
+      0.3781562007668195,
+      0.37971847823381516
+    ],
+    "elapsed_sec": 471.7
+  },
+  "lam0.25_PROTEINS_1shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 0.25,
+    "r_target": 0.4,
+    "final_acc": 0.5150000050663948,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3909086350801609,
+    "u_th_learnable": 0.9657635688781738,
+    "total_spikes": 21818,
+    "sr_history_last5": [
+      0.3783720170233101,
+      0.3819061958130903,
+      0.3823015217285375,
+      0.38931954489503623,
+      0.3835733805078497
+    ],
+    "elapsed_sec": 466.2
+  },
+  "lam0.25_PROTEINS_1shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 0.25,
+    "r_target": 0.4,
+    "final_acc": 0.5400000050663948,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.38161243114770577,
+    "u_th_learnable": 0.980818510055542,
+    "total_spikes": 24993,
+    "sr_history_last5": [
+      0.3797137734382335,
+      0.3780933758619685,
+      0.37987768285999424,
+      0.38243946855613026,
+      0.38380771326724483
+    ],
+    "elapsed_sec": 474.0
+  },
+  "lam0.25_ENZYMES_1shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 0.25,
+    "r_target": 0.4,
+    "final_acc": 0.23999999910593034,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.386507730086092,
+    "u_th_learnable": 0.9684321880340576,
+    "total_spikes": 50509,
+    "sr_history_last5": [
+      0.3900415359672825,
+      0.38799180651972764,
+      0.3878851289954909,
+      0.38788210837610243,
+      0.3868995750925468
+    ],
+    "elapsed_sec": 721.7
+  },
+  "lam0.25_ENZYMES_1shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 0.25,
+    "r_target": 0.4,
+    "final_acc": 0.23599999956786633,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.39608397021425795,
+    "u_th_learnable": 0.9675540924072266,
+    "total_spikes": 53909,
+    "sr_history_last5": [
+      0.38944083888947534,
+      0.38754288490509514,
+      0.39414632897197077,
+      0.3965085915491745,
+      0.3954759965865713
+    ],
+    "elapsed_sec": 719.9
+  },
+  "lam0.25_ENZYMES_1shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 0.25,
+    "r_target": 0.4,
+    "final_acc": 0.26000000201165674,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.39036977517200294,
+    "u_th_learnable": 0.9705009460449219,
+    "total_spikes": 50426,
+    "sr_history_last5": [
+      0.3897196534442452,
+      0.3899478445236577,
+      0.39053734106455384,
+      0.3900293909953915,
+      0.39069807354356717
+    ],
+    "elapsed_sec": 764.1
+  },
+  "lam0.5_MUTAG_1shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "final_acc": 0.775,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.4939301780422317,
+    "u_th_learnable": 0.987604558467865,
+    "total_spikes": 13077,
+    "sr_history_last5": [
+      0.493385313083088,
+      0.49291362605252065,
+      0.49280485589676265,
+      0.49315958091049517,
+      0.49316224551364557
+    ],
+    "elapsed_sec": 470.9
+  },
+  "lam0.5_MUTAG_1shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "final_acc": 0.7150000002235174,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.48536666071818785,
+    "u_th_learnable": 0.9918606281280518,
+    "total_spikes": 13205,
+    "sr_history_last5": [
+      0.4835500970853862,
+      0.48610257894408876,
+      0.48617634572129304,
+      0.48614156393352237,
+      0.4852748154915113
+    ],
+    "elapsed_sec": 443.2
+  },
+  "lam0.5_MUTAG_1shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "final_acc": 0.8649999886751175,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.4885244612701894,
+    "u_th_learnable": 0.9948137998580933,
+    "total_spikes": 13786,
+    "sr_history_last5": [
+      0.489529635501483,
+      0.4893655221074488,
+      0.4876704728225418,
+      0.488738371426,
+      0.4897247638639671
+    ],
+    "elapsed_sec": 412.2
+  },
+  "lam0.5_PROTEINS_1shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "final_acc": 0.4550000071525574,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.2841140914679368,
+    "u_th_learnable": 0.9835221767425537,
+    "total_spikes": 14520,
+    "sr_history_last5": [
+      0.3835646327425729,
+      0.3563402419089368,
+      0.329659019646938,
+      0.2926230369034136,
+      0.28112567013265
+    ],
+    "elapsed_sec": 483.2
+  },
+  "lam0.5_PROTEINS_1shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "final_acc": 0.510000006109476,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.39980990707898967,
+    "u_th_learnable": 0.9737328290939331,
+    "total_spikes": 22340,
+    "sr_history_last5": [
+      0.3982706677522495,
+      0.3974446578090536,
+      0.3959184133457273,
+      0.39856029525198944,
+      0.3941419872344021
+    ],
+    "elapsed_sec": 478.5
+  },
+  "lam0.5_PROTEINS_1shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "final_acc": 0.4700000025331974,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.39563571294723515,
+    "u_th_learnable": 0.9743642210960388,
+    "total_spikes": 25845,
+    "sr_history_last5": [
+      0.40161359285927334,
+      0.39545588558264677,
+      0.3945101796451064,
+      0.39799123100596834,
+      0.40037302915269446
+    ],
+    "elapsed_sec": 479.5
+  },
+  "lam0.5_ENZYMES_1shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "final_acc": 0.23599999994039536,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.39338996778983615,
+    "u_th_learnable": 0.9693296551704407,
+    "total_spikes": 51403,
+    "sr_history_last5": [
+      0.3920775157793302,
+      0.3906750507694867,
+      0.3935756579309215,
+      0.39451863645649604,
+      0.3945831602209225
+    ],
+    "elapsed_sec": 603.3
+  },
+  "lam0.5_ENZYMES_1shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "final_acc": 0.2300000000745058,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.39693013486231443,
+    "u_th_learnable": 0.9660137295722961,
+    "total_spikes": 54018,
+    "sr_history_last5": [
+      0.3982686105778718,
+      0.39414441979806786,
+      0.39692687153759343,
+      0.39613580180175517,
+      0.39596851097587343
+    ],
+    "elapsed_sec": 613.5
+  },
+  "lam0.5_ENZYMES_1shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "final_acc": 0.26200000010430813,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3952623060146688,
+    "u_th_learnable": 0.9685539603233337,
+    "total_spikes": 51063,
+    "sr_history_last5": [
+      0.39706986132734673,
+      0.3963191016161844,
+      0.39640424132715113,
+      0.3960606289517874,
+      0.3963280936569654
+    ],
+    "elapsed_sec": 598.2
+  },
+  "lam1.0_MUTAG_1shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 1.0,
+    "r_target": 0.4,
+    "final_acc": 0.7349999979138374,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.30815737700920487,
+    "u_th_learnable": 1.0079694986343384,
+    "total_spikes": 8157,
+    "sr_history_last5": [
+      0.30323379647956933,
+      0.3090216681161933,
+      0.3135296334525278,
+      0.3107800952222086,
+      0.3105147787442373
+    ],
+    "elapsed_sec": 402.6
+  },
+  "lam1.0_MUTAG_1shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 1.0,
+    "r_target": 0.4,
+    "final_acc": 0.8499999940395355,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.43558504667824804,
+    "u_th_learnable": 1.007784366607666,
+    "total_spikes": 11852,
+    "sr_history_last5": [
+      0.4364122902741273,
+      0.43818985671438526,
+      0.4402062664499714,
+      0.4395296835120856,
+      0.4375905366862643
+    ],
+    "elapsed_sec": 400.6
+  },
+  "lam1.0_MUTAG_1shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 1.0,
+    "r_target": 0.4,
+    "final_acc": 0.824999988079071,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.4874595165492356,
+    "u_th_learnable": 0.9881861209869385,
+    "total_spikes": 13756,
+    "sr_history_last5": [
+      0.48938813180789237,
+      0.4889426386592498,
+      0.4877797713273318,
+      0.4873631591541863,
+      0.48937104088707406
+    ],
+    "elapsed_sec": 399.7
+  },
+  "lam1.0_PROTEINS_1shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 1.0,
+    "r_target": 0.4,
+    "final_acc": 0.4650000035762787,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3953440218265364,
+    "u_th_learnable": 0.983583927154541,
+    "total_spikes": 20175,
+    "sr_history_last5": [
+      0.3964693586053537,
+      0.39663135923717757,
+      0.39759901751838844,
+      0.39327568242623817,
+      0.3944913452191178
+    ],
+    "elapsed_sec": 466.1
+  },
+  "lam1.0_PROTEINS_1shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 1.0,
+    "r_target": 0.4,
+    "final_acc": 0.4900000043213367,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.4023506465009673,
+    "u_th_learnable": 0.9788557291030884,
+    "total_spikes": 22448,
+    "sr_history_last5": [
+      0.40115924843580586,
+      0.40186546783613525,
+      0.403163676941635,
+      0.3996223518880339,
+      0.4046360002284829
+    ],
+    "elapsed_sec": 460.2
+  },
+  "lam1.0_PROTEINS_1shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 1.0,
+    "r_target": 0.4,
+    "final_acc": 0.4950000062584877,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3984902242010175,
+    "u_th_learnable": 0.9796068668365479,
+    "total_spikes": 26113,
+    "sr_history_last5": [
+      0.4081246376796436,
+      0.3994374660251363,
+      0.39916017044709384,
+      0.4005183824780256,
+      0.40152377484936136
+    ],
+    "elapsed_sec": 462.3
+  },
+  "lam1.0_ENZYMES_1shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 1.0,
+    "r_target": 0.4,
+    "final_acc": 0.2279999990016222,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3929390058037421,
+    "u_th_learnable": 0.9740867018699646,
+    "total_spikes": 51347,
+    "sr_history_last5": [
+      0.39170971765019563,
+      0.39307503584459325,
+      0.3953747427575434,
+      0.39343848288473643,
+      0.39105350734659977
+    ],
+    "elapsed_sec": 594.2
+  },
+  "lam1.0_ENZYMES_1shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 1.0,
+    "r_target": 0.4,
+    "final_acc": 0.21999999955296518,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.39899162249618064,
+    "u_th_learnable": 0.9732522964477539,
+    "total_spikes": 54305,
+    "sr_history_last5": [
+      0.400624811906874,
+      0.4006471721089375,
+      0.40060471390744856,
+      0.4000783160574282,
+      0.39808504769530795
+    ],
+    "elapsed_sec": 594.2
+  },
+  "lam1.0_ENZYMES_1shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 1.0,
+    "r_target": 0.4,
+    "final_acc": 0.25799999907612803,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.39650824749098734,
+    "u_th_learnable": 0.9747157692909241,
+    "total_spikes": 51218,
+    "sr_history_last5": [
+      0.39689163401207334,
+      0.3962938809402864,
+      0.39665095974247755,
+      0.39731798760198,
+      0.3978975826745147
+    ],
+    "elapsed_sec": 564.5
+  },
+  "lam2.0_MUTAG_1shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 2.0,
+    "r_target": 0.4,
+    "final_acc": 0.7649999961256981,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.4856357422750575,
+    "u_th_learnable": 0.9895973205566406,
+    "total_spikes": 12858,
+    "sr_history_last5": [
+      0.48631855132554147,
+      0.4850649223692085,
+      0.48495064232165486,
+      0.4851237277177858,
+      0.48361992584606284
+    ],
+    "elapsed_sec": 359.6
+  },
+  "lam2.0_MUTAG_1shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 2.0,
+    "r_target": 0.4,
+    "final_acc": 0.7949999943375587,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3446959528926301,
+    "u_th_learnable": 1.0037044286727905,
+    "total_spikes": 9381,
+    "sr_history_last5": [
+      0.37142908858693924,
+      0.3610943939985838,
+      0.3565573906428259,
+      0.3522839485119268,
+      0.3462502951742533
+    ],
+    "elapsed_sec": 377.6
+  },
+  "lam2.0_MUTAG_1shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 2.0,
+    "r_target": 0.4,
+    "final_acc": 0.8299999862909317,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.48761468759545046,
+    "u_th_learnable": 0.9998204708099365,
+    "total_spikes": 13760,
+    "sr_history_last5": [
+      0.48861223416221433,
+      0.48814230707976736,
+      0.4868812137490077,
+      0.4876901640413974,
+      0.4887213514334371
+    ],
+    "elapsed_sec": 350.1
+  },
+  "lam2.0_PROTEINS_1shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 2.0,
+    "r_target": 0.4,
+    "final_acc": 0.4600000061094761,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.39966603363879044,
+    "u_th_learnable": 0.9831792712211609,
+    "total_spikes": 20439,
+    "sr_history_last5": [
+      0.3970813311326736,
+      0.3984341585725176,
+      0.40103598197956447,
+      0.3964462671736512,
+      0.3969156656925236
+    ],
+    "elapsed_sec": 437.1
+  },
+  "lam2.0_PROTEINS_1shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 2.0,
+    "r_target": 0.4,
+    "final_acc": 0.5000000052154064,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.4021211207213442,
+    "u_th_learnable": 0.9825479984283447,
+    "total_spikes": 22488,
+    "sr_history_last5": [
+      0.40347301820843595,
+      0.3985197255506233,
+      0.3970846890742852,
+      0.39824951443882295,
+      0.39801631344975996
+    ],
+    "elapsed_sec": 371.0
+  },
+  "lam2.0_PROTEINS_1shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 2.0,
+    "r_target": 0.4,
+    "final_acc": 0.46000000312924383,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.39744027780724006,
+    "u_th_learnable": 0.9845231771469116,
+    "total_spikes": 26010,
+    "sr_history_last5": [
+      0.407947384397035,
+      0.3995132552364488,
+      0.39748095178176684,
+      0.39971991653516664,
+      0.400277326745877
+    ],
+    "elapsed_sec": 335.1
+  },
+  "lam2.0_ENZYMES_1shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 0,
+    "lambda_sr": 2.0,
+    "r_target": 0.4,
+    "final_acc": 0.2219999972730875,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.40073799733963017,
+    "u_th_learnable": 0.9816790223121643,
+    "total_spikes": 52363,
+    "sr_history_last5": [
+      0.39867872379894276,
+      0.397063574659022,
+      0.40085491354044,
+      0.4014178167781166,
+      0.4018304192342552
+    ],
+    "elapsed_sec": 475.3
+  },
+  "lam2.0_ENZYMES_1shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 1,
+    "lambda_sr": 2.0,
+    "r_target": 0.4,
+    "final_acc": 0.23399999998509885,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.4004700866365282,
+    "u_th_learnable": 0.9818660616874695,
+    "total_spikes": 54498,
+    "sr_history_last5": [
+      0.40155299286602864,
+      0.4017813255823931,
+      0.4006269757987077,
+      0.4014304655127413,
+      0.4003671468370971
+    ],
+    "elapsed_sec": 505.2
+  },
+  "lam2.0_ENZYMES_1shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 2,
+    "lambda_sr": 2.0,
+    "r_target": 0.4,
+    "final_acc": 0.26600000336766244,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3982774224818654,
+    "u_th_learnable": 0.9828092455863953,
+    "total_spikes": 51450,
+    "sr_history_last5": [
+      0.3986264037319602,
+      0.3969644515748482,
+      0.39772592617250935,
+      0.3978182739706033,
+      0.39888010490680925
+    ],
+    "elapsed_sec": 510.4
+  },
+  "lam0.0_MUTAG_1shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 0.0,
+    "r_target": 0.4,
+    "final_acc": 0.7250000029802323,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.4650587595797272,
+    "u_th_learnable": 0.9990401864051819,
+    "total_spikes": 12362,
+    "sr_history_last5": [
+      0.46376538188201505,
+      0.4639613982839285,
+      0.46294938160533494,
+      0.46309133612401554,
+      0.46271172175884284
+    ],
+    "elapsed_sec": 532.4
+  },
+  "lam0.0_MUTAG_1shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 0.0,
+    "r_target": 0.4,
+    "final_acc": 0.7750000014901162,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.45005907946188967,
+    "u_th_learnable": 0.9934016466140747,
+    "total_spikes": 12343,
+    "sr_history_last5": [
+      0.451451473511843,
+      0.45060051457414385,
+      0.4495430840050648,
+      0.4508315890428647,
+      0.44871352905078365
+    ],
+    "elapsed_sec": 715.4
+  },
+  "lam0.0_PROTEINS_1shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 0.0,
+    "r_target": 0.4,
+    "final_acc": 0.5450000032782555,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.16249768131316203,
+    "u_th_learnable": 1.0183076858520508,
+    "total_spikes": 10547,
+    "sr_history_last5": [
+      0.15449264040867197,
+      0.15917633462713682,
+      0.16259269319650999,
+      0.16598806182738945,
+      0.16085130128311004
+    ],
+    "elapsed_sec": 579.0
+  },
+  "lam0.0_PROTEINS_1shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 0.0,
+    "r_target": 0.4,
+    "final_acc": 0.5550000041723251,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.12287063266465145,
+    "u_th_learnable": 1.0259591341018677,
+    "total_spikes": 7658,
+    "sr_history_last5": [
+      0.12235481617723828,
+      0.1232692029376595,
+      0.12378539958159836,
+      0.1236583783409259,
+      0.12239212944125069
+    ],
+    "elapsed_sec": 562.2
+  },
+  "lam0.0_ENZYMES_1shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 0.0,
+    "r_target": 0.4,
+    "final_acc": 0.2160000003874302,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.10142858629874019,
+    "u_th_learnable": 1.0356593132019043,
+    "total_spikes": 12989,
+    "sr_history_last5": [
+      0.10775725593455088,
+      0.10479115594076893,
+      0.10397730432721194,
+      0.10190216396693792,
+      0.1018623655444391
+    ],
+    "elapsed_sec": 731.4
+  },
+  "lam0.0_ENZYMES_1shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 0.0,
+    "r_target": 0.4,
+    "final_acc": 0.20399999842047692,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.12635565478557012,
+    "u_th_learnable": 1.0232127904891968,
+    "total_spikes": 16825,
+    "sr_history_last5": [
+      0.12491065020772607,
+      0.1248167872934373,
+      0.12565531030915414,
+      0.1249876646048945,
+      0.12531297120451176
+    ],
+    "elapsed_sec": 704.9
+  },
+  "lam0.05_MUTAG_1shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 0.05,
+    "r_target": 0.4,
+    "final_acc": 0.7400000035762787,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3914139185667961,
+    "u_th_learnable": 1.0138219594955444,
+    "total_spikes": 10404,
+    "sr_history_last5": [
+      0.39673900063668854,
+      0.3945481941487101,
+      0.39393627915368407,
+      0.3941530080901643,
+      0.391376342966249
+    ],
+    "elapsed_sec": 461.6
+  },
+  "lam0.05_MUTAG_1shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 0.05,
+    "r_target": 0.4,
+    "final_acc": 0.775,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.41064657509412844,
+    "u_th_learnable": 1.0038741827011108,
+    "total_spikes": 11264,
+    "sr_history_last5": [
+      0.41351596081234876,
+      0.411650570446917,
+      0.4110791340517794,
+      0.40939594553363196,
+      0.4100676455725477
+    ],
+    "elapsed_sec": 464.1
+  },
+  "lam0.05_PROTEINS_1shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 0.05,
+    "r_target": 0.4,
+    "final_acc": 0.5600000090897084,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.32678666514243976,
+    "u_th_learnable": 0.999808132648468,
+    "total_spikes": 21184,
+    "sr_history_last5": [
+      0.32334975376132197,
+      0.32874128916732365,
+      0.32877263122967504,
+      0.32925581668180265,
+      0.32784534138106636
+    ],
+    "elapsed_sec": 544.4
+  },
+  "lam0.05_PROTEINS_1shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 0.05,
+    "r_target": 0.4,
+    "final_acc": 0.5300000101327896,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.44729836649785426,
+    "u_th_learnable": 1.0022218227386475,
+    "total_spikes": 27889,
+    "sr_history_last5": [
+      0.4453517830988799,
+      0.44496577761828765,
+      0.44669023772980554,
+      0.44922553442081375,
+      0.44637578493078933
+    ],
+    "elapsed_sec": 547.4
+  },
+  "lam0.05_ENZYMES_1shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 0.05,
+    "r_target": 0.4,
+    "final_acc": 0.19399999901652337,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.36781388542816035,
+    "u_th_learnable": 0.9857116341590881,
+    "total_spikes": 47073,
+    "sr_history_last5": [
+      0.3560979344849994,
+      0.3632777107622432,
+      0.36813125758565507,
+      0.3695140221060506,
+      0.36901220799860335
+    ],
+    "elapsed_sec": 724.5
+  },
+  "lam0.05_ENZYMES_1shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 0.05,
+    "r_target": 0.4,
+    "final_acc": 0.19199999868869783,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3418953290546449,
+    "u_th_learnable": 0.998625636100769,
+    "total_spikes": 45517,
+    "sr_history_last5": [
+      0.3379054971387075,
+      0.3384824745585203,
+      0.3394623704129377,
+      0.34014023430262263,
+      0.340816823463997
+    ],
+    "elapsed_sec": 720.5
+  },
+  "lam0.1_MUTAG_1shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 0.1,
+    "r_target": 0.4,
+    "final_acc": 0.75,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.4545675630243594,
+    "u_th_learnable": 1.0023130178451538,
+    "total_spikes": 12082,
+    "sr_history_last5": [
+      0.4523531751140296,
+      0.45276625426355394,
+      0.4532637134251104,
+      0.4540253168200854,
+      0.4534590459200432
+    ],
+    "elapsed_sec": 462.1
+  },
+  "lam0.1_MUTAG_1shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 0.1,
+    "r_target": 0.4,
+    "final_acc": 0.7849999994039536,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.4703484503377161,
+    "u_th_learnable": 0.9993171095848083,
+    "total_spikes": 12900,
+    "sr_history_last5": [
+      0.47293323388449904,
+      0.471081405775619,
+      0.4705017542970297,
+      0.47077928429343874,
+      0.469951209181995
+    ],
+    "elapsed_sec": 470.5
+  },
+  "lam0.1_PROTEINS_1shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 0.1,
+    "r_target": 0.4,
+    "final_acc": 0.5300000064074993,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3711920336249928,
+    "u_th_learnable": 0.9948329925537109,
+    "total_spikes": 24065,
+    "sr_history_last5": [
+      0.3696159727214809,
+      0.37529332698891477,
+      0.3745142553089523,
+      0.3717331238663935,
+      0.3719035691228072
+    ],
+    "elapsed_sec": 552.8
+  },
+  "lam0.1_PROTEINS_1shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 0.1,
+    "r_target": 0.4,
+    "final_acc": 0.5650000050663948,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.341766888234576,
+    "u_th_learnable": 0.9894580245018005,
+    "total_spikes": 21305,
+    "sr_history_last5": [
+      0.3377804117582888,
+      0.34094786122094833,
+      0.3405733802970063,
+      0.3416406809567297,
+      0.3403291634235467
+    ],
+    "elapsed_sec": 549.8
+  },
+  "lam0.1_ENZYMES_1shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 0.1,
+    "r_target": 0.4,
+    "final_acc": 0.21199999935925007,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3914903856130615,
+    "u_th_learnable": 0.9638320207595825,
+    "total_spikes": 50113,
+    "sr_history_last5": [
+      0.38417148864588946,
+      0.38735720643588006,
+      0.39088550405600775,
+      0.39286854771850455,
+      0.39221020287403585
+    ],
+    "elapsed_sec": 743.0
+  },
+  "lam0.1_ENZYMES_1shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 0.1,
+    "r_target": 0.4,
+    "final_acc": 0.20999999828636645,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.37084381973087993,
+    "u_th_learnable": 0.9860760569572449,
+    "total_spikes": 49374,
+    "sr_history_last5": [
+      0.3704169922668801,
+      0.36851988511909983,
+      0.36706096695131374,
+      0.3668747332582071,
+      0.36695752644646895
+    ],
+    "elapsed_sec": 728.7
+  },
+  "lam0.25_MUTAG_1shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 0.25,
+    "r_target": 0.4,
+    "final_acc": 0.7400000035762787,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.46025019004989076,
+    "u_th_learnable": 1.0086169242858887,
+    "total_spikes": 12233,
+    "sr_history_last5": [
+      0.45727661734197367,
+      0.4566361829977266,
+      0.45819462513609927,
+      0.45967106354649606,
+      0.459748453714413
+    ],
+    "elapsed_sec": 467.1
+  },
+  "lam0.25_MUTAG_1shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 0.25,
+    "r_target": 0.4,
+    "final_acc": 0.7600000023841857,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3073444140723271,
+    "u_th_learnable": 1.0089402198791504,
+    "total_spikes": 8432,
+    "sr_history_last5": [
+      0.3068343854500272,
+      0.3063363613229898,
+      0.30644930265276915,
+      0.3050842657264648,
+      0.30752944439145735
+    ],
+    "elapsed_sec": 558.9
+  },
+  "lam0.25_PROTEINS_1shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 0.25,
+    "r_target": 0.4,
+    "final_acc": 0.5700000017881394,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3823507444859639,
+    "u_th_learnable": 0.9865421056747437,
+    "total_spikes": 24837,
+    "sr_history_last5": [
+      0.39058655642376855,
+      0.38838865961606744,
+      0.3880075558471895,
+      0.3892175649186328,
+      0.3833159958473698
+    ],
+    "elapsed_sec": 579.2
+  },
+  "lam0.25_PROTEINS_1shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 0.25,
+    "r_target": 0.4,
+    "final_acc": 0.5650000035762787,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.38792821445991976,
+    "u_th_learnable": 0.9937672019004822,
+    "total_spikes": 24175,
+    "sr_history_last5": [
+      0.3829597309975986,
+      0.38887046769830624,
+      0.38573076028697006,
+      0.3871319107641643,
+      0.38748193689444804
+    ],
+    "elapsed_sec": 550.7
+  },
+  "lam0.25_ENZYMES_1shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 0.25,
+    "r_target": 0.4,
+    "final_acc": 0.2079999964684248,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3974790690202904,
+    "u_th_learnable": 0.9593518972396851,
+    "total_spikes": 50877,
+    "sr_history_last5": [
+      0.39968150137584035,
+      0.39885718227096933,
+      0.399298011899541,
+      0.4001666417181727,
+      0.3983816054094963
+    ],
+    "elapsed_sec": 733.5
+  },
+  "lam0.25_ENZYMES_1shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 0.25,
+    "r_target": 0.4,
+    "final_acc": 0.2079999975860119,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3964494859678398,
+    "u_th_learnable": 0.9719632267951965,
+    "total_spikes": 52777,
+    "sr_history_last5": [
+      0.39277144451452795,
+      0.3914828558254713,
+      0.3912048390512324,
+      0.39113879087883047,
+      0.3910678098621595
+    ],
+    "elapsed_sec": 713.6
+  },
+  "lam0.5_MUTAG_1shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "final_acc": 0.7599999964237213,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.48270929702583726,
+    "u_th_learnable": 0.9951967000961304,
+    "total_spikes": 12832,
+    "sr_history_last5": [
+      0.48277495217065125,
+      0.4803119152852492,
+      0.4805733685913416,
+      0.481924797148225,
+      0.48138030726993514
+    ],
+    "elapsed_sec": 453.8
+  },
+  "lam0.5_MUTAG_1shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "final_acc": 0.730000002682209,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.43519240066453396,
+    "u_th_learnable": 1.0067815780639648,
+    "total_spikes": 11934,
+    "sr_history_last5": [
+      0.4339325770411973,
+      0.4354081887935424,
+      0.43635425576819975,
+      0.4357130821049767,
+      0.4342830293457719
+    ],
+    "elapsed_sec": 452.1
+  },
+  "lam0.5_PROTEINS_1shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "final_acc": 0.5400000087916851,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.38787726369357167,
+    "u_th_learnable": 0.9833865165710449,
+    "total_spikes": 25187,
+    "sr_history_last5": [
+      0.39031927291913426,
+      0.3911899643931179,
+      0.39038306204844386,
+      0.39369988416313534,
+      0.38979334589382353
+    ],
+    "elapsed_sec": 533.2
+  },
+  "lam0.5_PROTEINS_1shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "final_acc": 0.5750000029802322,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.39336016022364706,
+    "u_th_learnable": 0.9770667552947998,
+    "total_spikes": 24515,
+    "sr_history_last5": [
+      0.38642064932723563,
+      0.39217088072219497,
+      0.3866320459549163,
+      0.3878442832631548,
+      0.3897654876975472
+    ],
+    "elapsed_sec": 532.7
+  },
+  "lam0.5_ENZYMES_1shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "final_acc": 0.19199999794363976,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3950867927225182,
+    "u_th_learnable": 0.9677547216415405,
+    "total_spikes": 50578,
+    "sr_history_last5": [
+      0.3966102207859169,
+      0.39859522139746173,
+      0.39880303727630395,
+      0.3972427138336593,
+      0.3968592881302436
+    ],
+    "elapsed_sec": 709.0
+  },
+  "lam0.5_ENZYMES_1shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "final_acc": 0.20399999804794788,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.4003415625796385,
+    "u_th_learnable": 0.9686996340751648,
+    "total_spikes": 53309,
+    "sr_history_last5": [
+      0.3945813587116123,
+      0.3935760534126716,
+      0.39440833381622886,
+      0.39506873932247266,
+      0.39489445540409435
+    ],
+    "elapsed_sec": 703.0
+  },
+  "lam1.0_MUTAG_1shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 1.0,
+    "r_target": 0.4,
+    "final_acc": 0.7549999982118607,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.36169351962834806,
+    "u_th_learnable": 1.0203468799591064,
+    "total_spikes": 9615,
+    "sr_history_last5": [
+      0.37545724389560065,
+      0.37122622247020265,
+      0.3696398559975555,
+      0.36804909702360156,
+      0.3656346685387394
+    ],
+    "elapsed_sec": 457.1
+  },
+  "lam1.0_MUTAG_1shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 1.0,
+    "r_target": 0.4,
+    "final_acc": 0.7550000011920929,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.430504950005375,
+    "u_th_learnable": 0.9965285658836365,
+    "total_spikes": 11806,
+    "sr_history_last5": [
+      0.43652492389687936,
+      0.4348981333356049,
+      0.4306072121098313,
+      0.42937183504048065,
+      0.429461381145204
+    ],
+    "elapsed_sec": 451.8
+  },
+  "lam1.0_PROTEINS_1shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 1.0,
+    "r_target": 0.4,
+    "final_acc": 0.5600000083446502,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.39115596714838013,
+    "u_th_learnable": 0.9817149639129639,
+    "total_spikes": 25409,
+    "sr_history_last5": [
+      0.39352437920263933,
+      0.39545793673742746,
+      0.3940634931973722,
+      0.39509912739286546,
+      0.39254793797264337
+    ],
+    "elapsed_sec": 634.8
+  },
+  "lam1.0_PROTEINS_1shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 1.0,
+    "r_target": 0.4,
+    "final_acc": 0.5450000051409006,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3955791170486299,
+    "u_th_learnable": 0.9810279607772827,
+    "total_spikes": 24633,
+    "sr_history_last5": [
+      0.3942723332201993,
+      0.3971292150819723,
+      0.39280147897848505,
+      0.3967175619417991,
+      0.39498656240927743
+    ],
+    "elapsed_sec": 780.7
+  },
+  "lam1.0_ENZYMES_1shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 1.0,
+    "r_target": 0.4,
+    "final_acc": 0.19400000013411045,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3973961629742485,
+    "u_th_learnable": 0.9778668880462646,
+    "total_spikes": 50854,
+    "sr_history_last5": [
+      0.3989292801411567,
+      0.3958079153900721,
+      0.39740233149735305,
+      0.3979405158600632,
+      0.3976007834514917
+    ],
+    "elapsed_sec": 902.3
+  },
+  "lam1.0_ENZYMES_1shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 1.0,
+    "r_target": 0.4,
+    "final_acc": 0.2019999973475933,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.4027367205458165,
+    "u_th_learnable": 0.978204071521759,
+    "total_spikes": 53617,
+    "sr_history_last5": [
+      0.3951604947175916,
+      0.39447531901867283,
+      0.3957180219471424,
+      0.39592320645171464,
+      0.3968945012053462
+    ],
+    "elapsed_sec": 843.2
+  },
+  "lam2.0_MUTAG_1shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 2.0,
+    "r_target": 0.4,
+    "final_acc": 0.7050000049173832,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.4804356261235208,
+    "u_th_learnable": 1.0010120868682861,
+    "total_spikes": 12771,
+    "sr_history_last5": [
+      0.4793297297376423,
+      0.47774504050286587,
+      0.47800206889203317,
+      0.4790902607386851,
+      0.47888674032066847
+    ],
+    "elapsed_sec": 568.3
+  },
+  "lam2.0_MUTAG_1shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 2.0,
+    "r_target": 0.4,
+    "final_acc": 0.7600000008940697,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3589245891218518,
+    "u_th_learnable": 0.9999430775642395,
+    "total_spikes": 9845,
+    "sr_history_last5": [
+      0.357692940628685,
+      0.35995582716379015,
+      0.3591524021486052,
+      0.3598729570750963,
+      0.36004780830460925
+    ],
+    "elapsed_sec": 652.7
+  },
+  "lam2.0_PROTEINS_1shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 2.0,
+    "r_target": 0.4,
+    "final_acc": 0.5650000058114528,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3921244269522556,
+    "u_th_learnable": 0.9860070943832397,
+    "total_spikes": 25476,
+    "sr_history_last5": [
+      0.39542496678495315,
+      0.3902599235020716,
+      0.39174538260820907,
+      0.3985559522235609,
+      0.39388730989874954
+    ],
+    "elapsed_sec": 704.9
+  },
+  "lam2.0_PROTEINS_1shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 2.0,
+    "r_target": 0.4,
+    "final_acc": 0.5400000009685755,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.3992929389498402,
+    "u_th_learnable": 0.9813346862792969,
+    "total_spikes": 24871,
+    "sr_history_last5": [
+      0.3981207336921847,
+      0.39858359807706145,
+      0.3954214361341485,
+      0.40008155745483204,
+      0.3978539535047574
+    ],
+    "elapsed_sec": 636.1
+  },
+  "lam2.0_ENZYMES_1shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 3,
+    "lambda_sr": 2.0,
+    "r_target": 0.4,
+    "final_acc": 0.20999999791383744,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.39936388721629973,
+    "u_th_learnable": 0.9872546792030334,
+    "total_spikes": 51114,
+    "sr_history_last5": [
+      0.40048403412896916,
+      0.3991341207962108,
+      0.40058548033664165,
+      0.40074910710362205,
+      0.40031167701853876
+    ],
+    "elapsed_sec": 989.7
+  },
+  "lam2.0_ENZYMES_1shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 4,
+    "lambda_sr": 2.0,
+    "r_target": 0.4,
+    "final_acc": 0.211999998614192,
+    "best_acc": 0.0,
+    "final_spike_rate": 0.4033254344584101,
+    "u_th_learnable": 0.9821617007255554,
+    "total_spikes": 53700,
+    "sr_history_last5": [
+      0.40027416500515284,
+      0.3987460488196667,
+      0.39804041490220005,
+      0.3987121500317378,
+      0.39834126030088995
+    ],
+    "elapsed_sec": 1100.2
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "REDDIT-M5K_1shot_run16": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 16,
+    "final_acc": 0.32666666656732557,
+    "best_acc": 0.3980000033974648,
+    "total_spikes": 1223517,
+    "spike_history_last5": [
+      805685,
+      800483,
+      765319,
+      775413,
+      790644
+    ],
+    "spike_rate_history_last5": [
+      0.38430323735181177,
+      0.38315073957490664,
+      0.38534972411765234,
+      0.3868711979086067,
+      0.3883514968915165
+    ],
+    "final_spike_rate": 0.5013209719731461,
+    "u_th_learnable": 0.9363195896148682,
+    "lambda_gate": 0.5414851307868958,
+    "spike_alpha": 0.6302578449249268,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 29401.7,
+    "device": "cpu"
+  }
+}

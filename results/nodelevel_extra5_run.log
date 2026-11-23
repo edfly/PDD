@@ -1,0 +1,24 @@
+model=spikergnn device=cuda u_th=1.0 | ogbn-arxiv node-level | checkpoint_rgc=True lr=0.001 grad_clip=0.0
+D:\2026\paper\PBB\post\code\run_nodelevel_v40.py:213: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:219.)
+  train_idx = torch.as_tensor(split["train"]).to(device)
+  [spikergnn r0] ep005 val=0.3852 test=0.3584 mem=0.5GiB
+  [spikergnn r0] ep010 val=0.4708 test=0.4429 mem=0.5GiB
+  [spikergnn r0] ep015 val=0.5005 test=0.4714 mem=0.5GiB
+  run0 done: {'model': 'spikergnn', 'run_id': 0, 'best_val': 0.5004865527153015, 'best_test': 0.4713701009750366, 'rate_mean': 0.20735499068471921, 'peak_mem_gib': 0.547141632, 'seconds': 726.3}
+  [spikergnn r1] ep005 val=0.3805 test=0.3485 mem=0.5GiB
+  [spikergnn r1] ep010 val=0.4676 test=0.4426 mem=0.5GiB
+  [spikergnn r1] ep015 val=0.4960 test=0.4696 mem=0.5GiB
+  run1 done: {'model': 'spikergnn', 'run_id': 1, 'best_val': 0.4959562122821808, 'best_test': 0.4696418046951294, 'rate_mean': 0.20574605641301244, 'peak_mem_gib': 0.544219648, 'seconds': 594.7}
+  [spikergnn r2] ep005 val=0.3795 test=0.3517 mem=0.5GiB
+  [spikergnn r2] ep010 val=0.4736 test=0.4461 mem=0.5GiB
+  [spikergnn r2] ep015 val=0.3729 test=0.3627 mem=0.5GiB
+  run2 done: {'model': 'spikergnn', 'run_id': 2, 'best_val': 0.48622435331344604, 'best_test': 0.4551982581615448, 'rate_mean': 0.21052733150511163, 'peak_mem_gib': 0.536920064, 'seconds': 534.2}
+  [spikergnn r3] ep005 val=0.3860 test=0.3529 mem=0.5GiB
+  [spikergnn r3] ep010 val=0.4700 test=0.4390 mem=0.5GiB
+  [spikergnn r3] ep015 val=0.4860 test=0.4510 mem=0.5GiB
+  run3 done: {'model': 'spikergnn', 'run_id': 3, 'best_val': 0.4898150861263275, 'best_test': 0.4584902226924896, 'rate_mean': 0.20462858507140236, 'peak_mem_gib': 0.538861056, 'seconds': 535.1}
+  [spikergnn r4] ep005 val=0.3552 test=0.3293 mem=0.5GiB
+  [spikergnn r4] ep010 val=0.4668 test=0.4382 mem=0.5GiB
+  [spikergnn r4] ep015 val=0.4662 test=0.4625 mem=0.5GiB
+  run4 done: {'model': 'spikergnn', 'run_id': 4, 'best_val': 0.48350614309310913, 'best_test': 0.46104151010513306, 'rate_mean': 0.20709776181774192, 'peak_mem_gib': 0.536283136, 'seconds': 535.8}
+=== spikergnn node-level: test acc mean=0.4631 min=0.4552 max=0.4714 ===

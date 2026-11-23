@@ -1,0 +1,40 @@
+
+=== spike_REDDIT-M5K_1shot_run10 ===
+  [device] spike_REDDIT-M5K_1shot_run10: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=29.3% test=30.6% skip=1/20 sr_train=0.277
+  E  2: train=32.2% test=32.4% skip=0/20 sr_train=0.309
+  E  3: train=28.0% test=29.4% skip=0/20 sr_train=0.368
+  E 10: train=29.8% test=35.4% skip=0/20 sr_train=0.369
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 418, in main
+    run_one(args, arm, ds, shot, r, env)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 332, in run_one
+    raise RuntimeError(f"{arm} task {key} rc={rc}")
+RuntimeError: spike task spike_REDDIT-M5K_1shot_run10 rc=3221225477
+
+=== spike_REDDIT-M5K_1shot_run12 ===
+  [device] spike_REDDIT-M5K_1shot_run12: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=31.4% test=29.2% skip=0/20 sr_train=0.268
+  E  2: train=34.0% test=30.6% skip=0/20 sr_train=0.292
+  E  3: train=30.4% test=33.8% skip=0/20 sr_train=0.362
+  E 10: train=28.6% test=34.0% skip=0/20 sr_train=0.347
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 418, in main
+    run_one(args, arm, ds, shot, r, env)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 332, in run_one
+    raise RuntimeError(f"{arm} task {key} rc={rc}")
+RuntimeError: spike task spike_REDDIT-M5K_1shot_run12 rc=3221225477
+
+=== spike_REDDIT-M5K_1shot_run14 ===
+  [device] spike_REDDIT-M5K_1shot_run14: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=31.2% test=28.4% skip=0/20 sr_train=0.286
+  E  2: train=31.2% test=28.2% skip=0/20 sr_train=0.312
+  E  3: train=32.6% test=30.6% skip=0/20 sr_train=0.376
+  E 10: train=33.4% test=34.6% skip=0/20 sr_train=0.387
+  E 20: train=33.0% test=36.6% skip=0/20 sr_train=0.384
+  E 30: train=32.4% test=29.2% skip=0/20 sr_train=0.353

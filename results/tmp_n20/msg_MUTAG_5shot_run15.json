@@ -1,0 +1,20 @@
+{
+  "d128_MUTAG_5shot_run15": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 15,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.6800000021855036,
+    "epoch_accuracies": [
+      0.6333333392937978,
+      0.6800000021855036,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 638.8233184814453,
+    "elapsed_sec": 639.0
+  }
+}

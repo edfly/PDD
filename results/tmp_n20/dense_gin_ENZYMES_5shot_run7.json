@@ -1,0 +1,10 @@
+{
+  "gin_ENZYMES_5shot_run7": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 7,
+    "final_acc": 0.22133332739273706,
+    "best_acc": 0.23599999373157818,
+    "elapsed_sec": 48.2
+  }
+}

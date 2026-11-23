@@ -1,0 +1,10 @@
+{
+  "gin_PROTEINS_5shot_run15": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 15,
+    "final_acc": 0.5933333401878674,
+    "best_acc": 0.5933333401878674,
+    "elapsed_sec": 65.4
+  }
+}

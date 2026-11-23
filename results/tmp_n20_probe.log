@@ -1,0 +1,8 @@
+
+=== euc_MUTAG_1shot_run0 ===
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  E  1: train=1500.0% test=63.5% skip=20/20 sr_train=0.000
+  E  2: train=1580.0% test=64.0% skip=20/20 sr_train=0.000
+  E  3: train=1590.0% test=69.5% skip=20/20 sr_train=0.000
+  E 10: train=1510.0% test=63.5% skip=20/20 sr_train=0.000
+  E 20: train=1590.0% test=77.5% skip=20/20 sr_train=0.000

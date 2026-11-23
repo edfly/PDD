@@ -1,0 +1,7 @@
+D:\2026\paper\PBB\post\code\_diag_noise_rate.py:38: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:219.)
+  train_idx = torch.as_tensor(ds.get_idx_split()["train"], device=DEV)
+  ep05 rate=0.4247 train_acc=0.1691
+  ep10 rate=0.3638 train_acc=0.1791
+  rate trajectory: 0.250 0.375 0.375 0.250 0.425 0.434 0.383 0.433 0.418 0.364
+  FINAL rate_mean=0.3706
+  => internal-noise-OFF -> rate~0 CONFIRMS noise design is the cause (checkpoint is innocent).

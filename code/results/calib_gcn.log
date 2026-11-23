@@ -1,0 +1,37 @@
+model=gcn device=cuda u_th=1.0 | ogbn-arxiv node-level
+D:\2026\paper\PBB\post\code\run_nodelevel_v40.py:190: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:219.)
+  train_idx = torch.as_tensor(split["train"]).to(device)
+  [gcn r0] ep005 val=0.5620 test=0.5015
+  [gcn r0] ep010 val=0.5727 test=0.5116
+  [gcn r0] ep015 val=0.5759 test=0.5167
+  [gcn r0] ep020 val=0.5869 test=0.5291
+  [gcn r0] ep025 val=0.5832 test=0.5247
+  [gcn r0] ep030 val=0.5881 test=0.5285
+  [gcn r0] ep035 val=0.5859 test=0.5258
+  [gcn r0] ep040 val=0.5920 test=0.5343
+  [gcn r0] ep045 val=0.5956 test=0.5449
+  [gcn r0] ep050 val=0.5940 test=0.5327
+  run0 done: {'model': 'gcn', 'run_id': 0, 'best_val': 0.5969663262367249, 'best_test': 0.5425385236740112, 'rate_mean': 0.0, 'seconds': 366.6}
+  [gcn r1] ep005 val=0.5661 test=0.5051
+  [gcn r1] ep010 val=0.5745 test=0.5169
+  [gcn r1] ep015 val=0.5785 test=0.5198
+  [gcn r1] ep020 val=0.5868 test=0.5303
+  [gcn r1] ep025 val=0.5871 test=0.5290
+  [gcn r1] ep030 val=0.5915 test=0.5352
+  [gcn r1] ep035 val=0.5906 test=0.5372
+  [gcn r1] ep040 val=0.5923 test=0.5354
+  [gcn r1] ep045 val=0.5909 test=0.5316
+  [gcn r1] ep050 val=0.5898 test=0.5359
+  run1 done: {'model': 'gcn', 'run_id': 1, 'best_val': 0.5949528217315674, 'best_test': 0.5355430841445923, 'rate_mean': 0.0, 'seconds': 344.1}
+  [gcn r2] ep005 val=0.5638 test=0.5099
+  [gcn r2] ep010 val=0.5793 test=0.5265
+  [gcn r2] ep015 val=0.5816 test=0.5204
+  [gcn r2] ep020 val=0.5815 test=0.5250
+  [gcn r2] ep025 val=0.5871 test=0.5293
+  [gcn r2] ep030 val=0.5862 test=0.5355
+  [gcn r2] ep035 val=0.5934 test=0.5392
+  [gcn r2] ep040 val=0.5931 test=0.5340
+  [gcn r2] ep045 val=0.5943 test=0.5393
+  [gcn r2] ep050 val=0.5906 test=0.5323
+  run2 done: {'model': 'gcn', 'run_id': 2, 'best_val': 0.5951877236366272, 'best_test': 0.5413657426834106, 'rate_mean': 0.0, 'seconds': 335.5}
+=== gcn node-level: test acc mean=0.5398 min=0.5355 max=0.5425 ===

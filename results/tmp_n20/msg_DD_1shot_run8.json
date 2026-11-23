@@ -1,0 +1,20 @@
+{
+  "d128_DD_1shot_run8": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 8,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5,
+    "epoch_accuracies": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 6350.899862527847,
+    "elapsed_sec": 6351.6
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "sage_DD_1shot_run12": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 12,
+    "final_acc": 0.5366666746636232,
+    "best_acc": 0.6233333406349023,
+    "elapsed_sec": 31.2
+  }
+}

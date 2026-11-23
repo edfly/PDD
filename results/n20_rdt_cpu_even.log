@@ -1,0 +1,330 @@
+
+=== spike_REDDIT-M5K_1shot_run10 ===
+  [device] spike_REDDIT-M5K_1shot_run10: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=29.7% test=29.8% skip=1/20 sr_train=0.275
+  E  2: train=32.6% test=32.2% skip=0/20 sr_train=0.322
+  E  3: train=27.0% test=31.8% skip=0/20 sr_train=0.327
+  E 10: train=29.6% test=34.6% skip=0/20 sr_train=0.348
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 420, in main
+    run_one(args, arm, ds, shot, r, env)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 334, in run_one
+    raise RuntimeError(f"{arm} task {key} rc={rc}")
+RuntimeError: spike task spike_REDDIT-M5K_1shot_run10 rc=3221225477
+
+=== spike_REDDIT-M5K_1shot_run12 ===
+  [device] spike_REDDIT-M5K_1shot_run12: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=30.8% test=29.6% skip=0/20 sr_train=0.271
+  E  2: train=35.8% test=33.4% skip=0/20 sr_train=0.327
+  E  3: train=31.4% test=36.8% skip=0/20 sr_train=0.346
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 165, in run_spike_like
+    q_z = model.encode(q_b.x, q_b.edge_index, q_b.batch)
+  File "D:\2026\paper\PBB\post\code\spikergnn\model.py", line 151, in encode
+    z_graph, spike_count = self.stmp(
+                           ~~~~~~~~~^
+        p_init, spike_seq, edge_index, batch
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\2026\paper\PBB\post\code\spikergnn\stmp.py", line 280, in forward
+    z_current = rgc_layer(z_current, edge_index)
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\2026\paper\PBB\post\code\spikergnn\rgc.py", line 189, in forward
+    h_hyp = self._capped_gin(self.gin_hyp, log_hyp, edge_index_with_sl)
+  File "D:\2026\paper\PBB\post\code\spikergnn\rgc.py", line 153, in _capped_gin
+    return gin.nn(agg + (1 + gin.eps) * x)
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\container.py", line 253, in forward
+    input = module(input)
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\functional.py", line 1723, in relu
+    result = torch.relu(input)
+RuntimeError: [enforce fail at alloc_cpu.cpp:117] data. DefaultCPUAllocator: not enough memory: you tried to allocate 13036544 bytes.
+  [warn] first skipped episode in REDDIT-M5K_1shot_run12; further skips silent
+  E 10: train=31.0% test=34.0% skip=0/20 sr_train=0.377
+  E 20: train=30.8% test=35.2% skip=0/20 sr_train=0.396
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 420, in main
+    run_one(args, arm, ds, shot, r, env)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 334, in run_one
+    raise RuntimeError(f"{arm} task {key} rc={rc}")
+RuntimeError: spike task spike_REDDIT-M5K_1shot_run12 rc=3221225477
+
+=== spike_REDDIT-M5K_1shot_run14 ===
+  [device] spike_REDDIT-M5K_1shot_run14: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=31.6% test=29.2% skip=0/20 sr_train=0.286
+  E  2: train=32.0% test=26.8% skip=0/20 sr_train=0.295
+  E  3: train=30.4% test=29.6% skip=0/20 sr_train=0.352
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 165, in run_spike_like
+    q_z = model.encode(q_b.x, q_b.edge_index, q_b.batch)
+  File "D:\2026\paper\PBB\post\code\spikergnn\model.py", line 151, in encode
+    z_graph, spike_count = self.stmp(
+                           ~~~~~~~~~^
+        p_init, spike_seq, edge_index, batch
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\2026\paper\PBB\post\code\spikergnn\stmp.py", line 319, in forward
+    spikes, (p_hyp, p_euc) = self.lif(x_step, (p_hyp, p_euc))
+                             ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\2026\paper\PBB\post\code\spikergnn\neurons.py", line 349, in forward
+    v_hyp = beta_val * log_bar_hyp + gamma_val * I_hyp
+                                     ~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:117] data. DefaultCPUAllocator: not enough memory: you tried to allocate 2223744 bytes.
+  [warn] first skipped episode in REDDIT-M5K_1shot_run14; further skips silent
+  E 10: train=34.6% test=30.2% skip=0/20 sr_train=0.356
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 164, in run_spike_like
+    s_z = model.encode(s_b.x, s_b.edge_index, s_b.batch)
+  File "D:\2026\paper\PBB\post\code\spikergnn\model.py", line 151, in encode
+    z_graph, spike_count = self.stmp(
+                           ~~~~~~~~~^
+        p_init, spike_seq, edge_index, batch
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\2026\paper\PBB\post\code\spikergnn\stmp.py", line 319, in forward
+    spikes, (p_hyp, p_euc) = self.lif(x_step, (p_hyp, p_euc))
+                             ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\2026\paper\PBB\post\code\spikergnn\neurons.py", line 354, in forward
+    p_new_euc = p_euc + v_euc
+                ~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:117] data. DefaultCPUAllocator: not enough memory: you tried to allocate 1003392 bytes.
+  [warn] first skipped episode in REDDIT-M5K_1shot_run14; further skips silent
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 160, in run_spike_like
+    s_b, s_l, q_b, q_l = batch_episode_data(episode)
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\2026\paper\PBB\post\code\msg_baseline\data_utils.py", line 205, in batch_episode_data
+    support_batch = collate_graphs(episode["support"]).to(device)
+                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\2026\paper\PBB\post\code\msg_baseline\data_utils.py", line 193, in collate_graphs
+    return Batch.from_data_list(graph_list)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch_geometric\data\batch.py", line 97, in from_data_list
+    batch, slice_dict, inc_dict = collate(
+                                  ~~~~~~~^
+        cls,
+        ^^^^
+    ...<4 lines>...
+        exclude_keys=exclude_keys,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch_geometric\data\collate.py", line 143, in collate
+    out_store.batch = repeat_interleave(repeats, device=device)
+                      ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch_geometric\data\collate.py", line 319, in repeat_interleave
+    outs = [torch.full((n, ), i, device=device) for i, n in enumerate(repeats)]
+            ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [enforce fail at alloc_cpu.cpp:117] data. DefaultCPUAllocator: not enough memory: you tried to allocate 1728 bytes.
+  [warn] first skipped episode in REDDIT-M5K_1shot_run14; further skips silent
+  E 20: train=32.2% test=36.8% skip=0/20 sr_train=0.373
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 420, in main
+    run_one(args, arm, ds, shot, r, env)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 334, in run_one
+    raise RuntimeError(f"{arm} task {key} rc={rc}")
+RuntimeError: spike task spike_REDDIT-M5K_1shot_run14 rc=3221225477
+
+=== spike_REDDIT-M5K_1shot_run16 ===
+  [device] spike_REDDIT-M5K_1shot_run16: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=33.6% test=30.6% skip=0/20 sr_train=0.273
+  E  2: train=28.8% test=26.6% skip=0/20 sr_train=0.299
+  E  3: train=35.6% test=32.4% skip=0/20 sr_train=0.367
+  E 10: train=31.4% test=30.4% skip=0/20 sr_train=0.403
+  E 20: train=29.6% test=36.6% skip=0/20 sr_train=0.397
+  E 30: train=33.6% test=31.4% skip=0/20 sr_train=0.368
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 165, in run_spike_like
+    q_z = model.encode(q_b.x, q_b.edge_index, q_b.batch)
+  File "D:\2026\paper\PBB\post\code\spikergnn\model.py", line 151, in encode
+    z_graph, spike_count = self.stmp(
+                           ~~~~~~~~~^
+        p_init, spike_seq, edge_index, batch
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\2026\paper\PBB\post\code\spikergnn\stmp.py", line 280, in forward
+    z_current = rgc_layer(z_current, edge_index)
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\2026\paper\PBB\post\code\spikergnn\rgc.py", line 208, in forward
+    z_euc_new = self._capped_gin(self.gin_euc, z_euc, edge_index_with_sl)
+  File "D:\2026\paper\PBB\post\code\spikergnn\rgc.py", line 150, in _capped_gin
+    x[src] * scale[dst].unsqueeze(-1), dst,
+    ~^^^^^
+RuntimeError: [enforce fail at alloc_cpu.cpp:117] data. DefaultCPUAllocator: not enough memory: you tried to allocate 15092352 bytes.
+  [warn] first skipped episode in REDDIT-M5K_1shot_run16; further skips silent
+  E 40: train=36.6% test=39.8% skip=0/20 sr_train=0.381
+  E 50: train=37.6% test=36.8% skip=0/20 sr_train=0.388
+worker spike_REDDIT-M5K_1shot_run16: ok
+>>> spike_REDDIT-M5K_1shot_run16: done in 29406s
+
+=== spike_REDDIT-M5K_1shot_run18 ===
+  [device] spike_REDDIT-M5K_1shot_run18: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=27.8% test=28.2% skip=0/20 sr_train=0.279
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 420, in main
+    run_one(args, arm, ds, shot, r, env)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 334, in run_one
+    raise RuntimeError(f"{arm} task {key} rc={rc}")
+RuntimeError: spike task spike_REDDIT-M5K_1shot_run18 rc=4294967295
+merged 416 runs -> D:\2026\paper\PBB\post\results\v24_extra_n20_merged.json
+
+=== euc_REDDIT-M5K_1shot_run6 ===
+  [device] euc_REDDIT-M5K_1shot_run6: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=28.2% test=34.2% skip=0/20 sr_train=0.276
+  E  2: train=30.4% test=30.0% skip=0/20 sr_train=0.341
+  E  3: train=30.8% test=28.0% skip=0/20 sr_train=0.341
+  E 10: train=29.8% test=30.6% skip=0/20 sr_train=0.376
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 420, in main
+    continue
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 334, in run_one
+    "--device", eff_dev]
+RuntimeError: euc task euc_REDDIT-M5K_1shot_run6 rc=3221225477
+
+=== euc_REDDIT-M5K_1shot_run8 ===
+  [device] euc_REDDIT-M5K_1shot_run8: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=26.6% test=28.6% skip=0/20 sr_train=0.275
+  E  2: train=32.4% test=28.4% skip=0/20 sr_train=0.313
+  E  3: train=26.2% test=27.4% skip=0/20 sr_train=0.376
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 420, in main
+    continue
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 334, in run_one
+    "--device", eff_dev]
+RuntimeError: euc task euc_REDDIT-M5K_1shot_run8 rc=3221225477
+
+=== euc_REDDIT-M5K_1shot_run10 ===
+  [device] euc_REDDIT-M5K_1shot_run10: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=26.1% test=29.8% skip=1/20 sr_train=0.282
+  E  2: train=28.8% test=31.0% skip=0/20 sr_train=0.338
+  E  3: train=23.2% test=29.6% skip=0/20 sr_train=0.365
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 420, in main
+    continue
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 334, in run_one
+    "--device", eff_dev]
+RuntimeError: euc task euc_REDDIT-M5K_1shot_run10 rc=3221225477
+
+=== euc_REDDIT-M5K_1shot_run12 ===
+  [device] euc_REDDIT-M5K_1shot_run12: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=28.4% test=25.2% skip=0/20 sr_train=0.272
+  E  2: train=33.2% test=28.4% skip=0/20 sr_train=0.299
+  E  3: train=25.6% test=31.6% skip=0/20 sr_train=0.372
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 420, in main
+    continue
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 334, in run_one
+    "--device", eff_dev]
+RuntimeError: euc task euc_REDDIT-M5K_1shot_run12 rc=3221225477
+
+=== euc_REDDIT-M5K_1shot_run14 ===
+  [device] euc_REDDIT-M5K_1shot_run14: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=29.4% test=26.2% skip=0/20 sr_train=0.280
+  E  2: train=26.6% test=24.6% skip=0/20 sr_train=0.327
+  E  3: train=27.0% test=27.4% skip=0/20 sr_train=0.357
+  E 10: train=28.8% test=29.0% skip=0/20 sr_train=0.387
+  E 20: train=31.0% test=32.6% skip=0/20 sr_train=0.420
+  E 30: train=32.8% test=30.8% skip=0/20 sr_train=0.350
+  E 40: train=31.8% test=34.8% skip=0/20 sr_train=0.387
+  E 50: train=36.4% test=28.8% skip=0/20 sr_train=0.367
+worker euc_REDDIT-M5K_1shot_run14: ok
+>>> euc_REDDIT-M5K_1shot_run14: done in 13675s
+
+=== euc_REDDIT-M5K_1shot_run16 ===
+  [device] euc_REDDIT-M5K_1shot_run16: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=30.4% test=23.8% skip=0/20 sr_train=0.272
+  E  2: train=27.0% test=26.0% skip=0/20 sr_train=0.322
+  E  3: train=30.8% test=27.6% skip=0/20 sr_train=0.340
+  E 10: train=30.0% test=29.0% skip=0/20 sr_train=0.379
+  E 20: train=31.0% test=29.2% skip=0/20 sr_train=0.354
+  E 30: train=35.8% test=33.4% skip=0/20 sr_train=0.351
+  E 40: train=36.0% test=37.8% skip=0/20 sr_train=0.397
+  E 50: train=32.8% test=32.6% skip=0/20 sr_train=0.375
+worker euc_REDDIT-M5K_1shot_run16: ok
+>>> euc_REDDIT-M5K_1shot_run16: done in 10677s
+
+=== euc_REDDIT-M5K_1shot_run18 ===
+  [device] euc_REDDIT-M5K_1shot_run18: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=25.8% test=27.6% skip=0/20 sr_train=0.276
+  E  2: train=30.2% test=26.6% skip=0/20 sr_train=0.340
+  E  3: train=29.6% test=28.6% skip=0/20 sr_train=0.371
+  E 10: train=36.4% test=31.0% skip=0/20 sr_train=0.376
+  E 20: train=26.2% test=31.6% skip=0/20 sr_train=0.376
+  E 30: train=31.6% test=29.6% skip=0/20 sr_train=0.391
+  E 40: train=28.2% test=32.4% skip=0/20 sr_train=0.372
+  E 50: train=35.4% test=32.4% skip=0/20 sr_train=0.389
+worker euc_REDDIT-M5K_1shot_run18: ok
+>>> euc_REDDIT-M5K_1shot_run18: done in 10601s
+merged 420 runs -> D:\2026\paper\PBB\post\results\v24_extra_n20_merged.json
+RDT-CPU-EVEN-DONE

@@ -1,0 +1,32 @@
+{
+  "MUTAG_5shot_run14": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 14,
+    "final_acc": 0.8300000170866648,
+    "best_acc": 0.855000016093254,
+    "total_spikes": 20657,
+    "spike_history_last5": [
+      13311,
+      13564,
+      13471,
+      13346,
+      13168
+    ],
+    "spike_rate_history_last5": [
+      0.49462150782346725,
+      0.4949090376496315,
+      0.49439612627029417,
+      0.49460710734128954,
+      0.49500756412744523
+    ],
+    "final_spike_rate": 0.4950394550959269,
+    "u_th_learnable": 0.9556738138198853,
+    "lambda_gate": 0.5336878895759583,
+    "spike_alpha": 0.6239583492279053,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 3255.0,
+    "device": "cuda"
+  }
+}

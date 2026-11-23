@@ -1,0 +1,10 @@
+{
+  "gcn_MUTAG_5shot_run14": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 14,
+    "final_acc": 0.7433333436648051,
+    "best_acc": 0.7700000087420146,
+    "elapsed_sec": 37.2
+  }
+}

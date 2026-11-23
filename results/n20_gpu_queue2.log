@@ -1,0 +1,10 @@
+
+=== spike_REDDIT-M5K_1shot_run10 ===
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py:1097: UserWarning: expandable_segments not supported on this platform (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\c10/cuda/CUDAAllocatorConfig.h:39.)
+  return self._apply(lambda t: t.cuda(device))
+D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py:180: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  scheduler.step()
+  E  1: train=0.0% test=26.4% skip=20/20 sr_train=0.000
+  E  2: train=0.0% test=25.8% skip=20/20 sr_train=0.000
+  E  3: train=0.0% test=24.8% skip=20/20 sr_train=0.000

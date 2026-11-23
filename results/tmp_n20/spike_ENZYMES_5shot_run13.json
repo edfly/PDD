@@ -1,0 +1,32 @@
+{
+  "ENZYMES_5shot_run13": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 13,
+    "final_acc": 0.31733332624038063,
+    "best_acc": 0.2899999927729368,
+    "total_spikes": 66256,
+    "spike_history_last5": [
+      41355,
+      46557,
+      46050,
+      46599,
+      48058
+    ],
+    "spike_rate_history_last5": [
+      0.32740001678466796,
+      0.35558097511529924,
+      0.35795834213495253,
+      0.3620436996221542,
+      0.3613189995288849
+    ],
+    "final_spike_rate": 0.3565445264180501,
+    "u_th_learnable": 0.9734654426574707,
+    "lambda_gate": 0.5023403167724609,
+    "spike_alpha": 0.6108604669570923,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 3425.8,
+    "device": "cuda"
+  }
+}

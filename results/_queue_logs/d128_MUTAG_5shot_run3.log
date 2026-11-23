@@ -1,0 +1,15 @@
+MSG* capacity runner | d=128 | datasets=['MUTAG'] | shots=[5] | runs=[3] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  MUTAG | 5-shot | Run 4/5
+============================================================
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+  Epoch   1/50 | Train: 71.5% | Test: 62.7% | Best: 62.7% | 6s
+  Epoch  10/50 | Train: 71.5% | Test: 62.3% | Best: 62.7% | 39s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 62.7% | 75s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 62.7% | 110s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 62.7% | 145s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 62.7% | 180s
+  >>> Final Accuracy: 50.0% (181.7s)
+>>> d128_MUTAG_5shot_run3: acc=50.00% (181.8s)
+DONE

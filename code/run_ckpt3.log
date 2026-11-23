@@ -1,0 +1,14 @@
+=== Phase A: eager single-step peak (checkpoint_rgc=True) ===
+D:\2026\paper\PBB\post\code\_diag_ckpt_169k.py:48: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:219.)
+  train_idx = torch.as_tensor(ds.get_idx_split()["train"], device=DEV)
+[setup] N=169343 E=1166243  (target: 169k full-batch)
+  loss=3.6498  peak=17.57 GiB  step_time=9.9s -> FITS(<22)
+
+=== Phase B: CUDA-graph fwd+bwd capture + replay training ===
+[setup] N=169343 E=1166243  (target: 169k full-batch)
+  CAPTURE ok (full fwd+L_sr+bwd, checkpoint recompute recorded)
+  baseline (after step 1): wnorm=3.6317 loss=3.7093
+  after 10 steps: wnorm=3.6694 loss=3.3113 | d_wnorm=+0.0377 d_loss=-0.3981
+TRAINING_OK
+
+SUMMARY: checkpoint_rgc fits 22GB (peak=17.57 GiB) AND CUDA-graph fwd+bwd capture + replay training pass on 22GB = True

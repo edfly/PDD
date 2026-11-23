@@ -1,0 +1,16 @@
+
+=== euc_MUTAG_1shot_run0 ===
+[MUTAG] Loaded 150 train / 38 test graphs | 2 classes | 7 features
+D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py:58: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:837.)
+  return float(getattr(lif, "_spike_rate", 0.0))
+  E  1: train=75.0% test=62.5% skip=0/20 sr_train=0.336
+  E  2: train=78.5% test=64.0% skip=0/20 sr_train=0.348
+  E  3: train=80.0% test=70.0% skip=0/20 sr_train=0.359
+  E 10: train=74.0% test=62.0% skip=0/20 sr_train=0.422
+  E 20: train=80.0% test=74.0% skip=0/20 sr_train=0.413
+  E 30: train=77.0% test=71.5% skip=0/20 sr_train=0.411
+  E 40: train=73.5% test=73.0% skip=0/20 sr_train=0.413
+  E 50: train=85.5% test=73.5% skip=0/20 sr_train=0.409
+>>> euc_MUTAG_1shot_run0: done in 1239s
+merged 0 runs -> D:\2026\paper\PBB\post\results\v24_extra_n20_merged.json

@@ -1,0 +1,10 @@
+{
+  "sage_PROTEINS_5shot_run19": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 19,
+    "final_acc": 0.550000007947286,
+    "best_acc": 0.5566666762034098,
+    "elapsed_sec": 34.0
+  }
+}

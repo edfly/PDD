@@ -1,0 +1,10 @@
+{
+  "gcn_PROTEINS_5shot_run13": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 13,
+    "final_acc": 0.5800000088910262,
+    "best_acc": 0.5866666749119759,
+    "elapsed_sec": 36.5
+  }
+}

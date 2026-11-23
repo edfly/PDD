@@ -1,0 +1,10 @@
+{
+  "gcn_ENZYMES_5shot_run17": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 17,
+    "final_acc": 0.20666666179895402,
+    "best_acc": 0.21466666087508202,
+    "elapsed_sec": 44.9
+  }
+}

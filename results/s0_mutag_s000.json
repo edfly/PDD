@@ -1,0 +1,87 @@
+{
+  "_protocol": {
+    "purpose": "sigma=0 control: isolate the contribution of membrane noise to the control authority of L_sr",
+    "arms": {
+      "sigma005": 0.05,
+      "sigma000": 0.0
+    },
+    "lambdas": [
+      0.0,
+      0.5
+    ],
+    "r_target": 0.4,
+    "datasets": [
+      "MUTAG"
+    ],
+    "shot": 1,
+    "epochs": 20,
+    "episodes_per_epoch": 10,
+    "test_episodes": 10,
+    "runs": 5,
+    "seed": "42 + run_id*100 + shot*10",
+    "reported_metrics": "final_acc = accuracy at the final epoch; r_bar = empirical mean firing rate over the final evaluation episodes",
+    "date": "2026-10-15"
+  },
+  "MUTAG|sigma000|lam0.000": {
+    "dataset": "MUTAG",
+    "arm": "sigma000",
+    "noise_std": 0.0,
+    "lambda_sr": 0.0,
+    "accs": [
+      70.00000149011612,
+      77.00000166893005,
+      86.00000262260437,
+      69.00000050663948,
+      70.00000156462193
+    ],
+    "rates": [
+      0.40102974250743584,
+      0.5,
+      0.5,
+      0.25,
+      0.375
+    ],
+    "best_accs": [
+      74.00000154972076,
+      78.00000131130219,
+      86.00000262260437,
+      77.00000047683716,
+      79.00000229477882
+    ],
+    "acc_mean": 74.40000157058239,
+    "acc_std": 6.468385226151249,
+    "rate_mean": 0.40520594850148717,
+    "rate_std": 0.09272599513688806
+  },
+  "MUTAG|sigma000|lam0.500": {
+    "dataset": "MUTAG",
+    "arm": "sigma000",
+    "noise_std": 0.0,
+    "lambda_sr": 0.5,
+    "accs": [
+      72.00000144541264,
+      78.00000190734863,
+      86.00000262260437,
+      70.00000074505806,
+      71.00000120699406
+    ],
+    "rates": [
+      0.375,
+      0.49979117358992997,
+      0.375,
+      0.375,
+      0.375
+    ],
+    "best_accs": [
+      73.00000190734863,
+      78.00000190734863,
+      86.00000262260437,
+      78.00000168383121,
+      80.00000178813934
+    ],
+    "acc_mean": 75.40000158548355,
+    "acc_std": 5.986652437221438,
+    "rate_mean": 0.399958234717986,
+    "rate_std": 0.049916469435971986
+  }
+}

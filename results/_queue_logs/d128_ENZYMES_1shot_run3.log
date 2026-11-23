@@ -1,0 +1,15 @@
+MSG* capacity runner | d=128 | datasets=['ENZYMES'] | shots=[1] | runs=[3] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  ENZYMES | 1-shot | Run 4/5
+============================================================
+[ENZYMES] Loaded 480 train / 120 test graphs | 6 classes | 3 features
+  Epoch   1/50 | Train: 21.4% | Test: 22.5% | Best: 22.5% | 19s
+  Epoch  10/50 | Train: 20.0% | Test: 20.0% | Best: 22.5% | 156s
+  Epoch  20/50 | Train: 20.2% | Test: 20.0% | Best: 22.5% | 310s
+  Epoch  30/50 | Train: 20.0% | Test: 20.0% | Best: 22.5% | 467s
+  Epoch  40/50 | Train: 20.0% | Test: 20.0% | Best: 22.5% | 661s
+  Epoch  50/50 | Train: 20.0% | Test: 20.0% | Best: 22.5% | 821s
+  >>> Final Accuracy: 20.0% (827.7s)
+>>> d128_ENZYMES_1shot_run3: acc=20.00% (828.0s)
+DONE

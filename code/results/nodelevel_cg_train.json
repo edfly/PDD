@@ -1,0 +1,45 @@
+{
+  "model": "spikergnn",
+  "runs": [
+    {
+      "model": "spikergnn",
+      "run_id": 0,
+      "best_val": 0.0052015166729688644,
+      "best_test": 0.004197272006422281,
+      "rate_mean": 0.02,
+      "seconds": 27.7
+    },
+    {
+      "model": "spikergnn",
+      "run_id": 1,
+      "best_val": 0.00812107790261507,
+      "best_test": 0.0059049855917692184,
+      "rate_mean": 0.02,
+      "seconds": 28.1
+    },
+    {
+      "model": "spikergnn",
+      "run_id": 2,
+      "best_val": 0.009698311798274517,
+      "best_test": 0.009052939713001251,
+      "rate_mean": 0.02,
+      "seconds": 28.1
+    },
+    {
+      "model": "spikergnn",
+      "run_id": 3,
+      "best_val": 0.0588274747133255,
+      "best_test": 0.04121144860982895,
+      "rate_mean": 0.01999976396560669,
+      "seconds": 28.0
+    },
+    {
+      "model": "spikergnn",
+      "run_id": 4,
+      "best_val": 0.01855766959488392,
+      "best_test": 0.011953994631767273,
+      "rate_mean": 0.02,
+      "seconds": 27.9
+    }
+  ]
+}

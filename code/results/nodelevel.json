@@ -1,0 +1,29 @@
+{
+  "model": "spikergnn",
+  "runs": [
+    {
+      "model": "spikergnn",
+      "run_id": 0,
+      "best_val": 0.6035772562026978,
+      "best_test": 0.5366541147232056,
+      "rate_mean": 0.0025600408638089558,
+      "seconds": 2838.4
+    },
+    {
+      "model": "spikergnn",
+      "run_id": 1,
+      "best_val": 0.6044162511825562,
+      "best_test": 0.541118860244751,
+      "rate_mean": 0.002402274279617896,
+      "seconds": 2764.9
+    },
+    {
+      "model": "spikergnn",
+      "run_id": 2,
+      "best_val": 0.6066310405731201,
+      "best_test": 0.5428882837295532,
+      "rate_mean": 0.002450155404514309,
+      "seconds": 2791.3
+    }
+  ]
+}

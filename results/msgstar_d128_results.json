@@ -1,0 +1,2252 @@
+{
+  "d128_REDDIT-M5K_1shot_run0": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 0,
+    "hidden_dim": 128,
+    "final_acc": 0.33066666473944983,
+    "best_acc": 0.33066666473944983,
+    "epoch_accuracies": [
+      0.32933333242932955,
+      0.3080000010629495,
+      0.30399999941388767,
+      0.32133333534002306,
+      0.3266666650772095,
+      0.33066666473944983
+    ],
+    "time_seconds": 14137.008771419525,
+    "elapsed_sec": 14138.6
+  },
+  "d128_REDDIT-M5K_5shot_run0": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 0,
+    "hidden_dim": 128,
+    "final_acc": 0.3413333351413409,
+    "best_acc": 0.3626666655143102,
+    "epoch_accuracies": [
+      0.3466666673620542,
+      0.35333333611488343,
+      0.36133333543936413,
+      0.3320000017682711,
+      0.3626666655143102,
+      0.3413333351413409
+    ],
+    "time_seconds": 26359.278749465942,
+    "elapsed_sec": 26361.5
+  },
+  "d128_REDDIT-M5K_5shot_run1": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 1,
+    "hidden_dim": 128,
+    "final_acc": 0.3426666667064031,
+    "best_acc": 0.367999999721845,
+    "epoch_accuracies": [
+      0.3013333320617676,
+      0.367999999721845,
+      0.3573333313067754,
+      0.3639999985694885,
+      0.3253333350022634,
+      0.3426666667064031
+    ],
+    "time_seconds": 26203.89851784706,
+    "elapsed_sec": 26206.1
+  },
+  "d128_REDDIT-M5K_5shot_run2": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 2,
+    "hidden_dim": 128,
+    "final_acc": 0.36399999757607776,
+    "best_acc": 0.3786666696270307,
+    "epoch_accuracies": [
+      0.35866666634877525,
+      0.34266666521628697,
+      0.35600000073512394,
+      0.36533333361148834,
+      0.3786666696270307,
+      0.36399999757607776
+    ],
+    "time_seconds": 25997.65243625641,
+    "elapsed_sec": 25999.8
+  },
+  "d128_REDDIT-M5K_5shot_run3": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 3,
+    "hidden_dim": 128,
+    "final_acc": 0.3693333352605502,
+    "best_acc": 0.3693333352605502,
+    "epoch_accuracies": [
+      0.35733333428700764,
+      0.36400000204642613,
+      0.358666667342186,
+      0.3520000008245309,
+      0.3560000017285347,
+      0.3693333352605502
+    ],
+    "time_seconds": 26260.000246286392,
+    "elapsed_sec": 26262.2
+  },
+  "d128_DD_5shot_run0": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 0,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5000000049670538,
+    "epoch_accuracies": [
+      0.5000000049670538,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 4763.955073833466,
+    "elapsed_sec": 4764.6
+  },
+  "d128_DD_5shot_run1": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 1,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5,
+    "epoch_accuracies": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 4944.070531129837,
+    "elapsed_sec": 4944.7
+  },
+  "d128_REDDIT-M5K_1shot_run1": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 1,
+    "hidden_dim": 128,
+    "final_acc": 0.3133333347737789,
+    "best_acc": 0.32533333549896876,
+    "epoch_accuracies": [
+      0.3,
+      0.29466666653752327,
+      0.30666666527589165,
+      0.32533333549896876,
+      0.30933333511153854,
+      0.3133333347737789
+    ],
+    "time_seconds": 14280.162500619888,
+    "elapsed_sec": 14281.8
+  },
+  "d128_REDDIT-M5K_1shot_run2": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 2,
+    "hidden_dim": 128,
+    "final_acc": 0.3120000004768372,
+    "best_acc": 0.3253333330154419,
+    "epoch_accuracies": [
+      0.3053333339591821,
+      0.3066666677594185,
+      0.32133333484331766,
+      0.31466666584213576,
+      0.3253333330154419,
+      0.3120000004768372
+    ],
+    "time_seconds": 14289.547628641129,
+    "elapsed_sec": 14291.1
+  },
+  "d128_REDDIT-M5K_5shot_run4": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 4,
+    "hidden_dim": 128,
+    "final_acc": 0.36666666666666664,
+    "best_acc": 0.3919999976952871,
+    "epoch_accuracies": [
+      0.33333333184321723,
+      0.3919999976952871,
+      0.3720000003774961,
+      0.36399999956289925,
+      0.3800000016887983,
+      0.36666666666666664
+    ],
+    "time_seconds": 26849.81089067459,
+    "elapsed_sec": 26851.3
+  },
+  "d128_DD_1shot_run0": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 0,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5500000049670537,
+    "epoch_accuracies": [
+      0.5500000049670537,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 2879.495666027069,
+    "elapsed_sec": 2880.1
+  },
+  "d128_DD_5shot_run2": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 2,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5400000075499217,
+    "epoch_accuracies": [
+      0.5400000075499217,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 4737.530346393585,
+    "elapsed_sec": 4738.1
+  },
+  "d128_DD_5shot_run3": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 3,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5700000042716662,
+    "epoch_accuracies": [
+      0.5633333380023638,
+      0.5700000042716662,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 4795.0211544036865,
+    "elapsed_sec": 4795.6
+  },
+  "d128_REDDIT-M5K_1shot_run3": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 3,
+    "hidden_dim": 128,
+    "final_acc": 0.32400000194708506,
+    "best_acc": 0.32400000194708506,
+    "epoch_accuracies": [
+      0.29733333364129066,
+      0.3053333304822445,
+      0.3013333340485891,
+      0.2959999978542328,
+      0.31066666717330615,
+      0.32400000194708506
+    ],
+    "time_seconds": 13971.198266744614,
+    "elapsed_sec": 13972.7
+  },
+  "d128_REDDIT-M5K_1shot_run4": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 4,
+    "hidden_dim": 128,
+    "final_acc": 0.31333333179354667,
+    "best_acc": 0.3413333346446355,
+    "epoch_accuracies": [
+      0.3120000017186006,
+      0.29733333388964334,
+      0.3133333335320155,
+      0.3319999997814496,
+      0.3413333346446355,
+      0.31333333179354667
+    ],
+    "time_seconds": 14039.237812042236,
+    "elapsed_sec": 14040.7
+  },
+  "d128_DD_1shot_run1": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 1,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5000000069538753,
+    "epoch_accuracies": [
+      0.5000000069538753,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 2865.5402488708496,
+    "elapsed_sec": 2866.1
+  },
+  "d128_DD_1shot_run2": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 2,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5100000048677127,
+    "epoch_accuracies": [
+      0.5100000048677127,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 2853.260732650757,
+    "elapsed_sec": 2854.8
+  },
+  "d128_DD_1shot_run3": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 3,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5,
+    "epoch_accuracies": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 2815.2278637886047,
+    "elapsed_sec": 2815.8
+  },
+  "d128_DD_5shot_run4": {
+    "dataset": "DD",
+    "shot": 5,
+    "run_id": 4,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5,
+    "epoch_accuracies": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 4820.695156574249,
+    "elapsed_sec": 4821.3
+  },
+  "d128_DD_1shot_run4": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 4,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5,
+    "epoch_accuracies": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 2658.555365562439,
+    "elapsed_sec": 2659.3
+  },
+  "d128_ENZYMES_1shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 0,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.21866666600108148,
+    "epoch_accuracies": [
+      0.21866666600108148,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 808.9505951404572,
+    "elapsed_sec": 809.3
+  },
+  "d128_ENZYMES_1shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 1,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.2333333338300387,
+    "epoch_accuracies": [
+      0.2333333338300387,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 782.4189534187317,
+    "elapsed_sec": 782.7
+  },
+  "d128_ENZYMES_5shot_run0": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 0,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.23199999829133353,
+    "epoch_accuracies": [
+      0.23199999829133353,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 1562.1034471988678,
+    "elapsed_sec": 1562.3
+  },
+  "d128_ENZYMES_5shot_run1": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 1,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.20000000298023224,
+    "epoch_accuracies": [
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 1585.53595328331,
+    "elapsed_sec": 1585.8
+  },
+  "d128_ENZYMES_5shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 2,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.24799999892711638,
+    "epoch_accuracies": [
+      0.24799999892711638,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 1287.5275301933289,
+    "elapsed_sec": 1287.9
+  },
+  "d128_ENZYMES_5shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 3,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.23199999953309694,
+    "epoch_accuracies": [
+      0.23199999953309694,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 1290.1597473621368,
+    "elapsed_sec": 1290.5
+  },
+  "d128_ENZYMES_5shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 4,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.23066666573286057,
+    "epoch_accuracies": [
+      0.23066666573286057,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 1294.7008683681488,
+    "elapsed_sec": 1295.1
+  },
+  "d128_ENZYMES_1shot_run2": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 2,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.23199999829133353,
+    "epoch_accuracies": [
+      0.23199999829133353,
+      0.21466666460037231,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 825.1820225715637,
+    "elapsed_sec": 825.4
+  },
+  "d128_ENZYMES_1shot_run3": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 3,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.22533333177367845,
+    "epoch_accuracies": [
+      0.22533333177367845,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 827.7357859611511,
+    "elapsed_sec": 828.0
+  },
+  "d128_ENZYMES_1shot_run4": {
+    "dataset": "ENZYMES",
+    "shot": 1,
+    "run_id": 4,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.20000000298023224,
+    "epoch_accuracies": [
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 826.1650905609131,
+    "elapsed_sec": 826.4
+  },
+  "d128_PROTEINS_5shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 0,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.610000007847945,
+    "epoch_accuracies": [
+      0.610000007847945,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 558.1168887615204,
+    "elapsed_sec": 559.3
+  },
+  "d128_PROTEINS_5shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 1,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5033333341280619,
+    "epoch_accuracies": [
+      0.5,
+      0.5,
+      0.5033333341280619,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 446.4632136821747,
+    "elapsed_sec": 446.7
+  },
+  "d128_PROTEINS_5shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 2,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5,
+    "epoch_accuracies": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 449.39423394203186,
+    "elapsed_sec": 449.7
+  },
+  "d128_PROTEINS_5shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 3,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5666666756073634,
+    "epoch_accuracies": [
+      0.5666666756073634,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 448.2658019065857,
+    "elapsed_sec": 448.6
+  },
+  "d128_PROTEINS_5shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 4,
+    "hidden_dim": 128,
+    "final_acc": 0.5533333371082941,
+    "best_acc": 0.5800000091393789,
+    "epoch_accuracies": [
+      0.5633333417276541,
+      0.5,
+      0.5,
+      0.56333333949248,
+      0.5800000091393789,
+      0.5533333371082941
+    ],
+    "time_seconds": 399.5956847667694,
+    "elapsed_sec": 399.9
+  },
+  "d128_PROTEINS_1shot_run0": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 0,
+    "hidden_dim": 128,
+    "final_acc": 0.5033333341280619,
+    "best_acc": 0.5033333341280619,
+    "epoch_accuracies": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5033333341280619
+    ],
+    "time_seconds": 208.09431266784668,
+    "elapsed_sec": 208.4
+  },
+  "d128_PROTEINS_1shot_run1": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 1,
+    "hidden_dim": 128,
+    "final_acc": 0.5033333341280619,
+    "best_acc": 0.5366666714350382,
+    "epoch_accuracies": [
+      0.5366666714350382,
+      0.5,
+      0.5,
+      0.5,
+      0.5033333341280619,
+      0.5033333341280619
+    ],
+    "time_seconds": 210.6065354347229,
+    "elapsed_sec": 210.9
+  },
+  "d128_MUTAG_5shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 0,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.6500000059604645,
+    "epoch_accuracies": [
+      0.6500000059604645,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 205.3054814338684,
+    "elapsed_sec": 205.4
+  },
+  "d128_MUTAG_5shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 1,
+    "hidden_dim": 128,
+    "final_acc": 0.7066666712363561,
+    "best_acc": 0.7066666712363561,
+    "epoch_accuracies": [
+      0.6566666722297668,
+      0.6466666718324026,
+      0.6999999980131785,
+      0.7033333420753479,
+      0.6433333411812783,
+      0.7066666712363561
+    ],
+    "time_seconds": 197.24857211112976,
+    "elapsed_sec": 197.4
+  },
+  "d128_PROTEINS_1shot_run2": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 2,
+    "hidden_dim": 128,
+    "final_acc": 0.5033333341280619,
+    "best_acc": 0.593333334227403,
+    "epoch_accuracies": [
+      0.593333334227403,
+      0.5,
+      0.5033333341280619,
+      0.5,
+      0.5033333341280619,
+      0.5033333341280619
+    ],
+    "time_seconds": 220.93299078941345,
+    "elapsed_sec": 221.2
+  },
+  "d128_PROTEINS_1shot_run3": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 3,
+    "hidden_dim": 128,
+    "final_acc": 0.5033333341280619,
+    "best_acc": 0.5033333341280619,
+    "epoch_accuracies": [
+      0.5033333341280619,
+      0.5033333341280619,
+      0.5,
+      0.5,
+      0.5033333341280619,
+      0.5033333341280619
+    ],
+    "time_seconds": 230.63622760772705,
+    "elapsed_sec": 231.0
+  },
+  "d128_PROTEINS_1shot_run4": {
+    "dataset": "PROTEINS",
+    "shot": 1,
+    "run_id": 4,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5666666736205419,
+    "epoch_accuracies": [
+      0.5033333341280619,
+      0.5033333341280619,
+      0.5,
+      0.5666666736205419,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 241.4969997406006,
+    "elapsed_sec": 241.8
+  },
+  "d128_MUTAG_1shot_run0": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 0,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5733333406349023,
+    "epoch_accuracies": [
+      0.5733333406349023,
+      0.5033333341280619,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 141.01216101646423,
+    "elapsed_sec": 141.4
+  },
+  "d128_MUTAG_1shot_run1": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 1,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.6233333364129067,
+    "epoch_accuracies": [
+      0.6233333364129067,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 140.23794269561768,
+    "elapsed_sec": 140.4
+  },
+  "d128_MUTAG_5shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 2,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.6800000091393789,
+    "epoch_accuracies": [
+      0.6800000091393789,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 191.05934023857117,
+    "elapsed_sec": 191.2
+  },
+  "d128_MUTAG_5shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 3,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.6266666690508524,
+    "epoch_accuracies": [
+      0.6266666690508524,
+      0.6233333359162013,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 181.6839883327484,
+    "elapsed_sec": 181.8
+  },
+  "d128_MUTAG_5shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 4,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.6566666742165883,
+    "epoch_accuracies": [
+      0.6566666742165883,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 179.7021074295044,
+    "elapsed_sec": 179.8
+  },
+  "d128_MUTAG_1shot_run2": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 2,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5800000064074993,
+    "epoch_accuracies": [
+      0.5800000064074993,
+      0.5,
+      0.5,
+      0.5033333341280619,
+      0.5033333341280619,
+      0.5
+    ],
+    "time_seconds": 125.75766396522522,
+    "elapsed_sec": 125.9
+  },
+  "d128_MUTAG_1shot_run3": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 3,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5400000085433324,
+    "epoch_accuracies": [
+      0.5400000085433324,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 121.5452709197998,
+    "elapsed_sec": 121.7
+  },
+  "d128_MUTAG_1shot_run4": {
+    "dataset": "MUTAG",
+    "shot": 1,
+    "run_id": 4,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.556666671236356,
+    "epoch_accuracies": [
+      0.556666671236356,
+      0.5233333428700765,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 120.01025342941284,
+    "elapsed_sec": 120.1
+  },
+  "d128_DD_1shot_run10": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 10,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5000000064571698,
+    "epoch_accuracies": [
+      0.5000000064571698,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 5536.735438346863,
+    "elapsed_sec": 5537.5
+  },
+  "d128_DD_1shot_run11": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 11,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5433333367109299,
+    "epoch_accuracies": [
+      0.5433333367109299,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 2101.11656165123,
+    "elapsed_sec": 2101.7
+  },
+  "d128_DD_1shot_run12": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 12,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5300000051657359,
+    "epoch_accuracies": [
+      0.5300000051657359,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 2874.079222679138,
+    "elapsed_sec": 2874.8
+  },
+  "d128_DD_1shot_run13": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 13,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5,
+    "epoch_accuracies": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 1341.0130190849304,
+    "elapsed_sec": 1341.6
+  },
+  "d128_DD_1shot_run14": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 14,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5,
+    "epoch_accuracies": [
+      0.480000006655852,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 2347.851157426834,
+    "elapsed_sec": 2348.4
+  },
+  "d128_DD_1shot_run15": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 15,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5,
+    "epoch_accuracies": [
+      0.4933333416779836,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 1359.5032114982605,
+    "elapsed_sec": 1360.1
+  },
+  "d128_DD_1shot_run16": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 16,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5,
+    "epoch_accuracies": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 2380.3557007312775,
+    "elapsed_sec": 2380.9
+  },
+  "d128_DD_1shot_run17": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 17,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5133333404858907,
+    "epoch_accuracies": [
+      0.5133333404858907,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 1329.4775075912476,
+    "elapsed_sec": 1330.0
+  },
+  "d128_DD_1shot_run18": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 18,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5000000009934108,
+    "epoch_accuracies": [
+      0.5000000009934108,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 2423.906173467636,
+    "elapsed_sec": 2424.7
+  },
+  "d128_DD_1shot_run19": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 19,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5,
+    "epoch_accuracies": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 1339.926479101181,
+    "elapsed_sec": 1340.5
+  },
+  "d128_DD_1shot_run5": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 5,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5033333390951157,
+    "epoch_accuracies": [
+      0.5033333390951157,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 2348.872004508972,
+    "elapsed_sec": 2349.5
+  },
+  "d128_DD_1shot_run6": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 6,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5233333388964335,
+    "epoch_accuracies": [
+      0.5233333388964335,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 3947.311599254608,
+    "elapsed_sec": 3948.1
+  },
+  "d128_DD_1shot_run7": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 7,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5066666682561238,
+    "epoch_accuracies": [
+      0.5066666682561238,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 2361.6714022159576,
+    "elapsed_sec": 2362.2
+  },
+  "d128_DD_1shot_run8": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 8,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5,
+    "epoch_accuracies": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 6350.899862527847,
+    "elapsed_sec": 6351.6
+  },
+  "d128_DD_1shot_run9": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 9,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5333333402872086,
+    "epoch_accuracies": [
+      0.5333333402872086,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 2387.5072972774506,
+    "elapsed_sec": 2388.1
+  },
+  "d128_ENZYMES_5shot_run10": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 10,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.24533333256840706,
+    "epoch_accuracies": [
+      0.24533333256840706,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 1288.8847351074219,
+    "elapsed_sec": 1289.2
+  },
+  "d128_ENZYMES_5shot_run11": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 11,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.20000000298023224,
+    "epoch_accuracies": [
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 1337.9484066963196,
+    "elapsed_sec": 1338.3
+  },
+  "d128_ENZYMES_5shot_run12": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 12,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.22666666557391485,
+    "epoch_accuracies": [
+      0.22666666557391485,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 1358.6560230255127,
+    "elapsed_sec": 1359.0
+  },
+  "d128_ENZYMES_5shot_run13": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 13,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.25466666718324027,
+    "epoch_accuracies": [
+      0.25466666718324027,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 1371.760370016098,
+    "elapsed_sec": 1372.1
+  },
+  "d128_ENZYMES_5shot_run14": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 14,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.23333333184321722,
+    "epoch_accuracies": [
+      0.23333333184321722,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 1352.3094766139984,
+    "elapsed_sec": 1352.7
+  },
+  "d128_ENZYMES_5shot_run15": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 15,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.237333332747221,
+    "epoch_accuracies": [
+      0.237333332747221,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 1346.726551771164,
+    "elapsed_sec": 1347.1
+  },
+  "d128_ENZYMES_5shot_run16": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 16,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.20000000298023224,
+    "epoch_accuracies": [
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 1366.9504432678223,
+    "elapsed_sec": 1367.3
+  },
+  "d128_ENZYMES_5shot_run17": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 17,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.22266666442155839,
+    "epoch_accuracies": [
+      0.22266666442155839,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 1207.2870795726776,
+    "elapsed_sec": 1207.6
+  },
+  "d128_ENZYMES_5shot_run18": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 18,
+    "hidden_dim": 128,
+    "final_acc": 0.22666666557391485,
+    "best_acc": 0.27199999839067457,
+    "epoch_accuracies": [
+      0.27199999839067457,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.2386666658023993,
+      0.24266666720310848,
+      0.22666666557391485
+    ],
+    "time_seconds": 1365.6925983428955,
+    "elapsed_sec": 1366.1
+  },
+  "d128_ENZYMES_5shot_run19": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 19,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.20000000298023224,
+    "epoch_accuracies": [
+      0.19999999925494194,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 1105.2603833675385,
+    "elapsed_sec": 1105.6
+  },
+  "d128_ENZYMES_5shot_run5": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 5,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.23999999885757764,
+    "epoch_accuracies": [
+      0.23999999885757764,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 1322.1131138801575,
+    "elapsed_sec": 1322.4
+  },
+  "d128_ENZYMES_5shot_run6": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 6,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.21733333269755045,
+    "epoch_accuracies": [
+      0.21733333269755045,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 1192.1625299453735,
+    "elapsed_sec": 1192.5
+  },
+  "d128_ENZYMES_5shot_run7": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 7,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.2546666664381822,
+    "epoch_accuracies": [
+      0.2546666664381822,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 1271.0419261455536,
+    "elapsed_sec": 1271.4
+  },
+  "d128_ENZYMES_5shot_run8": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 8,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.20000000298023224,
+    "epoch_accuracies": [
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 1308.5017943382263,
+    "elapsed_sec": 1308.8
+  },
+  "d128_ENZYMES_5shot_run9": {
+    "dataset": "ENZYMES",
+    "shot": 5,
+    "run_id": 9,
+    "hidden_dim": 128,
+    "final_acc": 0.20000000298023224,
+    "best_acc": 0.24399999926487606,
+    "epoch_accuracies": [
+      0.24399999926487606,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    "time_seconds": 1363.5911996364594,
+    "elapsed_sec": 1363.9
+  },
+  "d128_MUTAG_5shot_run10": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 10,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.6866666734218597,
+    "epoch_accuracies": [
+      0.6866666734218597,
+      0.6533333341280619,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 332.3474817276001,
+    "elapsed_sec": 332.5
+  },
+  "d128_MUTAG_5shot_run11": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 11,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5,
+    "epoch_accuracies": [
+      0.4700000037749608,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 921.0210523605347,
+    "elapsed_sec": 921.2
+  },
+  "d128_MUTAG_5shot_run12": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 12,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.6400000045696894,
+    "epoch_accuracies": [
+      0.6400000045696894,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 331.27754616737366,
+    "elapsed_sec": 331.4
+  },
+  "d128_MUTAG_5shot_run13": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 13,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.6933333377043406,
+    "epoch_accuracies": [
+      0.6933333377043406,
+      0.6766666730244955,
+      0.65,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 707.2023341655731,
+    "elapsed_sec": 707.3
+  },
+  "d128_MUTAG_5shot_run14": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 14,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5833333402872085,
+    "epoch_accuracies": [
+      0.5833333402872085,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 340.0255832672119,
+    "elapsed_sec": 340.2
+  },
+  "d128_MUTAG_5shot_run15": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 15,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.6800000021855036,
+    "epoch_accuracies": [
+      0.6333333392937978,
+      0.6800000021855036,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 638.8233184814453,
+    "elapsed_sec": 639.0
+  },
+  "d128_MUTAG_5shot_run16": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 16,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.6566666722297668,
+    "epoch_accuracies": [
+      0.6566666722297668,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 447.128582239151,
+    "elapsed_sec": 447.3
+  },
+  "d128_MUTAG_5shot_run17": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 17,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.6600000013907751,
+    "epoch_accuracies": [
+      0.6600000013907751,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 640.0289525985718,
+    "elapsed_sec": 640.2
+  },
+  "d128_MUTAG_5shot_run18": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 18,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.6400000015894572,
+    "epoch_accuracies": [
+      0.6400000015894572,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 335.50783610343933,
+    "elapsed_sec": 335.7
+  },
+  "d128_MUTAG_5shot_run19": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 19,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.6400000055631002,
+    "epoch_accuracies": [
+      0.6400000055631002,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 628.4753122329712,
+    "elapsed_sec": 628.6
+  },
+  "d128_MUTAG_5shot_run5": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 5,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.6900000055631001,
+    "epoch_accuracies": [
+      0.6433333386977513,
+      0.6900000055631001,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 439.0444300174713,
+    "elapsed_sec": 439.2
+  },
+  "d128_MUTAG_5shot_run6": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 6,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.686666672428449,
+    "epoch_accuracies": [
+      0.686666672428449,
+      0.6266666700442632,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 334.4156138896942,
+    "elapsed_sec": 334.5
+  },
+  "d128_MUTAG_5shot_run7": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 7,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5,
+    "epoch_accuracies": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 361.69279313087463,
+    "elapsed_sec": 361.8
+  },
+  "d128_MUTAG_5shot_run8": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 8,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.6566666717330615,
+    "epoch_accuracies": [
+      0.6566666717330615,
+      0.583333337555329,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 322.28646421432495,
+    "elapsed_sec": 322.4
+  },
+  "d128_MUTAG_5shot_run9": {
+    "dataset": "MUTAG",
+    "shot": 5,
+    "run_id": 9,
+    "hidden_dim": 128,
+    "final_acc": 0.6333333392937978,
+    "best_acc": 0.6700000017881393,
+    "epoch_accuracies": [
+      0.6466666728258132,
+      0.6699999978144964,
+      0.6566666712363561,
+      0.6433333359658718,
+      0.6700000017881393,
+      0.6333333392937978
+    ],
+    "time_seconds": 982.4260635375977,
+    "elapsed_sec": 982.6
+  },
+  "d128_PROTEINS_5shot_run10": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 10,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5,
+    "epoch_accuracies": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 533.3740544319153,
+    "elapsed_sec": 533.8
+  },
+  "d128_PROTEINS_5shot_run11": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 11,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5,
+    "epoch_accuracies": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 533.4284150600433,
+    "elapsed_sec": 533.8
+  },
+  "d128_PROTEINS_5shot_run12": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 12,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.6066666714847088,
+    "epoch_accuracies": [
+      0.6066666714847088,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 533.5214471817017,
+    "elapsed_sec": 533.9
+  },
+  "d128_PROTEINS_5shot_run13": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 13,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5933333406845729,
+    "epoch_accuracies": [
+      0.5933333406845729,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 537.5511515140533,
+    "elapsed_sec": 538.0
+  },
+  "d128_PROTEINS_5shot_run14": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 14,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5800000076492627,
+    "epoch_accuracies": [
+      0.5800000076492627,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 534.2062478065491,
+    "elapsed_sec": 534.6
+  },
+  "d128_PROTEINS_5shot_run15": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 15,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5800000071525574,
+    "epoch_accuracies": [
+      0.5800000071525574,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 533.6131117343903,
+    "elapsed_sec": 534.1
+  },
+  "d128_PROTEINS_5shot_run16": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 16,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5,
+    "epoch_accuracies": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 531.5751757621765,
+    "elapsed_sec": 532.0
+  },
+  "d128_PROTEINS_5shot_run17": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 17,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5366666739185652,
+    "epoch_accuracies": [
+      0.5300000011920929,
+      0.5366666739185652,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 530.88458776474,
+    "elapsed_sec": 531.3
+  },
+  "d128_PROTEINS_5shot_run18": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 18,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.6266666750113169,
+    "epoch_accuracies": [
+      0.6266666750113169,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 532.618540763855,
+    "elapsed_sec": 533.1
+  },
+  "d128_PROTEINS_5shot_run19": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 19,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5633333345254262,
+    "epoch_accuracies": [
+      0.5633333345254262,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 649.7986631393433,
+    "elapsed_sec": 650.3
+  },
+  "d128_PROTEINS_5shot_run5": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 5,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5,
+    "epoch_accuracies": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 697.4085884094238,
+    "elapsed_sec": 697.8
+  },
+  "d128_PROTEINS_5shot_run6": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 6,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5800000051657359,
+    "epoch_accuracies": [
+      0.5800000051657359,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 689.921023607254,
+    "elapsed_sec": 690.4
+  },
+  "d128_PROTEINS_5shot_run7": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 7,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5533333415786426,
+    "epoch_accuracies": [
+      0.5533333415786426,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 527.2112655639648,
+    "elapsed_sec": 527.6
+  },
+  "d128_PROTEINS_5shot_run8": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 8,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.5600000036259493,
+    "epoch_accuracies": [
+      0.5600000036259493,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 527.4732365608215,
+    "elapsed_sec": 527.9
+  },
+  "d128_PROTEINS_5shot_run9": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 9,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.6066666702429454,
+    "epoch_accuracies": [
+      0.6066666702429454,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 534.2675559520721,
+    "elapsed_sec": 534.7
+  },
+  "d128_REDDIT-M5K_1shot_run10": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 10,
+    "hidden_dim": 128,
+    "final_acc": 0.2933333344757557,
+    "best_acc": 0.32800000111262,
+    "epoch_accuracies": [
+      0.32800000111262,
+      0.29866666719317436,
+      0.29333333298563957,
+      0.2893333320816358,
+      0.29866666669646896,
+      0.2933333344757557
+    ],
+    "time_seconds": 10113.417904376984,
+    "elapsed_sec": 10114.7
+  },
+  "d128_REDDIT-M5K_1shot_run11": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 11,
+    "hidden_dim": 128,
+    "final_acc": 0.31333333253860474,
+    "best_acc": 0.3133333352704843,
+    "epoch_accuracies": [
+      0.2959999978542328,
+      0.2960000015795231,
+      0.2999999997516473,
+      0.3133333352704843,
+      0.3066666682561239,
+      0.31333333253860474
+    ],
+    "time_seconds": 10456.60798740387,
+    "elapsed_sec": 10458.0
+  },
+  "d128_REDDIT-M5K_1shot_run12": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 12,
+    "hidden_dim": 128,
+    "final_acc": 0.3040000023941199,
+    "best_acc": 0.3360000024239222,
+    "epoch_accuracies": [
+      0.3253333347539107,
+      0.2999999992549419,
+      0.3253333315253258,
+      0.3360000024239222,
+      0.3146666680773099,
+      0.3040000023941199
+    ],
+    "time_seconds": 10030.876717805862,
+    "elapsed_sec": 10031.9
+  },
+  "d128_REDDIT-M5K_1shot_run13": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 13,
+    "hidden_dim": 128,
+    "final_acc": 0.303999999910593,
+    "best_acc": 0.32799999689062437,
+    "epoch_accuracies": [
+      0.31466666782895725,
+      0.30000000074505806,
+      0.3133333345254262,
+      0.32799999689062437,
+      0.301333333303531,
+      0.303999999910593
+    ],
+    "time_seconds": 10703.473323345184,
+    "elapsed_sec": 10704.7
+  },
+  "d128_REDDIT-M5K_1shot_run14": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 14,
+    "hidden_dim": 128,
+    "final_acc": 0.3093333326280117,
+    "best_acc": 0.3093333326280117,
+    "epoch_accuracies": [
+      0.30266666784882545,
+      0.3040000004072984,
+      0.30533333445588745,
+      0.30133333231012027,
+      0.29333333199222883,
+      0.3093333326280117
+    ],
+    "time_seconds": 10665.37667632103,
+    "elapsed_sec": 10666.4
+  },
+  "d128_REDDIT-M5K_1shot_run15": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 15,
+    "hidden_dim": 128,
+    "final_acc": 0.3226666661600272,
+    "best_acc": 0.32400000269214313,
+    "epoch_accuracies": [
+      0.30800000155965485,
+      0.30933333312471706,
+      0.29066666613022485,
+      0.29200000017881395,
+      0.32400000269214313,
+      0.3226666661600272
+    ],
+    "time_seconds": 10586.14770078659,
+    "elapsed_sec": 10587.3
+  },
+  "d128_REDDIT-M5K_1shot_run16": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 16,
+    "hidden_dim": 128,
+    "final_acc": 0.2946666662891706,
+    "best_acc": 0.3133333345254262,
+    "epoch_accuracies": [
+      0.30933333362142246,
+      0.3119999974966049,
+      0.3039999984204769,
+      0.3133333345254262,
+      0.30800000031789143,
+      0.2946666662891706
+    ],
+    "time_seconds": 10698.741290092468,
+    "elapsed_sec": 10699.8
+  },
+  "d128_REDDIT-M5K_1shot_run17": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 17,
+    "hidden_dim": 128,
+    "final_acc": 0.3186666662494341,
+    "best_acc": 0.3239999992152055,
+    "epoch_accuracies": [
+      0.2853333321710428,
+      0.30800000155965485,
+      0.3040000006556511,
+      0.3053333347042402,
+      0.3239999992152055,
+      0.3186666662494341
+    ],
+    "time_seconds": 8650.971024513245,
+    "elapsed_sec": 8652.0
+  },
+  "d128_REDDIT-M5K_1shot_run18": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 18,
+    "hidden_dim": 128,
+    "final_acc": 0.32666666582226755,
+    "best_acc": 0.32800000136097274,
+    "epoch_accuracies": [
+      0.3106666661798954,
+      0.32800000136097274,
+      0.2866666652262211,
+      0.31200000246365867,
+      0.30666666676600773,
+      0.32666666582226755
+    ],
+    "time_seconds": 10446.44026017189,
+    "elapsed_sec": 10447.5
+  },
+  "d128_REDDIT-M5K_1shot_run19": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 19,
+    "hidden_dim": 128,
+    "final_acc": 0.29733333239952725,
+    "best_acc": 0.32400000020861625,
+    "epoch_accuracies": [
+      0.30266666586200397,
+      0.31066666593154274,
+      0.30933333486318587,
+      0.3160000003874302,
+      0.32400000020861625,
+      0.29733333239952725
+    ],
+    "time_seconds": 11466.881249904633,
+    "elapsed_sec": 11467.9
+  },
+  "d128_REDDIT-M5K_1shot_run5": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 5,
+    "hidden_dim": 128,
+    "final_acc": 0.3039999966820081,
+    "best_acc": 0.3453333338101705,
+    "epoch_accuracies": [
+      0.31066666493813194,
+      0.3093333328763644,
+      0.30933333188295364,
+      0.31866666798790294,
+      0.3453333338101705,
+      0.3039999966820081
+    ],
+    "time_seconds": 10377.280063152313,
+    "elapsed_sec": 10378.4
+  },
+  "d128_REDDIT-M5K_1shot_run6": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 6,
+    "hidden_dim": 128,
+    "final_acc": 0.3186666667461395,
+    "best_acc": 0.3226666669050852,
+    "epoch_accuracies": [
+      0.30133333380023636,
+      0.3093333328763644,
+      0.29466666703422867,
+      0.3146666650970777,
+      0.3226666669050852,
+      0.3186666667461395
+    ],
+    "time_seconds": 7789.656215429306,
+    "elapsed_sec": 7790.7
+  },
+  "d128_REDDIT-M5K_1shot_run7": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 7,
+    "hidden_dim": 128,
+    "final_acc": 0.3253333330154419,
+    "best_acc": 0.334666666885217,
+    "epoch_accuracies": [
+      0.3186666652560234,
+      0.3053333342075348,
+      0.334666666885217,
+      0.3026666676004728,
+      0.30133333231012027,
+      0.3253333330154419
+    ],
+    "time_seconds": 10245.726376056671,
+    "elapsed_sec": 10247.0
+  },
+  "d128_REDDIT-M5K_1shot_run8": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 8,
+    "hidden_dim": 128,
+    "final_acc": 0.34133333166440327,
+    "best_acc": 0.34133333166440327,
+    "epoch_accuracies": [
+      0.31466666733225185,
+      0.3226666669050852,
+      0.31600000287095703,
+      0.31866666972637175,
+      0.31199999948342644,
+      0.34133333166440327
+    ],
+    "time_seconds": 10325.182302236557,
+    "elapsed_sec": 10326.2
+  },
+  "d128_REDDIT-M5K_1shot_run9": {
+    "dataset": "REDDIT-M5K",
+    "shot": 1,
+    "run_id": 9,
+    "hidden_dim": 128,
+    "final_acc": 0.32533333549896876,
+    "best_acc": 0.33200000077486036,
+    "epoch_accuracies": [
+      0.2986666649580002,
+      0.32799999937415125,
+      0.30399999966224034,
+      0.28133333325386045,
+      0.33200000077486036,
+      0.32533333549896876
+    ],
+    "time_seconds": 10042.129935503006,
+    "elapsed_sec": 10043.2
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "0.500": {
+    "c": 0.5,
+    "accuracies": [
+      71.0,
+      79.0,
+      93.5,
+      80.5,
+      75.5
+    ],
+    "best_accuracies": [
+      83.0,
+      80.0,
+      93.5,
+      80.5,
+      80.5
+    ],
+    "mean": 79.9,
+    "std": 7.545859791965393
+  },
+  "1.000": {
+    "c": 1.0,
+    "accuracies": [
+      74.5,
+      78.0,
+      93.5,
+      82.5,
+      74.5
+    ],
+    "best_accuracies": [
+      85.0,
+      80.5,
+      94.5,
+      82.5,
+      80.5
+    ],
+    "mean": 80.6,
+    "std": 7.08801805866774
+  },
+  "2.000": {
+    "c": 2.0,
+    "accuracies": [
+      73.5,
+      79.5,
+      91.5,
+      77.5,
+      74.5
+    ],
+    "best_accuracies": [
+      84.5,
+      81.5,
+      91.5,
+      79.0,
+      79.5
+    ],
+    "mean": 79.3,
+    "std": 6.4621977685614045
+  },
+  "_protocol": {
+    "epochs": 30,
+    "episodes_per_epoch": 20,
+    "test_episodes": 20,
+    "runs": 5,
+    "dataset": "MUTAG",
+    "shot": 1,
+    "learnable_c": false,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "u_th_lr": 0.0001,
+    "seed": "42 + run_id*100 + shot*10",
+    "reported_metric": "final_acc - accuracy at the final epoch, averaged over test_episodes test episodes; the definition used by the main protocol and the lambda_sr sweep",
+    "best_accuracies": "retained for provenance only: max test accuracy over epochs, which selects the epoch on the test split",
+    "note": "Dedicated scan protocol (fewer epochs/episodes than the main protocol), so absolute levels are not comparable to the main results table; comparisons are valid only within this scan."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "model": "sage",
+  "runs": [
+    {
+      "model": "sage",
+      "run_id": 0,
+      "best_val": 0.611396312713623,
+      "best_test": 0.5533609390258789,
+      "rate_mean": 0.0,
+      "seconds": 362.2
+    },
+    {
+      "model": "sage",
+      "run_id": 1,
+      "best_val": 0.6092150211334229,
+      "best_test": 0.5483200550079346,
+      "rate_mean": 0.0,
+      "seconds": 368.4
+    },
+    {
+      "model": "sage",
+      "run_id": 2,
+      "best_val": 0.6096177697181702,
+      "best_test": 0.5533815026283264,
+      "rate_mean": 0.0,
+      "seconds": 365.2
+    }
+  ]
+}

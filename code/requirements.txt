@@ -1,0 +1,20 @@
+# Python dependencies for SpikeRPGNN.
+#
+# The manuscript reports the exact environment in which every result was
+# produced: CPU-only PyTorch 2.13.0 with NumPy 2.5.1 and SciPy 1.18.0 (see
+# README.md Section 4 and the Limitations section of the main text).
+#
+# REPORTED_ENV -- the pinned versions the paper's numbers come from:
+#   torch==2.13.0     (CPU build: torch==2.13.0+cpu)
+#   numpy==2.5.1
+#   scipy==1.18.0
+#
+# FLOOR -- minimum versions under which the code is expected to run, for
+# users on other setups. The paper's results were NOT produced with the floor
+# versions; use the pinned REPORTED_ENV above to reproduce them exactly.
+
+torch>=2.0
+torch_geometric>=2.4
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7

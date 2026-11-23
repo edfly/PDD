@@ -1,0 +1,138 @@
+{
+  "REDDIT-M5K_5shot_run0": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 0,
+    "final_acc": 0.4359999969601631,
+    "best_acc": 0.43999999612569807,
+    "total_spikes": 1075822,
+    "spike_history_last5": [
+      736441,
+      742885,
+      725977,
+      738906,
+      691210
+    ],
+    "spike_rate_history_last5": [
+      0.38310697526706006,
+      0.37304640175626325,
+      0.36635776315107943,
+      0.36873767747233877,
+      0.36385747891795006
+    ],
+    "final_spike_rate": 0.3649393404974327,
+    "u_th_learnable": 0.9981821179389954,
+    "lambda_gate": 0.547989010810852,
+    "spike_alpha": 0.613423764705658,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 12436.2
+  },
+  "REDDIT-M5K_5shot_run1": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 1,
+    "final_acc": 0.4266666645805041,
+    "best_acc": 0.41399999856948855,
+    "total_spikes": 1500404,
+    "spike_history_last5": [
+      1013141,
+      1021825,
+      991596,
+      1050327,
+      1022377
+    ],
+    "spike_rate_history_last5": [
+      0.49520204321958816,
+      0.4949935835479854,
+      0.49421046799296464,
+      0.49432908785365104,
+      0.4943435963804311
+    ],
+    "final_spike_rate": 0.4942464101446244,
+    "u_th_learnable": 0.9122055768966675,
+    "lambda_gate": 0.5525857210159302,
+    "spike_alpha": 0.6047825813293457,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 13881.7
+  },
+  "REDDIT-M5K_5shot_run2": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 2,
+    "final_acc": 0.4493,
+    "best_acc": 0.448,
+    "total_spikes": 1024073,
+    "spike_history_last5": [],
+    "spike_rate_history_last5": [],
+    "final_spike_rate": 0.347,
+    "u_th_learnable": 0.9477,
+    "lambda_gate": null,
+    "spike_alpha": null,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 14377.0,
+    "note": "recovered from log line (attempt2, 2026-08-27 05:19); JSON save hit PermissionError"
+  },
+  "REDDIT-M5K_5shot_run3": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 3,
+    "final_acc": 0.4466666648785273,
+    "best_acc": 0.4539999969303608,
+    "total_spikes": 1156612,
+    "spike_history_last5": [
+      751388,
+      795764,
+      771177,
+      751557,
+      771968
+    ],
+    "spike_rate_history_last5": [
+      0.37577555507794524,
+      0.37711453438043996,
+      0.3778195936324894,
+      0.3773977509997917,
+      0.37790329851312154
+    ],
+    "final_spike_rate": 0.3784463182549002,
+    "u_th_learnable": 1.0144416093826294,
+    "lambda_gate": 0.554572343826294,
+    "spike_alpha": 0.6117859482765198,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 15030.9,
+    "note": "recovered from sidecar .bak (attempt4, 2026-08-27 16:24); primary save hit PermissionError"
+  },
+  "REDDIT-M5K_5shot_run4": {
+    "dataset": "REDDIT-M5K",
+    "shot": 5,
+    "run_id": 4,
+    "final_acc": 0.41866666575272876,
+    "best_acc": 0.419999997317791,
+    "total_spikes": 1435994,
+    "spike_history_last5": [
+      990606,
+      914696,
+      944234,
+      942368,
+      975472
+    ],
+    "spike_rate_history_last5": [
+      0.4682119203445483,
+      0.46035013636371136,
+      0.4592452576598056,
+      0.46084638566892827,
+      0.4608415870743848
+    ],
+    "final_spike_rate": 0.4602158334429151,
+    "u_th_learnable": 0.9556755423545837,
+    "lambda_gate": 0.5476223826408386,
+    "spike_alpha": 0.6098261475563049,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "elapsed_sec": 16925.9,
+    "note": "recovered from sidecar .bak (attempt4, 2026-08-27 16:24); primary save hit PermissionError"
+  }
+}

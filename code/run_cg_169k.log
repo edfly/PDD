@@ -1,0 +1,49 @@
+model=spikergnn device=cuda u_th=1.0 | ogbn-arxiv node-level
+D:\2026\paper\PBB\post\code\run_nodelevel_v40.py:201: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:219.)
+  train_idx = torch.as_tensor(split["train"]).to(device)
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\run_nodelevel_v40.py", line 450, in <module>
+    main()
+    ~~~~^^
+  File "D:\2026\paper\PBB\post\code\run_nodelevel_v40.py", line 434, in main
+    res = run_one(args.model, r, args.epochs, device, smoke=args.smoke,
+                  full_batch=args.full_batch, u_threshold=args.u_threshold,
+                  cuda_graph=args.cuda_graph)
+  File "D:\2026\paper\PBB\post\code\run_nodelevel_v40.py", line 215, in run_one
+    cg = _cg_build(model, opt, x_cg, ei_dev, batch_all,
+                   train_idx, y_dev, device)
+  File "D:\2026\paper\PBB\post\code\run_nodelevel_v40.py", line 347, in _cg_build
+    logits = model(x_cg, edge_index, batch_all)
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\msg_exp\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\msg_exp\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\2026\paper\PBB\post\code\run_nodelevel_v40.py", line 91, in forward
+    z_hyp, z_euc = self.model.encode_nodes(x, edge_index, batch)
+                   ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\2026\paper\PBB\post\code\spikergnn\model.py", line 181, in encode_nodes
+    z_nodes, spike_count = self.stmp(
+                           ~~~~~~~~~^
+        p_init, spike_seq, edge_index, batch, pool="node"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\msg_exp\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\msg_exp\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\2026\paper\PBB\post\code\spikergnn\stmp.py", line 242, in forward
+    z_current = rgc_layer(z_current, edge_index)
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\msg_exp\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\msg_exp\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\2026\paper\PBB\post\code\spikergnn\rgc.py", line 208, in forward
+    z_euc_new = self._capped_gin(self.gin_euc, z_euc, edge_index_with_sl)
+  File "D:\2026\paper\PBB\post\code\spikergnn\rgc.py", line 150, in _capped_gin
+    x[src] * scale[dst].unsqueeze(-1), dst,
+    ~^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 490.00 MiB. GPU 0 has a total capacity of 22.00 GiB of which 0 bytes is free. Of the allocated memory 30.93 GiB is allocated by PyTorch, and 1.30 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)

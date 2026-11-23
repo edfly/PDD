@@ -1,0 +1,388 @@
+"===== PASS $pass ====="
+
+=== spike_REDDIT-M5K_1shot_run10 ===
+  [device] spike_REDDIT-M5K_1shot_run10: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=29.7% test=30.0% skip=1/20 sr_train=0.277
+  E  2: train=32.0% test=32.8% skip=0/20 sr_train=0.298
+  E  3: train=26.6% test=29.4% skip=0/20 sr_train=0.351
+  E 10: train=28.4% test=39.0% skip=0/20 sr_train=0.407
+  E 20: train=30.2% test=28.4% skip=0/20 sr_train=0.389
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 165, in run_spike_like
+    q_z = model.encode(q_b.x, q_b.edge_index, q_b.batch)
+  File "D:\2026\paper\PBB\post\code\spikergnn\model.py", line 151, in encode
+    z_graph, spike_count = self.stmp(
+                           ~~~~~~~~~^
+        p_init, spike_seq, edge_index, batch
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\2026\paper\PBB\post\code\spikergnn\stmp.py", line 319, in forward
+    spikes, (p_hyp, p_euc) = self.lif(x_step, (p_hyp, p_euc))
+                             ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\2026\paper\PBB\post\code\spikergnn\neurons.py", line 365, in forward
+    w_input = self.W(I_t_normed)  # (N, d_total)
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Administrator\.workbuddy\binaries\python\envs\gnn_env\Lib\site-packages\torch\nn\modules\linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [enforce fail at alloc_cpu.cpp:117] data. DefaultCPUAllocator: not enough memory: you tried to allocate 8031744 bytes.
+  [warn] first skipped episode in REDDIT-M5K_1shot_run10; further skips silent
+  E 30: train=29.3% test=33.2% skip=2/20 sr_train=0.392
+  E 40: train=32.2% test=36.0% skip=0/20 sr_train=0.402
+Traceback (most recent call last):
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 423, in main
+    run_one(args, arm, ds, shot, r, env)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\2026\paper\PBB\post\code\scripts\run_n20_extension.py", line 337, in run_one
+    raise RuntimeError(f"{arm} task {key} rc={rc}")
+RuntimeError: spike task spike_REDDIT-M5K_1shot_run10 rc=3221225477
+
+=== spike_REDDIT-M5K_1shot_run11 ===
+  [device] spike_REDDIT-M5K_1shot_run11: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=29.6% test=32.4% skip=0/20 sr_train=0.270
+  E  2: train=29.0% test=29.8% skip=0/20 sr_train=0.318
+  E  3: train=29.4% test=33.0% skip=0/20 sr_train=0.375
+  E 10: train=35.8% test=32.6% skip=0/20 sr_train=0.392
+  E 20: train=32.8% test=37.0% skip=0/20 sr_train=0.410
+  E 30: train=34.2% test=35.0% skip=0/20 sr_train=0.353
+  E 40: train=33.0% test=31.4% skip=0/20 sr_train=0.392
+  E 50: train=35.2% test=34.6% skip=0/20 sr_train=0.389
+worker spike_REDDIT-M5K_1shot_run11: ok
+>>> spike_REDDIT-M5K_1shot_run11: done in 18526s
+
+=== spike_REDDIT-M5K_1shot_run12 ===
+  [device] spike_REDDIT-M5K_1shot_run12: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=30.6% test=27.2% skip=0/20 sr_train=0.267
+  E  2: train=35.2% test=26.8% skip=0/20 sr_train=0.289
+  E  3: train=29.0% test=36.4% skip=0/20 sr_train=0.339
+  E 10: train=31.8% test=34.0% skip=0/20 sr_train=0.387
+  E 20: train=30.0% test=34.2% skip=0/20 sr_train=0.368
+  E 30: train=34.4% test=33.4% skip=0/20 sr_train=0.401
+  E 40: train=32.2% test=33.0% skip=0/20 sr_train=0.377
+  E 50: train=35.4% test=37.2% skip=0/20 sr_train=0.376
+worker spike_REDDIT-M5K_1shot_run12: ok
+>>> spike_REDDIT-M5K_1shot_run12: done in 17448s
+
+=== spike_REDDIT-M5K_1shot_run13 ===
+  [device] spike_REDDIT-M5K_1shot_run13: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=29.9% test=28.8% skip=1/20 sr_train=0.282
+  E  2: train=29.0% test=30.4% skip=0/20 sr_train=0.289
+  E  3: train=31.0% test=26.0% skip=0/20 sr_train=0.342
+  E 10: train=35.0% test=30.2% skip=0/20 sr_train=0.402
+  E 20: train=33.4% test=35.6% skip=0/20 sr_train=0.377
+  E 30: train=32.2% test=33.8% skip=0/20 sr_train=0.358
+  E 40: train=34.0% test=40.8% skip=0/20 sr_train=0.391
+  E 50: train=36.0% test=30.0% skip=0/20 sr_train=0.380
+worker spike_REDDIT-M5K_1shot_run13: ok
+>>> spike_REDDIT-M5K_1shot_run13: done in 16962s
+
+=== spike_REDDIT-M5K_1shot_run14 ===
+  [device] spike_REDDIT-M5K_1shot_run14: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=31.8% test=26.6% skip=0/20 sr_train=0.287
+  E  2: train=29.8% test=27.4% skip=0/20 sr_train=0.296
+  E  3: train=30.4% test=29.6% skip=0/20 sr_train=0.354
+  E 10: train=34.8% test=33.8% skip=0/20 sr_train=0.395
+  E 20: train=33.0% test=35.4% skip=0/20 sr_train=0.373
+  E 30: train=34.0% test=34.4% skip=0/20 sr_train=0.369
+  E 40: train=30.4% test=31.6% skip=0/20 sr_train=0.401
+  E 50: train=37.8% test=30.8% skip=0/20 sr_train=0.378
+worker spike_REDDIT-M5K_1shot_run14: ok
+>>> spike_REDDIT-M5K_1shot_run14: done in 18743s
+
+=== spike_REDDIT-M5K_1shot_run15 ===
+  [device] spike_REDDIT-M5K_1shot_run15: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=30.0% test=37.0% skip=0/20 sr_train=0.283
+  E  2: train=33.4% test=30.0% skip=0/20 sr_train=0.311
+  E  3: train=30.8% test=31.0% skip=0/20 sr_train=0.363
+  E 10: train=34.0% test=33.8% skip=0/20 sr_train=0.358
+  E 20: train=26.2% test=33.8% skip=0/20 sr_train=0.395
+  E 30: train=34.6% test=39.0% skip=0/20 sr_train=0.360
+  E 40: train=34.2% test=36.0% skip=0/20 sr_train=0.413
+  E 50: train=37.0% test=36.8% skip=0/20 sr_train=0.398
+worker spike_REDDIT-M5K_1shot_run15: ok
+>>> spike_REDDIT-M5K_1shot_run15: done in 18901s
+
+=== spike_REDDIT-M5K_1shot_run17 ===
+  [device] spike_REDDIT-M5K_1shot_run17: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=31.8% test=37.0% skip=0/20 sr_train=0.264
+  E  2: train=33.4% test=33.2% skip=0/20 sr_train=0.303
+  E  3: train=33.2% test=34.8% skip=0/20 sr_train=0.346
+  E 10: train=33.4% test=35.2% skip=0/20 sr_train=0.388
+  E 20: train=36.6% test=36.2% skip=0/20 sr_train=0.329
+  E 30: train=33.2% test=28.4% skip=0/20 sr_train=0.322
+  E 40: train=36.8% test=32.4% skip=0/20 sr_train=0.378
+  E 50: train=32.4% test=33.2% skip=0/20 sr_train=0.352
+worker spike_REDDIT-M5K_1shot_run17: ok
+>>> spike_REDDIT-M5K_1shot_run17: done in 18183s
+
+=== spike_REDDIT-M5K_1shot_run18 ===
+  [device] spike_REDDIT-M5K_1shot_run18: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=28.0% test=28.0% skip=0/20 sr_train=0.280
+  E  2: train=30.8% test=27.2% skip=0/20 sr_train=0.327
+  E  3: train=33.2% test=28.6% skip=0/20 sr_train=0.368
+  E 10: train=35.6% test=35.8% skip=0/20 sr_train=0.366
+  E 20: train=32.0% test=32.0% skip=0/20 sr_train=0.331
+  E 30: train=36.2% test=35.8% skip=0/20 sr_train=0.386
+  E 40: train=32.2% test=31.8% skip=0/20 sr_train=0.390
+  E 50: train=31.6% test=31.6% skip=0/20 sr_train=0.384
+worker spike_REDDIT-M5K_1shot_run18: ok
+>>> spike_REDDIT-M5K_1shot_run18: done in 18783s
+
+=== spike_REDDIT-M5K_1shot_run19 ===
+  [device] spike_REDDIT-M5K_1shot_run19: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=30.4% test=28.8% skip=0/20 sr_train=0.276
+  E  2: train=30.0% test=30.0% skip=0/20 sr_train=0.321
+  E  3: train=31.6% test=32.4% skip=0/20 sr_train=0.338
+  E 10: train=31.2% test=32.0% skip=0/20 sr_train=0.382
+  E 20: train=30.4% test=32.8% skip=0/20 sr_train=0.353
+  E 30: train=37.2% test=32.2% skip=0/20 sr_train=0.408
+  E 40: train=32.8% test=39.2% skip=0/20 sr_train=0.381
+  E 50: train=33.8% test=33.6% skip=0/20 sr_train=0.364
+worker spike_REDDIT-M5K_1shot_run19: ok
+>>> spike_REDDIT-M5K_1shot_run19: done in 16506s
+merged 428 runs -> D:\2026\paper\PBB\post\results\v24_extra_n20_merged.json
+
+=== euc_REDDIT-M5K_1shot_run5 ===
+  [device] euc_REDDIT-M5K_1shot_run5: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=29.0% test=24.2% skip=0/20 sr_train=0.261
+  E  2: train=27.0% test=31.0% skip=0/20 sr_train=0.346
+  E  3: train=29.8% test=25.6% skip=0/20 sr_train=0.354
+  E 10: train=30.0% test=27.8% skip=0/20 sr_train=0.365
+  E 20: train=27.2% test=26.6% skip=0/20 sr_train=0.389
+  E 30: train=36.0% test=31.0% skip=0/20 sr_train=0.395
+  E 40: train=26.8% test=31.8% skip=0/20 sr_train=0.382
+  E 50: train=36.8% test=34.2% skip=0/20 sr_train=0.353
+worker euc_REDDIT-M5K_1shot_run5: ok
+>>> euc_REDDIT-M5K_1shot_run5: done in 6837s
+
+=== euc_REDDIT-M5K_1shot_run6 ===
+  [device] euc_REDDIT-M5K_1shot_run6: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=28.6% test=36.4% skip=0/20 sr_train=0.275
+  E  2: train=29.8% test=29.6% skip=0/20 sr_train=0.337
+  E  3: train=30.4% test=27.0% skip=0/20 sr_train=0.358
+  E 10: train=26.0% test=28.0% skip=0/20 sr_train=0.381
+  E 20: train=25.0% test=31.0% skip=0/20 sr_train=0.428
+  E 30: train=32.0% test=34.8% skip=0/20 sr_train=0.382
+  E 40: train=33.6% test=32.6% skip=0/20 sr_train=0.423
+  E 50: train=34.0% test=37.0% skip=0/20 sr_train=0.376
+worker euc_REDDIT-M5K_1shot_run6: ok
+>>> euc_REDDIT-M5K_1shot_run6: done in 6800s
+
+=== euc_REDDIT-M5K_1shot_run7 ===
+  [device] euc_REDDIT-M5K_1shot_run7: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=22.0% test=32.0% skip=0/20 sr_train=0.281
+  E  2: train=25.6% test=24.0% skip=0/20 sr_train=0.340
+  E  3: train=29.8% test=28.6% skip=0/20 sr_train=0.358
+  E 10: train=25.6% test=27.8% skip=0/20 sr_train=0.420
+  E 20: train=29.6% test=26.0% skip=0/20 sr_train=0.397
+  E 30: train=31.2% test=35.2% skip=0/20 sr_train=0.370
+  E 40: train=34.2% test=30.8% skip=0/20 sr_train=0.420
+  E 50: train=33.6% test=35.0% skip=0/20 sr_train=0.387
+worker euc_REDDIT-M5K_1shot_run7: ok
+>>> euc_REDDIT-M5K_1shot_run7: done in 6871s
+
+=== euc_REDDIT-M5K_1shot_run8 ===
+  [device] euc_REDDIT-M5K_1shot_run8: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=26.6% test=27.6% skip=0/20 sr_train=0.275
+  E  2: train=31.2% test=27.4% skip=0/20 sr_train=0.322
+  E  3: train=25.6% test=27.8% skip=0/20 sr_train=0.359
+  E 10: train=34.4% test=28.8% skip=0/20 sr_train=0.399
+  E 20: train=29.0% test=29.6% skip=0/20 sr_train=0.377
+  E 30: train=33.4% test=31.6% skip=0/20 sr_train=0.339
+  E 40: train=35.8% test=34.8% skip=0/20 sr_train=0.384
+  E 50: train=29.8% test=36.6% skip=0/20 sr_train=0.361
+worker euc_REDDIT-M5K_1shot_run8: ok
+>>> euc_REDDIT-M5K_1shot_run8: done in 6870s
+
+=== euc_REDDIT-M5K_1shot_run9 ===
+  [device] euc_REDDIT-M5K_1shot_run9: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=30.4% test=25.8% skip=0/20 sr_train=0.276
+  E  2: train=30.6% test=28.8% skip=0/20 sr_train=0.331
+  E  3: train=31.6% test=22.8% skip=0/20 sr_train=0.364
+  E 10: train=26.2% test=23.6% skip=0/20 sr_train=0.344
+  E 20: train=34.0% test=32.6% skip=0/20 sr_train=0.379
+  E 30: train=32.2% test=31.4% skip=0/20 sr_train=0.406
+  E 40: train=36.2% test=29.2% skip=0/20 sr_train=0.395
+  E 50: train=33.8% test=33.2% skip=0/20 sr_train=0.385
+worker euc_REDDIT-M5K_1shot_run9: ok
+>>> euc_REDDIT-M5K_1shot_run9: done in 6827s
+
+=== euc_REDDIT-M5K_1shot_run10 ===
+  [device] euc_REDDIT-M5K_1shot_run10: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=26.0% test=29.4% skip=0/20 sr_train=0.285
+  E  2: train=29.4% test=30.2% skip=0/20 sr_train=0.323
+  E  3: train=26.0% test=32.4% skip=0/20 sr_train=0.376
+  E 10: train=28.0% test=27.4% skip=0/20 sr_train=0.376
+  E 20: train=31.6% test=29.4% skip=0/20 sr_train=0.355
+  E 30: train=27.4% test=33.2% skip=0/20 sr_train=0.380
+  E 40: train=30.8% test=33.4% skip=0/20 sr_train=0.344
+  E 50: train=37.4% test=33.0% skip=0/20 sr_train=0.389
+worker euc_REDDIT-M5K_1shot_run10: ok
+>>> euc_REDDIT-M5K_1shot_run10: done in 6853s
+
+=== euc_REDDIT-M5K_1shot_run11 ===
+  [device] euc_REDDIT-M5K_1shot_run11: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=28.0% test=31.0% skip=0/20 sr_train=0.276
+  E  2: train=29.4% test=29.4% skip=0/20 sr_train=0.325
+  E  3: train=27.4% test=27.4% skip=0/20 sr_train=0.348
+  E 10: train=31.2% test=25.8% skip=0/20 sr_train=0.356
+  E 20: train=30.2% test=32.2% skip=0/20 sr_train=0.398
+  E 30: train=35.2% test=37.4% skip=0/20 sr_train=0.354
+  E 40: train=32.2% test=33.6% skip=0/20 sr_train=0.312
+  E 50: train=35.0% test=33.4% skip=0/20 sr_train=0.380
+worker euc_REDDIT-M5K_1shot_run11: ok
+>>> euc_REDDIT-M5K_1shot_run11: done in 6781s
+
+=== euc_REDDIT-M5K_1shot_run12 ===
+  [device] euc_REDDIT-M5K_1shot_run12: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=28.2% test=26.0% skip=0/20 sr_train=0.274
+  E  2: train=33.4% test=27.8% skip=0/20 sr_train=0.307
+  E  3: train=25.2% test=31.8% skip=0/20 sr_train=0.370
+  E 10: train=30.2% test=31.8% skip=0/20 sr_train=0.413
+  E 20: train=29.0% test=28.2% skip=0/20 sr_train=0.336
+  E 30: train=34.2% test=31.6% skip=0/20 sr_train=0.313
+  E 40: train=33.6% test=33.2% skip=0/20 sr_train=0.385
+  E 50: train=34.4% test=35.4% skip=0/20 sr_train=0.380
+worker euc_REDDIT-M5K_1shot_run12: ok
+>>> euc_REDDIT-M5K_1shot_run12: done in 6810s
+
+=== euc_REDDIT-M5K_1shot_run13 ===
+  [device] euc_REDDIT-M5K_1shot_run13: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=28.2% test=26.8% skip=1/20 sr_train=0.270
+  E  2: train=29.0% test=30.4% skip=0/20 sr_train=0.321
+  E  3: train=28.6% test=24.0% skip=0/20 sr_train=0.357
+  E 10: train=28.4% test=27.6% skip=0/20 sr_train=0.366
+  E 20: train=27.2% test=31.6% skip=0/20 sr_train=0.389
+  E 30: train=28.8% test=33.0% skip=0/20 sr_train=0.435
+  E 40: train=37.4% test=36.8% skip=0/20 sr_train=0.359
+  E 50: train=35.2% test=31.0% skip=0/20 sr_train=0.369
+worker euc_REDDIT-M5K_1shot_run13: ok
+>>> euc_REDDIT-M5K_1shot_run13: done in 6764s
+SKIP euc_REDDIT-M5K_1shot_run14
+
+=== euc_REDDIT-M5K_1shot_run17 ===
+  [device] euc_REDDIT-M5K_1shot_run17: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=30.2% test=32.0% skip=0/20 sr_train=0.279
+  E  2: train=31.8% test=32.6% skip=0/20 sr_train=0.346
+  E  3: train=26.4% test=28.4% skip=0/20 sr_train=0.371
+  E 10: train=26.6% test=33.4% skip=0/20 sr_train=0.405
+  E 20: train=33.8% test=32.4% skip=0/20 sr_train=0.404
+  E 30: train=32.2% test=31.8% skip=0/20 sr_train=0.394
+  E 40: train=37.2% test=37.0% skip=0/20 sr_train=0.362
+  E 50: train=34.8% test=32.0% skip=0/20 sr_train=0.373
+worker euc_REDDIT-M5K_1shot_run17: ok
+>>> euc_REDDIT-M5K_1shot_run17: done in 6953s
+SKIP euc_REDDIT-M5K_1shot_run18
+
+=== euc_REDDIT-M5K_1shot_run19 ===
+  [device] euc_REDDIT-M5K_1shot_run19: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=26.8% test=29.4% skip=0/20 sr_train=0.287
+  E  2: train=29.0% test=28.2% skip=0/20 sr_train=0.342
+  E  3: train=30.4% test=24.4% skip=0/20 sr_train=0.362
+  E 10: train=29.2% test=32.0% skip=0/20 sr_train=0.323
+  E 20: train=29.0% test=28.4% skip=0/20 sr_train=0.332
+  E 30: train=34.6% test=30.8% skip=0/20 sr_train=0.359
+  E 40: train=35.4% test=36.8% skip=0/20 sr_train=0.403
+  E 50: train=34.8% test=35.2% skip=0/20 sr_train=0.387
+worker euc_REDDIT-M5K_1shot_run19: ok
+>>> euc_REDDIT-M5K_1shot_run19: done in 7527s
+merged 439 runs -> D:\2026\paper\PBB\post\results\v24_extra_n20_merged.json
+"===== PASS $pass ====="
+
+=== spike_REDDIT-M5K_1shot_run10 ===
+  [device] spike_REDDIT-M5K_1shot_run10: cuda -> cpu (large-graph spiking batch does not fit GPU memory)
+[REDDIT-M5K] Loaded 3999 train / 1000 test graphs | 5 classes | 0 features
+  E  1: train=29.9% test=29.2% skip=1/20 sr_train=0.277
+  E  2: train=31.8% test=30.4% skip=0/20 sr_train=0.317
+  E  3: train=25.6% test=30.4% skip=0/20 sr_train=0.346
+  E 10: train=30.0% test=35.8% skip=0/20 sr_train=0.392
+  E 20: train=34.6% test=32.4% skip=0/20 sr_train=0.385
+  E 30: train=28.8% test=33.6% skip=0/20 sr_train=0.403
+  E 40: train=32.2% test=33.8% skip=0/20 sr_train=0.383
+  E 50: train=36.8% test=36.4% skip=0/20 sr_train=0.373
+worker spike_REDDIT-M5K_1shot_run10: ok
+>>> spike_REDDIT-M5K_1shot_run10: done in 12329s
+SKIP spike_REDDIT-M5K_1shot_run11
+SKIP spike_REDDIT-M5K_1shot_run12
+SKIP spike_REDDIT-M5K_1shot_run13
+SKIP spike_REDDIT-M5K_1shot_run14
+SKIP spike_REDDIT-M5K_1shot_run15
+SKIP spike_REDDIT-M5K_1shot_run17
+SKIP spike_REDDIT-M5K_1shot_run18
+SKIP spike_REDDIT-M5K_1shot_run19
+merged 440 runs -> D:\2026\paper\PBB\post\results\v24_extra_n20_merged.json
+SKIP euc_REDDIT-M5K_1shot_run5
+SKIP euc_REDDIT-M5K_1shot_run6
+SKIP euc_REDDIT-M5K_1shot_run7
+SKIP euc_REDDIT-M5K_1shot_run8
+SKIP euc_REDDIT-M5K_1shot_run9
+SKIP euc_REDDIT-M5K_1shot_run10
+SKIP euc_REDDIT-M5K_1shot_run11
+SKIP euc_REDDIT-M5K_1shot_run12
+SKIP euc_REDDIT-M5K_1shot_run13
+SKIP euc_REDDIT-M5K_1shot_run14
+SKIP euc_REDDIT-M5K_1shot_run17
+SKIP euc_REDDIT-M5K_1shot_run18
+SKIP euc_REDDIT-M5K_1shot_run19
+merged 440 runs -> D:\2026\paper\PBB\post\results\v24_extra_n20_merged.json
+"===== PASS $pass ====="
+SKIP spike_REDDIT-M5K_1shot_run10
+SKIP spike_REDDIT-M5K_1shot_run11
+SKIP spike_REDDIT-M5K_1shot_run12
+SKIP spike_REDDIT-M5K_1shot_run13
+SKIP spike_REDDIT-M5K_1shot_run14
+SKIP spike_REDDIT-M5K_1shot_run15
+SKIP spike_REDDIT-M5K_1shot_run17
+SKIP spike_REDDIT-M5K_1shot_run18
+SKIP spike_REDDIT-M5K_1shot_run19
+merged 440 runs -> D:\2026\paper\PBB\post\results\v24_extra_n20_merged.json
+SKIP euc_REDDIT-M5K_1shot_run5
+SKIP euc_REDDIT-M5K_1shot_run6
+SKIP euc_REDDIT-M5K_1shot_run7
+SKIP euc_REDDIT-M5K_1shot_run8
+SKIP euc_REDDIT-M5K_1shot_run9
+SKIP euc_REDDIT-M5K_1shot_run10
+SKIP euc_REDDIT-M5K_1shot_run11
+SKIP euc_REDDIT-M5K_1shot_run12
+SKIP euc_REDDIT-M5K_1shot_run13
+SKIP euc_REDDIT-M5K_1shot_run14
+SKIP euc_REDDIT-M5K_1shot_run17
+SKIP euc_REDDIT-M5K_1shot_run18
+SKIP euc_REDDIT-M5K_1shot_run19
+merged 440 runs -> D:\2026\paper\PBB\post\results\v24_extra_n20_merged.json
+RDT-SERIAL3-DONE

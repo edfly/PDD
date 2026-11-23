@@ -1,0 +1,33 @@
+{
+  "DD_1shot_run13": {
+    "dataset": "DD",
+    "shot": 1,
+    "run_id": 13,
+    "final_acc": 0.4966666743159294,
+    "best_acc": 0.565000006556511,
+    "total_spikes": 274106,
+    "spike_history_last5": [
+      164396,
+      155818,
+      160334,
+      175577,
+      157096
+    ],
+    "spike_rate_history_last5": [
+      0.38962710820861557,
+      0.3938168496588181,
+      0.39262983455211187,
+      0.39304553130875386,
+      0.3926171755157413
+    ],
+    "final_spike_rate": 0.4345243997316098,
+    "u_th_learnable": 0.9411449432373047,
+    "lambda_gate": 0.5,
+    "spike_alpha": 0.6135967969894409,
+    "lambda_sr": 0.5,
+    "r_target": 0.4,
+    "variant": "euclidean",
+    "elapsed_sec": 1666.7,
+    "device": "cuda"
+  }
+}

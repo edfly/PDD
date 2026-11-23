@@ -1,0 +1,125 @@
+{
+  "metric_fidelity": {
+    "source": "result/curvature_sweep/curvature_sweep_v2.json",
+    "T": 16,
+    "M": 8,
+    "scope_datasets": [
+      "MUTAG",
+      "PROTEINS",
+      "DD"
+    ],
+    "per_dataset": {
+      "MUTAG": {
+        "n": 12,
+        "rel_err_without_correction": 0.01447807950899005,
+        "cos_without_correction": 0.9998979270458221,
+        "rel_err_with_DvM": 1.8145144622394582e-06,
+        "cos_with_DvM": 1.0
+      },
+      "PROTEINS": {
+        "n": 12,
+        "rel_err_without_correction": 0.006012514233589172,
+        "cos_without_correction": 0.9999819099903107,
+        "rel_err_with_DvM": 4.010453267255798e-07,
+        "cos_with_DvM": 1.0
+      },
+      "DD": {
+        "n": 12,
+        "rel_err_without_correction": 0.00027544160548131913,
+        "cos_without_correction": 0.9999999105930328,
+        "rel_err_with_DvM": 1.900854158520815e-07,
+        "cos_with_DvM": 1.0
+      }
+    },
+    "spearman_delta_vs_correction_gain": {
+      "realistic_in_scope": 0.9969,
+      "n_in_scope": 36,
+      "realistic_full": 0.9979,
+      "n_full": 48,
+      "controlled": 0.939,
+      "n_controlled": 216
+    },
+    "vocabulary_note": "source field 'amc' = DvM metric correction; 'no_metric_correction' = without correction. Renamed to the current vocabulary."
+  },
+  "truncation_error": {
+    "source": "result/gradient_diagnostics/gradient_error_matrix.json",
+    "reference": "full_bptt_mc (exact)",
+    "object": "truncated + DvM (amc_truncated)",
+    "M": 8,
+    "per_dataset": {
+      "MUTAG": {
+        "T8": {
+          "rel_err": 2.7895282528334064e-06,
+          "cos": 1.0
+        },
+        "T16": {
+          "rel_err": 0.8261945843696594,
+          "cos": 0.6461690068244934
+        },
+        "T24": {
+          "rel_err": 0.841605007648468,
+          "cos": 0.7843555212020874
+        }
+      },
+      "PROTEINS": {
+        "T8": {
+          "rel_err": 0.00016197582590393722,
+          "cos": 0.9999999403953552
+        },
+        "T16": {
+          "rel_err": 0.9365800619125366,
+          "cos": 0.396364688873291
+        },
+        "T24": {
+          "rel_err": 0.7748961448669434,
+          "cos": 0.7798835635185242
+        }
+      },
+      "DD": {
+        "T8": {
+          "rel_err": 3.2246884984488133e-07,
+          "cos": 1.0
+        },
+        "T16": {
+          "rel_err": 0.5417159199714661,
+          "cos": 0.9088358879089355
+        },
+        "T24": {
+          "rel_err": 0.6879485845565796,
+          "cos": 0.8284909129142761
+        }
+      }
+    }
+  },
+  "mc_training_gradient": {
+    "source": "result/gradient_diagnostics/mc_gradient_scale_fixcheck.json",
+    "config": {
+      "dataset": "MUTAG",
+      "seeds": [
+        0
+      ],
+      "epochs": 10,
+      "T": 16,
+      "M": 8,
+      "device": "cuda",
+      "probe_batch": "fixed episode sampled once per seed, reused for every snapshot"
+    },
+    "verdict": "B_materially_changes_gradient",
+    "rows": [
+      {
+        "epoch": 5,
+        "n_correction_steps": 16,
+        "gnorm_ratio": 131142096.0,
+        "cos": -0.3666207492351532,
+        "rel_err": 131142096.0
+      },
+      {
+        "epoch": 10,
+        "n_correction_steps": 16,
+        "gnorm_ratio": 4459490.5,
+        "cos": 0.13399803638458252,
+        "rel_err": 4459490.0
+      }
+    ]
+  }
+}

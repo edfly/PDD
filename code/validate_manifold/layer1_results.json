@@ -1,0 +1,310 @@
+{
+  "meta": {
+    "n": 150,
+    "n_seeds": 5,
+    "scale_frac": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "k_list": [
+      6,
+      8,
+      10,
+      12
+    ],
+    "radius": 0.85,
+    "c": 1.0,
+    "ci": "95% Student-t",
+    "generated": "2026-11-02T08:51:36",
+    "note": "Curvature MAGNITUDE is non-identifiable from geodesic distances (comparison-geometry fact); curvature REGIME is confounded by compactness on these synthetic manifolds, so criterion 2 fails for the curvature-specific claim. Intrinsic dim, topology and geodesic-distance recovery (criterion 3) ARE verified."
+  },
+  "per_manifold": {
+    "torus": {
+      "K_true": [
+        0.0,
+        0.0
+      ],
+      "K_est": [
+        0.017916984639598323,
+        0.02819117810155378
+      ],
+      "K_regime": [
+        0.6,
+        1.1105780420791174
+      ],
+      "K_sign_flips": [
+        0.8,
+        1.3601747613165114
+      ],
+      "K_bin_std": [
+        0.021013814086528696,
+        0.01460464169192952
+      ],
+      "K_bin_range": [
+        0.05755701427951236,
+        0.03956650974422139
+      ],
+      "dim_true": [
+        2.0,
+        0.0
+      ],
+      "dim_geo": [
+        2.0,
+        0.0
+      ],
+      "dim_euc": [
+        2.2,
+        0.5552890210395587
+      ],
+      "b1_true": [
+        2.0,
+        0.0
+      ],
+      "b2_true": [
+        0.0,
+        0.0
+      ],
+      "b1_est": [
+        1.0,
+        0.0
+      ],
+      "b2_est": [
+        0.0,
+        0.0
+      ],
+      "geo_rmse": [
+        0.10711692720492412,
+        0.050945671269391604
+      ],
+      "geo_rho": [
+        0.9998698580821894,
+        0.00011269916924106028
+      ],
+      "euc_rmse": [
+        1.5621134281088687,
+        0.08423506720872762
+      ],
+      "euc_rho": [
+        0.90479610301838,
+        0.007021841130885347
+      ],
+      "geo_benefit_rmse": [
+        1.4549965009039443,
+        0.1041352527798917
+      ],
+      "dim_atlas_std": [
+        0.0,
+        0.0
+      ],
+      "curv_atlas_std": [
+        0.021013814086528696,
+        0.01460464169192952
+      ]
+    },
+    "sphere": {
+      "K_true": [
+        1.0,
+        0.0
+      ],
+      "K_est": [
+        0.022893086198953895,
+        0.03323718412820888
+      ],
+      "K_regime": [
+        0.6,
+        1.1105780420791176
+      ],
+      "K_sign_flips": [
+        0.6,
+        0.6800873806582557
+      ],
+      "K_bin_std": [
+        0.026891112681919495,
+        0.011380172024197723
+      ],
+      "K_bin_range": [
+        0.07262772104095513,
+        0.030316951989766392
+      ],
+      "dim_true": [
+        2.0,
+        0.0
+      ],
+      "dim_geo": [
+        2.0,
+        0.0
+      ],
+      "dim_euc": [
+        3.0,
+        0.0
+      ],
+      "b1_true": [
+        0.0,
+        0.0
+      ],
+      "b2_true": [
+        1.0,
+        0.0
+      ],
+      "b1_est": [
+        0.0,
+        0.0
+      ],
+      "b2_est": [
+        1.0,
+        0.0
+      ],
+      "geo_rmse": [
+        3.039818136829502e-16,
+        3.091083615016737e-17
+      ],
+      "geo_rho": [
+        1.0,
+        0.0
+      ],
+      "euc_rmse": [
+        0.3352709127639585,
+        0.001790761699311359
+      ],
+      "euc_rho": [
+        1.0,
+        0.0
+      ],
+      "geo_benefit_rmse": [
+        0.33527091276395826,
+        0.0017907616993113702
+      ],
+      "dim_atlas_std": [
+        0.0,
+        0.0
+      ],
+      "curv_atlas_std": [
+        0.026891112681919495,
+        0.011380172024197723
+      ]
+    },
+    "hyperbolic": {
+      "K_true": [
+        -1.0,
+        0.0
+      ],
+      "K_est": [
+        0.0563648683719713,
+        0.027972954364867204
+      ],
+      "K_regime": [
+        1.0,
+        0.0
+      ],
+      "K_sign_flips": [
+        0.0,
+        0.0
+      ],
+      "K_bin_std": [
+        0.017147270019593392,
+        0.008560280798125944
+      ],
+      "K_bin_range": [
+        0.04488137378057604,
+        0.02218417611306699
+      ],
+      "dim_true": [
+        2.0,
+        0.0
+      ],
+      "dim_geo": [
+        2.0,
+        0.0
+      ],
+      "dim_euc": [
+        2.0,
+        0.0
+      ],
+      "b1_true": [
+        0.0,
+        0.0
+      ],
+      "b2_true": [
+        0.0,
+        0.0
+      ],
+      "b1_est": [
+        0.0,
+        0.0
+      ],
+      "b2_est": [
+        0.0,
+        0.0
+      ],
+      "geo_rmse": [
+        0.0,
+        0.0
+      ],
+      "geo_rho": [
+        1.0,
+        0.0
+      ],
+      "euc_rmse": [
+        1.4441719181930133,
+        0.07769577952606001
+      ],
+      "euc_rho": [
+        0.9512274022791839,
+        0.003323542941974904
+      ],
+      "geo_benefit_rmse": [
+        1.4441719181930133,
+        0.07769577952606001
+      ],
+      "dim_atlas_std": [
+        0.0,
+        0.0
+      ],
+      "curv_atlas_std": [
+        0.017147270019593392,
+        0.008560280798125944
+      ]
+    }
+  },
+  "verdict": {
+    "torus": {
+      "criterion1_atlas_stable": true,
+      "criterion2_curvature_recoverable": false,
+      "criterion3_geometric_benefit": true,
+      "geo_benefit_rmse": 1.4549965009039443,
+      "dim_geo": 2.0,
+      "dim_euc": 2.2,
+      "b1_est": 1.0,
+      "b2_est": 0.0,
+      "K_est_signal": 0.017916984639598323,
+      "K_true": 0.0
+    },
+    "sphere": {
+      "criterion1_atlas_stable": true,
+      "criterion2_curvature_recoverable": false,
+      "criterion3_geometric_benefit": true,
+      "geo_benefit_rmse": 0.33527091276395826,
+      "dim_geo": 2.0,
+      "dim_euc": 3.0,
+      "b1_est": 0.0,
+      "b2_est": 1.0,
+      "K_est_signal": 0.022893086198953895,
+      "K_true": 1.0
+    },
+    "hyperbolic": {
+      "criterion1_atlas_stable": true,
+      "criterion2_curvature_recoverable": false,
+      "criterion3_geometric_benefit": true,
+      "geo_benefit_rmse": 1.4441719181930133,
+      "dim_geo": 2.0,
+      "dim_euc": 2.0,
+      "b1_est": 0.0,
+      "b2_est": 0.0,
+      "K_est_signal": 0.0563648683719713,
+      "K_true": -1.0
+    }
+  }
+}

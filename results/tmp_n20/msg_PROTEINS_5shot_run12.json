@@ -1,0 +1,20 @@
+{
+  "d128_PROTEINS_5shot_run12": {
+    "dataset": "PROTEINS",
+    "shot": 5,
+    "run_id": 12,
+    "hidden_dim": 128,
+    "final_acc": 0.5,
+    "best_acc": 0.6066666714847088,
+    "epoch_accuracies": [
+      0.6066666714847088,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "time_seconds": 533.5214471817017,
+    "elapsed_sec": 533.9
+  }
+}

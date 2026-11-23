@@ -1,0 +1,154 @@
+{
+ "dataset": "DD",
+ "n_runs": 9,
+ "family": "credit-assignment training schemes (paired exact Wilcoxon, BH-FDR)",
+ "methods_means": {
+  "Full BPTT": {
+   "mean": 0.5644444519115819,
+   "std": 0.021160759900859125
+  },
+  "DvM M=8 truncated": {
+   "mean": 0.5446666747828325,
+   "std": 0.020832666642767134
+  },
+  "DvM M=4 truncated": {
+   "mean": 0.5331111184755961,
+   "std": 0.0135318563112316
+  },
+  "No Correction M=8": {
+   "mean": 0.5751111191345585,
+   "std": 0.0389115808946932
+  },
+  "Full BPTT + MC": {
+   "mean": 0.5400000066889656,
+   "std": 0.027276362952285808
+  },
+  "Proto-GNN": {
+   "mean": 0.5393333405090703,
+   "std": 0.01523154487747722
+  }
+ },
+ "rows": [
+  {
+   "A": "Full BPTT",
+   "B": "DvM M=4 truncated",
+   "p_wilcoxon": 0.00390625,
+   "q_bh_fdr": 0.01953125,
+   "hedges_g": 1.3130614194409964,
+   "verdict": "SIGNIFICANT"
+  },
+  {
+   "A": "DvM M=4 truncated",
+   "B": "No Correction M=8",
+   "p_wilcoxon": 0.00390625,
+   "q_bh_fdr": 0.01953125,
+   "hedges_g": -0.9479314389314887,
+   "verdict": "SIGNIFICANT"
+  },
+  {
+   "A": "No Correction M=8",
+   "B": "Full BPTT + MC",
+   "p_wilcoxon": 0.00390625,
+   "q_bh_fdr": 0.01953125,
+   "hedges_g": 0.8225469909485494,
+   "verdict": "SIGNIFICANT"
+  },
+  {
+   "A": "DvM M=8 truncated",
+   "B": "No Correction M=8",
+   "p_wilcoxon": 0.0078125,
+   "q_bh_fdr": 0.029296875,
+   "hedges_g": -0.8956768493969877,
+   "verdict": "SIGNIFICANT"
+  },
+  {
+   "A": "Full BPTT",
+   "B": "Full BPTT + MC",
+   "p_wilcoxon": 0.01953125,
+   "q_bh_fdr": 0.05859375,
+   "hedges_g": 0.9774703062785592,
+   "verdict": "NOT_SIGNIFICANT"
+  },
+  {
+   "A": "Full BPTT",
+   "B": "Proto-GNN",
+   "p_wilcoxon": 0.0390625,
+   "q_bh_fdr": 0.08370535714285714,
+   "hedges_g": 0.7456212511452955,
+   "verdict": "NOT_SIGNIFICANT"
+  },
+  {
+   "A": "DvM M=8 truncated",
+   "B": "DvM M=4 truncated",
+   "p_wilcoxon": 0.0390625,
+   "q_bh_fdr": 0.08370535714285714,
+   "hedges_g": 0.6739094115785736,
+   "verdict": "NOT_SIGNIFICANT"
+  },
+  {
+   "A": "Full BPTT",
+   "B": "DvM M=8 truncated",
+   "p_wilcoxon": 0.07421875,
+   "q_bh_fdr": 0.12369791666666667,
+   "hedges_g": 0.7638236958759255,
+   "verdict": "NOT_SIGNIFICANT"
+  },
+  {
+   "A": "No Correction M=8",
+   "B": "Proto-GNN",
+   "p_wilcoxon": 0.07421875,
+   "q_bh_fdr": 0.12369791666666667,
+   "hedges_g": 0.6394985387298963,
+   "verdict": "NOT_SIGNIFICANT"
+  },
+  {
+   "A": "DvM M=8 truncated",
+   "B": "Full BPTT + MC",
+   "p_wilcoxon": 0.12890625,
+   "q_bh_fdr": 0.193359375,
+   "hedges_g": 0.19828887716663168,
+   "verdict": "NOT_SIGNIFICANT"
+  },
+  {
+   "A": "DvM M=4 truncated",
+   "B": "Proto-GNN",
+   "p_wilcoxon": 0.42578125,
+   "q_bh_fdr": 0.5806107954545454,
+   "hedges_g": -0.2868043607553598,
+   "verdict": "NOT_SIGNIFICANT"
+  },
+  {
+   "A": "Full BPTT",
+   "B": "No Correction M=8",
+   "p_wilcoxon": 0.5703125,
+   "q_bh_fdr": 0.712890625,
+   "hedges_g": -0.3356908071767141,
+   "verdict": "NOT_SIGNIFICANT"
+  },
+  {
+   "A": "DvM M=8 truncated",
+   "B": "Proto-GNN",
+   "p_wilcoxon": 0.65234375,
+   "q_bh_fdr": 0.7527043269230769,
+   "hedges_g": 0.17493239751093959,
+   "verdict": "NOT_SIGNIFICANT"
+  },
+  {
+   "A": "DvM M=4 truncated",
+   "B": "Full BPTT + MC",
+   "p_wilcoxon": 0.91015625,
+   "q_bh_fdr": 0.9751674107142857,
+   "hedges_g": -0.2958889450009353,
+   "verdict": "NOT_SIGNIFICANT"
+  },
+  {
+   "A": "Full BPTT + MC",
+   "B": "Proto-GNN",
+   "p_wilcoxon": 1.0,
+   "q_bh_fdr": 1.0,
+   "hedges_g": 0.01968253657181066,
+   "verdict": "NOT_SIGNIFICANT"
+  }
+ ],
+ "bh_fdr_note": "q_bh_fdr recomputed with the standard Benjamini-Hochberg step-up procedure (cross-checked against scipy.stats.false_discovery_control). The previously stored q-values omitted the step-up stage; raw p-values, means, SDs and Hedges' g are unchanged."
+}

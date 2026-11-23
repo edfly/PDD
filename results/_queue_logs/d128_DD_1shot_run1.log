@@ -1,0 +1,15 @@
+MSG* capacity runner | d=128 | datasets=['DD'] | shots=[1] | runs=[1] | epochs=50 | ep/epoch=20 | test_eps=30
+
+============================================================
+  DD | 1-shot | Run 2/5
+============================================================
+[DD] Loaded 941 train / 237 test graphs | 2 classes | 89 features
+  Epoch   1/50 | Train: 52.0% | Test: 50.0% | Best: 50.0% | 71s
+  Epoch  10/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 552s
+  Epoch  20/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 1077s
+  Epoch  30/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 1601s
+  Epoch  40/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 2260s
+  Epoch  50/50 | Train: 50.0% | Test: 50.0% | Best: 50.0% | 2837s
+  >>> Final Accuracy: 50.0% (2865.5s)
+>>> d128_DD_1shot_run1: acc=50.00% (2866.1s)
+DONE

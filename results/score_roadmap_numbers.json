@@ -1,0 +1,248 @@
+{
+  "effect_size_cis_vs_msgstar": {
+    "DD_1": {
+      "n": 20,
+      "mean_diff_pct": 3.300000712275506,
+      "ci95_pct": [
+        1.4245933165244737,
+        5.175408108026539
+      ],
+      "t": 3.6829229137124053,
+      "p": 0.0015800621575259197,
+      "cohens_dz": 0.823526599095253
+    },
+    "DD_5": {
+      "n": 5,
+      "mean_diff_pct": 11.200000529487927,
+      "ci95_pct": [
+        7.680735426524782,
+        14.71926563245107
+      ],
+      "t": 8.83598869040219,
+      "p": 0.00090558235134392,
+      "cohens_dz": 3.9515742720317277
+    },
+    "ENZYMES_1": {
+      "n": 5,
+      "mean_diff_pct": 4.586666305859883,
+      "ci95_pct": [
+        1.1127674664760043,
+        8.060565145243762
+      ],
+      "t": 3.6658025471861166,
+      "p": 0.021470303717432377,
+      "cohens_dz": 1.6393967375200074
+    },
+    "ENZYMES_5": {
+      "n": 20,
+      "mean_diff_pct": 4.586665889869134,
+      "ci95_pct": [
+        2.8582340426671715,
+        6.3150977370710955
+      ],
+      "t": 5.554168683347834,
+      "p": 2.341601199463849e-05,
+      "cohens_dz": 1.241949873446626
+    },
+    "MUTAG_1": {
+      "n": 5,
+      "mean_diff_pct": 28.06666637957096,
+      "ci95_pct": [
+        21.89015985456841,
+        34.243172904573505
+      ],
+      "t": 12.616445586730295,
+      "p": 0.00022721093936254864,
+      "cohens_dz": 5.642245993271231
+    },
+    "MUTAG_5": {
+      "n": 20,
+      "mean_diff_pct": 34.38333424925804,
+      "ci95_pct": [
+        31.28330616076436,
+        37.48336233775172
+      ],
+      "t": 23.21435277363127,
+      "p": 2.0867825569192515e-15,
+      "cohens_dz": 5.19088708555003
+    },
+    "PROTEINS_1": {
+      "n": 5,
+      "mean_diff_pct": 2.60000049074491,
+      "ci95_pct": [
+        -0.5710409306555295,
+        5.77104191214535
+      ],
+      "t": 2.2764630532175505,
+      "p": 0.08511808739544302,
+      "cohens_dz": 1.0180652270522328
+    },
+    "PROTEINS_5": {
+      "n": 20,
+      "mean_diff_pct": 6.650000602006911,
+      "ci95_pct": [
+        5.1219119547995895,
+        8.178089249214233
+      ],
+      "t": 9.10851032580298,
+      "p": 2.3167513684719223e-08,
+      "cohens_dz": 2.0367248262254214
+    },
+    "REDDIT-M5K_1": {
+      "n": 20,
+      "mean_diff_pct": 1.473333425819874,
+      "ci95_pct": [
+        0.319945798901051,
+        2.6267210527386973
+      ],
+      "t": 2.6736217975934924,
+      "p": 0.015018950959019419,
+      "cohens_dz": 0.5978400085544232
+    },
+    "REDDIT-M5K_5": {
+      "n": 5,
+      "mean_diff_pct": 7.865999816417693,
+      "ci95_pct": [
+        5.862593005985718,
+        9.869406626849669
+      ],
+      "t": 10.901189201343785,
+      "p": 0.00040204664343987243,
+      "cohens_dz": 4.875160017958269
+    }
+  },
+  "energy_sensitivity": {
+    "r_bar_used": {
+      "MUTAG": 0.42957789748322084,
+      "PROTEINS": 0.39264921536799885,
+      "ENZYMES": 0.3946650936325156
+    },
+    "nominal": {
+      "e_SOP_pJ": 0.9,
+      "e_FLOP_pJ": 4.6
+    },
+    "eSOP-50%": {
+      "means_uj": {
+        "Proto-GCN": 6.861502293333333,
+        "Proto-GIN": 13.614331733333332,
+        "Proto-SAGE": 13.614331733333332,
+        "MSG*": 7.545893973333334,
+        "SpikeRPGNN": 4.4403646229296525,
+        "Spike-GNN (Euc.)": 4.155330816
+      },
+      "reduction_vs_gin_pct": 67.38463032997893,
+      "lowest_method": "Spike-GNN (Euc.)",
+      "spikergnn_is_lowest": false
+    },
+    "eFLOP-50%": {
+      "means_uj": {
+        "Proto-GCN": 3.4307511466666667,
+        "Proto-GIN": 6.807165866666666,
+        "Proto-SAGE": 6.807165866666666,
+        "MSG*": 3.772946986666667,
+        "SpikeRPGNN": 8.880729245859305,
+        "Spike-GNN (Euc.)": 8.310661632
+      },
+      "reduction_vs_gin_pct": -30.461478680084262,
+      "lowest_method": "Proto-GCN",
+      "spikergnn_is_lowest": false
+    },
+    "eSOP-25%": {
+      "means_uj": {
+        "Proto-GCN": 6.861502293333333,
+        "Proto-GIN": 13.614331733333332,
+        "Proto-SAGE": 13.614331733333332,
+        "MSG*": 7.545893973333334,
+        "SpikeRPGNN": 6.660546934394479,
+        "Spike-GNN (Euc.)": 6.232996224000001
+      },
+      "reduction_vs_gin_pct": 51.0769454949684,
+      "lowest_method": "Spike-GNN (Euc.)",
+      "spikergnn_is_lowest": false
+    },
+    "eFLOP-25%": {
+      "means_uj": {
+        "Proto-GCN": 5.146126720000001,
+        "Proto-GIN": 10.2107488,
+        "Proto-SAGE": 10.2107488,
+        "MSG*": 5.659420480000001,
+        "SpikeRPGNN": 8.880729245859305,
+        "Spike-GNN (Euc.)": 8.310661632
+      },
+      "reduction_vs_gin_pct": 13.025680879943835,
+      "lowest_method": "Proto-GCN",
+      "spikergnn_is_lowest": false
+    },
+    "eSOP+25%": {
+      "means_uj": {
+        "Proto-GCN": 6.861502293333333,
+        "Proto-GIN": 13.614331733333332,
+        "Proto-SAGE": 13.614331733333332,
+        "MSG*": 7.545893973333334,
+        "SpikeRPGNN": 11.100911557324132,
+        "Spike-GNN (Euc.)": 10.38832704
+      },
+      "reduction_vs_gin_pct": 18.46157582494734,
+      "lowest_method": "Proto-GCN",
+      "spikergnn_is_lowest": false
+    },
+    "eFLOP+25%": {
+      "means_uj": {
+        "Proto-GCN": 8.576877866666665,
+        "Proto-GIN": 17.017914666666666,
+        "Proto-SAGE": 17.017914666666666,
+        "MSG*": 9.432367466666667,
+        "SpikeRPGNN": 8.880729245859305,
+        "Spike-GNN (Euc.)": 8.310661632
+      },
+      "reduction_vs_gin_pct": 47.8154085279663,
+      "lowest_method": "Spike-GNN (Euc.)",
+      "spikergnn_is_lowest": false
+    },
+    "eSOP+50%": {
+      "means_uj": {
+        "Proto-GCN": 6.861502293333333,
+        "Proto-GIN": 13.614331733333332,
+        "Proto-SAGE": 13.614331733333332,
+        "MSG*": 7.545893973333334,
+        "SpikeRPGNN": 17.76145849171861,
+        "Spike-GNN (Euc.)": 16.621323264
+      },
+      "reduction_vs_gin_pct": -30.461478680084262,
+      "lowest_method": "Proto-GCN",
+      "spikergnn_is_lowest": false
+    },
+    "eFLOP+50%": {
+      "means_uj": {
+        "Proto-GCN": 13.723004586666667,
+        "Proto-GIN": 27.228663466666664,
+        "Proto-SAGE": 27.228663466666664,
+        "MSG*": 15.091787946666669,
+        "SpikeRPGNN": 8.880729245859305,
+        "Spike-GNN (Euc.)": 8.310661632
+      },
+      "reduction_vs_gin_pct": 67.38463032997893,
+      "lowest_method": "Spike-GNN (Euc.)",
+      "spikergnn_is_lowest": false
+    },
+    "break_even": {
+      "flops_ratio_spk_over_gin": 3.3340155662688193,
+      "rho_nominal": 0.1956521739130435,
+      "rho_break_even": 0.2999386116001627,
+      "margin_factor": 1.5330195704008316
+    }
+  },
+  "energy_silicon": {
+    "constants_pJ": {
+      "analytic": 0.9,
+      "dense_gpu": 4.6,
+      "loihi": 23.6,
+      "truenorth": 26.0
+    },
+    "reference_dense_E_loihi_mean_uj": 69.84744106666666,
+    "reduction_pct": {
+      "Spike-GNN (Euc.)": -217.75715820149753,
+      "SpikeRPGNN": -233.40155662688198
+    }
+  }
+}
